@@ -1,0 +1,263 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your building carbon evaluation today?",
+        "Hi there! What building description would you like to evaluate?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "I have to go",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Feel free to return if you need any more evaluations.",
+        "See you later! Have a great day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome! I'm glad I could help.",
+        "No problem! Let me know if there's anything else you need."
+      ]
+    },
+    {
+      "tag": "building_description",
+      "patterns": [
+        "I have a new building design",
+        "Describe my building's carbon footprint",
+        "Can you evaluate my building design?",
+        "I need a carbon evaluation for my building",
+        "Here is my building description",
+        "I want to know the carbon impact of my building"
+      ],
+      "responses": [
+        "Sure, please provide the description of your building.",
+        "I'd be happy to help. Can you describe your building for me?"
+      ]
+    },
+    {
+      "tag": "materials_used",
+      "patterns": [
+        "The building uses concrete and steel",
+        "We are using wood and glass",
+        "What is the carbon impact of using brick?",
+        "Describe the carbon footprint of using aluminum",
+        "The materials are concrete, wood, and glass",
+        "I am using sustainable materials"
+      ],
+      "responses": [
+        "Concrete and steel have significant carbon footprints. Let me calculate that for you.",
+        "Wood and glass can vary in impact. I'll process your description.",
+        "Brick has a moderate carbon footprint. I'll include this in the evaluation.",
+        "Aluminum has a higher embodied carbon. Let's see how it affects your design.",
+        "Combining concrete, wood, and glass can have diverse impacts. I'll analyze it for you.",
+        "Using sustainable materials is a great choice! I'll evaluate their impact."
+      ]
+    },
+    {
+      "tag": "dimensions_and_design",
+      "patterns": [
+        "The building is 50 meters tall",
+        "It has a floor area of 2000 square meters",
+        "The design includes 10 floors",
+        "We are planning a green roof",
+        "Describe the impact of having a basement",
+        "The facade will be made of glass"
+      ],
+      "responses": [
+        "A 50-meter tall building will have significant structural requirements. I'll calculate the impact.",
+        "2000 square meters is a large area. I'll estimate the carbon footprint based on that.",
+        "A 10-floor design impacts material use significantly. I'll process this information.",
+        "A green roof is beneficial for sustainability. I'll include it in the evaluation.",
+        "Basements add to the complexity. Let's see how it affects the carbon footprint.",
+        "Glass facades can vary in impact. I'll analyze its effect on your building."
+      ]
+    },
+    {
+      "tag": "carbon_footprint_inquiry",
+      "patterns": [
+        "What is the carbon footprint of my building?",
+        "Can you give me an estimate of the carbon impact?",
+        "How much carbon does my design emit?",
+        "What is the environmental impact of my building?",
+        "Estimate the carbon emissions of my design",
+        "How eco-friendly is my building?"
+      ],
+      "responses": [
+        "Based on your description, the carbon footprint is being calculated.",
+        "I am processing your design to estimate the carbon impact.",
+        "Let's see how much carbon your building design emits.",
+        "I'll evaluate the environmental impact of your building for you.",
+        "Estimating the carbon emissions now. Please wait a moment.",
+        "Analyzing the eco-friendliness of your building. This might take a few seconds."
+      ]
+    },
+    {
+      "tag": "predictive_analysis",
+      "patterns": [
+        "Use machine learning to analyze my building",
+        "Apply predictive analysis on my design",
+        "Can you use ML to estimate the carbon impact?",
+        "Run a machine learning model on my building description",
+        "What does the predictive model say about my building?",
+        "Use AI to evaluate my building's carbon footprint"
+      ],
+      "responses": [
+        "Initiating machine learning analysis on your building description.",
+        "Using predictive analysis to evaluate your design. Please wait a moment.",
+        "Applying ML models to estimate the carbon impact. This will just take a few seconds.",
+        "Running a machine learning model now. I'll have the results shortly.",
+        "The predictive model is being used to analyze your building's carbon footprint.",
+        "Using AI to evaluate your building. I'll provide the results soon."
+      ]
+    },
+    {
+      "tag": "user_feedback",
+      "patterns": [
+        "How accurate is this tool?",
+        "Can I trust these evaluations?",
+        "How do you validate the predictions?",
+        "What are the error margins?",
+        "How reliable is this carbon estimation?",
+        "Do you compare predictions with real data?"
+      ],
+      "responses": [
+        "Our tool uses advanced machine learning models to ensure high accuracy.",
+        "We validate predictions against real-world data to ensure reliability.",
+        "The predictions are validated using techniques like cross-validation and compared with actual outcomes.",
+        "We measure accuracy using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).",
+        "Our estimations are highly reliable and have been refined through extensive validation.",
+        "Yes, we compare our predictions with real project data to maintain accuracy."
+      ]
+    },
+    {
+      "tag": "tool_usage",
+      "patterns": [
+        "How do I use this tool?",
+        "Can you guide me on how to input my building data?",
+        "What information do I need to provide?",
+        "How does this chatbot work?",
+        "Explain how to get a carbon evaluation",
+        "What do I need to describe for an evaluation?"
+      ],
+      "responses": [
+        "To use this tool, simply describe your building's dimensions, materials, and any specific design features.",
+        "You can input details such as the height, floor area, materials used, and any unique aspects of your building.",
+        "Provide as much detail as possible about your building's design, including materials and dimensions.",
+        "This chatbot uses NLP to process your building description and machine learning to evaluate the carbon impact.",
+        "Describe your building's key features and I'll provide a carbon evaluation based on that information.",
+        "Include information like material types, dimensions, and design elements for an accurate evaluation."
+      ]
+    },
+    {
+      "tag": "environmental_impact",
+      "patterns": [
+        "How does my building impact the environment?",
+        "What are the environmental consequences of my design?",
+        "How eco-friendly is this design?",
+        "What is the sustainability score of my building?",
+        "Analyze the environmental footprint of my building",
+        "What are the green aspects of my design?"
+      ],
+      "responses": [
+        "I'll analyze your building's environmental impact based on the provided description.",
+        "Evaluating the environmental consequences of your design now.",
+        "I'll assess the eco-friendliness of your design for you.",
+        "Calculating the sustainability score based on your building's features.",
+        "Analyzing the environmental footprint of your building. This will take a moment.",
+        "Identifying the green aspects of your design for an accurate evaluation."
+      ]
+    },
+    {
+      "tag": "sustainability_tips",
+      "patterns": [
+        "How can I make my building more sustainable?",
+        "What are some eco-friendly design tips?",
+        "How to reduce the carbon footprint of my building?",
+        "Can you suggest ways to improve sustainability?",
+        "What materials should I use for a greener building?",
+        "How to design an eco-friendly building?"
+      ],
+      "responses": [
+        "Consider using materials with lower embodied carbon, such as recycled steel or bamboo.",
+        "Incorporate energy-efficient systems and renewable energy sources in your design.",
+        "Opt for sustainable construction methods and materials to reduce carbon footprint.",
+        "Use passive design strategies like natural ventilation and daylighting.",
+        "Choose locally sourced materials to minimize transportation emissions.",
+        "Implement green roofs and walls to improve insulation and reduce urban heat island effect."
+      ]
+    },
+    {
+      "tag": "general_conversation",
+      "patterns": [
+        "What's your name?",
+        "Who created you?",
+        "Tell me something interesting",
+        "Do you like your job?",
+        "What can you do?",
+        "How are you?",
+        "What is your purpose?"
+      ],
+      "responses": [
+        "My name is Eco, and I'm here to help you evaluate the carbon impact of your building designs.",
+        "I was created by a team of developers focused on sustainable architecture.",
+        "Did you know that buildings account for about 40% of global carbon emissions?",
+        "I love helping people design more sustainable buildings!",
+        "I can evaluate building descriptions and provide carbon footprint estimates.",
+        "I'm just a chatbot, but I'm here to help you with your sustainability questions.",
+        "My purpose is to assist with early-stage carbon impact analyses of building designs."
+      ]
+    },
+    {
+      "tag": "off_topic",
+      "patterns": [
+        "What is the weather like?",
+        "Tell me a joke",
+        "What's your favorite color?",
+        "Do you have any hobbies?",
+        "What's your favorite food?",
+        "Do you have a family?"
+      ],
+      "responses": [
+        "I'm not sure about the weather, but I'm here to help with your building evaluations.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "As a chatbot, I don't have a favorite color, but I love talking about sustainability.",
+        "My hobby is helping you design eco-friendly buildings!",
+        "I don't eat food, but I'm passionate about reducing carbon footprints.",
+        "I don't have a family, but I'm here to assist you with all your carbon evaluation needs."
+      ],
+      "context": ["suggest_inputs"]
+    },
+    {
+      "tag": "suggest_inputs",
+      "patterns": [],
+      "responses": [
+        "If you need help with building evaluations, try describing your building's dimensions, materials, and any unique design features.",
+        "To get a carbon footprint estimate, provide details like the height, floor area, and materials used in your building."
+      ]
+    }
+  ]
+}
