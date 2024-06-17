@@ -1,0 +1,160 @@
+Building Aspect,Element,Material,Declared Unit,Mass (kg/unit),Weight (kN/unit),Embodied carbon (kgCO2e/unit),Sequestered Carbon (kgCO2e/unit),Metric multiplier,Assumptions,Buildup kgCO2e/kg
+Substructure,Piles,Reinforced Concrete 32/40 (50kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,409.0,0.0,4.241150082346221,"15 m depth, 600 mm diameter, 500 kN per pile, calculated dynamically based on building weight.",0.17041666666666666
+Substructure,Piles,Reinforced Concrete 32/40 25% GGBS (50kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,338.0,0.0,4.241150082346221,"15 m depth, 600 mm diameter, 500 kN per pile calculated dynamically based on building weight.",0.14083333333333334
+Substructure,Piles,Reinforced Concrete 32/40 50% GGBS (50kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,260.0,0.0,4.241150082346221,"15 m depth, 600 mm diameter, 500 kN per pile calculated dynamically based on building weight.",0.10833333333333334
+Substructure,Piles,Reinforced Concrete 32/40 70% GGBS (50kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,202.0,0.0,4.241150082346221,"15 m depth, 600 mm diameter, 500 kN per pile calculated dynamically based on building weight.",0.08416666666666667
+Substructure,Piles,Steel,m3,7800.0,76.518,17862.0,0.0,0.4523893421169302,"15 m depth, 600 mm diameter, 16 mm thick, 500 kN per pile calculated dynamically based on building weight.",2.29
+Substructure,Pile caps,Reinforced Concrete 32/40 (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,559.0,0.0,2.25,0.75 x 2 x 1.5 m caps,0.23291666666666666
+Substructure,Pile caps,Reinforced Concrete 32/40 25% GGBS (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,488.0,0.0,2.25,0.75 x 2 x 1.5 m caps,0.20333333333333334
+Substructure,Pile caps,Reinforced Concrete 32/40 50% GGBS (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,406.0,0.0,2.25,0.75 x 2 x 1.5 m caps,0.16916666666666666
+Substructure,Pile caps,Reinforced Concrete 32/40 70% GGBS (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,352.0,0.0,2.25,0.75 x 2 x 1.5 m caps,0.14666666666666667
+Substructure,Raft,Reinforced Concrete 32/40 (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,509.0,0.0,0.6,600 mm raft thickness,0.21208333333333335
+Substructure,Raft,Reinforced Concrete 32/40 25% GGBS (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,438.0,0.0,0.6,600 mm raft thickness,0.1825
+Substructure,Raft,Reinforced Concrete 32/40 50% GGBS (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,358.0,0.0,0.6,600 mm raft thickness,0.14916666666666667
+Substructure,Raft,Reinforced Concrete 32/40 70% GGBS (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,302.0,0.0,0.6,600 mm raft thickness,0.12583333333333332
+Substructure,Capping beams,Reinforced Concrete 32/40 (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,559.0,0.0,0.44999999999999996,750 x 600 mm beam sections,0.23291666666666666
+Substructure,Capping beams,Reinforced Concrete 32/40 25% GGBS (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,488.0,0.0,0.44999999999999996,750 x 600 mm beam sections,0.20333333333333334
+Substructure,Capping beams,Reinforced Concrete 32/40 50% GGBS (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,406.0,0.0,0.44999999999999996,750 x 600 mm beam sections,0.16916666666666666
+Substructure,Capping beams,Reinforced Concrete 32/40 70% GGBS (200kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,352.0,0.0,0.44999999999999996,750 x 600 mm beam sections,0.14666666666666667
+Substructure,Capping beams,Foamglass (domestic only),m3,100.0,0.981,126.0,0.0,0.014000000000000002,100 x 140 mm beam sections,1.26
+Substructure,Basement walls,Reinforced Concrete 32/40 (125kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,484.0,0.0,0.8,800 mm wall thickness,0.20166666666666666
+Substructure,Basement walls,Reinforced Concrete 32/40 25% GGBS (125kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,413.0,0.0,0.8,800 mm wall thickness,0.17208333333333334
+Substructure,Basement walls,Reinforced Concrete 32/40 50% GGBC (125kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,334.0,0.0,0.8,800 mm wall thickness,0.13916666666666666
+Substructure,Basement walls,Reinforced Concrete 32/40 70% GGBS (125kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,277.0,0.0,0.8,800 mm wall thickness,0.11541666666666667
+Substructure,Lowest floor slab,Reinforced Concrete 32/40 (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,509.0,0.0,0.3,300 mm slab thickness,0.21208333333333335
+Substructure,Lowest floor slab,Reinforced Concrete 32/40 25% GGBS (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,438.0,0.0,0.3,300 mm slab thickness,0.1825
+Substructure,Lowest floor slab,Reinforced Concrete 32/40 50% GGBS (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,358.0,0.0,0.3,300 mm slab thickness,0.14916666666666667
+Substructure,Lowest floor slab,Reinforced Concrete 32/40 70% GGBS (150kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,302.0,0.0,0.3,300 mm slab thickness,0.12583333333333332
+Substructure,Lowest floor slab,Beam and Block,m2,190.0,1.8639000000000001,19.0,0.0,1.0,Reinforced Concrete40/50 110 wide beams with 440mm medium density blocks,0.1
+Substructure,Ground insulation,EPS,m3,20.0,0.1962,135.0,0.0,0.25,250 mm insulation thickness,6.75
+Substructure,Ground insulation,XPS,m3,33.0,0.32373,164.0,0.0,0.25,250 mm insulation thickness,4.96969696969697
+Substructure,Ground insulation,Glass mineral wool,m3,70.0,0.6867000000000001,89.6,0.0,0.25,250 mm insulation thickness,1.28
+Superstructure,Core structure,CLT,m3,500.0,4.905,219.0,-819.0,0.2,200 mm wall thickness,0.438
+Superstructure,Core structure,Precast Reinforced Concrete 32/40 (100kg/m3 reinfoReinforced Concreteement),m3,2380.0,23.347800000000003,509.0,0.0,0.2,200 mm wall thickness,0.21386554621848738
+Superstructure,Core structure,Reinforced Concrete 32/40 (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,459.0,0.0,0.2,200 mm wall thickness,0.19125
+Superstructure,Core structure,Reinforced Concrete 32/40 25% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,388.0,0.0,0.2,200 mm wall thickness,0.16166666666666665
+Superstructure,Core structure,Reinforced Concrete 32/40 50% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,309.0,0.0,0.2,200 mm wall thickness,0.12875
+Superstructure,Core structure,Reinforced Concrete 32/40 70% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,252.0,0.0,0.2,200 mm wall thickness,0.105
+Superstructure,Columns,Glulam,m3,490.0,4.806900000000001,251.0,-692.0,0.25,500 x 500 mm section,0.5122448979591837
+Superstructure,Columns,Iron (existing buildings),m3,7874.0,77.24394000000001,15984.0,0.0,0.012,UC 254 x 254,2.0299720599441198
+Superstructure,Columns,Precast Reinforced Concrete 32/40 (300kg/m3 reinfoReinforced Concreteement),m3,2380.0,23.347800000000003,709.0,0.0,0.1590431280879833,450 mm diameter,0.29789915966386554
+Superstructure,Columns,Reinforced Concrete 32/40 (300kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,659.0,0.0,0.1590431280879833,450 mm diameter,0.27458333333333335
+Superstructure,Columns,Reinforced Concrete 32/40 25% GGBS (300kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,588.0,0.0,0.1590431280879833,450 mm diameter,0.245
+Superstructure,Columns,Reinforced Concrete 32/40 50% GGBS (300kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,504.0,0.0,0.1590431280879833,450 mm diameter,0.21
+Superstructure,Columns,Reinforced Concrete 32/40 70% GGBS (300kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,452.0,0.0,0.1590431280879833,450 mm diameter,0.18833333333333332
+Superstructure,Columns,Steel,m3,7800.0,76.518,17862.0,0.0,0.012,UC 254 x 254,2.29
+Superstructure,Beams,Glulam,m3,490.0,4.806900000000001,251.0,-692.0,0.12,500 x 240 mm section,0.5122448979591837
+Superstructure,Beams,Iron (existing buildings),m3,7874.0,77.24394000000001,15984.0,0.0,0.012,UB 533 x 210,2.0299720599441198
+Superstructure,Beams,Precast Reinforced Concrete 32/40 (250kg/m3 reinfoReinforced Concreteement),m3,2380.0,23.347800000000003,659.0,0.0,0.15,300 x 500 section,0.276890756302521
+Superstructure,Beams,Reinforced Concrete 32/40 (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,609.0,0.0,0.15,300 x 500 section,0.25375
+Superstructure,Beams,Reinforced Concrete 32/40 25% GGBS (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,538.0,0.0,0.15,300 x 500 section,0.22416666666666665
+Superstructure,Beams,Reinforced Concrete 32/40 50% GGBS (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,455.0,0.0,0.15,300 x 500 section,0.18958333333333333
+Superstructure,Beams,Reinforced Concrete 32/40 70% GGBS (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,402.0,0.0,0.15,300 x 500 section,0.1675
+Superstructure,Beams,Steel,m3,7800.0,76.518,17862.0,0.0,0.012,UB 533 x 210,2.29
+Superstructure,Secondary beams,Glulam,m3,490.0,4.806900000000001,251.0,-692.0,0.11928234606598748,75% of material in primary beam,0.5122448979591837
+Superstructure,Secondary beams,Iron (existing buildings),m3,7874.0,77.24394000000001,15984.0,0.0,0.11928234606598748,75% of material in primary beam,2.0299720599441198
+Superstructure,Secondary beams,Precast Reinforced Concrete 32/40 (250kg/m3 reinfoReinforced Concreteement),m3,2380.0,23.347800000000003,659.0,0.0,0.11928234606598748,75% of material in primary beam,0.276890756302521
+Superstructure,Secondary beams,Reinforced Concrete 32/40 (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,609.0,0.0,0.009000000000000001,75% of material in primary beam,0.25375
+Superstructure,Secondary beams,Reinforced Concrete 32/40 25% GGBS (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,538.0,0.0,0.09,75% of material in primary beam,0.22416666666666665
+Superstructure,Secondary beams,Reinforced Concrete 32/40 50% GGBS (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,455.0,0.0,0.009000000000000001,75% of material in primary beam,0.18958333333333333
+Superstructure,Secondary beams,Reinforced Concrete 32/40 70% GGBS (250kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,402.0,0.0,0.11249999999999999,75% of material in primary beam,0.1675
+Superstructure,Secondary beams,Steel,m3,7800.0,76.518,17862.0,0.0,0.11249999999999999,75% of material in primary beam,2.29
+Upper floors,Floor slab,CLT,m3,500.0,4.905,219.0,-819.0,0.2,200 mm slab thickness,0.438
+Upper floors,Floor slab,Precast Reinforced Concrete 32/40 (100kg/m3 reinfoReinforced Concreteement),m3,2380.0,23.347800000000003,509.0,0.0,0.15,"150 mm slab thickness. For a flat slab, set an Adjustment Factor of 2 for 300 mm slab thickness and remove any beams.",0.21386554621848738
+Upper floors,Floor slab,Reinforced Concrete 32/40 (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,459.0,0.0,0.15,"150 mm slab thickness. For a flat slab, set an Adjustment Factor of 2 for 300 mm slab thickness and remove any beams.",0.19125
+Upper floors,Floor slab,Reinforced Concrete 32/40 25% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,388.0,0.0,0.15,"150 mm slab thickness. For a flat slab, set an Adjustment Factor of 2 for 300 mm slab thickness and remove any beams.",0.16166666666666665
+Upper floors,Floor slab,Reinforced Concrete 32/40 50% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,309.0,0.0,0.15,"150 mm slab thickness. For a flat slab, set an Adjustment Factor of 2 for 300 mm slab thickness and remove any beams.",0.12875
+Upper floors,Floor slab,Reinforced Concrete 32/40 70% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,252.0,0.0,0.15,"150 mm slab thickness. For a flat slab, set an Adjustment Factor of 2 for 300 mm slab thickness and remove any beams.",0.105
+Upper floors,Floor slab,Steel Concrete Composite,m2,335.0,3.2863500000000005,82.0,0.0,1.0,"Based on COMFLOR 46 decking 1.2mm sheet thickness, 150mm slab depth Reinforced Concrete 32/40 25% GGBS 6.55kg/m2 reinfoReinforced Concreteement mesh, 19 x 100 mm shear studs x 2 per m2",0.24477611940298508
+Upper floors,Joisted floors,JJI Engineered Joists + OSB topper,m2,22.0,0.21582,10.0,-37.0,1.0,450 mm deep 9 mm thick OSB web with 97 x 45 mm softwood flanges. 400mm centres with a 7.5m clear span. 11mm OSB topper.,0.45454545454545453
+Upper floors,Joisted floors,Timber Joists + OSB topper (Domestic),m2,20.0,0.1962,6.5,-30.0,1.0,50 x 200mm softwood joists at 400mm centres with a 5m clear span. 11mm OSB topper.,0.325
+Upper floors,Joisted floors,Timber Joists + OSB topper (Office),m2,32.0,0.31392000000000003,10.0,-50.0,1.0,50 x 300mm softwood joists at 300mm centres with a 5m clear span. 11mm OSB topper.,0.3125
+Roof,Roof,CLT,m3,500.0,4.905,219.0,-819.0,0.2,200 mm slab thickness,0.438
+Roof,Roof,Metal Deck,m2,14.0,0.13734,37.0,0.0,1.0,COMFLOR 46 decking 1.2mm sheet thickness,2.642857142857143
+Roof,Roof,Precast Reinforced Concrete 32/40 (100kg/m3 reinfoReinforced Concreteement),m3,2380.0,23.347800000000003,509.0,0.0,0.15,150 mm slab thickness,0.21386554621848738
+Roof,Roof,Reinforced Concrete 32/40 (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,459.0,0.0,0.15,150 mm slab thickness,0.19125
+Roof,Roof,Reinforced Concrete 32/40 25% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,388.0,0.0,0.15,150 mm slab thickness,0.16166666666666665
+Roof,Roof,Reinforced Concrete 32/40 50% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,309.0,0.0,0.15,150 mm slab thickness,0.12875
+Roof,Roof,Reinforced Concrete 32/40 70% GGBS (100kg/m3 reinfoReinforced Concreteement),m3,2400.0,23.544,252.0,0.0,0.15,150 mm slab thickness,0.105
+Roof,Roof,Steel Concrete Composite,m2,335.0,3.2863500000000005,82.0,0.0,1.0,"COMFLOR 46 decking 1.2mm sheet thickness, 150mm slab depth Reinforced Concrete 32/40 25% GGBS 6.55kg/m2 reinfoReinforced Concreteement mesh, 19 x 100 mm shear studs x 2 per m2",0.24477611940298508
+Roof,Roof,Timber Cassette,m2,15.0,0.14715,6.0,-22.0,1.0,Two layers of OSB with timber spacers at 600mm centres,0.4
+Roof,Roof,Timber Pitch Roof,m2,53.0,0.5199300000000001,14.0,-82.0,1.0,"75 x 200 mm softwood joists, rafters, purlins and ridge. 5m clear span. Joists at 400mm centres. Rafters at 400mm centres with 9/12 pitch. Two purlins and ridge beam across span. 35 x 50mm battens at 400mm centres.",0.2641509433962264
+Roof,Roof finishes,Aluminium,m2,2.43,0.023838300000000003,16.2,0.0,1.0,0.9mm thickness,6.666666666666666
+Roof,Roof finishes,Asphalt (Mastic),m2,47.0,0.46107000000000004,4.6,0.0,1.0,20 mm thickness,0.0978723404255319
+Roof,Roof finishes,Asphalt (Polymer modified),m2,47.0,0.46107000000000004,3.1,0.0,1.0,20 mm thickness,0.06595744680851064
+Roof,Roof finishes,Bitumous Sheet,m2,2.2,0.021582000000000004,3.1,0.0,1.0,1.5 mm thick sheet,1.409090909090909
+Roof,Roof finishes,Ceramic tile,m2,50.0,0.4905,13.25,0.0,1.0,"15 mm average tile thickness, with 100 mm overlap.",0.265
+Roof,Roof finishes,Fibre cement tile,m2,20.0,0.1962,19.5,0.0,1.0,"4 mm tile thickness, 270% mass increase for tile headlap",0.975
+Roof,Roof finishes,Green Roof,m2,23.0,0.22563000000000002,4.0,0.0,1.0,"Knauf Urbanscape system, with sedum blanket, green rool, and drainage layer",0.17391304347826086
+Roof,Roof finishes,Roofing membrane (PVC),m2,2.0,0.019620000000000002,6.4,0.0,1.0,1.5 mm sheet thickness,3.2
+Roof,Roof finishes,Slate tile,m2,49.0,0.48069,1.8,0.0,1.0,"7 mm tile thickness, 270% mass increase for tile headlap",0.036734693877551024
+Roof,Roof finishes,Zinc Standing Seam,m2,10.7,0.104967,33.1,0.0,1.0,1.5mm thick zinc.,3.093457943925234
+Roof,Roof insulation,"Cellulose, loose fill",m3,45.0,0.44145000000000006,7.0,-62.0,0.25,250 mm insulation thickness,0.15555555555555556
+Roof,Roof insulation,EPS,m3,20.0,0.1962,135.0,0.0,0.25,250 mm insulation thickness,6.75
+Roof,Roof insulation,Expanded Perlite,m3,75.0,0.73575,39.0,0.0,0.25,250 mm insulation thickness,0.52
+Roof,Roof insulation,Expanded Vermiculite,m3,112.0,1.09872,58.0,0.0,0.25,250 mm insulation thickness,0.5178571428571429
+Roof,Roof insulation,Glass mineral wool,m3,70.0,0.6867000000000001,89.6,0.0,0.25,250 mm insulation thickness,1.28
+Roof,Roof insulation,PIR,m3,40.0,0.3924,212.0,0.0,0.25,250 mm insulation thickness,5.3
+Roof,Roof insulation,Rockwool,m3,70.0,0.6867000000000001,78.0,0.0,0.25,250 mm insulation thickness,1.1142857142857143
+Roof,Roof insulation,Sheeps wool,m3,25.0,0.24525,66.0,0.0,0.25,250 mm insulation thickness,2.64
+Roof,Roof insulation,Vacuum Insulation,m3,180.0,1.7658000000000003,1688.0,0.0,0.05,50 mm insulation thickness,9.377777777777778
+Roof,Roof insulation,Woodfibre,m3,140.0,1.3734000000000002,102.5,-283.7,0.25,250 mm insulation thickness,0.7321428571428571
+Roof,Roof insulation,XPS,m3,33.0,0.32373,164.0,0.0,0.25,250 mm insulation thickness,4.96969696969697
+External walls,Façade,Blockwork with Brick,m2,227.0,2.22687,61.0,0.0,1.0,100mm medium density blockwork with seld-supported brick,0.2687224669603524
+External walls,Façade,Blockwork with render,m2,193.0,1.8933300000000002,20.2,0.0,1.0,100 mm medium density blockwork with cementiuous render,0.10466321243523316
+External walls,Façade,Blockwork with Timber,m2,169.0,1.65789,20.0,-36.0,1.0,30mm timber rainscreen supported on 200 x 40 battens with blockwork structure,0.11834319526627218
+External walls,Façade,Curtain Walling,m2,33.0,0.32373,73.0,0.0,1.0,Double glazing with aluminium framing at 1.2m horizontal and vertical centres,2.212121212121212
+External walls,Façade,Load Bearing Precast Concrete Panel,m2,352.0,3.45312,61.0,0.0,1.0,150mm precast concrete panel with 360 kg/m3 of rebar,0.17329545454545456
+External walls,Façade,Load Bearing Precast Concrete with Brick Slips,m2,452.0,4.43412,94.0,0.0,1.0,50mm brick slip (no mortar) on 150mm precast concrete panel with 360 kg/m3 of rebar,0.2079646017699115
+External walls,Façade,Party Wall Blockwork,m2,145.9,1.4312790000000002,13.5,0.0,1.0,100mm medium density blockwork,0.09252912954078135
+External walls,Façade,Party Wall Brick,m2,223.2,2.189592,45.2,0.0,1.0,Brick and mortar wall,0.20250896057347673
+External walls,Façade,Party Wall Timber Cassette,m2,6.3,0.061803000000000004,2.5,-10.4,1.0,T Stud wall at 600mm centres,0.39682539682539686
+External walls,Façade,SFS with Aluminium Cladding,m2,11.0,0.10791,56.0,0.0,1.0,1.5mm aluminium sheet supported on stainless steel hangers,5.090909090909091
+External walls,Façade,SFS with Brick,m2,234.0,2.29554,94.0,0.0,1.0,Brick and mortar wall held back to steel framing system with steel brickties,0.4017094017094017
+External walls,Façade,SFS with Ceramic Tiles,m2,59.0,0.57879,86.0,0.0,1.0,"300mm wide tiles supported, single fired, on stainless steel hangers",1.4576271186440677
+External walls,Façade,SFS with Granite,m2,90.0,0.8829000000000001,97.0,0.0,1.0,"500mm high tiles, at 30mm thick, supported on stainless steel hangers",1.0777777777777777
+External walls,Façade,SFS with Limestone,m2,90.0,0.8829000000000001,48.0,0.0,1.0,"500mm high tiles, at 30mm thick, supported on stainless steel hangers",0.5333333333333333
+External walls,Façade,SFS with Zinc Cladding,m2,17.0,0.16677,62.0,0.0,1.0,1.5mm zinc sheet supported on stainless steel hangers,3.6470588235294117
+External walls,Façade,"Solid Brick, single leaf",m2,224.0,2.19744,46.0,0.0,1.0,"Brick and mortar wall, single leaf",0.20535714285714285
+External walls,Façade,Timber Cassette Panel with brick,m2,773.5,7.5880350000000005,64.50282820000001,-10.43614,1.0,T-Stud walls at 600mm centres with external brickwork and stainless steel brickties,0.08339085740142212
+External walls,Façade,Timber Cassette Panel with Cement Render,m2,53.86,0.5283666,9.0,-10.4,1.0,T-Stud walls at 600mm centres with cementious render. Note insulation calculated elsewhere,0.16709988860007427
+External walls,Façade,Timber Cassette Panel with LaReinforced Concreteh Cladding ,m2,19.0,0.18639000000000003,5.8,-30.2,1.0,LVL T-Stud walls at 600mm centres with 30mm thick laReinforced Concreteh cladding,0.30526315789473685
+External walls,Façade,Timber Cassette Panel with Lime Render,m2,39.0,0.38259000000000004,9.0,-10.4,1.0,T-Stud walls at 600mm centres with lime render. Note insulation calculated elsewhere,0.23076923076923078
+External walls,Façade,Timber SIPs with Brick,m2,238.0,2.3347800000000003,53.0,-22.0,1.0,"Two layers of 11mm OSB, with timber spacers at 600mm centres and self supported brick",0.22268907563025211
+External walls,Wall insulation,"Cellulose, loose fill",m3,45.0,0.44145000000000006,7.0,-62.0,0.25,250 mm insulation thickness,0.15555555555555556
+External walls,Wall insulation,EPS,m3,20.0,0.1962,135.0,0.0,0.25,250 mm insulation thickness,6.75
+External walls,Wall insulation,Expanded Perlite,m3,75.0,0.73575,39.0,0.0,0.25,250 mm insulation thickness,0.52
+External walls,Wall insulation,Expanded Vermiculite,m3,112.0,1.09872,58.0,0.0,0.25,250 mm insulation thickness,0.5178571428571429
+External walls,Wall insulation,Glass mineral wool,m3,70.0,0.6867000000000001,89.6,0.0,0.25,250 mm insulation thickness,1.28
+External walls,Wall insulation,PIR,m3,40.0,0.3924,212.0,0.0,0.25,250 mm insulation thickness,5.3
+External walls,Wall insulation,Rockwool,m3,70.0,0.6867000000000001,78.0,0.0,0.25,250 mm insulation thickness,1.1142857142857143
+External walls,Wall insulation,Sheeps wool,m3,25.0,0.24525,66.0,0.0,0.25,250 mm insulation thickness,2.64
+External walls,Wall insulation,Vacuum Insulation,m3,180.0,1.7658000000000003,1688.0,0.0,0.05,50 mm insulation thickness,9.377777777777778
+External walls,Wall insulation,Woodfibre,m3,140.0,1.3734000000000002,102.5,-283.7,0.25,250 mm insulation thickness,0.7321428571428571
+External walls,Wall insulation,XPS,m3,33.0,0.32373,164.0,0.0,0.25,250 mm insulation thickness,4.96969696969697
+Windows,Glazing,Single Glazing,m3,2500.0,24.525,4075.0,0.0,0.006,One pane of 6mm glass,1.63
+Windows,Glazing,Double Glazing,m3,2500.0,24.525,4075.0,0.0,0.012,Two panes of 6 mm glass,1.63
+Windows,Glazing,Triple Glazing,m3,2500.0,24.525,4375.0,0.0,0.018,Three panes of 6 mm glass,1.75
+Windows,Window frames,Al/Timber Composite,m,5.0,0.04905,12.6,-4.4,1.0,Solid soft wood timber with aluminium external finish,2.52
+Windows,Window frames,Aluminium,m,4.8,0.047088,29.3,0.0,1.0,2mm thick hollow aluminium frame with internal webbing.,6.104166666666667
+Windows,Window frames,Steel (single glazed),m,5.4,0.05297400000000001,14.7,0.0,1.0,"Simple 2mm thick steel frame, for existing buildings only.",2.722222222222222
+Windows,Window frames,Solid softwood timber frame,m,4.1,0.040221,1.9,-6.1,1.0,"See ""Build-ups"" sheet",0.4634146341463415
+Windows,Window frames,uPVC,m,5.4,0.05297400000000001,17.0,0.0,1.0,3mm thick hollow uPVC frame with internal webbing,3.148148148148148
+Internal walls,Partitions,CLT,m3,500.0,4.905,219.0,-819.0,0.12,120 mm wall thickness,0.438
+Internal walls,Partitions,Plasterboard + Steel Studs,m2,42.0,0.41202000000000005,25.0,-6.0,1.0,"2 x 12.5mm plasterboards on both sides, MDF skirting both sides, steel studs at 0.6m spacings, top and bottom steel channels, softwood head plate, gypsum fire strip, mastic sealant, glass mineral wool insulation",0.5952380952380952
+Internal walls,Partitions,Plasterboard + Timber Studs,m2,46.0,0.45126000000000005,24.0,-13.0,1.0,"2 x 12.5mm plasterboards on both sides, MDF skirting both sides, timber studs at 0.6m spacings, top and bottom steel channels, softwood head plate, gypsum fire strip, mastic sealant, glass mineral wool insulation",0.5217391304347826
+Internal walls,Partitions,Plywood + Timber Studs,m2,36.0,0.35316000000000003,29.0,-49.0,1.0,"2 x 12.5mm plywood boards on both sides, MDF skirting both sides, timber studs at 0.6m spacings, top and bottom steel channels, softwood head plate, gypsum fire strip, mastic sealant, glass mineral wool insulation",0.8055555555555556
+Internal walls,Partitions,Blockwork,m2,161.0,1.57941,17.0,0.0,1.0,"2 x 12.5mm plywood boards on both sides, MDF skirting both sides, timber studs at 0.6m spacings, top and bottom steel channels, softwood head plate, gypsum fire strip, mastic sealant, glass mineral wool insulation",0.10559006211180125
+Internal finishes,Ceilings,Plasterboard,m2,7.0,0.06867,3.12,0.0,1.0,12.5mm platerboard lining applied directly to upper floor/roof structure,0.44571428571428573
+Internal finishes,Ceilings,Steel grid system,m2,3.0,0.02943,3.2,0.0,1.0,SAS System 150 modular clip-in steel suspended ceiling system,1.0666666666666667
+Internal finishes,Ceilings,Steel tile,m2,7.0,0.06867,12.1,0.0,1.0,SAS System 150 modular clip-in steel suspended ceiling system carrying plain sheet steel tiles,1.7285714285714284
+Internal finishes,Ceilings,Steel tile with 18mm acoustic pad,m2,9.0,0.08829000000000001,14.1,0.0,1.0,SAS System 150 modular clip-in steel suspended ceiling system carrying perforated steel tile with 18mm x 80kg/m3 acoustic pad,1.5666666666666667
+Internal finishes,Ceilings,Suspended plasterboard,m2,11.0,0.10791,6.3,0.0,1.0,SAS System 150 modular clip-in steel suspended ceiling system carrying 12.5mm plasterboard,0.5727272727272728
+Internal finishes,Floors,70mm screed,m2,168.0,1.6480800000000002,15.3,0.0,1.0,70 mm slab thickness,0.09107142857142858
+Internal finishes,Floors,Carpet,m2,4.0,0.039240000000000004,9.8,0.0,1.0,12 mm carpet thickness,2.45
+Internal finishes,Floors,Earthenware tile,m2,18.0,0.17658000000000001,14.0,0.0,1.0,10 mm tile thickness,0.7777777777777778
+Internal finishes,Floors,Raised floor,m2,23.5,0.23053500000000002,40.3,0.0,1.0,600 mm square module of high-density chipboard. Bottom surface laminated with galvanised steel. Top surface laminated with vinyl surface finish. Panel encapsulated by full-depth ABS band. Pedestals are zinc-plated steel covering height range of 16 - 347 mm,1.7148936170212765
+Internal finishes,Floors,Solid timber floorboards,m2,9.2,0.090252,7.1,-21.9,1.0,18 mm floorboard thickness,0.7717391304347826
+Internal finishes,Floors,Stoneware tile,m2,24.0,0.23544,18.7,0.0,1.0,10 mm tile thickness,0.7791666666666667
+Internal finishes,Floors,Terrazzo,m2,60.0,0.5886,29.0,0.0,1.0,25 mm tile thickness,0.48333333333333334
+Internal finishes,Floors,Vinyl,m2,4.1,0.040221,13.2,0.0,1.0,3 mm vinyl thickness,3.2195121951219514
