@@ -1,14 +1,19 @@
-# prep.py
 import os
 import pandas as pd
 import numpy as np
-from transformers import BertTokenizer, BertModel
-import torch
+import joblib
+
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_percentage_error
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(current_dir, '../data')
-export_dir = os.path.join(current_dir, 'export')
+export_dir = os.path.join(current_dir, 'models')
 
 # Ensure the export directory exists
 os.makedirs(export_dir, exist_ok=True)
@@ -16,118 +21,141 @@ os.makedirs(export_dir, exist_ok=True)
 # Construct the full paths to each dataset
 ASPECTS_PATH = os.path.join(data_dir, 'FCBS_Aspects-Elements-Materials_MachineReadable.xlsx')
 BUILDUPS_PATH = os.path.join(data_dir, 'FCBS_Build Ups-Details_MachineReadable.xlsx')
-SECTORS_PATH = os.path.join(data_dir, 'FCBS_Sectors-Subsectors_MachineReadable.xlsx')
 ICE_DB_PATH = os.path.join(data_dir, 'ICE DB_Cleaned.csv')
-RIBA_TARGETS_PATH = os.path.join(data_dir, 'RIBA 2030-Targets_MachineReadable.xlsx')
 CLF_EMBODIED_CARBON_PATH = os.path.join(data_dir, 'CLF Embodied Carbon_Cleaned.csv')
 
 # Load datasets
-fcbs_aspects_elements = pd.read_excel(ASPECTS_PATH)
-fcbs_build_ups_details = pd.read_excel(BUILDUPS_PATH)
-fcbs_sectors_subsectors = pd.read_excel(SECTORS_PATH)
+aspects = pd.read_excel(ASPECTS_PATH)
+buildups = pd.read_excel(BUILDUPS_PATH)
 ice_db = pd.read_csv(ICE_DB_PATH)
-riba_targets = pd.read_excel(RIBA_TARGETS_PATH)  # to be used for comparisons when user asks questions regarding relative sustainability of building.
-clf_embodied_carbon = pd.read_csv(CLF_EMBODIED_CARBON_PATH)
+clf_carbon = pd.read_csv(CLF_EMBODIED_CARBON_PATH)
 
-# Drop unnecessary columns
-fcbs_aspects_elements = fcbs_aspects_elements.drop(columns=['Declared Unit', 'Metric multiplier'])
-fcbs_build_ups_details = fcbs_build_ups_details.drop(columns=['Functional Unit', 'Volume/FU (m3/FU)', 'ICE V3 Reference', 'ICE V3 kgCO2e/kg value',
-                                                              'ICE V3 biogenic kgCO2e/kg value', 'Density used', 'Buildup kgCO2e/FU',
-                                                              'Buildup biogenic kgCO2e/FU', 'Mass kg/FU'])
-fcbs_sectors_subsectors = fcbs_sectors_subsectors.drop(columns=['BS EN 1991-1 specific use classification', 'Imposed floor load (kN/m2)', 'Partitions factor:',
-                                                                'RIBA 2030 Targets classification', 'DEC A', 'A4', 'A5', 'B1', 'B2', 'B3',
-                                                                'B5', 'C1', 'C2', 'C3', 'C4'])
-ice_db = ice_db.drop(columns=['Unique ID', 'Quantity of declared unit', 'Units of declared unit',
-                              'Weight per declared unit - kg', 'Density of material - kg per m3', 'Density range - low - kg per m3',
-                              'Density Range - high - kg per m3', 'Carbon sequestration included?'])
-clf_embodied_carbon = clf_embodied_carbon.drop(columns=['Building Public ID', 'Building Area in Square Meters', 'Building Area in Square Feet', 
-                                                        'Building Storeys', 'Life Cycle Assessment Year', 'Life Cycle Assessment Reference Period', 
-                                                        'Life Cycle Assessment Source Code', 'Life Cycle Assessment Stages', 'Life Cycle Assessment Building Scope',
-                                                        'Life Cycle Assessment Material Quantity'])
-
-# Function to clean numerical columns
-def clean_numerical_columns(df, columns):
-    for column in columns:
-        df[column] = pd.to_numeric(df[column], errors='coerce')  # Convert non-numeric values to NaN
-        df[column] = df[column].replace([np.inf, -np.inf], np.nan)
-        df[column] = df[column].fillna(df[column].median())
+# Function to clean numeric columns
+def clean_numeric(df, columns):
+    for col in columns:
+        df[col] = df[col].replace('#NAME?', 0)
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+        df[col].replace({np.inf: 1000000000, -np.inf: 0}, inplace=True)
+    df.dropna(subset=columns, inplace=True)
     return df
 
-numerical_columns = {
-    'fcbs_aspects_elements': ['Mass (kg/unit)', 'Weight (kN/unit)', 'Embodied carbon (kgCO2e/unit)', 'Sequestered Carbon (kgCO2e/unit)'],
-    'fcbs_build_ups_details': ['TOTAL kgCO2e/FU', 'TOTAL BIOGENIC kgCO2e/FU'],
-    'fcbs_sectors_subsectors': ['Grid size:', 'Typical (Electric)', 'Best Practice (Electric)', 'Innovative (Electric)',
-                                'Typical (Non-electric)', 'Best Practice (Non-electric)', 'Innovative (Non-electric)',
-                                'Typical (Total)', 'Best Practice (Total)', 'Innovative (Total)', 'Max (Total)'],
-    'ice_db': ['Carbon Storage Amount (Kg CO2 per unit)', 'Embodied Carbon (kg CO2e per declared unit)', 'Embodied Carbon per kg (kg CO2e per kg)'],
-    'clf_embodied_carbon': ['Embodied Carbon Whole Building Excluding Operational', 'Embodied Carbon Life Cycle Assessment Area Per Square Meter',
-                            'Minimum Building Area in Square Meters', 'Maximum Building Area in Square Meters', 
-                            'Minimum Building Area in Square Feet', 'Maximum Building Area in Square Feet', 
-                            'Minimum Building Storeys', 'Maximum Building Storeys']
+# Clean CLF dataset
+clf_numeric_columns = [
+    'Minimum Building Area in Square Meters',
+    'Maximum Building Area in Square Meters',
+    'Minimum Building Storeys',
+    'Maximum Building Storeys'
+]
+clf_carbon = clean_numeric(clf_carbon, clf_numeric_columns)
+clf_carbon['Embodied Carbon Whole Building Excluding Operational'] = pd.to_numeric(clf_carbon['Embodied Carbon Whole Building Excluding Operational'], errors='coerce')
+clf_carbon.dropna(subset=['Embodied Carbon Whole Building Excluding Operational'], inplace=True)
+clf_X = clf_carbon[['Building Type', 'Building Use', 'Building Location Region'] + clf_numeric_columns]
+clf_y = clf_carbon['Embodied Carbon Whole Building Excluding Operational']
+
+# Clean Aspects dataset
+aspects['Buildup kgCO2e/kg'] = aspects['Embodied carbon (kgCO2e/unit)'] / aspects['Mass (kg/unit)']
+aspects['Buildup kgCO2e/kg'] = pd.to_numeric(aspects['Buildup kgCO2e/kg'], errors='coerce')
+aspects.dropna(subset=['Buildup kgCO2e/kg'], inplace=True)
+aspects_X = aspects[['Building Aspect', 'Element', 'Material']]
+aspects_y = aspects['Buildup kgCO2e/kg']
+
+# Clean Buildups dataset
+buildups[['buildup type', 'type structure']] = buildups['Build-up Reference'].str.split(':', expand=True)
+buildups['TOTAL kgCO2e/kg'] = buildups['TOTAL kgCO2e/FU'] / buildups['Mass kg/FU']
+buildups['TOTAL kgCO2e/kg'] = pd.to_numeric(buildups['TOTAL kgCO2e/kg'], errors='coerce')
+buildups.dropna(subset=['TOTAL kgCO2e/kg'], inplace=True)
+buildups_X = buildups[['buildup type', 'type structure', 'Materials included']]
+buildups_y = buildups['TOTAL kgCO2e/kg']
+
+# Clean ICE dataset
+ice_db['Embodied Carbon per kg (kg CO2e per kg)'] = pd.to_numeric(ice_db['Embodied Carbon per kg (kg CO2e per kg)'], errors='coerce')
+ice_db.dropna(subset=['Embodied Carbon per kg (kg CO2e per kg)'], inplace=True)
+ice_X = ice_db[['Material', 'Sub-material']]
+ice_y = ice_db['Embodied Carbon per kg (kg CO2e per kg)']
+
+# Text data handling
+def create_pipeline(numeric_features, categorical_features, model):
+    # Create a column transformer to handle both numerical and categorical data
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ('num', StandardScaler(), numeric_features),
+            ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features)
+        ])
+    
+    # Create a pipeline that includes the preprocessor and the regression model
+    pipeline = Pipeline(steps=[
+        ('preprocessor', preprocessor),
+        ('regressor', model)
+    ])
+    
+    return pipeline
+
+# Define numeric and categorical features for each dataset
+clf_numeric_features = ['Minimum Building Area in Square Meters', 'Maximum Building Area in Square Meters', 'Minimum Building Storeys', 'Maximum Building Storeys']
+clf_categorical_features = ['Building Type', 'Building Use', 'Building Location Region']
+
+aspects_categorical_features = ['Building Aspect', 'Element', 'Material']
+
+buildups_categorical_features = ['buildup type', 'type structure', 'Materials included']
+
+ice_categorical_features = ['Material', 'Sub-material']
+
+# Split data into training and testing sets
+clf_X_train, clf_X_test, clf_y_train, clf_y_test = train_test_split(clf_X, clf_y, test_size=0.3, random_state=42)
+aspects_X_train, aspects_X_test, aspects_y_train, aspects_y_test = train_test_split(aspects_X, aspects_y, test_size=0.3, random_state=42)
+buildups_X_train, buildups_X_test, buildups_y_train, buildups_y_test = train_test_split(buildups_X, buildups_y, test_size=0.3, random_state=42)
+ice_X_train, ice_X_test, ice_y_train, ice_y_test = train_test_split(ice_X, ice_y, test_size=0.3, random_state=42)
+
+# Hyperparameter tuning with GridSearchCV
+param_grid = {
+    'regressor__n_estimators': [100, 200],
+    'regressor__learning_rate': [0.1, 0.01],
+    'regressor__max_depth': [3, 5]
 }
 
-# Clean numerical columns in each dataset
-fcbs_aspects_elements = clean_numerical_columns(fcbs_aspects_elements, numerical_columns['fcbs_aspects_elements'])
-fcbs_build_ups_details = clean_numerical_columns(fcbs_build_ups_details, numerical_columns['fcbs_build_ups_details'])
-fcbs_sectors_subsectors = clean_numerical_columns(fcbs_sectors_subsectors, numerical_columns['fcbs_sectors_subsectors'])
-ice_db = clean_numerical_columns(ice_db, numerical_columns['ice_db'])
-clf_embodied_carbon = clean_numerical_columns(clf_embodied_carbon, numerical_columns['clf_embodied_carbon'])
+def tune_model(X_train, y_train, numeric_features, categorical_features):
+    model = GradientBoostingRegressor()
+    pipeline = create_pipeline(numeric_features, categorical_features, model)
+    grid_search = GridSearchCV(pipeline, param_grid, cv=5, n_jobs=-1, scoring='r2')
+    grid_search.fit(X_train, y_train)
+    return grid_search.best_estimator_
 
-# Tokenizer and model for BERT
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-bert_model = BertModel.from_pretrained('bert-base-uncased')
+def evaluate_model(model_name, model, X_train, X_test, y_train, y_test):
+    y_pred_train = model.predict(X_train)
+    y_pred_test = model.predict(X_test)
+    
+    mse_test = mean_squared_error(y_test, y_pred_test)
+    r2_test = r2_score(y_test, y_pred_test)
+    mape_test = mean_absolute_percentage_error(y_test, y_pred_test) * 100
+    
+    r2_train = r2_score(y_train, y_pred_train)
+    
+    print(f'{model_name} Model R² (Train): {r2_train}')
+    print(f'{model_name} Model R² (Test): {r2_test}')
+    print(f'{model_name} Model MSE: {mse_test}')
+    print(f'{model_name} Model MAPE: {mape_test}%\n')
 
-# Function to concatenate text columns and tokenize using BERT
-def tokenize_and_embed(df, text_columns):
-    concatenated_texts = df[text_columns].astype(str).apply(lambda x: ' '.join(x), axis=1).tolist()
-    inputs = tokenizer(concatenated_texts, return_tensors='pt', padding=True, truncation=True)
-    with torch.no_grad():
-        outputs = bert_model(**inputs)
-    return outputs.last_hidden_state.mean(dim=1).numpy()
+# Tune and evaluate models
+clf_model = tune_model(clf_X_train, clf_y_train, clf_numeric_features, clf_categorical_features)
+evaluate_model('CLF', clf_model, clf_X_train, clf_X_test, clf_y_train, clf_y_test)
 
-# Tokenize and embed text columns
-fcbs_aspects_elements_text_embeddings = tokenize_and_embed(fcbs_aspects_elements, ['Building Aspect', 'Element', 'Material', 'Assumptions'])
-fcbs_build_ups_details_text_embeddings = tokenize_and_embed(fcbs_build_ups_details, ['Build-up Reference', 'Description', 'Materials included'])
-fcbs_sectors_subsectors_text_embeddings = tokenize_and_embed(fcbs_sectors_subsectors, ['Sector', 'Building Typology', 'Sub-sector'])
-ice_db_text_embeddings = tokenize_and_embed(ice_db, ['Material', 'Sub-material'])
-clf_embodied_carbon_text_embeddings = tokenize_and_embed(clf_embodied_carbon, ['Building Type', 'Building Use', 'Building Location Region', 'Building New or Renovation'])
+aspects_model = tune_model(aspects_X_train, aspects_y_train, [], aspects_categorical_features)
+evaluate_model('Aspects', aspects_model, aspects_X_train, aspects_X_test, aspects_y_train, aspects_y_test)
 
-# Combine numerical data and text embeddings
-def combine_numerical_and_text(numerical_data, text_embeddings):
-    return np.hstack((numerical_data, text_embeddings))
+buildups_model = tune_model(buildups_X_train, buildups_y_train, [], buildups_categorical_features)
+evaluate_model('Buildups', buildups_model, buildups_X_train, buildups_X_test, buildups_y_train, buildups_y_test)
 
-fcbs_aspects_elements_combined = combine_numerical_and_text(fcbs_aspects_elements[numerical_columns['fcbs_aspects_elements']].values, fcbs_aspects_elements_text_embeddings)
-fcbs_build_ups_details_combined = combine_numerical_and_text(fcbs_build_ups_details[numerical_columns['fcbs_build_ups_details']].values, fcbs_build_ups_details_text_embeddings)
-fcbs_sectors_subsectors_combined = combine_numerical_and_text(fcbs_sectors_subsectors[numerical_columns['fcbs_sectors_subsectors']].values, fcbs_sectors_subsectors_text_embeddings)
-ice_db_combined = combine_numerical_and_text(ice_db[numerical_columns['ice_db']].values, ice_db_text_embeddings)
-clf_embodied_carbon_combined = combine_numerical_and_text(clf_embodied_carbon[numerical_columns['clf_embodied_carbon']].values, clf_embodied_carbon_text_embeddings)
+ice_model = tune_model(ice_X_train, ice_y_train, [], ice_categorical_features)
+evaluate_model('ICE', ice_model, ice_X_train, ice_X_test, ice_y_train, ice_y_test)
 
-# Save the prepared data
-np.save(os.path.join(export_dir, 'fcbs_aspects_elements_combined.npy'), fcbs_aspects_elements_combined)
-np.save(os.path.join(export_dir, 'fcbs_build_ups_details_combined.npy'), fcbs_build_ups_details_combined)
-np.save(os.path.join(export_dir, 'fcbs_sectors_subsectors_combined.npy'), fcbs_sectors_subsectors_combined)
-np.save(os.path.join(export_dir, 'ice_db_combined.npy'), ice_db_combined)
-np.save(os.path.join(export_dir, 'clf_embodied_carbon_combined.npy'), clf_embodied_carbon_combined)
+# Save models
+joblib.dump(clf_model, os.path.join(export_dir, 'clf_model.pkl'))
+joblib.dump(aspects_model, os.path.join(export_dir, 'aspects_model.pkl'))
+joblib.dump(buildups_model, os.path.join(export_dir, 'buildups_model.pkl'))
+joblib.dump(ice_model, os.path.join(export_dir, 'ice_model.pkl'))
 
-# Save prepared data to CSV for inspection
-pd.DataFrame(fcbs_aspects_elements_combined).to_csv(os.path.join(export_dir, 'fcbs_aspects_elements_combined.csv'), index=False)
-pd.DataFrame(fcbs_build_ups_details_combined).to_csv(os.path.join(export_dir, 'fcbs_build_ups_details_combined.csv'), index=False)
-pd.DataFrame(fcbs_sectors_subsectors_combined).to_csv(os.path.join(export_dir, 'fcbs_sectors_subsectors_combined.csv'), index=False)
-pd.DataFrame(ice_db_combined).to_csv(os.path.join(export_dir, 'ice_db_combined.csv'), index=False)
-pd.DataFrame(clf_embodied_carbon_combined).to_csv(os.path.join(export_dir, 'clf_embodied_carbon_combined.csv'), index=False)
-
-# Save target values
-np.save(os.path.join(export_dir, 'ice_db_targets.npy'), ice_db['Embodied Carbon (kg CO2e per declared unit)'].values)
-np.save(os.path.join(export_dir, 'fcbs_aspects_elements_targets.npy'), fcbs_aspects_elements['Embodied carbon (kgCO2e/unit)'].values)
-np.save(os.path.join(export_dir, 'fcbs_build_ups_details_targets.npy'), fcbs_build_ups_details['TOTAL kgCO2e/FU'].values)
-np.save(os.path.join(export_dir, 'fcbs_sectors_subsectors_targets.npy'), fcbs_sectors_subsectors['Typical (Total)'].values)
-np.save(os.path.join(export_dir, 'clf_embodied_carbon_targets.npy'), clf_embodied_carbon['Embodied Carbon Whole Building Excluding Operational'].values)
-
-# Save target values to CSV for inspection
-pd.DataFrame({'target': ice_db['Embodied Carbon (kg CO2e per declared unit)'].values}).to_csv(os.path.join(export_dir, 'ice_db_targets.csv'), index=False)
-pd.DataFrame({'target': fcbs_aspects_elements['Embodied carbon (kgCO2e/unit)'].values}).to_csv(os.path.join(export_dir, 'fcbs_aspects_elements_targets.csv'), index=False)
-pd.DataFrame({'target': fcbs_build_ups_details['TOTAL kgCO2e/FU'].values}).to_csv(os.path.join(export_dir, 'fcbs_build_ups_details_targets.csv'), index=False)
-pd.DataFrame({'target': fcbs_sectors_subsectors['Typical (Total)'].values}).to_csv(os.path.join(export_dir, 'fcbs_sectors_subsectors_targets.csv'), index=False)
-pd.DataFrame({'target': clf_embodied_carbon['Embodied Carbon Whole Building Excluding Operational'].values}).to_csv(os.path.join(export_dir, 'clf_embodied_carbon_targets.csv'), index=False)
-
-print("Data preparation complete and files saved.")
+# Export cleaned data
+clf_carbon.to_csv(os.path.join(export_dir, 'cleaned_CLF_carbon.csv'), index=False)
+aspects.to_csv(os.path.join(export_dir, 'cleaned_aspects.csv'), index=False)
+buildups.to_csv(os.path.join(export_dir, 'cleaned_buildups.csv'), index=False)
+ice_db.to_csv(os.path.join(export_dir, 'cleaned_ice_db.csv'), index=False)
