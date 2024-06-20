@@ -1,69 +1,98 @@
-# model.py
-import numpy as np
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-import joblib
+import pandas as pd
 import os
+import joblib
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.ensemble import HistGradientBoostingRegressor
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.exceptions import ConvergenceWarning
+import numpy as np
+import warnings
+
+# Ignore convergence warnings during GridSearchCV
+warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-export_dir = os.path.join(current_dir, 'export')
+models_dir = os.path.join(current_dir, 'models')
 
-# Load prepared data
-ice_db_combined = np.load(os.path.join(export_dir, 'ice_db_combined.npy'))
-ice_db_targets = np.load(os.path.join(export_dir, 'ice_db_targets.npy'))
+# Load the data
+BUILDING_DATA_PATH = os.path.join(models_dir, 'BUILDING_DATA.csv')
+df = pd.read_csv(BUILDING_DATA_PATH)
 
-fcbs_aspects_elements_combined = np.load(os.path.join(export_dir, 'fcbs_aspects_elements_combined.npy'))
-fcbs_aspects_elements_targets = np.load(os.path.join(export_dir, 'fcbs_aspects_elements_targets.npy'))
+# Define features and target
+features = df.drop(columns=['Actual_Total_Carbon'])
+target = df['Actual_Total_Carbon']
 
-fcbs_build_ups_details_combined = np.load(os.path.join(export_dir, 'fcbs_build_ups_details_combined.npy'))
-fcbs_build_ups_details_targets = np.load(os.path.join(export_dir, 'fcbs_build_ups_details_targets.npy'))
+# Split the data
+X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
 
-fcbs_sectors_subsectors_combined = np.load(os.path.join(export_dir, 'fcbs_sectors_subsectors_combined.npy'))
-fcbs_sectors_subsectors_targets = np.load(os.path.join(export_dir, 'fcbs_sectors_subsectors_targets.npy'))
+# Identify numerical and categorical columns
+numerical_cols = features.select_dtypes(include=['int64', 'float64']).columns
+categorical_cols = features.select_dtypes(include=['object']).columns
 
-clf_embodied_carbon_combined = np.load(os.path.join(export_dir, 'clf_embodied_carbon_combined.npy'))
-clf_embodied_carbon_targets = np.load(os.path.join(export_dir, 'clf_embodied_carbon_targets.npy'))
+# Preprocessing for numerical data: fill missing values with the mean
+numerical_transformer = SimpleImputer(strategy='mean')
 
-# Function to train and save models for each stage
-def train_and_save_model(X, y, model_name):
-    model = LinearRegression()
-    model.fit(X, y)
-    predictions = model.predict(X)
-    mse = mean_squared_error(y, predictions)
-    print(f'{model_name} Mean Squared Error: {mse}')
-    joblib.dump(model, os.path.join(export_dir, f'{model_name}.joblib'))
-    return predictions
+# Preprocessing for categorical data: fill missing values with 'missing' and one-hot encode
+categorical_transformer = Pipeline(steps=[
+    ('imputer', SimpleImputer(strategy='constant', fill_value='missing')),
+    ('onehot', OneHotEncoder(handle_unknown='ignore'))
+])
 
-# First stage: ICE DB
-ice_db_predictions = train_and_save_model(ice_db_combined, ice_db_targets, 'ice_db_model')
+# Combine preprocessing steps
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', numerical_transformer, numerical_cols),
+        ('cat', categorical_transformer, categorical_cols)
+    ]
+)
 
-# Save the mean prediction from ICE DB for later use
-ice_db_mean_prediction = np.mean(ice_db_predictions)
+# Define the hyperparameters to tune
+param_grid = {
+    'model__learning_rate': [0.01, 0.1],
+    'model__max_iter': [100, 200],
+    'model__max_leaf_nodes': [31, 50],
+    'model__max_depth': [None, 10],
+    'model__min_samples_leaf': [20, 30],
+    'model__l2_regularization': [0.0, 0.1],
+    'model__max_bins': [2, 255]
+}
 
-# Second stage: FCBS Aspects Elements
-aspect_combined_with_ice = np.hstack((fcbs_aspects_elements_combined, np.full((fcbs_aspects_elements_combined.shape[0], 1), ice_db_mean_prediction)))
-aspects_predictions = train_and_save_model(aspect_combined_with_ice, fcbs_aspects_elements_targets, 'fcbs_aspects_elements_model')
+# Define the model
+model = HistGradientBoostingRegressor(random_state=42)
 
-# Second stage: FCBS Build Ups Details
-buildup_combined_with_ice = np.hstack((fcbs_build_ups_details_combined, np.full((fcbs_build_ups_details_combined.shape[0], 1), ice_db_mean_prediction)))
-build_ups_predictions = train_and_save_model(buildup_combined_with_ice, fcbs_build_ups_details_targets, 'fcbs_build_ups_details_model')
+# Create the pipeline
+pipeline = Pipeline(steps=[
+    ('preprocessor', preprocessor),
+    ('model', model)
+])
 
-# Save the mean predictions from FCBS Aspects and Build Ups for later use
-aspects_mean_prediction = np.mean(aspects_predictions)
-build_ups_mean_prediction = np.mean(build_ups_predictions)
+# Perform hyperparameter tuning with GridSearchCV
+grid_search = GridSearchCV(pipeline, param_grid, cv=3, n_jobs=-1, scoring='neg_mean_squared_error')
+grid_search.fit(X_train, y_train)
 
-# Third stage: FCBS Sectors Subsectors
-sector_combined_with_effects = np.hstack((fcbs_sectors_subsectors_combined, 
-                                          np.full((fcbs_sectors_subsectors_combined.shape[0], 1), aspects_mean_prediction), 
-                                          np.full((fcbs_sectors_subsectors_combined.shape[0], 1), build_ups_mean_prediction)))
-sectors_predictions = train_and_save_model(sector_combined_with_effects, fcbs_sectors_subsectors_targets, 'fcbs_sectors_subsectors_model')
+# Get the best model
+best_model = grid_search.best_estimator_
 
-# Save the mean prediction from FCBS Sectors for later use
-sectors_mean_prediction = np.mean(sectors_predictions)
+# Save the trained model
+MODEL_PATH = os.path.join(models_dir, 'building_model.pkl')
+joblib.dump(best_model, MODEL_PATH)
 
-# Final stage: CLF Embodied Carbon
-clf_combined_with_sectors = np.hstack((clf_embodied_carbon_combined, np.full((clf_embodied_carbon_combined.shape[0], 1), sectors_mean_prediction)))
-train_and_save_model(clf_combined_with_sectors, clf_embodied_carbon_targets, 'clf_embodied_carbon_model')
+# Evaluate the best model
+y_train_pred = best_model.predict(X_train)
+y_test_pred = best_model.predict(X_test)
 
-print("Models trained and saved.")
+train_mse = mean_squared_error(y_train, y_train_pred)
+test_mse = mean_squared_error(y_test, y_test_pred)
+train_r2 = r2_score(y_train, y_train_pred)
+test_r2 = r2_score(y_test, y_test_pred)
+
+print(f"Training MSE: {train_mse}")
+print(f"Test MSE: {test_mse}")
+print(f"Training R2: {train_r2}")
+print(f"Test R2: {test_r2}")

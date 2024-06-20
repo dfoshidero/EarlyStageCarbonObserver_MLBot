@@ -1,6 +1,3 @@
-transformers
-openpyxl
-torch
+streamlit
+matplotlib
 scikit-learn
-flask
-spacy-transformers ?
