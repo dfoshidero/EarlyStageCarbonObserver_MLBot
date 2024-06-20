@@ -1,99 +1,161 @@
+"""
+1. Import necessary libraries and load data.
+"""
+
 import pandas as pd
+import numpy as np
+
 import os
 import joblib
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.ensemble import HistGradientBoostingRegressor
-from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.exceptions import ConvergenceWarning
-import numpy as np
-import warnings
 
-# Ignore convergence warnings during GridSearchCV
-warnings.filterwarnings("ignore", category=ConvergenceWarning)
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, PolynomialFeatures
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-input_dir = os.path.join(current_dir, './processed')
-models_dir = os.path.join(current_dir, './models')
+input_dir = os.path.join(current_dir, '../data/processed')
+models_dir = os.path.join(current_dir, '../models')
 
+os.makedirs(models_dir, exist_ok=True)
 # Load the data
 BUILDING_DATA_PATH = os.path.join(input_dir, 'BUILDING_DATA.csv')
 df = pd.read_csv(BUILDING_DATA_PATH)
 
-# Define features and target
-features = df.drop(columns=['Actual_Total_Carbon'])
-target = df['Actual_Total_Carbon']
+"""
+2. Create function to train and save model.
+"""
 
-# Split the data
-X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
- 
-# Identify numerical and categorical columns
-numerical_cols = features.select_dtypes(include=['int64', 'float64']).columns
-categorical_cols = features.select_dtypes(include=['object']).columns
+def train_model(X_train, y_train, X_test, y_test, features):
+    models = {
+        'DecisionTree': DecisionTreeRegressor(),
+        'RandomForest': RandomForestRegressor(),
+        'GradientBoosting': GradientBoostingRegressor()
+    }
+    
+    best_model = None
+    best_score = float('-inf')
+    best_model_name = ""
+    results = []
 
-# Preprocessing for numerical data: fill missing values with the mean
-numerical_transformer = SimpleImputer(strategy='mean')
+    for name, model in models.items():
+        model.fit(X_train, y_train)
+        y_pred = model.predict(X_test)
+        r2 = r2_score(y_test, y_pred)
+        mse = mean_squared_error(y_test, y_pred)
+        results.append({
+            'Feature': features,
+            'Model': name,
+            'R_squared': r2,
+            'MSE': mse
+        })
+        
+        if r2 > best_score:
+            best_score = r2
+            best_model = model
+            best_mse = mse
+            best_model_name = name
+    
+    model_path = os.path.join(models_dir, f'model_{features}.pkl')
+    joblib.dump(best_model, model_path)
+    print(f"Feature: {features}, Best model: {best_model_name}, R_squared: {best_score:.4f}, MSE: {best_mse:.4f}")
+    
+    return best_model, model_path, results
 
-# Preprocessing for categorical data: fill missing values with 'missing' and one-hot encode
-categorical_transformer = Pipeline(steps=[
-    ('imputer', SimpleImputer(strategy='constant', fill_value='missing')),
-    ('onehot', OneHotEncoder(handle_unknown='ignore'))
-])
+"""
+3. Initialize model array and results list
+"""
 
-# Combine preprocessing steps
-preprocessor = ColumnTransformer(
-    transformers=[
-        ('num', numerical_transformer, numerical_cols),
-        ('cat', categorical_transformer, categorical_cols)
-    ]
-)
+model_array = []
+results_list = []
 
-# Define the hyperparameters to tune
-param_grid = {
-    'model__learning_rate': [0.01, 0.1],
-    'model__max_iter': [100, 200],
-    'model__max_leaf_nodes': [31, 50],
-    'model__max_depth': [None, 10],
-    'model__min_samples_leaf': [20, 30],
-    'model__l2_regularization': [0.0, 0.1],
-    'model__max_bins': [2, 255]
-}
+"""
+4. Create loop to model each feature against Actual Total Carbon
+"""
+# Identify categorical columns
+categorical_columns = df.select_dtypes(include=['object']).columns.tolist()
 
-# Define the model
-model = HistGradientBoostingRegressor(random_state=42)
+# Initialize label encoders for categorical columns
+label_encoders = {col: LabelEncoder() for col in categorical_columns}
 
-# Create the pipeline
-pipeline = Pipeline(steps=[
-    ('preprocessor', preprocessor),
-    ('model', model)
-])
+# Encode categorical columns
+for col, encoder in label_encoders.items():
+    df[col] = encoder.fit_transform(df[col])
 
-# Perform hyperparameter tuning with GridSearchCV
-grid_search = GridSearchCV(pipeline, param_grid, cv=3, n_jobs=-1, scoring='neg_mean_squared_error')
-grid_search.fit(X_train, y_train)
+for column in df.columns:
+    if column == 'Actual_Total_Carbon':
+        continue
+    
+    X = df[[column]].copy()
+    y = df['Actual_Total_Carbon']
+    
+    # For categorical features, convert to category type
+    if column in categorical_columns:
+        X[column] = X[column].astype('category')
+    
+    # Drop rows with NaN values
+    df_feature = X.join(y).dropna()
+    X = df_feature[[column]]
+    y = df_feature['Actual_Total_Carbon']
+    
+    # Generate polynomial features
+    poly = PolynomialFeatures(degree=2, include_bias=False)
+    X_poly = poly.fit_transform(X)
+    
+    # Train-test split
+    X_train, X_test, y_train, y_test = train_test_split(X_poly, y, test_size=0.2, random_state=42)
+    model, model_path, results = train_model(X_train, y_train, X_test, y_test, column)
+    model_array.append((column, model_path))
+    results_list.extend(results)
 
-# Get the best model
-best_model = grid_search.best_estimator_
+"""
+5. Save results to CSV
+"""
 
-# Save the trained model
-MODEL_PATH = os.path.join(models_dir, 'building_model.pkl')
-joblib.dump(best_model, MODEL_PATH)
+results_df = pd.DataFrame(results_list)
+results_file_path = os.path.join(input_dir, 'train_results.csv')
+results_df.to_csv(results_file_path, index=False)
 
-# Evaluate the best model
-y_train_pred = best_model.predict(X_train)
-y_test_pred = best_model.predict(X_test)
+"""
+6. Define function to calculate errors in models
+"""
 
-train_mse = mean_squared_error(y_train, y_train_pred)
-test_mse = mean_squared_error(y_test, y_test_pred)
-train_r2 = r2_score(y_train, y_train_pred)
-test_r2 = r2_score(y_test, y_test_pred)
+def calculate_errors(df, feature_col, target_col='Actual_Total_Carbon'):
+    X = df[[feature_col]]
+    y_true = df[target_col]
+    
+    model_name = [name for name in os.listdir(models_dir) if f'model_{feature_col}' in name][0]
+    model_path = os.path.join(models_dir, model_name)
+    model = joblib.load(model_path)
+    
+    y_pred = model.predict(X)
+    mse = mean_squared_error(y_true, y_pred)
+    r2 = r2_score(y_true, y_pred)
+    
+    return mse, r2
 
-print(f"Training MSE: {train_mse}")
-print(f"Test MSE: {test_mse}")
-print(f"Training R2: {train_r2}")
-print(f"Test R2: {test_r2}")
+"""
+6. Calculate errors for each model.
+"""
+
+# Calculate individual errors
+errors = {}
+r2_scores = {}
+for column, model_path in model_array:
+    df_feature = df[[column, 'Actual_Total_Carbon']].dropna()
+    mse, r2 = calculate_errors(df_feature, column)
+    
+    errors[column] = mse
+    r2_scores[column] = r2
+
+# Calculate overall error and R-squared (example: weighted average)
+overall_error = np.average(list(errors.values()), weights=[1/err for err in errors.values() if err != 0])
+overall_r2 = np.average(list(r2_scores.values()), weights=[score for score in r2_scores.values() if score != 0])
+
+# Display results
+print("Overall MSE:", overall_error)
+print("Overall R-squared:", overall_r2)
+print(f"Results saved to {results_file_path}")
