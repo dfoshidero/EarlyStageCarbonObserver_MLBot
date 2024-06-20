@@ -18,10 +18,11 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-models_dir = os.path.join(current_dir, 'models')
+input_dir = os.path.join(current_dir, './processed')
+models_dir = os.path.join(current_dir, './models')
 
 # Load the data
-BUILDING_DATA_PATH = os.path.join(models_dir, 'BUILDING_DATA.csv')
+BUILDING_DATA_PATH = os.path.join(input_dir, 'BUILDING_DATA.csv')
 df = pd.read_csv(BUILDING_DATA_PATH)
 
 # Define features and target
@@ -30,7 +31,7 @@ target = df['Actual_Total_Carbon']
 
 # Split the data
 X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
-
+ 
 # Identify numerical and categorical columns
 numerical_cols = features.select_dtypes(include=['int64', 'float64']).columns
 categorical_cols = features.select_dtypes(include=['object']).columns
