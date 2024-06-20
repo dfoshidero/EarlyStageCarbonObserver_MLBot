@@ -36,11 +36,30 @@ becd_df['Total_Embodied_Carbon'] = becd_df[
      'Total_Normalised_D']
 ].sum(axis=1)
 
-# Calculate the total embodied carbon for CarbEnMats
+# Define a function to split the interval
+def split_interval(interval):
+    if interval == 'No data':
+        return pd.Series([None, None])
+    try:
+        min_val, max_val = map(int, interval.split('-'))
+        return pd.Series([min_val, max_val])
+    except ValueError:
+        return pd.Series([None, None])
+
+# Split intervals and handle missing data
+carbenmats_df[['Minimum Building Area in Square Meters', 'Maximum Building Area in Square Meters']] = carbenmats_df['bldg_area_interval'].apply(split_interval)
+
+# Calculate the median for missing 'Building Area'
+carbenmats_df['bldg_area_gfa'] = carbenmats_df['bldg_area_gfa'].fillna(
+    carbenmats_df[['Minimum Building Area in Square Meters', 'Maximum Building Area in Square Meters']].median(axis=1)
+)
+
+# Calculate the total embodied carbon for CarbEnMats by multiplying by area
 carbenmats_df['Total_Embodied_Carbon'] = carbenmats_df[
     ['GHG_A123_m2a', 'GHG_A45_m2a', 'GHG_B1234_m2a', 'GHG_B5_m2a',
      'GHG_B67_m2a', 'GHG_C12_m2a', 'GHG_C34_m2a', 'GHG_D_m2a']
-].sum(axis=1)
+].sum(axis=1) * carbenmats_df['bldg_area_gfa']
+
 
 # Function to split the interval
 def split_interval(interval):
