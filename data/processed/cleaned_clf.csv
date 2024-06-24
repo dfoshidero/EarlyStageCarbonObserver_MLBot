@@ -1,4 +1,4 @@
-Building Type,Building Use,Building Location Region,Building New or Renovation,Average Building Area in Square Meters,Average Building Storeys,Embodied Carbon Whole Building Excluding Operational
+Building_Project_Type,Building_Use_Type,Continent,Building_Project_Type,Gross_Floor_Area_m2,Floors_Above_Ground,Total_Embodied_Carbon
 Commercial,Mixed use,Middle East,New,69677.5,25.0,2567.39
 Commercial,Other,North America,New,69677.5,10.5,1699.34
 Commercial,Office,Europe,New,69677.5,25.0,1303.39

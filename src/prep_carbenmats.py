@@ -105,20 +105,20 @@ carbenmats_df = carbenmats_df[['bldg_use_type', 'bldg_use_subtype', 'site_region
      'mass_wood', 'mass_straw_hemp', 'mass_fungi', 'mass_brass_copper', 'mass_earth',
      'mass_bamboo', 'mass_glass', 'mass_stone', 'mass_stone_wool', 'mass_ceramics',
      'mass_metals', 'mass_plastics', 'mass_steel_reinforcement', 'mass_EPS_XPS', 'mass_aluminium', 
-     'mass_concrete_wo_reinforcement', 'mass_other', 'mass_concrete_reinforced', 'mass_cement_mortar',
+     'mass_concrete_wo_reinforcement', 'mass_concrete_reinforced', 'mass_cement_mortar', 'mass_other',
 
      'total_carbon'
      ]]
 
 # Rename columns for better inspection
 carbenmats_df.rename(columns={
-'bldg_project_type': 'Project_Type',
+'bldg_project_type': 'Building_Project_Type',
 'bldg_use_type': 'Building_Use_Type',
 'bldg_use_subtype': 'Building_Use_Subtype',
 'site_region_world': 'Continent',
 'site_country': 'Country',
 'site_region_local': 'City',
-'bldg_area_gfa': 'Gross_Floor_Area',
+'bldg_area_gfa': 'Gross_Floor_Area_m2',
 'bldg_users_total': 'Total_Users',
 'bldg_floors_ag': 'Floors_Above_Ground',
 'bldg_floors_bg': 'Floors_Below_Ground',
@@ -143,7 +143,7 @@ carbenmats_df.rename(columns={
 'mass_other': 'Mass_Other',
 'mass_concrete_reinforced': 'Mass_Concrete_With_Reinforcement',
 'mass_cement_mortar': 'Mass_Cement_Mortar',
-'total_carbon': 'Total_Carbon'
+'total_carbon': 'Total_Embodied_Carbon'
 }, inplace=True)
 
 # Drop rows with any remaining NaN values

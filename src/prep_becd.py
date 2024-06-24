@@ -61,7 +61,7 @@ becd_df = becd_df[relevant_columns]
 """
 # Rename columns to be clearer
 becd_df = becd_df.rename(columns={
-    'ProjectType': 'Building_New_or_Renovation',
+    'ProjectType': 'Building_Project_Type',
     'Country': 'Country',
     'PSCFoundationTypePrimary': 'Primary_Foundation_Type',
     'PSCGroundFloorTypePrimary': 'Primary_Ground_Floor_Type',
@@ -81,7 +81,7 @@ becd_df = becd_df.rename(columns={
 6. Impute Missing Values
 """
 # Impute missing values for Building_New_or_Renovation and Country
-becd_df['Building_New_or_Renovation'].fillna('missing', inplace=True)
+becd_df['Building_Project_Type'].fillna('missing', inplace=True)
 becd_df['Country'].fillna('missing', inplace=True)
 
 

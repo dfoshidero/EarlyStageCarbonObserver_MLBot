@@ -1,4 +1,4 @@
-Building_New_or_Renovation,Country,Primary_Foundation_Type,Primary_Ground_Floor_Type,Primary_Vertical_Element_Type,Primary_Horizontal_Element_Type,Primary_Slab_Type,Primary_Cladding_Type,Primary_Heating_Type,Primary_Cooling_Type,Primary_Finishes_Type,Primary_Ventilation_Type,Total_Embodied_Carbon
+Building_Project_Type,Country,Primary_Foundation_Type,Primary_Ground_Floor_Type,Primary_Vertical_Element_Type,Primary_Horizontal_Element_Type,Primary_Slab_Type,Primary_Cladding_Type,Primary_Heating_Type,Primary_Cooling_Type,Primary_Finishes_Type,Primary_Ventilation_Type,Total_Embodied_Carbon
 New built,ARGENTINA,Not applicable,Not applicable,Not applicable,Not applicable,Steel,Stone & SFS,Boiler - Air distribution,Chiller - Water distribution,Unknown,Mixed mode,1002.2
 New built,ARGENTINA,Not applicable,Not applicable,Not applicable,Not applicable,Steel,Stone & SFS,Boiler - Air distribution,Chiller - Water distribution,Unknown,Mixed mode,1002.2
 New built,ARGENTINA,Not applicable,Not applicable,Not applicable,Not applicable,Steel,Stone & SFS,Boiler - Air distribution,Chiller - Water distribution,Unknown,Mixed mode,1002.2
