@@ -56,7 +56,15 @@ clf_df = clf_df[[
 
 clf_df = clf_df.dropna()
 
-
+clf_df = clf_df.rename(columns={
+    'Building Type': 'Building_Project_Type',
+    'Building Use': 'Building_Use_Type',
+    'Building Location Region': 'Continent',
+    'Building New or Renovation': 'Building_Project_Type',
+    'Average Building Area in Square Meters': 'Gross_Floor_Area_m2',
+    'Average Building Storeys': 'Floors_Above_Ground',
+    'Embodied Carbon Whole Building Excluding Operational': 'Total_Embodied_Carbon'
+})
 
 """
 3. Save dataframe to CSV for modelimg
