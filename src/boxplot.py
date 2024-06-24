@@ -1,22 +1,41 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
-# Load the cleaned dataset
-carbenmats_df = pd.read_csv('path_to_cleaned_carbenmats.csv')  # Update the path as necessary
+# Define the base directory and data paths
+current_dir = os.path.dirname(os.path.abspath(__file__))
+import_dir = os.path.join(current_dir, '../data/processed')
 
-# List of relevant fields to plot against Total_Carbon
-relevant_fields = ['Building_Use_Type', 'Continent', 'Country', 'Structure_Type']
+CLF_EMBODIED_CARBON_PATH = os.path.join(import_dir, 'cleaned_clf.csv')
+CARB_EN_MATS_PATH = os.path.join(import_dir, 'cleaned_carbenmats.csv')
+BECD_PATH = os.path.join(import_dir, 'cleaned_becd.csv')
 
-# Set the size of the plots
-plt.figure(figsize=(15, 10))
+# Load the datasets
+clf_df = pd.read_csv(CLF_EMBODIED_CARBON_PATH)
+carbenmats_df = pd.read_csv(CARB_EN_MATS_PATH)
+becd_df = pd.read_csv(BECD_PATH)
 
-# Generate box plots for each relevant field
-for i, field in enumerate(relevant_fields, 1):
-    plt.subplot(2, 2, i)
-    sns.boxplot(x=field, y='Total_Carbon', data=carbenmats_df)
-    plt.title(f'Box Plot of Total Carbon by {field}')
-    plt.xticks(rotation=90)  # Rotate x labels for better visibility
+# Plotting the boxplots for each dataset separately
 
-plt.tight_layout()
+# CLF dataset
+plt.figure(figsize=(10, 6))
+sns.boxplot(y=clf_df['Total_Embodied_Carbon_PER_m2'])
+plt.title('CLF Embodied Carbon')
+plt.ylabel('Total Embodied Carbon per m2')
+plt.show()
+
+
+# CarbEnMats dataset
+plt.figure(figsize=(10, 6))
+sns.boxplot(y=carbenmats_df['Total_Embodied_Carbon_PER_m2'])
+plt.title('CarbEnMats Embodied Carbon')
+plt.ylabel('Total Embodied Carbon per m2')
+plt.show()
+
+# BECD dataset
+plt.figure(figsize=(10, 6))
+sns.boxplot(y=becd_df['Total_Embodied_Carbon_PER_m2'])
+plt.title('BECD Embodied Carbon')
+plt.ylabel('Total Embodied Carbon per m2')
 plt.show()

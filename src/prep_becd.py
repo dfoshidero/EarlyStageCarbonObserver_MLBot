@@ -1,6 +1,3 @@
-"""
-1. Import Libraries and Load Data   
-"""
 import pandas as pd
 import os
 import numpy as np
@@ -16,13 +13,11 @@ BECD_PATH = os.path.join(data_dir, 'model/BECD_2024-06-17 18.41.17.csv')
 
 becd_df = pd.read_csv(BECD_PATH)
 
-
-
 """
 2. Calculate Total Embodied Carbon
 """
 # Calculate the total embodied carbon for BECD
-becd_df['Total_Embodied_Carbon'] = becd_df[
+becd_df['Total_Embodied_Carbon_PER_m2'] = becd_df[
     ['Total_Normalised_A1ToA3', 'Total_Normalised_A4', 'Total_Normalised_A5',
      'Total_Normalised_B1', 'Total_Normalised_B2', 'Total_Normalised_B3',
      'Total_Normalised_B4', 'Total_Normalised_B5', 'Total_Normalised_C1',
@@ -30,31 +25,25 @@ becd_df['Total_Embodied_Carbon'] = becd_df[
      'Total_Normalised_D']
 ].sum(axis=1)
 
-
-
 """
 3. Drop Rows Where Total Embodied Carbon is Zero
 """
 # Drop rows where Total_Embodied_Carbon is zero
-becd_df = becd_df[becd_df['Total_Embodied_Carbon'] != 0]
-
-
+becd_df = becd_df[becd_df['Total_Embodied_Carbon_PER_m2'] != 0]
 
 """
 4. Select Relevant Columns
 """
 # Select relevant columns
 relevant_columns = [
-    'ProjectType', 'Country', 
+    'ProjectType', 
     'PSCFoundationTypePrimary', 'PSCGroundFloorTypePrimary', 'PSCVerticalElementStructureTypePrimary', 'PSCHorizontalElementTypePrimary',
     'ProjectStageComponentsSlabTypePrimary', 'PSCCladdingTypePrimary', 'PSCHeatingTypePrimary', 'PSCCoolingTypePrimary',
     'PSCFinishesTypePrimary', 'PSCVentilationTypePrimary',
-    'Total_Embodied_Carbon'
+    'Total_Embodied_Carbon_PER_m2'
 ] # Only using primary material types.
 
 becd_df = becd_df[relevant_columns]
-
-
 
 """
 5. Rename Columns
@@ -62,7 +51,6 @@ becd_df = becd_df[relevant_columns]
 # Rename columns to be clearer
 becd_df = becd_df.rename(columns={
     'ProjectType': 'Building_Project_Type',
-    'Country': 'Country',
     'PSCFoundationTypePrimary': 'Primary_Foundation_Type',
     'PSCGroundFloorTypePrimary': 'Primary_Ground_Floor_Type',
     'PSCVerticalElementStructureTypePrimary': 'Primary_Vertical_Element_Type',
@@ -75,16 +63,11 @@ becd_df = becd_df.rename(columns={
     'PSCVentilationTypePrimary': 'Primary_Ventilation_Type'
 })
 
-
-
 """
 6. Impute Missing Values
 """
-# Impute missing values for Building_New_or_Renovation and Country
+# Impute missing values for Building_Project_Type and Country
 becd_df['Building_Project_Type'].fillna('missing', inplace=True)
-becd_df['Country'].fillna('missing', inplace=True)
-
-
 
 """
 7. Drop Rows with All 'Not Applicable' or 'Unknown' in Primary Columns
@@ -97,20 +80,31 @@ primary_columns = [col for col in becd_df.columns if col.startswith('Primary_')]
 mask = becd_df[primary_columns].apply(lambda row: all(val in values_to_check for val in row), axis=1)
 becd_df = becd_df[~mask]
 
-
-
 """
 8. Drop Rows with Empty Cells
 """
 # Drop columns with empty cells
 becd_df = becd_df.dropna()
 
+"""
+9. Remove Outliers
+"""
+# Calculate Q1, Q3, and IQR for Total_Embodied_Carbon
+Q1 = becd_df['Total_Embodied_Carbon_PER_m2'].quantile(0.25)
+Q3 = becd_df['Total_Embodied_Carbon_PER_m2'].quantile(0.75)
+IQR = Q3 - Q1
 
+# Define the lower and upper bounds for outliers
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+# Remove outliers
+becd_df = becd_df[(becd_df['Total_Embodied_Carbon_PER_m2'] >= lower_bound) & (becd_df['Total_Embodied_Carbon_PER_m2'] <= upper_bound)]
 
 """
-9. Save Cleaned DataFrame to CSV
+10. Save Cleaned DataFrame to CSV
 """
 # Save dataframe to CSV for modeling
-becd_df_PATH = os.path.join(export_dir, 'cleaned_bced.csv')
+becd_df_PATH = os.path.join(export_dir, 'cleaned_becd.csv')
 becd_df.to_csv(becd_df_PATH, index=False)
 becd_df.info()

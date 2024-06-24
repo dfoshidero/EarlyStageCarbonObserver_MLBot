@@ -1,6 +1,3 @@
-"""
-1. Import Libraries and Load Data   
-"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
@@ -19,8 +16,6 @@ os.makedirs(export_dir, exist_ok=True)
 CARB_EN_MATS_PATH = os.path.join(data_dir, 'model/CarbEnMats_dataset.xlsx')
 
 carbenmats_df = pd.read_excel(CARB_EN_MATS_PATH)
-
-
 
 """
 2. Clean the Dataset
@@ -46,8 +41,6 @@ carbenmats_df['bldg_area_gfa'] = carbenmats_df['bldg_area_gfa'].fillna(carbenmat
 carbenmats_df['bldg_floors_ag'] = carbenmats_df['bldg_floors_ag'].fillna(carbenmats_df['bldg_floors_ag_interval'].apply(median_from_interval)) # Fill missing storeys with median from interval
 carbenmats_df['bldg_users_total'] = carbenmats_df['bldg_users_total'].fillna(np.nan) # Fill missing with nan
 carbenmats_df['bldg_floors_bg'] = carbenmats_df['bldg_floors_bg'].fillna(np.nan) # Fill missing with nan
-
-
 
 """
 3. Fill and impute missing values.
@@ -89,16 +82,17 @@ all_mass_zero = carbenmats_df[mass_columns].sum(axis=1) == 0
 # Set mass values to NaN for rows where all mass columns are zero
 carbenmats_df.loc[all_mass_zero, mass_columns] = np.nan
 
-
-
 """
 4. Select and Rename relevant columns
 """
 # Calculate total carbon
 ghg_columns = ['GHG_A123_m2a', 'GHG_A45_m2a', 'GHG_B1234_m2a', 'GHG_B5_m2a', 'GHG_B67_m2a', 'GHG_C12_m2a', 'GHG_C34_m2a', 'GHG_D_m2a']
-carbenmats_df['total_carbon'] = carbenmats_df[ghg_columns].sum(axis=1) * carbenmats_df['bldg_area_gfa']
+carbenmats_df['Total_Embodied_Carbon'] = carbenmats_df[ghg_columns].sum(axis=1)
 
-carbenmats_df = carbenmats_df[['bldg_use_type', 'bldg_use_subtype', 'site_region_world', 'site_country',
+# Calculate kg CO2e per square meter - need to multiply by reference study period, as values are stored as per m2 per year
+carbenmats_df['Total_Embodied_Carbon_PER_m2'] = carbenmats_df['Total_Embodied_Carbon'] * carbenmats_df['lca_RSP']
+
+carbenmats_df = carbenmats_df[['bldg_project_type', 'bldg_use_type', 'bldg_use_subtype', 'site_region_world', 'site_country',
      'site_region_local', 'bldg_area_gfa', 'bldg_users_total', 'bldg_floors_ag', 'bldg_floors_bg',
      'bldg_struct_type', 'bldg_roof_type',
 
@@ -107,7 +101,7 @@ carbenmats_df = carbenmats_df[['bldg_use_type', 'bldg_use_subtype', 'site_region
      'mass_metals', 'mass_plastics', 'mass_steel_reinforcement', 'mass_EPS_XPS', 'mass_aluminium', 
      'mass_concrete_wo_reinforcement', 'mass_concrete_reinforced', 'mass_cement_mortar', 'mass_other',
 
-     'total_carbon'
+     'Total_Embodied_Carbon_PER_m2'
      ]]
 
 # Rename columns for better inspection
@@ -143,12 +137,31 @@ carbenmats_df.rename(columns={
 'mass_other': 'Mass_Other',
 'mass_concrete_reinforced': 'Mass_Concrete_With_Reinforcement',
 'mass_cement_mortar': 'Mass_Cement_Mortar',
-'total_carbon': 'Total_Embodied_Carbon'
 }, inplace=True)
 
-# Drop rows with any remaining NaN values
+"""
+5. Drop rows with any remaining NaN values, anddrop rows with "0" embodied carbon.
+"""
 carbenmats_df = carbenmats_df.dropna()
 
+"""
+6. Remove Outliers
+"""
+# Calculate Q1, Q3, and IQR for Total_Embodied_Carbon
+Q1 = carbenmats_df['Total_Embodied_Carbon_PER_m2'].quantile(0.25)
+Q3 = carbenmats_df['Total_Embodied_Carbon_PER_m2'].quantile(0.75)
+IQR = Q3 - Q1
+
+# Define the lower and upper bounds for outliers
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+# Remove outliers
+carbenmats_df = carbenmats_df[(carbenmats_df['Total_Embodied_Carbon_PER_m2'] >= lower_bound) & (carbenmats_df['Total_Embodied_Carbon_PER_m2'] <= upper_bound)]
+
+"""
+7. Save Cleaned DataFrame to CSV
+"""
 # Save the cleaned dataframe to a CSV file
 carbenmats_df_PATH = os.path.join(export_dir, 'cleaned_carbenmats.csv')
 carbenmats_df.to_csv(carbenmats_df_PATH, index=False)
