@@ -17,18 +17,32 @@ export_dir = os.path.join(current_dir, '../data/processed')
 
 os.makedirs(export_dir, exist_ok=True)
 
+CLF_EMBODIED_CARBON_PATH = os.path.join(data_dir, 'model/CLF Embodied Carbon_Cleaned.csv')
 CARB_EN_MATS_PATH = os.path.join(data_dir, 'model/CarbEnMats_dataset.xlsx')
+BECD_PATH = os.path.join(data_dir, 'model/BECD_2024-06-17 18.41.17.csv')
 
-df = pd.read_excel(CARB_EN_MATS_PATH)
+clf_df = pd.read_csv(CLF_EMBODIED_CARBON_PATH)
+carbenmats_df = pd.read_excel(CARB_EN_MATS_PATH)
+becd_df = pd.read_csv(BECD_PATH)
+
 
 """
-2. Clean the Dataset
+2. Clean the Datasets
 """
+#### CLF
+clf_df = clf_df[[
+    "Building Type", "Building Use", "Building Location Region", "Building New or Renovation", 
+    "Minimum Building Area in Square Meters", "Maximum Building Area in Square Meters", "Minimum Building Storeys",
+    "Maximum Building Storeys", "Embodied Carbon Whole Building Excluding Operational" 
+]]
 
+
+
+#### CarbEnMats
 # Define a list of values to be replaced with NaN
 na_values = ["n/a", "N/a", "N/A", "No data", "no data"]
 # Replace these values with NaN
-df.replace(na_values, np.nan, inplace=True)
+carbenmats_df.replace(na_values, np.nan, inplace=True)
 
 # Define a function to calculate the median from an interval
 def median_from_interval(interval):
@@ -41,10 +55,10 @@ def median_from_interval(interval):
         return np.nan
 
 # Fill missing values
-df['bldg_area_gfa'] = df['bldg_area_gfa'].fillna(df['bldg_area_interval'].apply(median_from_interval)) # Fill missing areas with median from interval
-df['bldg_floors_ag'] = df['bldg_floors_ag'].fillna(df['bldg_floors_ag_interval'].apply(median_from_interval)) # Fill missing storeys with median from interval
-df['bldg_users_total'] = df['bldg_users_total'].fillna(np.nan) # Fill missing with nan
-df['bldg_floors_bg'] = df['bldg_floors_bg'].fillna(np.nan) # Fill missing with nan
+carbenmats_df['bldg_area_gfa'] = carbenmats_df['bldg_area_gfa'].fillna(carbenmats_df['bldg_area_interval'].apply(median_from_interval)) # Fill missing areas with median from interval
+carbenmats_df['bldg_floors_ag'] = carbenmats_df['bldg_floors_ag'].fillna(carbenmats_df['bldg_floors_ag_interval'].apply(median_from_interval)) # Fill missing storeys with median from interval
+carbenmats_df['bldg_users_total'] = carbenmats_df['bldg_users_total'].fillna(np.nan) # Fill missing with nan
+carbenmats_df['bldg_floors_bg'] = carbenmats_df['bldg_floors_bg'].fillna(np.nan) # Fill missing with nan
 
 """
 3. Fill and impute missing values.
@@ -56,15 +70,15 @@ numerical_cols = ['bldg_area_gfa', 'bldg_users_total', 'bldg_floors_ag', 'bldg_f
 # Convert categorical columns to numerical values using LabelEncoder
 encoders = {col: LabelEncoder() for col in categorical_cols}
 for col in categorical_cols:
-    df[col] = encoders[col].fit_transform(df[col].astype(str))
+    carbenmats_df[col] = encoders[col].fit_transform(carbenmats_df[col].astype(str))
 
 # Use Iterative Imputer for both categorical and numerical columns
 imp = IterativeImputer(max_iter=10, random_state=0)
-df[categorical_cols + numerical_cols] = imp.fit_transform(df[categorical_cols + numerical_cols])
+carbenmats_df[categorical_cols + numerical_cols] = imp.fit_transform(carbenmats_df[categorical_cols + numerical_cols])
 
 # Convert categorical columns back to their original data types
 for col in categorical_cols:
-    df[col] = encoders[col].inverse_transform(df[col].astype(int))
+    carbenmats_df[col] = encoders[col].inverse_transform(carbenmats_df[col].astype(int))
 
 mass_columns = [
         'mass_wood', 'mass_straw_hemp', 'mass_fungi', 'mass_brass_copper', 'mass_earth',
@@ -74,22 +88,22 @@ mass_columns = [
          ]
 
 # Fill missing mass values with zero
-df[mass_columns] = df[mass_columns].fillna(0)
+carbenmats_df[mass_columns] = carbenmats_df[mass_columns].fillna(0)
 
 # Identify rows where all mass columns are zero
-all_mass_zero = df[mass_columns].sum(axis=1) == 0
+all_mass_zero = carbenmats_df[mass_columns].sum(axis=1) == 0
 
 # Set mass values to NaN for rows where all mass columns are zero
-df.loc[all_mass_zero, mass_columns] = np.nan
+carbenmats_df.loc[all_mass_zero, mass_columns] = np.nan
 
 """
 4. Select and Rename relevant columns
 """
 # Calculate total carbon
 ghg_columns = ['GHG_A123_m2a', 'GHG_A45_m2a', 'GHG_B1234_m2a', 'GHG_B5_m2a', 'GHG_B67_m2a', 'GHG_C12_m2a', 'GHG_C34_m2a', 'GHG_D_m2a']
-df['total_carbon'] = df[ghg_columns].sum(axis=1) * df['bldg_area_gfa']
+carbenmats_df['total_carbon'] = carbenmats_df[ghg_columns].sum(axis=1) * carbenmats_df['bldg_area_gfa']
 
-df = df[['bldg_project_type', 'bldg_use_type', 'bldg_use_subtype', 'site_region_world', 'site_country',
+carbenmats_df = carbenmats_df[['bldg_project_type', 'bldg_use_type', 'bldg_use_subtype', 'site_region_world', 'site_country',
          'site_region_local', 'bldg_area_gfa', 'bldg_users_total', 'bldg_floors_ag', 'bldg_floors_bg',
          'bldg_struct_type', 'bldg_roof_type',
 
@@ -102,7 +116,7 @@ df = df[['bldg_project_type', 'bldg_use_type', 'bldg_use_subtype', 'site_region_
          ]]
 
 # Rename columns for better inspection
-df.rename(columns={
+carbenmats_df.rename(columns={
     'bldg_project_type': 'Project_Type',
     'bldg_use_type': 'Building_Use_Type',
     'bldg_use_subtype': 'Building_Use_Subtype',
@@ -140,9 +154,9 @@ df.rename(columns={
 
 
 # Drop rows with empty
-df = df.dropna()
+carbenmats_df = carbenmats_df.dropna()
 
 # Save the merged dataframe to a CSV file
-DF_PATH = os.path.join(export_dir, 'BUILDING_DATA.csv')
-df.to_csv(DF_PATH, index=False)
-df.info()
+carbenmats_df_PATH = os.path.join(export_dir, 'BUILDING_DATA.csv')
+carbenmats_df.to_csv(carbenmats_df_PATH, index=False)
+carbenmats_df.info()

@@ -1,0 +1,1011 @@
+Building Type,Building Use,Building Location Region,Building New or Renovation,Average Building Area in Square Meters,Average Building Storeys,Embodied Carbon Whole Building Excluding Operational
+Commercial,Mixed use,Middle East,New,69677.5,25.0,2567.39
+Commercial,Other,North America,New,69677.5,10.5,1699.34
+Commercial,Office,Europe,New,69677.5,25.0,1303.39
+Commercial,Other,North America,New,1626.5,3.5,1211.33
+Commercial,Office,Asia-Pacific,New,92903.0,20.0,1087.86
+Commercial,Office,Asia-Pacific,New,69677.5,3.5,992.27
+Commercial,Other,North America,New,32516.0,3.5,1185.57
+Commercial,Other,North America,New,32516.0,3.5,1140.08
+Commercial,Other,North America,New,69677.5,3.5,856.41
+Commercial,Office,North America,New,92903.0,25.0,840.69
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,968.37
+Commercial,Other,Asia-Pacific,New,69677.5,3.5,906.85
+Commercial,Other,North America,New,92903.0,20.0,830.01
+Residential,Multi-family,Asia-Pacific,New,32516.0,25.0,913.19
+Commercial,Other,North America,New,69677.5,3.5,944.42
+Commercial,Office,Asia-Pacific,New,92903.0,3.5,920.16
+Commercial,Mixed use,Asia-Pacific,New,13935.5,3.5,918.44
+Commercial,Office,North America,New,69677.5,10.5,936.09
+Commercial,Other,Asia-Pacific,New,32516.0,3.5,764.22
+Commercial,Lodging,Middle East,New,92903.0,25.0,888.08
+Commercial,Other,Asia-Pacific,New,6968.0,3.5,834.06
+Residential,Multi-family,Asia-Pacific,New,32516.0,25.0,844.54
+Residential,Multi-family,Asia-Pacific,New,32516.0,20.0,837.65
+Commercial,Office,Asia-Pacific,New,6968.0,10.5,794.88
+Commercial,Mixed use,Europe,New,92903.0,25.0,726.44
+Commercial,Office,Asia-Pacific,New,32516.0,20.0,708.31
+Commercial,Mixed use,Asia-Pacific,New,92903.0,25.0,747.62
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,803.17
+Commercial,Office,Asia-Pacific,New,13935.5,10.5,779.14
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,781.31
+Commercial,Office,Middle East,New,92903.0,25.0,749.32
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,712.96
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,769.74
+Commercial,Other,Asia-Pacific,New,13935.5,3.5,635.78
+Residential,Multi-family,North America,New,69677.5,25.0,728.34
+Commercial,Other,Asia-Pacific,New,6968.0,3.5,670.62
+Commercial,Office,North America,New,32516.0,3.5,686.86
+Commercial,Office,Europe,New,13935.5,10.5,713.19
+Commercial,Office,North America,New,92903.0,20.0,710.71
+Commercial,Other,Asia-Pacific,New,69677.5,3.5,707.13
+Commercial,Other,Asia-Pacific,New,69677.5,10.5,695.77
+Commercial,Office,North America,New,32516.0,25.0,665.67
+Residential,Multi-family,North America,New,69677.5,25.0,692.97
+Commercial,Lodging,Asia-Pacific,New,6968.0,25.0,641.71
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,667.47
+Commercial,Lodging,Asia-Pacific,New,69677.5,25.0,690.45
+Commercial,Office,Asia-Pacific,New,13935.5,20.0,601.09
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,662.42
+Commercial,Other,Middle East,New,92903.0,3.5,684.39
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,656.95
+Commercial,Office,North America,New,697.5,3.5,636.14
+Commercial,Office,Europe,New,69677.5,25.0,649.63
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,666.56
+Residential,Multi-family,Asia-Pacific,New,32516.0,20.0,615.94
+Commercial,Other,North America,New,69677.5,10.5,634.04
+Commercial,Mixed use,Europe,New,69677.5,25.0,653.81
+Commercial,Office,Asia-Pacific,New,69677.5,20.0,651.81
+Commercial,Other,Asia-Pacific,New,69677.5,3.5,601.58
+Commercial,Other,Asia-Pacific,New,32516.0,3.5,639.32
+Commercial,Office,Asia-Pacific,New,32516.0,10.5,570.98
+Commercial,Office,Asia-Pacific,New,92903.0,10.5,560.63
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,637.23
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,634.29
+Commercial,Office,Asia-Pacific,New,92903.0,20.0,606.78
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,587.14
+Commercial,Office,Asia-Pacific,New,32516.0,25.0,595.56
+Residential,Multi-family,Asia-Pacific,New,69677.5,25.0,599.12
+Commercial,Other,North America,New,13935.5,3.5,611.95
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,570.73
+Residential,Multi-family,Asia-Pacific,New,69677.5,10.5,592.36
+Commercial,Other,Asia-Pacific,New,92903.0,10.5,569.02
+Commercial,Office,Asia-Pacific,New,92903.0,10.5,573.27
+Residential,Multi-family,North America,New,69677.5,25.0,584.9
+Commercial,Mixed use,North America,New,69677.5,25.0,576.23
+Commercial,Mixed use,Asia-Pacific,New,6968.0,3.5,606.36
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,590.23
+Residential,Multi-family,North America,New,92903.0,25.0,552.83
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,572.91
+Commercial,Office,Asia-Pacific,New,32516.0,25.0,591.39
+Commercial,Office,North America,New,69677.5,20.0,563.33
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,520.71
+Commercial,Office,Asia-Pacific,New,69677.5,20.0,546.87
+Commercial,Mixed use,Middle East,New,92903.0,25.0,569.86
+Commercial,Other,North America,New,69677.5,10.5,584.46
+Commercial,Office,Europe,New,13935.5,10.5,504.79
+Residential,Multi-family,Asia-Pacific,New,13935.5,10.5,555.91
+Commercial,Lodging,Asia-Pacific,New,69677.5,25.0,518.02
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,564.22
+Residential,Multi-family,Asia-Pacific,New,13935.5,10.5,550.38
+Commercial,Parking,North America,New,32516.0,3.5,529.36
+Commercial,Other,Asia-Pacific,New,13935.5,10.5,540.7
+Commercial,Other,North America,New,3484.5,3.5,555.11
+Residential,Multi-family,North America,New,32516.0,20.0,538.43
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,543.65
+Commercial,Office,Asia-Pacific,New,32516.0,20.0,551.0
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,530.69
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,474.65
+Commercial,Office,North America,New,69677.5,20.0,510.01
+Residential,Multi-family,Asia-Pacific,New,32516.0,3.5,502.08
+Commercial,Office,North America,New,92903.0,25.0,527.01
+Commercial,Mixed use,Europe,New,32516.0,10.5,521.48
+Commercial,Office,North America,New,32516.0,3.5,493.18
+Residential,Multi-family,Asia-Pacific,New,32516.0,3.5,510.08
+Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,508.7
+Residential,Multi-family,Asia-Pacific,New,69677.5,25.0,507.88
+Residential,Multi-family,Asia-Pacific,New,6968.0,10.5,505.64
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,493.66
+Residential,Multi-family,North America,New,32516.0,25.0,494.99
+Commercial,Office,Asia-Pacific,New,69677.5,20.0,505.14
+Commercial,Other,Asia-Pacific,New,32516.0,25.0,493.48
+Commercial,Lodging,Asia-Pacific,New,69677.5,25.0,501.7
+Residential,Multi-family,North America,New,69677.5,20.0,495.34
+Residential,Multi-family,Asia-Pacific,New,32516.0,25.0,479.89
+Commercial,Other,North America,New,6968.0,3.5,496.26
+Commercial,Office,Asia-Pacific,New,92903.0,25.0,465.87
+Commercial,Office,Europe,New,32516.0,10.5,582.73
+Commercial,Office,North America,New,69677.5,10.5,483.64
+Commercial,Other,Asia-Pacific,New,32516.0,3.5,456.99
+Commercial,Other,North America,New,13935.5,3.5,459.71
+Commercial,Office,Asia-Pacific,New,69677.5,25.0,450.49
+Commercial,Education,North America,New,13935.5,3.5,452.68
+Commercial,Lodging,Asia-Pacific,New,69677.5,20.0,434.29
+Commercial,Other,North America,New,13935.5,3.5,433.19
+Residential,Multi-family,North America,New,32516.0,10.5,482.28
+Commercial,Education,North America,New,32516.0,10.5,450.66
+Commercial,Other,Asia-Pacific,New,92903.0,10.5,459.44
+Commercial,Other,North America,New,69677.5,10.5,458.4
+Commercial,Office,Europe,New,13935.5,10.5,440.55
+Commercial,Office,Asia-Pacific,New,13935.5,20.0,448.38
+Commercial,Mixed use,Asia-Pacific,New,92903.0,25.0,443.63
+Commercial,Office,Middle East,New,69677.5,20.0,453.41
+Residential,Multi-family,North America,New,32516.0,20.0,435.03
+Commercial,Lodging,Europe,New,69677.5,25.0,418.3
+Commercial,Other,Asia-Pacific,New,13935.5,3.5,399.2
+Commercial,Office,North America,New,6968.0,3.5,395.53
+Residential,Multi-family,North America,New,92903.0,25.0,426.27
+Residential,Multi-family,North America,New,32516.0,25.0,434.42
+Residential,Multi-family,Asia-Pacific,New,69677.5,25.0,437.6
+Commercial,Other,Asia-Pacific,New,32516.0,3.5,383.18
+Commercial,Office,North America,New,32516.0,25.0,404.09
+Commercial,Education,North America,New,32516.0,25.0,426.59
+Commercial,Other,Asia-Pacific,New,32516.0,3.5,432.74
+Commercial,Office,Asia-Pacific,New,13935.5,10.5,422.99
+Residential,Multi-family,North America,New,32516.0,20.0,426.79
+Commercial,Other,Asia-Pacific,New,13935.5,3.5,395.87
+Commercial,Office,North America,New,69677.5,25.0,407.74
+Commercial,Parking,Asia-Pacific,New,32516.0,3.5,379.02
+Commercial,Office,North America,New,92903.0,25.0,394.48
+Commercial,Office,North America,New,69677.5,25.0,414.77
+Residential,Multi-family,South America,New,32516.0,20.0,389.67
+Commercial,Office,North America,New,69677.5,20.0,349.88
+Commercial,Office,North America,New,32516.0,10.5,381.22
+Residential,Multi-family,Europe,New,69677.5,20.0,386.53
+Commercial,Lodging,North America,New,32516.0,10.5,386.06
+Commercial,Office,North America,New,92903.0,25.0,389.57
+Commercial,Lodging,North America,New,32516.0,10.5,378.23
+Residential,Multi-family,North America,New,13935.5,10.5,387.69
+Residential,Multi-family,North America,New,69677.5,25.0,358.06
+Commercial,Office,North America,New,32516.0,20.0,367.79
+Commercial,Other,North America,New,69677.5,3.5,317.25
+Commercial,Other,Asia-Pacific,New,3484.5,3.5,359.02
+Residential,Multi-family,Europe,New,13935.5,10.5,356.56
+Commercial,Office,Europe,New,69677.5,10.5,357.83
+Commercial,Office,Middle East,New,13935.5,10.5,354.88
+Commercial,Other,North America,New,69677.5,3.5,368.07
+Commercial,Other,North America,New,3484.5,3.5,312.32
+Commercial,Other,North America,New,32516.0,3.5,345.69
+Commercial,Office,North America,New,92903.0,10.5,301.23
+Residential,Multi-family,North America,New,32516.0,10.5,325.03
+Commercial,Office,North America,New,69677.5,10.5,297.97
+Commercial,Office,North America,New,6968.0,3.5,288.04
+Commercial,Education,Asia-Pacific,New,32516.0,3.5,270.16
+Commercial,Parking,North America,New,32516.0,3.5,307.82
+Commercial,Office,North America,New,69677.5,25.0,307.1
+Commercial,Other,Asia-Pacific,New,13935.5,3.5,315.59
+Commercial,Other,North America,New,13935.5,3.5,317.35
+Commercial,Education,North America,New,13935.5,3.5,266.05
+Commercial,Other,North America,New,32516.0,10.5,287.09
+Commercial,Office,Asia-Pacific,New,13935.5,3.5,281.03
+Commercial,Office,North America,New,13935.5,10.5,272.29
+Commercial,Office,North America,New,32516.0,3.5,277.24
+Commercial,Office,Europe,New,32516.0,10.5,260.45
+Commercial,Office,North America,New,13935.5,3.5,228.93
+Commercial,Office,North America,New,32516.0,20.0,225.7
+Commercial,Other,North America,New,13935.5,10.5,205.02
+Commercial,Office,North America,New,69677.5,3.5,158.63
+Commercial,Office,Asia-Pacific,New,32516.0,10.5,159.4
+Commercial,Public Order and Safety,Europe,New,69677.5,3.5,37511.0
+Commercial,Education,Europe,New,1626.5,3.5,1145.0
+Commercial,Office,Europe,New,6968.0,3.5,7510.0
+Commercial,Office,Europe,Renovation,3484.5,10.5,85709.63
+Residential,Other ,Europe,New,3484.5,10.5,84976.7
+Residential,Other ,Europe,New,279.5,10.5,84243.77
+Commercial,Education,Europe,New,13935.5,10.5,83510.84
+Commercial,Office,Europe,New,6968.0,10.5,82777.9
+Commercial,Mercantile,Europe,New,13935.5,10.5,82044.97
+Residential,Other ,Europe,New,32516.0,10.5,81312.04
+Commercial,Office,Europe,New,69677.5,10.5,80579.11
+Commercial,Office,Europe,New,69677.5,10.5,79846.18
+Commercial,Mixed,Europe,New,32516.0,3.5,36654.0
+Commercial,Mixed,Europe,New,32516.0,10.5,79113.25
+Commercial,Education,Europe,New,1626.5,10.5,78380.31
+Commercial,Education,Europe,New,3484.5,10.5,77647.38
+Commercial,Public Order and Safety,Europe,New,69677.5,10.5,76914.45
+Residential,Other ,Europe,New,3484.5,10.5,76181.52
+Residential,Other ,Europe,Renovation,3484.5,10.5,75448.59
+Commercial,Office,Europe,New,46498.0,10.5,74715.66
+Commercial,Office,Europe,New,46498.0,10.5,73982.72
+Commercial,Office,Europe,New,46498.0,10.5,73249.79
+Commercial,Office,Europe,New,46498.0,10.5,72516.86
+Commercial,Office,Europe,New,46498.0,10.5,71783.93
+Commercial,Office,Europe,New,46498.0,10.5,71051.0
+Commercial,Public Assembly,Europe,New,32516.0,10.5,20825.0
+Commercial,Office,Europe,New,46498.0,10.5,70318.06
+Commercial,Office,Europe,New,46498.0,10.5,69585.13
+Commercial,Public Assembly,Europe,New,32516.0,10.5,68852.2
+Commercial,Mixed,Europe,New,32516.0,10.5,68119.27
+Commercial,Mixed,Europe,New,32516.0,10.5,67386.34
+Commercial,Mixed,Europe,New,32516.0,10.5,66653.41
+Commercial,Mixed,Europe,New,32516.0,10.5,65920.47
+Commercial,Mixed,Europe,New,32516.0,10.5,65187.54
+Commercial,Office,Europe,Renovation,3484.5,10.5,64454.61
+Residential,Other ,Europe,New,3484.5,10.5,63721.68
+Residential,Other ,Europe,New,279.5,10.5,62988.75
+Commercial,Education,Europe,New,13935.5,10.5,62255.82
+Commercial,Office,Europe,New,6968.0,10.5,61522.88
+Commercial,Mercantile,Europe,New,13935.5,10.5,60789.95
+Residential,Other ,Europe,New,32516.0,10.5,60057.02
+Commercial,Office,Europe,New,69677.5,10.5,59324.09
+Residential,Other ,Europe,New,3484.5,10.5,1919.0
+Commercial,Office,Europe,New,69677.5,10.5,58591.16
+Commercial,Mixed,Europe,New,32516.0,10.5,57858.22
+Commercial,Education,Europe,New,1626.5,10.5,57125.29
+Commercial,Education,Europe,New,3484.5,10.5,56392.36
+Commercial,Public Order and Safety,Europe,New,69677.5,10.5,55659.43
+Residential,Other ,Europe,New,3484.5,10.5,54926.5
+Residential,Other ,Europe,Renovation,3484.5,10.5,54193.57
+Commercial,Office,Europe,New,46498.0,10.5,53460.63
+Commercial,Office,Europe,New,46498.0,10.5,52727.7
+Commercial,Office,Europe,New,46498.0,10.5,51994.77
+Commercial,Office,Europe,New,46498.0,10.5,51261.84
+Commercial,Office,Europe,Renovation,3484.5,10.5,1896.0
+Commercial,Office,Europe,New,46498.0,10.5,50528.91
+Commercial,Office,Europe,New,46498.0,10.5,49795.98
+Commercial,Office,Europe,New,46498.0,10.5,49063.04
+Commercial,Office,Europe,New,46498.0,10.5,48330.11
+Commercial,Public Assembly,Europe,New,32516.0,10.5,47597.18
+Commercial,Mixed,Europe,New,32516.0,10.5,46864.25
+Commercial,Mixed,Europe,New,32516.0,10.5,46131.32
+Commercial,Mixed,Europe,New,32516.0,10.5,45398.38
+Commercial,Mixed,Europe,New,32516.0,10.5,44665.45
+Commercial,Mixed,Europe,New,32516.0,10.5,43932.52
+Commercial,Office,Europe,Renovation,3484.5,10.5,43199.59
+Residential,Other ,Europe,New,3484.5,10.5,42466.66
+Residential,Other ,Europe,New,279.5,10.5,41733.73
+Commercial,Education,Europe,New,13935.5,10.5,41000.79
+Commercial,Office,Europe,New,6968.0,10.5,40267.86
+Commercial,Mercantile,Europe,New,13935.5,10.5,39534.93
+Residential,Other ,Europe,New,32516.0,10.5,38802.0
+Commercial,Office,Europe,New,69677.5,10.5,38069.07
+Commercial,Office,Europe,New,69677.5,10.5,37336.14
+Commercial,Mixed,Europe,New,32516.0,10.5,36603.2
+Commercial,Education,Europe,New,1626.5,10.5,35870.27
+Commercial,Education,Europe,New,3484.5,10.5,35137.34
+Commercial,Public Order and Safety,Europe,New,69677.5,10.5,34404.41
+Residential,Other ,Europe,New,3484.5,10.5,33671.48
+Residential,Other ,Europe,Renovation,3484.5,10.5,32938.55
+Commercial,Office,Europe,New,46498.0,10.5,32205.61
+Commercial,Office,Europe,New,46498.0,10.5,31472.68
+Commercial,Office,Europe,New,46498.0,10.5,30739.75
+Commercial,Office,Europe,New,46498.0,10.5,30006.82
+Commercial,Office,Europe,New,46498.0,10.5,29273.89
+Commercial,Office,Europe,New,46498.0,10.5,28540.95
+Commercial,Office,Europe,New,46498.0,10.5,27808.02
+Commercial,Office,Europe,New,46498.0,10.5,27075.09
+Commercial,Public Assembly,Europe,New,32516.0,10.5,26342.16
+Commercial,Mixed,Europe,New,32516.0,10.5,25609.23
+Commercial,Mixed,Europe,New,32516.0,10.5,24876.3
+Commercial,Mixed,Europe,New,32516.0,10.5,24143.36
+Commercial,Mixed,Europe,New,32516.0,10.5,23410.43
+Commercial,Mixed,Europe,New,32516.0,10.5,22677.5
+Commercial,Office,Europe,Renovation,3484.5,10.5,21944.57
+Residential,Other ,Europe,New,3484.5,10.5,21211.64
+Commercial,Education,Europe,New,3484.5,3.5,1470.0
+Commercial,Mixed,Europe,New,32516.0,10.5,6761.0
+Commercial,Mixed,Europe,New,32516.0,10.5,6096.0
+Commercial,Mixed,Europe,New,32516.0,10.5,5745.0
+Commercial,Mixed,Europe,New,32516.0,10.5,5505.0
+Residential,Other ,Europe,New,3484.5,10.5,787.0
+Commercial,Mixed,Europe,New,32516.0,10.5,4672.0
+Residential,Other ,Europe,New,279.5,3.5,101.0
+Commercial,Office,Europe,New,46498.0,25.0,0.07
+Commercial,Office,Europe,New,46498.0,25.0,0.07
+Commercial,Office,Europe,New,46498.0,25.0,0.07
+Commercial,Office,Europe,New,46498.0,10.5,0.05
+Commercial,Office,Europe,New,46498.0,25.0,0.05
+Residential,Other ,Europe,Renovation,3484.5,10.5,163.0
+Commercial,Office,Europe,New,46498.0,10.5,0.03
+Commercial,Office,Europe,New,46498.0,10.5,0.03
+Commercial,Office,Europe,New,46498.0,10.5,0.01
+Commercial,Office,Europe,New,69677.5,25.0,69959.0
+Commercial,Office,Europe,New,69677.5,10.5,43461.0
+Residential,Other ,Europe,New,32516.0,10.5,15157.0
+Commercial,Mercantile,Europe,New,13935.5,3.5,9229.0
+Commercial,Education,North America,New,697.5,3.5,1817.19
+Commercial,Other,North America,New,1626.5,3.5,2591.6
+Commercial,Mixed,Middle East,New,92903.0,25.0,1464614.4
+Commercial,Education,North America,New,6968.0,3.5,10038.34
+Commercial,Health Care,North America,New,1626.5,3.5,3005.46
+Commercial,Public Assembly,North America,New,1626.5,3.5,1956.5
+Commercial,Other,North America,New,697.5,3.5,1703.31
+Commercial,Health Care,North America,New,13935.5,10.5,29839.7
+Commercial,Public Assembly,North America,New,32516.0,3.5,51961.89
+Commercial,Public Assembly,North America,New,32516.0,3.5,51819.84
+Commercial,Other,North America,New,3484.5,3.5,5863.36
+Commercial,Education,North America,New,1626.5,3.5,3877.71
+Commercial,Other,North America,New,697.5,3.5,1389.5
+Commercial,Other,North America,New,69677.5,3.5,90802.09
+Commercial,Education,North America,New,1626.5,3.5,1602.4
+Commercial,Education,North America,New,1626.5,3.5,1602.4
+Commercial,Public Assembly,North America,New,1626.5,3.5,1602.4
+Commercial,Public Assembly,North America,New,1626.5,3.5,1589.93
+Commercial,Health Care,North America,New,13935.5,3.5,14378.87
+Commercial,Other,North America,New,3484.5,3.5,6585.33
+Commercial,Other,North America,New,6968.0,3.5,11266.57
+Commercial,Other,North America,New,6968.0,3.5,12850.99
+Commercial,Office,North America,New,3484.5,3.5,3315.22
+Commercial,Education,North America,New,697.5,3.5,745.34
+Commercial,Mixed,North America,New,697.5,3.5,813.35
+Commercial,Other,Middle East,New,6968.0,3.5,8105.5
+Commercial,Health Care,North America,New,32516.0,3.5,25946.88
+Commercial,Other,North America,New,13935.5,3.5,11907.76
+Commercial,Public Assembly,North America,New,13935.5,3.5,20400.97
+Commercial,Education,North America,New,13935.5,10.5,13221.53
+Commercial,Other,North America,New,92903.0,25.0,164992.79
+Commercial,Office,North America,New,1626.5,20.0,1441.51
+Commercial,Education,North America,New,1626.5,3.5,2020.09
+Commercial,Education,Asia-Pacific,New,1626.5,3.5,1713.59
+Commercial,Mixed,Middle East,New,92903.0,25.0,582994.7
+Commercial,Education,North America,New,697.5,3.5,937.36
+Residential,Other,North America,New,279.5,3.5,384.53
+Commercial,Education,North America,New,3484.5,3.5,2538.54
+Commercial,Other,North America,New,3484.5,3.5,4252.63
+Commercial,Health Care,North America,New,13935.5,3.5,13097.06
+Residential,Multi-family,North America,New,6968.0,10.5,5511.87
+Commercial,Education,North America,New,6968.0,3.5,5563.2
+Commercial,Public Assembly,North America,New,32516.0,10.5,18987.05
+Commercial,Education,North America,New,3484.5,3.5,4008.35
+Commercial,Other,North America,New,13935.5,3.5,9478.56
+Commercial,Public Assembly,North America,New,13935.5,3.5,12238.59
+Commercial,Education,North America,New,1626.5,3.5,1509.35
+Commercial,Education,North America,New,1626.5,3.5,896.57
+Commercial,Other,North America,New,3484.5,3.5,3236.64
+Commercial,Mixed,Middle East,New,32516.0,25.0,37419.57
+Commercial,Education,North America,New,13935.5,3.5,10022.02
+Commercial,Other,North America,New,3484.5,3.5,1907.32
+Commercial,Lodging,North America,New,1626.5,3.5,801.2
+Commercial,Education,North America,New,1626.5,3.5,801.2
+Commercial,Education,North America,New,1626.5,3.5,801.2
+Commercial,Education,North America,New,697.5,3.5,720.27
+Commercial,Health Care,North America,New,6968.0,3.5,6613.55
+Commercial,Public Assembly,North America,New,32516.0,3.5,23515.14
+Commercial,Other,North America,New,32516.0,3.5,26807.74
+Residential,Other,North America,New,697.5,10.5,713.47
+Commercial,Education,North America,New,13935.5,3.5,7854.63
+Commercial,Other,North America,New,32516.0,3.5,16178.57
+Commercial,Public Assembly,Europe,New,6968.0,25.0,6129.54
+Commercial,Education,North America,New,6968.0,3.5,3509.87
+Commercial,Public Assembly,North America,New,13935.5,3.5,11953.07
+Commercial,Other,North America,New,279.5,3.5,280.93
+Commercial,Education,North America,New,32516.0,10.5,24494.68
+Residential,Other,North America,New,32516.0,25.0,23304.25
+Commercial,Health Care,North America,New,6968.0,3.5,4361.23
+Commercial,Public Assembly,North America,New,6968.0,3.5,3931.39
+Commercial,Education,North America,New,3484.5,3.5,1710.07
+Commercial,Education,North America,New,3484.5,3.5,2589.03
+Commercial,Public Assembly,North America,New,1626.5,3.5,935.09
+Commercial,Other,Europe,New,3484.5,3.5,1871.13
+Residential,Other,Asia-Pacific,New,92903.0,25.0,61423.88
+Commercial,Public Assembly,Middle East,New,32516.0,25.0,15702.58
+Commercial,Health Care,North America,New,6968.0,3.5,3511.13
+Commercial,Education,North America,New,697.5,3.5,491.75
+Commercial,Public Assembly,North America,New,13935.5,3.5,10784.19
+Commercial,Education,North America,New,13935.5,3.5,7892.93
+Commercial,Education,North America,New,32516.0,3.5,18219.27
+Commercial,Mixed,Middle East,New,69677.5,25.0,33832.59
+Commercial,Public Assembly,North America,New,3484.5,3.5,2548.85
+Commercial,Mixed,North America,New,32516.0,10.5,18674.77
+Commercial,Education,North America,New,1626.5,3.5,1320.5
+Commercial,Education,North America,New,6968.0,3.5,2764.98
+Commercial,Education,North America,New,6968.0,3.5,3130.56
+Commercial,Public Assembly,Middle East,New,13935.5,3.5,7980.0
+Commercial,Health Care,North America,New,92903.0,20.0,59764.2
+Commercial,Public Assembly,North America,New,69677.5,10.5,26119.6
+Commercial,Public Assembly,Middle East,New,3484.5,3.5,2235.84
+Commercial,Other,North America,New,697.5,3.5,428.18
+Commercial,Other,Asia-Pacific,New,69677.5,10.5,31809.5
+Commercial,Lodging,North America,New,1626.5,3.5,617.21
+Commercial,Health Care,North America,New,69677.5,20.0,35196.66
+Commercial,Mixed,North America,New,697.5,3.5,296.32
+Commercial,Other,North America,New,6968.0,3.5,3086.19
+Residential,Other,Europe,New,32516.0,10.5,13221.65
+Commercial,Other,North America,New,13935.5,3.5,5448.44
+Commercial,Education,North America,New,1626.5,3.5,575.26
+Commercial,Education,North America,New,13935.5,3.5,4838.37
+Commercial,Education,North America,New,6968.0,3.5,2567.91
+Commercial,Health Care,Africa,New,69677.5,10.5,31408.12
+Commercial,Public Assembly,North America,New,32516.0,3.5,10613.54
+Commercial,Education,North America,New,6968.0,3.5,3944.21
+Commercial,Health Care,North America,New,1626.5,3.5,1063.61
+Commercial,Other,North America,New,6968.0,3.5,2484.0
+Commercial,Other,North America,New,32516.0,10.5,12372.48
+Commercial,Public Assembly,North America,New,1626.5,3.5,812.12
+Residential,Other,North America,New,32516.0,10.5,14430.5
+Commercial,Education,North America,New,6968.0,3.5,3763.37
+Commercial,Public Assembly,Middle East,New,32516.0,20.0,8515.04
+Commercial,Education,North America,New,32516.0,10.5,8744.28
+Commercial,Education,North America,New,3484.5,3.5,1922.4
+Residential,Other,North America,New,1626.5,3.5,666.44
+Commercial,Other,Asia-Pacific,New,92903.0,25.0,87313.12
+Commercial,Public Assembly,North America,New,13935.5,3.5,5109.72
+Commercial,Public Assembly,North America,New,69677.5,10.5,20392.84
+Residential,Other,Europe,New,32516.0,10.5,11792.01
+Commercial,Office,North America,New,32516.0,20.0,8192.44
+Commercial,Public Assembly,North America,New,13935.5,3.5,5051.66
+Commercial,Public Assembly,Middle East,New,69677.5,25.0,25302.36
+Commercial,Health Care,North America,New,69677.5,25.0,39643.07
+Commercial,Public Assembly,North America,New,13935.5,3.5,6498.25
+Residential,Other,Asia-Pacific,New,69677.5,25.0,32698.88
+Commercial,Education,North America,New,3484.5,3.5,1007.0
+Commercial,Other,Europe,New,3484.5,3.5,1252.08
+Commercial,Other,North America,New,6968.0,10.5,2156.42
+Commercial,Education,North America,New,32516.0,10.5,15644.78
+Commercial,Mixed,Middle East,New,32516.0,3.5,10068.45
+Commercial,Education,North America,New,6968.0,3.5,3453.09
+Commercial,Mixed,North America,New,1626.5,3.5,482.62
+Commercial,Health Care,Africa,New,32516.0,10.5,17136.0
+Commercial,Health Care,North America,New,32516.0,10.5,10561.28
+Commercial,Other,North America,New,92903.0,25.0,68957.33
+Commercial,Health Care,North America,New,92903.0,25.0,56569.84
+Commercial,Public Assembly,North America,New,13935.5,3.5,5904.98
+Commercial,Other,Asia-Pacific,New,69677.5,25.0,24380.8
+Commercial,Education,North America,New,6968.0,3.5,2980.23
+Commercial,Other,North America,New,32516.0,3.5,8988.67
+Commercial,Other,North America,New,69677.5,10.5,22700.33
+Commercial,Education,North America,New,6968.0,3.5,2463.69
+Commercial,Education,North America,New,6968.0,3.5,2315.33
+Commercial,Health Care,North America,New,32516.0,10.5,10549.29
+Commercial,Education,North America,New,3484.5,3.5,1646.29
+Commercial,Education,Middle East,New,69677.5,3.5,21169.56
+Commercial,Other,North America,New,92903.0,3.5,49554.0
+Commercial,Public Assembly,North America,New,32516.0,10.5,7101.84
+Commercial,Other,North America,New,92903.0,25.0,42559.62
+Commercial,Other,Middle East,New,92903.0,25.0,38730.77
+Commercial,Public Assembly,North America,New,13935.5,3.5,6829.73
+Commercial,Education,North America,New,32516.0,10.5,9381.42
+Commercial,Education,North America,New,3484.5,3.5,1550.41
+Commercial,Other,North America,New,92903.0,25.0,51341.11
+Commercial,Other,Middle East,New,92903.0,10.5,144400.0
+Commercial,Education,North America,New,3484.5,3.5,1435.28
+Commercial,Other,Asia-Pacific,New,92903.0,25.0,42720.0
+Commercial,Office,North America,New,32516.0,3.5,9658.99
+Residential,Other,North America,New,69677.5,25.0,26186.22
+Commercial,Other,North America,New,1626.5,3.5,474.14
+Commercial,Education,North America,New,3484.5,3.5,1021.34
+Commercial,Health Care,North America,New,6968.0,3.5,2319.02
+Residential,Other,Asia-Pacific,New,6968.0,20.0,3078.0
+Commercial,Public Assembly,North America,New,69677.5,10.5,15876.62
+Commercial,Other,North America,New,32516.0,10.5,11404.75
+Commercial,Other,Middle East,New,13935.5,3.5,5765.38
+Commercial,Lodging,North America,New,69677.5,20.0,26376.67
+Commercial,Other,Middle East,New,92903.0,10.5,134000.0
+Commercial,Other,Europe,New,6968.0,10.5,2109.88
+Residential,Other,Asia-Pacific,New,92903.0,25.0,71458.08
+Commercial,Other,North America,New,32516.0,25.0,13236.11
+Residential,Other,North America,New,3484.5,3.5,785.89
+Commercial,Public Assembly,North America,New,6968.0,3.5,2145.69
+Commercial,Public Assembly,North America,New,1626.5,3.5,676.52
+Commercial,Office,Asia-Pacific,New,69677.5,10.5,29134.6
+Commercial,Other,Asia-Pacific,New,6968.0,20.0,2182.55
+Commercial,Public Assembly,North America,New,697.5,3.5,255.82
+Residential,Other,Asia-Pacific,New,92903.0,25.0,50653.54
+Commercial,Mixed,Middle East,New,32516.0,3.5,8241.6
+Commercial,Mixed,North America,New,13935.5,10.5,4377.51
+Commercial,Health Care,North America,New,3484.5,3.5,863.97
+Residential,Other,North America,New,32516.0,25.0,13100.36
+Commercial,Public Assembly,North America,New,13935.5,3.5,5681.58
+Commercial,Education,North America,New,6968.0,3.5,2697.7
+Commercial,Health Care,North America,New,3484.5,10.5,1170.6
+Commercial,Public Assembly,North America,New,6968.0,10.5,2581.03
+Commercial,Mixed,North America,New,69677.5,25.0,21850.67
+Commercial,Other,Africa,New,92903.0,25.0,68620.0
+Residential,Other,North America,New,6968.0,10.5,2097.73
+Commercial,Other,North America,New,6968.0,3.5,1770.13
+Commercial,Health Care,North America,New,69677.5,3.5,16901.46
+Commercial,Education,North America,New,1626.5,3.5,465.04
+Commercial,Education,North America,New,3484.5,3.5,972.69
+Commercial,Education,North America,New,13935.5,3.5,3971.48
+Commercial,Other,North America,New,13935.5,10.5,5226.05
+Commercial,Other,North America,New,92903.0,25.0,35050.97
+Commercial,Education,North America,New,1626.5,3.5,450.4
+Commercial,Office,North America,New,13935.5,3.5,4137.24
+Commercial,Education,North America,New,3484.5,3.5,727.74
+Commercial,Education,North America,New,6968.0,3.5,1775.32
+Commercial,Other,North America,New,13935.5,3.5,3089.38
+Commercial,Other,North America,New,92903.0,25.0,30890.05
+Commercial,Education,North America,New,6968.0,3.5,1359.26
+Commercial,Other,North America,New,13935.5,3.5,4451.83
+Commercial,Education,North America,New,6968.0,3.5,1799.68
+Commercial,Other,North America,New,32516.0,20.0,9025.9
+Residential,Other,North America,New,6968.0,10.5,1259.96
+Commercial,Mixed,North America,New,69677.5,25.0,22913.02
+Commercial,Other,Asia-Pacific,New,69677.5,10.5,14296.8
+Commercial,Other,North America,New,32516.0,3.5,6073.29
+Commercial,Public Assembly,North America,New,32516.0,3.5,9587.54
+Commercial,Health Care,North America,New,3484.5,3.5,695.05
+Commercial,Other,North America,New,69677.5,25.0,14980.25
+Residential,Other,Asia-Pacific,New,69677.5,25.0,15133.19
+Commercial,Other,North America,New,32516.0,10.5,6221.46
+Commercial,Other,North America,New,69677.5,10.5,18237.95
+Commercial,Health Care,North America,New,92903.0,10.5,30183.94
+Commercial,Health Care,North America,New,1626.5,3.5,248.63
+Commercial,Health Care,North America,New,1626.5,3.5,331.76
+Commercial,Public Assembly,North America,New,69677.5,10.5,11825.99
+Commercial,Public Assembly,North America,New,13935.5,3.5,3893.57
+Residential,Other,North America,New,32516.0,25.0,10576.92
+Commercial,Education,North America,New,3484.5,3.5,666.79
+Commercial,Education,North America,New,6968.0,3.5,1211.87
+Commercial,Education,North America,New,13935.5,3.5,2740.75
+Commercial,Health Care,North America,New,13935.5,3.5,2933.94
+Commercial,Education,North America,New,13935.5,3.5,2472.81
+Commercial,Education,North America,New,6968.0,3.5,2124.2
+Commercial,Health Care,North America,New,92903.0,25.0,29589.39
+Commercial,Public Assembly,North America,New,92903.0,25.0,28102.98
+Commercial,Public Assembly,North America,New,69677.5,3.5,11220.72
+Commercial,Public Assembly,North America,New,32516.0,10.5,7803.84
+Commercial,Education,North America,New,32516.0,3.5,4543.05
+Residential,Other,Asia-Pacific,New,13935.5,20.0,4200.8
+Commercial,Health Care,North America,New,69677.5,20.0,20920.64
+Commercial,Education,North America,New,6968.0,3.5,1713.55
+Commercial,Health Care,North America,New,32516.0,3.5,4635.25
+Commercial,Education,North America,New,6968.0,3.5,1159.43
+Commercial,Other,North America,New,69677.5,20.0,14360.36
+Commercial,Office,North America,New,32516.0,3.5,6177.12
+Commercial,Health Care,North America,New,32516.0,10.5,4214.93
+Commercial,Other,North America,New,92903.0,20.0,25869.54
+Commercial,Public Assembly,North America,New,1626.5,3.5,372.86
+Commercial,Education,North America,New,13935.5,10.5,2155.86
+Commercial,Education,North America,New,3484.5,3.5,634.26
+Commercial,Education,North America,New,32516.0,3.5,4888.56
+Commercial,Education,North America,New,6968.0,3.5,1637.36
+Commercial,Health Care,North America,New,697.5,3.5,117.53
+Commercial,Public Assembly,North America,New,69677.5,10.5,9684.27
+Commercial,Lodging,North America,New,32516.0,20.0,7826.88
+Residential,Other,North America,New,32516.0,20.0,4834.0
+Commercial,Other,Asia-Pacific,New,69677.5,3.5,13413.83
+Commercial,Other,North America,New,32516.0,3.5,5498.26
+Residential,Other,North America,New,32516.0,25.0,4481.7
+Commercial,Education,North America,New,1626.5,3.5,210.4
+Commercial,Education,North America,New,13935.5,3.5,2865.6
+Commercial,Public Assembly,North America,New,69677.5,3.5,12165.55
+Commercial,Health Care,North America,New,6968.0,3.5,1079.23
+Commercial,Health Care,North America,New,32516.0,10.5,8138.51
+Commercial,Education,North America,New,1626.5,3.5,269.14
+Residential,Other,North America,New,69677.5,10.5,10909.18
+Commercial,Education,North America,New,279.5,3.5,44.71
+Commercial,Office,North America,New,32516.0,10.5,6147.41
+Commercial,Lodging,North America,New,32516.0,10.5,5130.52
+Commercial,Other,North America,New,32516.0,3.5,6398.73
+Commercial,Education,North America,New,1626.5,3.5,202.22
+Commercial,Mixed,North America,New,69677.5,10.5,10346.16
+Commercial,Other,North America,New,32516.0,10.5,4797.41
+Commercial,Education,North America,New,32516.0,10.5,4643.15
+Commercial,Other,North America,New,32516.0,3.5,5320.99
+Commercial,Education,North America,New,13935.5,3.5,1781.99
+Commercial,Public Assembly,North America,New,32516.0,25.0,7943.12
+Commercial,Other,North America,New,69677.5,10.5,12674.09
+Commercial,Other,North America,New,13935.5,3.5,2130.24
+Commercial,Other,North America,New,32516.0,10.5,3753.33
+Commercial,Education,North America,New,6968.0,3.5,1064.15
+Commercial,Health Care,North America,New,13935.5,3.5,2152.8
+Commercial,Lodging,North America,New,69677.5,10.5,7234.91
+Commercial,Public Assembly,North America,New,6968.0,3.5,885.95
+Commercial,Education,North America,New,1626.5,3.5,183.87
+Commercial,Education,North America,New,697.5,3.5,120.41
+Commercial,Public Assembly,Africa,New,6968.0,3.5,791.51
+Commercial,Other,North America,New,13935.5,3.5,2268.0
+Commercial,Education,North America,New,1626.5,3.5,132.39
+Commercial,Other,North America,New,32516.0,10.5,6177.98
+Commercial,Education,North America,New,1626.5,3.5,271.03
+Commercial,Education,North America,New,6968.0,3.5,761.09
+Commercial,Public Assembly,North America,New,697.5,3.5,108.2
+Residential,Other,North America,New,69677.5,20.0,7966.73
+Commercial,Public Assembly,North America,New,6968.0,3.5,1140.58
+Commercial,Other,North America,New,6968.0,10.5,696.51
+Commercial,Health Care,North America,New,6968.0,3.5,985.89
+Commercial,Health Care,North America,New,32516.0,3.5,3804.37
+Generic,Other,North America,New,3484.5,3.5,460.21
+Residential,Other,Asia-Pacific,New,92903.0,20.0,10599.06
+Commercial,Office,North America,New,13935.5,3.5,1184.83
+Commercial,Education,North America,New,3484.5,25.0,288.96
+Commercial,Office,North America,New,3484.5,3.5,360.19
+Commercial,Public Assembly,North America,New,32516.0,3.5,2897.82
+Commercial,Education,North America,New,32516.0,3.5,1965.5
+Commercial,Public Assembly,North America,New,69677.5,3.5,6270.9
+Commercial,Office,North America,New,13935.5,3.5,1010.91
+Commercial,Education,North America,New,697.5,3.5,72.22
+Commercial,Other,North America,New,32516.0,10.5,2023.38
+Commercial,Other,North America,New,697.5,25.0,600.0
+Commercial,Education,North America,New,1626.5,25.0,2100.0
+Commercial,Other,Asia-Pacific,Renovation,697.5,25.0,100.0
+Residential,Other,North America,New,3484.5,25.0,1135.0
+Commercial,Education,North America,New,279.5,25.0,29.0
+Commercial,Education,North America,New,279.5,25.0,119.0
+Commercial,Education,North America,New,697.5,25.0,202.0
+NonCommercial,Park,North America,New,279.5,25.0,28.0
+Commercial,Other,North America,Renovation,3484.5,25.0,139.0
+Commercial,Other,North America,Renovation,697.5,25.0,196.0
+Commercial,Other,North America,Renovation,279.5,25.0,37.0
+Residential,Other,North America,New,46498.0,25.0,65.0
+Commercial,Education,North America,New,697.5,25.0,1387.0
+Commercial,Education,North America,New,1626.5,25.0,2600.0
+Commercial,Education,North America,New,279.5,25.0,268.0
+Commercial,Education,North America,New,1626.5,25.0,1234.0
+Commercial,Education,North America,New,279.5,25.0,50.0
+Commercial,Public Assembly,Africa,New,3484.5,3.5,2417.88
+Commercial,Public Assembly,Europe,New,32516.0,10.5,21425.09
+Commercial,Office,Europe,New,69677.5,25.0,64791.35
+Commercial,Office,Middle East,New,92903.0,25.0,55752.78
+Commercial,Office,Europe,New,32516.0,10.5,17442.36
+Industrial,Industrial,Europe,New,3484.5,3.5,1442.3
+Commercial,Office,Europe,New,3484.5,3.5,1199.16
+Commercial,Office,Europe,New,13935.5,3.5,8285.94
+Commercial,Health Care,Europe,New,13935.5,10.5,8090.74
+Commercial,Office,Europe,New,69677.5,20.0,39869.98
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,1674.0
+Commercial,Office,Europe,New,3484.5,3.5,1039.86
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,1528.0
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,1491.0
+Commercial,Education,North America,New,6968.0,3.5,1088.62
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,1451.0
+Commercial,Office,Europe,New,6968.0,3.5,2190.82
+Commercial,Education,Europe,New,13935.5,10.5,5785.47
+Commercial,Office,Europe,New,6968.0,3.5,2425.74
+Commercial,Education,North America,New,6968.0,3.5,1035.55
+Residential,Other,Europe,New,697.5,3.5,194.51
+Residential,Other,Europe,New,6968.0,10.5,2836.21
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,1245.0
+Commercial,Office,Europe,New,13935.5,3.5,4818.0
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,1021.0
+Commercial,Office,North America,New,6968.0,3.5,1743.0
+NonCommercial,Parking,North America,New,1626.5,3.5,265.0
+Residential,Other,Europe,New,6968.0,10.5,2303.42
+Commercial,Office,North America,New,6968.0,3.5,1678.0
+Commercial,Education,North America,New,69677.5,3.5,6818.4
+Commercial,Education,North America,New,69677.5,3.5,4889.72
+NonCommercial,Parking,North America,New,1626.5,3.5,237.0
+Commercial,Office,North America,New,32516.0,10.5,10978.08
+Commercial,Office,North America,New,32516.0,10.5,9495.81
+Commercial,Office,North America,New,32516.0,10.5,10978.08
+Commercial,Office,North America,New,32516.0,10.5,9449.48
+Commercial,Office,North America,New,32516.0,10.5,9264.2
+Commercial,Office,North America,New,32516.0,10.5,9217.88
+Commercial,Office,North America,New,69677.5,10.5,9454.12
+Commercial,Office,North America,New,69677.5,10.5,9408.01
+Commercial,Office,North America,New,69677.5,10.5,9221.63
+Commercial,Office,North America,New,69677.5,10.5,9032.88
+Commercial,Public Assembly,North America,New,1626.5,3.5,386.91
+Commercial,Office,North America,New,32516.0,10.5,9495.81
+Commercial,Office,North America,New,32516.0,10.5,8847.31
+Commercial,Office,North America,New,32516.0,10.5,9495.81
+Commercial,Office,North America,New,32516.0,10.5,8847.31
+Commercial,Office,North America,New,69677.5,10.5,9454.12
+Commercial,Office,North America,New,69677.5,10.5,9454.12
+Commercial,Office,North America,New,32516.0,10.5,9125.24
+Commercial,Office,North America,New,32516.0,10.5,9078.92
+Commercial,Office,North America,New,6968.0,10.5,1720.39
+Commercial,Office,North America,New,6968.0,10.5,1697.02
+Commercial,Office,North America,New,69677.5,10.5,9060.94
+Commercial,Office,North America,New,69677.5,10.5,9014.82
+Commercial,Education,North America,New,6968.0,3.5,935.0
+Residential,Other,North America,New,279.5,3.5,75.5
+Commercial,Education,North America,New,6968.0,3.5,905.0
+Residential,Other,North America,New,279.5,3.5,69.24
+Commercial,Office,North America,New,6968.0,10.5,1379.55
+Residential,Other,North America,New,279.5,3.5,87.14
+Residential,Other,North America,New,279.5,3.5,70.37
+Commercial,Education,North America,New,13935.5,3.5,2300.0
+Commercial,Education,North America,New,32516.0,3.5,5216.0
+Commercial,Office,North America,New,6968.0,10.5,1305.56
+Commercial,Education,North America,New,32516.0,3.5,5175.0
+Residential,Other,North America,New,279.5,3.5,65.23
+Commercial,Office,North America,New,6968.0,10.5,1264.27
+Residential,Other,North America,New,279.5,3.5,66.87
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,446.0
+Commercial,Public Assembly,North America,New,1626.5,3.5,240.45
+Residential,Other,North America,New,3484.5,3.5,544.21
+Residential,Other,North America,New,3484.5,3.5,538.0
+Residential,Other,North America,New,279.5,3.5,77.12
+Residential,Other,North America,New,279.5,3.5,63.75
+Residential,Other,North America,New,279.5,3.5,75.86
+Residential,Other,North America,New,279.5,3.5,60.62
+Residential,Other,North America,New,3484.5,3.5,500.29
+Residential,Other,North America,New,3484.5,3.5,497.21
+Residential,Other,North America,New,279.5,3.5,58.84
+Residential,Other,North America,New,279.5,3.5,67.13
+Residential,Other,North America,New,3484.5,3.5,427.6
+Residential,Other,North America,New,3484.5,3.5,412.3
+Residential,Other,North America,New,3484.5,3.5,410.66
+Residential,Other,North America,New,3484.5,3.5,399.75
+Commercial,Office,Asia-Pacific,New,3484.5,10.5,245.0
+Commercial,Office,North America,New,6968.0,10.5,2438.0
+Commercial,Office,North America,New,6968.0,10.5,1556.0
+Residential,Other,Asia-Pacific,New,279.5,3.5,70.0
+Residential,Other,Asia-Pacific,New,279.5,3.5,7.0
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,1164980.0
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,856.44
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,1067.78
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,1168.64
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,927.22
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,1493.8
+Commercial,Office,Asia-Pacific,New,6968.0,10.5,6681.82
+Commercial,Office,Asia-Pacific,New,32516.0,10.5,17925.96
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,1098.8
+Commercial,Office,Asia-Pacific,New,1626.5,10.5,1226.45
+NonCommercial,Parking,Middle East,New,92903.0,10.5,35300.0
+NonCommercial,Parking,Middle East,New,92903.0,10.5,32500.0
+Commercial,Health Care,North America,New,69677.5,10.5,3395.0
+Commercial,Education,North America,New,13935.5,3.5,215.0
+Commercial,Office,North America,New,92903.0,25.0,504501.97
+Commercial,Office,North America,New,92903.0,25.0,504501.97
+Commercial,Office,North America,New,92903.0,25.0,456900.8
+Commercial,Office,Europe,New,92903.0,25.0,444774.39
+Commercial,Office,North America,New,92903.0,25.0,444001.47
+Commercial,Office,Europe,New,92903.0,25.0,431875.96
+Commercial,Office,North America,New,92903.0,25.0,435526.5
+Commercial,Office,North America,New,92903.0,25.0,447630.23
+Commercial,Office,Europe,New,92903.0,25.0,433341.08
+Commercial,Office,Europe,New,92903.0,25.0,433341.08
+Commercial,Office,North America,New,92903.0,25.0,423449.08
+Commercial,Office,North America,New,92903.0,25.0,415028.54
+Commercial,Office,North America,New,92903.0,25.0,415028.54
+Commercial,Office,North America,New,92903.0,25.0,415084.78
+Commercial,Office,North America,New,92903.0,25.0,407099.7
+Commercial,Office,Europe,New,92903.0,25.0,378121.33
+Commercial,Office,Europe,New,92903.0,25.0,373397.59
+Commercial,Office,Europe,New,92903.0,25.0,373397.59
+Commercial,Office,North America,New,92903.0,25.0,383532.72
+Commercial,Office,Europe,New,92903.0,25.0,366045.72
+Commercial,Office,North America,New,92903.0,25.0,359760.71
+Commercial,Office,North America,New,92903.0,25.0,351500.74
+Commercial,Office,North America,New,92903.0,25.0,113534.83
+Commercial,Office,Europe,New,92903.0,25.0,360080.95
+Commercial,Office,North America,New,92903.0,25.0,346373.31
+Commercial,Office,Europe,New,92903.0,25.0,338701.2
+Commercial,Office,North America,New,92903.0,25.0,331499.93
+Commercial,Office,Europe,New,92903.0,25.0,336864.14
+Commercial,Office,Europe,New,92903.0,25.0,311878.31
+Commercial,Office,North America,New,92903.0,25.0,100934.87
+Commercial,Office,Europe,New,92903.0,25.0,313439.59
+Commercial,Office,Europe,New,92903.0,25.0,296765.44
+Commercial,Office,Europe,New,92903.0,25.0,308578.86
+Commercial,Office,North America,New,92903.0,25.0,97620.9
+Commercial,Office,Europe,New,92903.0,25.0,96049.65
+Commercial,Office,Europe,New,92903.0,25.0,280747.18
+Commercial,Office,North America,New,92903.0,25.0,84224.43
+Commercial,Office,North America,New,92903.0,25.0,85401.05
+Commercial,Office,North America,New,92903.0,25.0,84863.09
+Commercial,Office,North America,New,92903.0,25.0,84345.99
+Commercial,Office,North America,New,92903.0,25.0,82782.9
+Commercial,Office,North America,New,92903.0,25.0,84989.19
+Commercial,Office,Europe,New,92903.0,25.0,80099.43
+Commercial,Office,Europe,New,92903.0,25.0,81406.69
+Commercial,Office,North America,New,92903.0,25.0,78256.02
+Commercial,Office,Europe,New,92903.0,25.0,77669.07
+Commercial,Office,North America,New,92903.0,25.0,76821.76
+Commercial,Office,North America,New,92903.0,25.0,75848.34
+Commercial,Office,Europe,New,92903.0,25.0,75966.28
+Commercial,Office,Europe,New,92903.0,25.0,75430.13
+Commercial,Office,Europe,New,92903.0,25.0,74130.12
+Commercial,Office,Europe,New,92903.0,25.0,74334.24
+Commercial,Office,Europe,New,92903.0,25.0,72695.86
+Commercial,Office,Europe,New,92903.0,25.0,76928.8
+Commercial,Office,North America,New,92903.0,25.0,72967.11
+Commercial,Office,Europe,New,92903.0,25.0,71723.35
+Commercial,Office,North America,New,92903.0,25.0,71614.49
+Commercial,Office,North America,New,92903.0,25.0,70359.84
+Commercial,Office,North America,New,92903.0,25.0,70416.09
+Commercial,Office,Europe,New,92903.0,25.0,66282.93
+Commercial,Office,Europe,New,92903.0,25.0,65787.6
+Commercial,Office,Europe,New,92903.0,25.0,67442.32
+Commercial,Office,Europe,New,92903.0,25.0,64532.05
+Commercial,Office,Europe,New,92903.0,25.0,64337.91
+NonCommercial,Public Assembly,North America,New,279.5,3.5,170.0
+NonCommercial,Public Assembly,North America,New,279.5,3.5,212.0
+NonCommercial,Public Order and Safety,North America,New,279.5,3.5,279.0
+NonCommercial,Public Order and Safety,North America,New,279.5,3.5,362.0
+Residential,Multi-family,Asia-Pacific,New,3484.5,25.0,11651.0
+Residential,Multi-family,Asia-Pacific,New,3484.5,25.0,11651.0
+Residential,Multi-family,Asia-Pacific,New,3484.5,25.0,11651.0
+Residential,Multi-family,Asia-Pacific,New,3484.5,25.0,11651.0
+Residential,Multi-family,Asia-Pacific,New,3484.5,25.0,11651.0
+Residential,Multi-family,Asia-Pacific,New,3484.5,25.0,11651.0
+Commercial,Education,Asia-Pacific,New,697.5,3.5,419.73
+Residential,Single-family,Asia-Pacific,New,92903.0,25.0,199.0
+Commercial,Mixed,North America,New,1626.5,3.5,3273.18
+Commercial,Office,North America,New,32516.0,20.0,32026.61
+Commercial,Education,North America,New,6968.0,3.5,3369.74
+Commercial,Office,North America,Renovation,13935.5,3.5,9837.12
+Commercial,Education,North America,Renovation,6968.0,3.5,8084.08
+Residential,Multi-family,North America,New,13935.5,10.5,9162.43
+Residential,Multi-family,North America,Renovation,32516.0,10.5,10944.1
+Residential,Single-family,North America,New,279.5,3.5,125.66
+Commercial,Mixed,North America,Renovation,1626.5,3.5,949.39
+Commercial,Office,North America,Renovation,13935.5,20.0,4181.52
+Residential,Multi-family,North America,Renovation,6968.0,3.5,1990.24
+Residential,Single-family,North America,Renovation,279.5,3.5,46.29
+Commercial,Office,Middle East,New,92903.0,25.0,197989.9
+Commercial,Public Assembly,North America,New,3484.5,3.5,1265.49
+Residential,Single-family,North America,New,279.5,3.5,46826000.0
+Residential,Single-family,North America,New,279.5,3.5,37047000.0
+Residential,Single-family,North America,New,279.5,3.5,28004000.0
+Residential,Single-family,North America,New,279.5,3.5,21367000.0
+Residential,Multi-family,North America,New,3484.5,3.5,714283.0
+Residential,Multi-family,North America,New,3484.5,3.5,431470.0
+Residential ,Other,North America,New,279.5,3.5,40.0
+Residential ,Other,North America,New,279.5,3.5,28.4
+Residential ,Other,North America,New,279.5,3.5,25.8
+Residential ,Other,North America,New,279.5,3.5,38.4
+Residential ,Other,North America,New,279.5,3.5,43.1
+Residential ,Other,North America,New,279.5,3.5,27.6
+Residential ,Other,North America,New,279.5,3.5,39.7
+Residential ,Other,North America,New,279.5,3.5,39.3
+Residential ,Other,North America,New,279.5,3.5,45.6
+Residential ,Other,North America,New,279.5,3.5,30.7
+Residential ,Other,North America,New,279.5,3.5,23.3
+Residential ,Other,North America,New,279.5,3.5,25.6
+Residential ,Other,North America,New,279.5,3.5,34.4
+Residential ,Other,North America,New,279.5,3.5,25.1
+Residential ,Other,North America,New,279.5,3.5,24.8
+Residential ,Other,North America,New,279.5,3.5,29.2
+Residential ,Other,North America,New,279.5,3.5,35.6
+Residential ,Other,North America,New,279.5,3.5,34.9
+Residential ,Other,North America,New,279.5,3.5,27.6
+Residential ,Other,North America,New,279.5,3.5,42.0
+Residential ,Other,North America,New,279.5,3.5,22.5
+Residential ,Other,North America,New,279.5,3.5,42.9
+Residential ,Other,North America,New,279.5,3.5,26.3
+Residential ,Other,North America,New,279.5,3.5,30.2
+Residential ,Other,North America,New,279.5,3.5,29.8
+Residential ,Other,North America,New,279.5,3.5,27.4
+Residential ,Other,North America,New,279.5,3.5,31.2
+Residential ,Other,North America,New,279.5,3.5,27.3
+Residential ,Other,North America,New,279.5,3.5,26.7
+Residential ,Other,North America,New,279.5,3.5,24.8
+Commercial,Other,North America,New,1626.5,3.5,1129.47
+Commercial,Other,North America,New,6968.0,3.5,1376.21
+Commercial,Office,North America,New,1626.5,3.5,1062.8
+Commercial,Other,North America,New,6968.0,3.5,1291.95
+Commercial,Mixed,North America,New,6968.0,10.5,1074.81
+Commercial,Public Assembly,North America,New,3484.5,3.5,888.0
+Commercial,Public Assembly,North America,New,3484.5,3.5,763.0
+Commercial,Public Assembly,North America,New,3484.5,3.5,643.0
+Commercial,Education,North America,New,3484.5,3.5,2206.0
+Commercial,Office,North America,New,3484.5,3.5,2052.41
+Commercial,Office,North America,New,3484.5,3.5,2590.98
+Commercial,Office,North America,New,3484.5,3.5,2041.32
+Commercial,Office,North America,New,3484.5,3.5,2191.06
+Residential,Single-family,North America,New,279.5,25.0,184.79
+Commercial,Lodging,North America,New,13935.5,25.0,10588.7
+Commercial,Education,North America,New,3484.5,25.0,2705.64
+Commercial,Lodging,North America,New,13935.5,25.0,6678.35
+Commercial,Public Assembly,North America,New,279.5,25.0,190.08
+Commercial,Lodging,North America,Renovation,13935.5,25.0,9290.04
+Commercial,Public Assembly,North America,New,279.5,25.0,144.85
+Commercial,Lodging,North America,New,13935.5,25.0,3468.13
+Residential ,Single-family,North America,New,697.5,25.0,125.64
+Residential ,Single-family,North America,New,697.5,25.0,100.49
+Commercial,Education,North America,New,32516.0,25.0,15895.79
+Commercial,Education,North America,New,3484.5,25.0,1911.91
+Commercial,Public Assembly,North America,New,32516.0,25.0,23005.0
+Commercial,Education,North America,New,6968.0,25.0,2366.49
+Commercial,Education,North America,New,6968.0,25.0,2627.88
+Commercial,Education,North America,New,1626.5,25.0,747.49
+Commercial,Education,North America,New,6968.0,25.0,2302.43
+Commercial,Education,North America,New,6968.0,25.0,1612.74
+Commercial,Education,North America,New,13935.5,25.0,3199.72
+Commercial,Education,North America,New,6968.0,25.0,2699.45
+Commercial,Public Assembly,North America,New,13935.5,25.0,3553.48
+Commercial,Education,North America,New,6968.0,25.0,1769.06
+Commercial,Education,North America,New,13935.5,25.0,4575.46
+Commercial,Lodging,North America,New,13935.5,25.0,6574.69
+Commercial,Public Assembly,North America,New,32516.0,25.0,4881.84
+Commercial,Education,North America,New,13935.5,25.0,2228.55
+Commercial,Education,North America,New,6968.0,25.0,1186.5
+Commercial,Education,North America,New,13935.5,25.0,2205.25
+Commercial,Education,North America,New,32516.0,25.0,3998.57
+Commercial,Lodging,North America,New,13935.5,25.0,2031.71
+Commercial,Lodging,North America,New,6968.0,25.0,1276.26
+Commercial,Education,North America,New,32516.0,25.0,3218.1
+Commercial,Education,North America,New,32516.0,25.0,2241.14
+Commercial,Education,North America,New,3484.5,25.0,369.75
+Commercial,Education,North America,New,3484.5,25.0,170.2
+Residential,Single-family,Europe,New,279.5,3.5,281.28
+Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,13515.29
+Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,3407.0
+Commercial,Mixed,North America,New,13935.5,10.5,12200.0
+Commercial,Other,Asia-Pacific,New,32516.0,10.5,108791.54
+Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,6549.15
+Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,6358.73
+Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,6266.08
+Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,6123.96
+Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,6635.83
+Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,6532.57
+Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,6395.2
+Residential,Multi-family,Asia-Pacific,New,3484.5,20.0,11439.83
+Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,2482.0
+Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,6253.34
+Residential,Single-family,Europe,New,46498.0,3.5,52.0
+Commercial,Education,North America,New,6968.0,10.5,4657.5
+Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,2280.0
+Commercial,Mercantile,North America,New,697.5,3.5,322.0
+Residential,Single-family,Europe,New,46498.0,3.5,45.6
+Commercial,Mercantile,North America,New,697.5,3.5,306.0
+Commercial,Mercantile,North America,New,697.5,3.5,303.0
+Residential,Multi-family,Asia-Pacific,New,3484.5,20.0,13848.18
+Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,7687.99
+Commercial,Mercantile,North America,New,697.5,3.5,264.0
+Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,6461.95
+Residential,Single-family,Europe,New,46498.0,3.5,34.6
+Residential,Single-family,Europe,New,279.5,3.5,73.92
+Residential,Single-family,Europe,New,279.5,3.5,38.3
+Commercial,Mercantile,North America,New,697.5,3.5,208.0
+Residential,Single-family,Asia-Pacific,New,46498.0,3.5,16957.2
+Residential,Multi-family,Europe,New,3484.5,10.5,-376.0
+Residential,Multi-family,Europe,New,3484.5,10.5,-376.0
+Residential,Single-family,Europe,New,46498.0,3.5,19.86
+Residential,Single-family,Europe,New,279.5,3.5,38.4
+Commercial,Education,North America,New,6968.0,3.5,42691.68
+Residential,Single-family,Europe,New,46498.0,3.5,8.8
+Residential,Single-family,Europe,New,279.5,3.5,32.64
+Residential,Single-family,Asia-Pacific,New,46498.0,3.5,8782.8
+Residential,Multi-family,Europe,New,1626.5,3.5,229.24
+Residential,Multi-family,Europe,New,1626.5,3.5,234.82
+Residential,Multi-family,Europe,New,1626.5,3.5,221.9
+Residential,Multi-family,Europe,New,1626.5,3.5,214.46
+Residential,Multi-family,Europe,New,1626.5,3.5,235.97
+Residential,Multi-family,Europe,New,1626.5,3.5,193.3
+Residential,Multi-family,Europe,New,1626.5,3.5,181.86
+Residential,Multi-family,Europe,New,1626.5,3.5,230.5
+Residential,Multi-family,Europe,New,1626.5,3.5,154.08
+Commercial,Mixed,Europe,New,69677.5,3.5,140000.0
+Commercial,Education,North America,Renovation,6968.0,3.5,34333.92
+Commercial,Education,North America,New,6968.0,3.5,3884.03
+Commercial,Education,North America,Renovation,6968.0,3.5,25633.8
+Commercial,Education,North America,Renovation,6968.0,3.5,17104.85
+Commercial,Education,North America,Renovation,6968.0,3.5,8575.91
+Commercial,Education,North America,Renovation,6968.0,3.5,2839.03
+Commercial,Education,North America,New,6968.0,3.5,36145.1
+Commercial,Education,North America,New,6968.0,3.5,27444.98
+Commercial,Education,North America,New,6968.0,3.5,18156.09
+Commercial,Education,North America,New,6968.0,3.5,12185.74
+Commercial ,Office,North America,New,32516.0,3.5,3860.0
+Commercial ,Office,North America,New,32516.0,3.5,4070.0
+Commercial,Office,North America,New,13935.5,10.5,6328.57
+Commercial,Office,North America,New,13935.5,10.5,6349.11
+Commercial,Office,North America,New,13935.5,10.5,7700.0
+Commercial,Office,North America,New,13935.5,10.5,8150.0
+Commercial,Office,North America,New,6968.0,3.5,4010.0
+Commercial,Office,North America,New,6968.0,3.5,4040.0
+Commercial,Office,North America,New,6968.0,3.5,2787.0
+Commercial,Office,North America,New,6968.0,3.5,2982.15
+Commercial,Office,North America,New,6968.0,3.5,10700.0
+Commercial,Office,North America,New,6968.0,3.5,11600.0
+Commercial,Office,North America,New,6968.0,3.5,2520.0
+Commercial,Office,North America,New,6968.0,3.5,2790.0
+Commercial,Office,North America,New,13935.5,3.5,10700.0
+Commercial,Office,North America,New,13935.5,3.5,10000.0
+Commercial,Office,North America,New,32516.0,3.5,8660.0
+Commercial,Office,North America,New,32516.0,3.5,8760.0
+Commercial,Office,North America,New,13935.5,10.5,3302.17
+Commercial,Office,North America,New,13935.5,10.5,3052.07
+Commercial,Office,North America,New,6968.0,3.5,5330.0
+Commercial,Office,North America,New,6968.0,3.5,4750.0
+Commercial ,Office,North America,New,32516.0,3.5,3540.0
+Commercial ,Office,North America,New,32516.0,3.5,3750.0
+Commercial,Office,North America,New,32516.0,3.5,6040.0
+Commercial,Office,North America,New,32516.0,3.5,4270.0
+Commercial ,Office,North America,New,13935.5,10.5,3032.0
+Commercial ,Office,North America,New,6968.0,3.5,2728.0
+Commercial,Office,North America,New,6968.0,3.5,1530.0
+Commercial,Office,North America,New,6968.0,3.5,904.0
+Commercial,Office,North America,New,13935.5,10.5,4800.0
+Commercial,Office,North America,New,13935.5,10.5,2990.0
+Commercial,Office,North America,New,6968.0,3.5,2520.0
+Commercial,Office,North America,New,6968.0,3.5,1810.0
+Commercial,Office,North America,New,6968.0,3.5,2256.15
+Commercial,Office,North America,New,6968.0,3.5,1303.1
+Commercial,Office,North America,New,13935.5,3.5,7710.0
+Commercial,Office,North America,New,13935.5,3.5,8070.0
+Commercial,Office,North America,New,13935.5,3.5,5980.0
+Commercial,Office,North America,New,13935.5,3.5,2370.0
+Commercial,Office,North America,New,13935.5,3.5,5977.86
+Commercial,Office,North America,New,13935.5,3.5,1793.36
+Commercial,Warehouse,North America,New,13935.5,3.5,3296.81
+Commercial,Warehouse,North America,New,13935.5,3.5,2774.43
+Commercial ,Mixed,North America,New,6968.0,3.5,5083.8
+Commercial,Mixed,North America,New,6968.0,3.5,4590.0
+Residential ,Single-family,North America,New,279.5,3.5,370.0
+Residential ,Single-family,North America,New,279.5,3.5,1010.0
