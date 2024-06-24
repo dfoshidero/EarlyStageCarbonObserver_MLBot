@@ -56,6 +56,8 @@ clf_df = clf_df[[
 
 clf_df = clf_df.dropna()
 
+
+
 """
 3. Save dataframe to CSV for modelimg
 """
