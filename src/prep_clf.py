@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import numpy as np
+from sklearn.preprocessing import LabelEncoder
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -52,14 +53,17 @@ clf_df = clf_df[[
 clf_df = clf_df.dropna()
 
 clf_df = clf_df.rename(columns={
-    'Building Type': 'Building_Project_Type',
-    'Building Use': 'Building_Use_Type',
+    'Building Type': 'Building_Use_Type',
+    'Building Use': 'Building_Use_Subtype',
     'Building Location Region': 'Continent',
     'Building New or Renovation': 'Building_Project_Type',
     'Average Building Area in Square Meters': 'Gross_Floor_Area_m2',
     'Average Building Storeys': 'Floors_Above_Ground',
     'Embodied Carbon Life Cycle Assessment Area Per Square Meter': 'Total_Embodied_Carbon_PER_m2'
 })
+
+# Replace all values in "Building_Use_Type" that are not equal to "Residential" with "Non-residential"
+clf_df['Building_Use_Type'] = clf_df['Building_Use_Type'].apply(lambda x: 'Residential' if x == 'Residential' else 'Non-residential')
 
 """
 3. Remove Outliers
@@ -77,8 +81,27 @@ upper_bound = Q3 + 1.5 * IQR
 clf_df = clf_df[(clf_df['Total_Embodied_Carbon_PER_m2'] >= lower_bound) & (clf_df['Total_Embodied_Carbon_PER_m2'] <= upper_bound)]
 
 """
-4. Save dataframe to CSV for modeling
+4. Save dataframe to CSV for inspection.
 """
-clf_df_PATH = os.path.join(export_dir, 'cleaned_clf.csv')
+clf_df_PATH = os.path.join(export_dir, 'inspect/cleaned_clf.csv')
+clf_df.to_csv(clf_df_PATH, index=False)
+clf_df.info()
+
+"""
+5. Label encode categorical data for ML use.
+"""
+# Define categorical columns
+categorical_cols = ['Building_Use_Type', 'Building_Use_Subtype', 'Continent', 'Building_Project_Type']
+
+# Label encode categorical columns
+label_encoders = {}
+for col in categorical_cols:
+    label_encoders[col] = LabelEncoder()
+    clf_df[col] = label_encoders[col].fit_transform(clf_df[col])
+
+"""
+6. Save dataframe to CSV for modeling.
+"""
+clf_df_PATH = os.path.join(export_dir, 'model/encoded_clf.csv')
 clf_df.to_csv(clf_df_PATH, index=False)
 clf_df.info()

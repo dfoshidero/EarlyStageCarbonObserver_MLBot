@@ -66,22 +66,6 @@ carbenmats_df[numerical_cols] = imp_numerical.fit_transform(carbenmats_df[numeri
 for col in categorical_cols:
     carbenmats_df[col] = encoders[col].inverse_transform(carbenmats_df[col].astype(int))
 
-mass_columns = [
-    'mass_wood', 'mass_straw_hemp', 'mass_fungi', 'mass_brass_copper', 'mass_earth',
-    'mass_bamboo', 'mass_glass', 'mass_stone', 'mass_stone_wool', 'mass_ceramics',
-    'mass_metals', 'mass_plastics', 'mass_steel_reinforcement', 'mass_EPS_XPS', 'mass_aluminium', 
-    'mass_concrete_wo_reinforcement', 'mass_other', 'mass_concrete_reinforced', 'mass_cement_mortar',
-]
-
-# Fill missing mass values with zero
-carbenmats_df[mass_columns] = carbenmats_df[mass_columns].fillna(0)
-
-# Identify rows where all mass columns are zero
-all_mass_zero = carbenmats_df[mass_columns].sum(axis=1) == 0
-
-# Set mass values to NaN for rows where all mass columns are zero
-carbenmats_df.loc[all_mass_zero, mass_columns] = np.nan
-
 """
 4. Select and Rename relevant columns
 """
@@ -95,11 +79,6 @@ carbenmats_df['Total_Embodied_Carbon_PER_m2'] = carbenmats_df['Total_Embodied_Ca
 carbenmats_df = carbenmats_df[['bldg_project_type', 'bldg_use_type', 'bldg_use_subtype', 'site_region_world', 'site_country',
      'site_region_local', 'bldg_area_gfa', 'bldg_users_total', 'bldg_floors_ag', 'bldg_floors_bg',
      'bldg_struct_type', 'bldg_roof_type',
-
-     'mass_wood', 'mass_straw_hemp', 'mass_fungi', 'mass_brass_copper', 'mass_earth',
-     'mass_bamboo', 'mass_glass', 'mass_stone', 'mass_stone_wool', 'mass_ceramics',
-     'mass_metals', 'mass_plastics', 'mass_steel_reinforcement', 'mass_EPS_XPS', 'mass_aluminium', 
-     'mass_concrete_wo_reinforcement', 'mass_concrete_reinforced', 'mass_cement_mortar', 'mass_other',
 
      'Total_Embodied_Carbon_PER_m2'
      ]]
@@ -118,31 +97,15 @@ carbenmats_df.rename(columns={
 'bldg_floors_bg': 'Floors_Below_Ground',
 'bldg_struct_type': 'Structure_Type',
 'bldg_roof_type': 'Roof_Type',
-'mass_wood': 'Mass_Wood',
-'mass_straw_hemp': 'Mass_Straw_Hemp',
-'mass_fungi': 'Mass_Fungi',
-'mass_brass_copper': 'Mass_Brass_Copper',
-'mass_earth': 'Mass_Earth',
-'mass_bamboo': 'Mass_Bamboo',
-'mass_glass': 'Mass_Glass',
-'mass_stone': 'Mass_Stone',
-'mass_stone_wool': 'Mass_Stone_Wool',
-'mass_ceramics': 'Mass_Ceramics',
-'mass_metals': 'Mass_Metals',
-'mass_plastics': 'Mass_Plastics',
-'mass_steel_reinforcement': 'Mass_Steel_Reinforcement',
-'mass_EPS_XPS': 'Mass_EPS_XPS',
-'mass_aluminium': 'Mass_Aluminium',
-'mass_concrete_wo_reinforcement': 'Mass_Concrete_Without_Reinforcement',
-'mass_other': 'Mass_Other',
-'mass_concrete_reinforced': 'Mass_Concrete_With_Reinforcement',
-'mass_cement_mortar': 'Mass_Cement_Mortar',
 }, inplace=True)
+
+updated_categorical_cols = ['Building_Project_Type', 'Building_Use_Type', 'Building_Use_Subtype', 'Continent', 'Country', 'City', 'Structure_Type', 'Roof_Type']
 
 """
 5. Drop rows with any remaining NaN values, anddrop rows with "0" embodied carbon.
 """
 carbenmats_df = carbenmats_df.dropna()
+carbenmats_df = carbenmats_df[carbenmats_df['Total_Embodied_Carbon_PER_m2'] != 0]
 
 """
 6. Remove Outliers
@@ -160,9 +123,35 @@ upper_bound = Q3 + 1.5 * IQR
 carbenmats_df = carbenmats_df[(carbenmats_df['Total_Embodied_Carbon_PER_m2'] >= lower_bound) & (carbenmats_df['Total_Embodied_Carbon_PER_m2'] <= upper_bound)]
 
 """
-7. Save Cleaned DataFrame to CSV
+7. Drop categorical columns with more than 40% 'missing' values
+"""
+threshold = 0.40
+categorical_cols_to_drop = [col for col in updated_categorical_cols if (carbenmats_df[col] == 'missing').mean() > threshold]
+carbenmats_df.drop(columns=categorical_cols_to_drop, inplace=True)
+
+# Update the list of categorical columns after dropping
+updated_categorical_cols = [col for col in updated_categorical_cols if col not in categorical_cols_to_drop]
+
+"""
+8. Save Cleaned DataFrame to CSV for inspection.
 """
 # Save the cleaned dataframe to a CSV file
-carbenmats_df_PATH = os.path.join(export_dir, 'cleaned_carbenmats.csv')
+carbenmats_df_PATH = os.path.join(export_dir, 'inspect/cleaned_carbenmats.csv')
+carbenmats_df.to_csv(carbenmats_df_PATH, index=False)
+carbenmats_df.info()
+
+"""
+9. Label encode categorical data for ML use.
+"""
+# Label encode categorical columns
+label_encoders = {}
+for col in updated_categorical_cols:
+    label_encoders[col] = LabelEncoder()
+    carbenmats_df[col] = label_encoders[col].fit_transform(carbenmats_df[col])
+
+"""
+10. Save dataframe to CSV for modeling.
+"""
+carbenmats_df_PATH = os.path.join(export_dir, 'model/encoded_carbenmats.csv')
 carbenmats_df.to_csv(carbenmats_df_PATH, index=False)
 carbenmats_df.info()

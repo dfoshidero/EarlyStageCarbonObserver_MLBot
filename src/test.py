@@ -1,108 +1,125 @@
 import pandas as pd
-import numpy as np
-import joblib
 import os
+import numpy as np
+from sklearn.ensemble import GradientBoostingRegressor, StackingRegressor
+from sklearn.model_selection import train_test_split, RandomizedSearchCV
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import r2_score
+from sklearn.linear_model import RidgeCV
+from scipy.stats import uniform, randint
 
-# Define the base directory and model paths
+# Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(current_dir, '../data/processed')
-model_dir = os.path.join(current_dir, '../models')
-model_path = os.path.join(model_dir, 'carbon_prediction_model.pkl')
-encoders_path = os.path.join(model_dir, 'label_encoders.pkl')
+import_dir = os.path.join(current_dir, '../data/processed/model')
 
-# Load the saved model and encoders
-model = joblib.load(model_path)
-label_encoders = joblib.load(encoders_path)
+# Define the paths to the cleaned and encoded datasets
+becd_df_PATH = os.path.join(import_dir, 'encoded_becd.csv')
+carbenmats_df_PATH = os.path.join(import_dir, 'encoded_carbenmats.csv')
+clf_df_PATH = os.path.join(import_dir, 'encoded_clf.csv')
 
-# Load the dataset to calculate averages for missing values
-DF_PATH = os.path.join(data_dir, 'BUILDING_DATA.csv')
-df = pd.read_csv(DF_PATH)
+# Load the datasets
+becd_df = pd.read_csv(becd_df_PATH)
+carbenmats_df = pd.read_csv(carbenmats_df_PATH)
+clf_df = pd.read_csv(clf_df_PATH)
 
-# Calculate mean for numerical columns
-mean_values = df.mean()
+# Define target column
+target_column = 'Total_Embodied_Carbon_PER_m2'
 
-# Calculate mode for categorical columns, with a check for empty mode DataFrame
-mode_values = {}
-for col in df.select_dtypes(include=[object]).columns:
-    mode_value = df[col].mode()
-    if not mode_value.empty:
-        mode_values[col] = mode_value.iloc[0]
-    else:
-        mode_values[col] = df[col].value_counts().idxmax()  # Use the most frequent value if mode is empty
+# Prepare datasets (use all features except the target column)
+X_becd = becd_df.drop(columns=[target_column])
+y_becd = becd_df[target_column]
 
-# Example new data for prediction (with partial information)
-new_data = {
-    'Project_Type': ['New construction'],
-    'Building_Use_Type': ['Office'],
-    'Building_Use_Subtype': [None],  # Missing value
-    'Continent': ['Europe'],
-    'Country': ['Germany'],
-    'City': [None],  # Missing value
-    'Gross_Floor_Area': [15000],
-    'Total_Users': [None],  # Missing value
-    'Floors_Above_Ground': [10],
-    'Floors_Below_Ground': [2],
-    'Structure_Type': ['Steel'],
-    'Roof_Type': [None],  # Missing value
-    'Mass_Wood': [1000],
-    'Mass_Straw_Hemp': [None],  # Missing value
-    'Mass_Fungi': [50],
-    'Mass_Brass_Copper': [300],
-    'Mass_Earth': [400],
-    'Mass_Bamboo': [100],
-    'Mass_Glass': [500],
-    'Mass_Stone': [600],
-    'Mass_Stone_Wool': [150],
-    'Mass_Ceramics': [200],
-    'Mass_Metals': [1200],
-    'Mass_Plastics': [300],
-    'Mass_Steel_Reinforcement': [800],
-    'Mass_EPS_XPS': [250],
-    'Mass_Aluminium': [150],
-    'Mass_Concrete_Without_Reinforcement': [2000],
-    'Mass_Other': [100],
-    'Mass_Concrete_With_Reinforcement': [2500],
-    'Mass_Cement_Mortar': [600],
-    'Total_Mass_Materials': [None]  # Missing value
+X_carbenmats = carbenmats_df.drop(columns=[target_column])
+y_carbenmats = carbenmats_df[target_column]
+
+X_clf = clf_df.drop(columns=[target_column])
+y_clf = clf_df[target_column]
+
+# Define parameter distribution for hyperparameter tuning
+param_dist = {
+    'regressor__n_estimators': randint(100, 1000),
+    'regressor__learning_rate': uniform(0.01, 0.2),
+    'regressor__max_depth': randint(3, 6)
 }
 
-# Convert the new data to a DataFrame
-new_data_df = pd.DataFrame(new_data)
+# Function to perform hyperparameter tuning
+def tune_model(X, y):
+    pipeline = Pipeline([
+        ('scaler', StandardScaler()),
+        ('regressor', GradientBoostingRegressor(random_state=42))
+    ])
+    random_search = RandomizedSearchCV(estimator=pipeline, param_distributions=param_dist, n_iter=50, cv=3, n_jobs=-1, scoring='r2', random_state=42)
+    random_search.fit(X, y)
+    return random_search.best_estimator_
 
-# Fill missing numerical values with the mean
-for col in new_data_df.select_dtypes(include=[np.number]).columns:
-    new_data_df[col].fillna(mean_values[col], inplace=True)
+# Tune models and store the best estimators
+model_becd = tune_model(X_becd, y_becd)
+model_carbenmats = tune_model(X_carbenmats, y_carbenmats)
+model_clf = tune_model(X_clf, y_clf)
 
-# Fill missing categorical values with the mode
-for col in new_data_df.select_dtypes(include=[object]).columns:
-    if col in mode_values:
-        new_data_df[col].fillna(mode_values[col], inplace=True)
+# Store models in an array
+models_to_train = [
+    ('model_becd', model_becd, X_becd, y_becd),
+    ('model_carbenmats', model_carbenmats, X_carbenmats, y_carbenmats),
+    ('model_clf', model_clf, X_clf, y_clf)
+]
 
-# Ensure no NaN values remain in the DataFrame
-if new_data_df.isna().any().any():
-    print(new_data_df)
-    raise ValueError("There are still NaN values in the input data after imputation.")
+# Display the best parameters for each model
+for model_name, model, X, y in models_to_train:
+    print(f'Best parameters for {model_name}: {model.get_params()}')
 
-# Apply label encoding to categorical features
-categorical_cols = ['Project_Type', 'Building_Use_Type', 'Building_Use_Subtype', 'Continent', 'Country', 'City', 'Structure_Type', 'Roof_Type']
-for feature in categorical_cols:
-    encoder = label_encoders[feature]
-    new_data_df[feature] = new_data_df[feature].apply(lambda x: encoder.transform([x])[0] if x in encoder.classes_ else -1)
+# List to keep models with R-squared >= 0.5
+valid_models = []
 
-# Ensure no NaN values remain in the DataFrame after label encoding
-if new_data_df.isna().any().any():
-    print(new_data_df)
-    raise ValueError("There are still NaN values in the input data after label encoding.")
+# Split data into training and testing sets, train the models, and evaluate R-squared
+for model_name, model, X, y in models_to_train:
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    model.fit(X_train, y_train)
+    
+    y_train_pred = model.predict(X_train)
+    y_test_pred = model.predict(X_test)
+    
+    r_squared_train = r2_score(y_train, y_train_pred)
+    r_squared_test = r2_score(y_test, y_test_pred)
+    
+    print(f'R-squared for {model_name} on training set: {r_squared_train}')
+    print(f'R-squared for {model_name} on testing set: {r_squared_test}')
+    
+    if r_squared_train >= 0.5 and r_squared_test >= 0.5:
+        valid_models.append((model_name, model, X_train, X_test, y_train, y_test))
 
-# Make predictions using the loaded model
-predictions = model.predict(new_data_df)
+# Display valid models
+print("\nModels with R-squared >= 0.5 on both training and testing sets:")
+for model_name, model, X_train, X_test, y_train, y_test in valid_models:
+    print(f'{model_name}')
 
-# Display the predictions
-for i, prediction in enumerate(predictions):
-    print(f"Prediction for data point {i+1}: {prediction:.2f}")
+# Prepare the stacking regressor
+estimators = [(name, model) for name, model, _, _, _, _ in valid_models]
 
-# Optionally, save the predictions to a CSV file
-PREDICTIONS_PATH = os.path.join(data_dir, 'predictions.csv')
-new_data_df['Predicted_Total_Carbon'] = predictions
-new_data_df.to_csv(PREDICTIONS_PATH, index=False)
-print(f"Predictions saved to {PREDICTIONS_PATH}")
+# Create training data for stacking model
+stacking_train_features = []
+stacking_test_features = []
+y_train_stacking = valid_models[0][4]  # Use the training target from the first model
+y_test_stacking = valid_models[0][5]   # Use the testing target from the first model
+
+for _, model, X_train, X_test, _, _ in valid_models:
+    stacking_train_features.append(model.predict(X_train).reshape(-1, 1))
+    stacking_test_features.append(model.predict(X_test).reshape(-1, 1))
+
+X_train_stack = np.hstack(stacking_train_features)
+X_test_stack = np.hstack(stacking_test_features)
+
+# Train the stacking regressor
+stacking_regressor = StackingRegressor(estimators=estimators, final_estimator=RidgeCV())
+stacking_regressor.fit(X_train_stack, y_train_stacking)
+
+# Evaluate the stacking model
+y_train_pred_stack = stacking_regressor.predict(X_train_stack)
+y_test_pred_stack = stacking_regressor.predict(X_test_stack)
+
+r_squared_train_stack = r2_score(y_train_stacking, y_train_pred_stack)
+r_squared_test_stack = r2_score(y_test_stacking, y_test_pred_stack)
+
+print(f'R-squared for stacking model on training set: {r_squared_train_stack}')
+print(f'R-squared for stacking model on testing set: {r_squared_test_stack}')

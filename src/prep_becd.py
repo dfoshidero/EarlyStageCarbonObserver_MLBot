@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import numpy as np
+from sklearn.preprocessing import LabelEncoder
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -70,7 +71,7 @@ becd_df = becd_df.rename(columns={
 becd_df['Building_Project_Type'].fillna('missing', inplace=True)
 
 """
-7. Drop Rows with All 'Not Applicable' or 'Unknown' in Primary Columns
+7. Drop Rows with 'Not Applicable' or 'Unknown' in ALL Primary Columns
 """
 # Drop rows where any of the Primary_ columns have all values as "Not applicable" or "Unknown"
 values_to_check = ["Not applicable", "Unknown"]
@@ -87,7 +88,16 @@ becd_df = becd_df[~mask]
 becd_df = becd_df.dropna()
 
 """
-9. Remove Outliers
+9. Replace 'Not applicable' or 'Unknown' with NaN and Impute
+"""
+# Replace 'Not applicable' with NaN and 'Unknown' with 'Other'
+becd_df.replace({'Not applicable': np.nan, 'Unknown': 'Other'}, inplace=True)
+
+# Impute missing values in categorical columns with 'missing'
+becd_df = becd_df.fillna('missing')
+
+"""
+10. Remove Outliers
 """
 # Calculate Q1, Q3, and IQR for Total_Embodied_Carbon
 Q1 = becd_df['Total_Embodied_Carbon_PER_m2'].quantile(0.25)
@@ -102,9 +112,27 @@ upper_bound = Q3 + 1.5 * IQR
 becd_df = becd_df[(becd_df['Total_Embodied_Carbon_PER_m2'] >= lower_bound) & (becd_df['Total_Embodied_Carbon_PER_m2'] <= upper_bound)]
 
 """
-10. Save Cleaned DataFrame to CSV
+11. Save Cleaned DataFrame to CSV for inspection.
 """
 # Save dataframe to CSV for modeling
-becd_df_PATH = os.path.join(export_dir, 'cleaned_becd.csv')
+becd_df_PATH = os.path.join(export_dir, 'inspect/cleaned_becd.csv')
+becd_df.to_csv(becd_df_PATH, index=False)
+becd_df.info()
+
+"""
+12. Label encode categorical data for ML use.
+"""
+# Label encode categorical columns
+label_encoder = LabelEncoder()
+categorical_columns = becd_df.select_dtypes(include=['object']).columns
+
+for col in categorical_columns:
+    becd_df[col] = label_encoder.fit_transform(becd_df[col])
+
+
+"""
+13. Save dataframe to CSV for modeling.
+"""
+becd_df_PATH = os.path.join(export_dir, 'model/encoded_becd.csv')
 becd_df.to_csv(becd_df_PATH, index=False)
 becd_df.info()
