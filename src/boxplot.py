@@ -5,7 +5,7 @@ import os
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-import_dir = os.path.join(current_dir, '../data/processed')
+import_dir = os.path.join(current_dir, '../data/processed/inspect')
 
 CLF_EMBODIED_CARBON_PATH = os.path.join(import_dir, 'cleaned_clf.csv')
 CARB_EN_MATS_PATH = os.path.join(import_dir, 'cleaned_carbenmats.csv')
