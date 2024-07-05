@@ -1,846 +1,846 @@
-Building_Use_Type,Building_Use_Subtype,Continent,Building_Project_Type,Gross_Floor_Area_m2,Floors_Above_Ground,Total_Embodied_Carbon_PER_m2
-Non-residential,Other,North America,New,1626.5,3.5,938.69
-Non-residential,Office,Asia-Pacific,New,92903.0,20.0,937.59
-Non-residential,Office,Asia-Pacific,New,69677.5,3.5,923.3
-Non-residential,Other,North America,New,32516.0,3.5,917.93
-Non-residential,Other,North America,New,32516.0,3.5,882.65
-Non-residential,Other,North America,New,69677.5,3.5,844.49
-Non-residential,Office,North America,New,92903.0,25.0,772.05
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,748.03
-Non-residential,Other,Asia-Pacific,New,69677.5,3.5,740.7
-Non-residential,Other,North America,New,92903.0,20.0,733.88
-Residential,Multi-family,Asia-Pacific,New,32516.0,25.0,731.63
-Non-residential,Other,North America,New,69677.5,3.5,730.52
-Non-residential,Office,Asia-Pacific,New,92903.0,3.5,724.64
-Non-residential,Mixed use,Asia-Pacific,New,13935.5,3.5,722.29
-Non-residential,Office,North America,New,69677.5,10.5,717.52
-Non-residential,Other,Asia-Pacific,New,32516.0,3.5,704.78
-Non-residential,Lodging,Middle East,New,92903.0,25.0,687.05
-Non-residential,Other,Asia-Pacific,New,6968.0,3.5,685.14
-Residential,Multi-family,Asia-Pacific,New,32516.0,25.0,682.25
-Residential,Multi-family,Asia-Pacific,New,32516.0,20.0,674.22
-Non-residential,Office,Asia-Pacific,New,6968.0,10.5,673.25
-Non-residential,Mixed use,Europe,New,92903.0,25.0,645.19
-Non-residential,Office,Asia-Pacific,New,32516.0,20.0,643.89
-Non-residential,Mixed use,Asia-Pacific,New,92903.0,25.0,636.62
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,620.59
-Non-residential,Office,Asia-Pacific,New,13935.5,10.5,619.74
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,603.72
-Non-residential,Office,Middle East,New,92903.0,25.0,595.91
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,590.35
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,583.2
-Non-residential,Other,Asia-Pacific,New,13935.5,3.5,582.83
-Residential,Multi-family,North America,New,69677.5,25.0,581.32
-Non-residential,Other,Asia-Pacific,New,6968.0,3.5,579.16
-Non-residential,Office,North America,New,32516.0,3.5,578.9
-Non-residential,Office,Europe,New,13935.5,10.5,575.17
-Non-residential,Office,North America,New,92903.0,20.0,574.36
-Non-residential,Other,Asia-Pacific,New,69677.5,3.5,572.07
-Non-residential,Other,Asia-Pacific,New,69677.5,10.5,563.73
-Non-residential,Office,North America,New,32516.0,25.0,561.49
-Residential,Multi-family,North America,New,69677.5,25.0,553.79
-Non-residential,Lodging,Asia-Pacific,New,6968.0,25.0,542.2
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,533.9
-Non-residential,Lodging,Asia-Pacific,New,69677.5,25.0,533.58
-Non-residential,Office,Asia-Pacific,New,13935.5,20.0,529.3
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,525.5
-Non-residential,Other,Middle East,New,92903.0,3.5,522.68
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,521.6
-Non-residential,Office,North America,New,697.5,3.5,517.89
-Non-residential,Office,Europe,New,69677.5,25.0,517.12
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,514.75
-Residential,Multi-family,Asia-Pacific,New,32516.0,20.0,511.46
-Non-residential,Other,North America,New,69677.5,10.5,511.39
-Non-residential,Mixed use,Europe,New,69677.5,25.0,505.26
-Non-residential,Office,Asia-Pacific,New,69677.5,20.0,503.81
-Non-residential,Other,Asia-Pacific,New,69677.5,3.5,501.89
-Non-residential,Other,Asia-Pacific,New,32516.0,3.5,493.88
-Non-residential,Office,Asia-Pacific,New,32516.0,10.5,492.23
-Non-residential,Office,Asia-Pacific,New,92903.0,10.5,491.75
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,491.74
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,490.19
-Non-residential,Office,Asia-Pacific,New,92903.0,20.0,490.11
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,485.95
-Non-residential,Office,Asia-Pacific,New,32516.0,25.0,485.79
-Residential,Multi-family,Asia-Pacific,New,69677.5,25.0,478.97
-Non-residential,Other,North America,New,13935.5,3.5,473.77
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,473.32
-Residential,Multi-family,Asia-Pacific,New,69677.5,10.5,473.26
-Non-residential,Other,Asia-Pacific,New,92903.0,10.5,472.28
-Non-residential,Office,Asia-Pacific,New,92903.0,10.5,471.3
-Residential,Multi-family,North America,New,69677.5,25.0,470.11
-Non-residential,Mixed use,North America,New,69677.5,25.0,469.77
-Non-residential,Mixed use,Asia-Pacific,New,6968.0,3.5,467.69
-Non-residential,Office,Asia-Pacific,New,1626.5,10.5,466.84
-Residential,Multi-family,North America,New,92903.0,25.0,465.66
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,465.02
-Non-residential,Office,Asia-Pacific,New,32516.0,25.0,464.89
-Non-residential,Office,North America,New,69677.5,20.0,464.32
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,462.89
-Non-residential,Office,Asia-Pacific,New,69677.5,20.0,457.53
-Non-residential,Mixed use,Middle East,New,92903.0,25.0,455.78
-Non-residential,Other,North America,New,69677.5,10.5,451.28
-Non-residential,Office,Europe,New,13935.5,10.5,446.21
-Residential,Multi-family,Asia-Pacific,New,13935.5,10.5,440.55
-Non-residential,Lodging,Asia-Pacific,New,69677.5,25.0,439.96
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,439.41
-Residential,Multi-family,Asia-Pacific,New,13935.5,10.5,436.33
-Non-residential,Parking,North America,New,32516.0,3.5,436.12
-Non-residential,Other,Asia-Pacific,New,13935.5,10.5,435.64
-Non-residential,Other,North America,New,3484.5,3.5,434.15
-Residential,Multi-family,North America,New,32516.0,20.0,432.01
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,430.91
-Non-residential,Office,Asia-Pacific,New,32516.0,20.0,425.53
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,423.37
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,422.82
-Non-residential,Office,North America,New,69677.5,20.0,418.31
-Residential,Multi-family,Asia-Pacific,New,32516.0,3.5,416.98
-Non-residential,Office,North America,New,92903.0,25.0,416.63
-Non-residential,Mixed use,Europe,New,32516.0,10.5,415.61
-Non-residential,Office,North America,New,32516.0,3.5,415.26
-Residential,Multi-family,Asia-Pacific,New,32516.0,3.5,413.97
-Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,404.68
-Residential,Multi-family,Asia-Pacific,New,69677.5,25.0,403.27
-Residential,Multi-family,Asia-Pacific,New,6968.0,10.5,401.06
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,398.34
-Residential,Multi-family,North America,New,32516.0,25.0,395.21
-Non-residential,Office,Asia-Pacific,New,69677.5,20.0,391.98
-Non-residential,Other,Asia-Pacific,New,32516.0,25.0,387.9
-Non-residential,Lodging,Asia-Pacific,New,69677.5,25.0,386.92
-Residential,Multi-family,North America,New,69677.5,20.0,382.12
-Residential,Multi-family,Asia-Pacific,New,32516.0,25.0,377.97
-Non-residential,Other,North America,New,6968.0,3.5,376.77
-Non-residential,Office,Asia-Pacific,New,92903.0,25.0,376.55
-Non-residential,Office,Europe,New,32516.0,10.5,374.09
-Non-residential,Office,North America,New,69677.5,10.5,373.32
-Non-residential,Other,Asia-Pacific,New,32516.0,3.5,371.39
-Non-residential,Other,North America,New,13935.5,3.5,371.22
-Non-residential,Office,Asia-Pacific,New,69677.5,25.0,369.65
-Non-residential,Education,North America,New,13935.5,3.5,369.16
-Non-residential,Lodging,Asia-Pacific,New,69677.5,20.0,367.59
-Non-residential,Other,North America,New,13935.5,3.5,367.47
-Residential,Multi-family,North America,New,32516.0,10.5,365.74
-Non-residential,Education,North America,New,32516.0,10.5,363.77
-Non-residential,Other,Asia-Pacific,New,92903.0,10.5,363.71
-Non-residential,Other,North America,New,69677.5,10.5,359.4
-Non-residential,Office,Europe,New,13935.5,10.5,356.64
-Non-residential,Office,Asia-Pacific,New,13935.5,20.0,354.58
-Non-residential,Mixed use,Asia-Pacific,New,92903.0,25.0,351.45
-Non-residential,Office,Middle East,New,69677.5,20.0,349.87
-Residential,Multi-family,North America,New,32516.0,20.0,349.02
-Non-residential,Lodging,Europe,New,69677.5,25.0,345.82
-Non-residential,Other,Asia-Pacific,New,13935.5,3.5,344.79
-Non-residential,Office,North America,New,6968.0,3.5,344.24
-Residential,Multi-family,North America,New,92903.0,25.0,343.97
-Residential,Multi-family,North America,New,32516.0,25.0,341.67
-Residential,Multi-family,Asia-Pacific,New,69677.5,25.0,337.64
-Non-residential,Other,Asia-Pacific,New,32516.0,3.5,336.78
-Non-residential,Office,North America,New,32516.0,25.0,334.13
-Non-residential,Education,North America,New,32516.0,25.0,333.84
-Non-residential,Other,Asia-Pacific,New,32516.0,3.5,333.82
-Non-residential,Office,Asia-Pacific,New,13935.5,10.5,330.38
-Residential,Multi-family,North America,New,32516.0,20.0,329.21
-Non-residential,Other,Asia-Pacific,New,13935.5,3.5,320.76
-Non-residential,Office,North America,New,69677.5,25.0,317.23
-Non-residential,Parking,Asia-Pacific,New,32516.0,3.5,314.93
-Non-residential,Office,North America,New,92903.0,25.0,314.44
-Non-residential,Office,North America,New,69677.5,25.0,313.63
-Residential,Multi-family,South America,New,32516.0,20.0,310.47
-Non-residential,Office,North America,New,69677.5,20.0,310.4
-Non-residential,Office,North America,New,32516.0,10.5,309.79
-Residential,Multi-family,Europe,New,69677.5,20.0,308.56
-Non-residential,Lodging,North America,New,32516.0,10.5,308.43
-Non-residential,Office,North America,New,92903.0,25.0,308.32
-Non-residential,Lodging,North America,New,32516.0,10.5,300.12
-Residential,Multi-family,North America,New,13935.5,10.5,299.21
-Residential,Multi-family,North America,New,69677.5,25.0,296.6
-Non-residential,Office,North America,New,32516.0,20.0,293.19
-Non-residential,Other,North America,New,69677.5,3.5,290.0
-Non-residential,Other,Asia-Pacific,New,3484.5,3.5,287.36
-Residential,Multi-family,Europe,New,13935.5,10.5,284.02
-Non-residential,Office,Europe,New,69677.5,10.5,283.83
-Non-residential,Office,Middle East,New,13935.5,10.5,277.61
-Non-residential,Other,North America,New,69677.5,3.5,277.15
-Non-residential,Other,North America,New,3484.5,3.5,272.6
-Non-residential,Other,North America,New,32516.0,3.5,270.4
-Non-residential,Office,North America,New,92903.0,10.5,254.88
-Residential,Multi-family,North America,New,32516.0,10.5,250.26
-Non-residential,Office,North America,New,69677.5,10.5,248.17
-Non-residential,Office,North America,New,6968.0,3.5,246.64
-Non-residential,Education,Asia-Pacific,New,32516.0,3.5,245.4
-Non-residential,Parking,North America,New,32516.0,3.5,244.25
-Non-residential,Office,North America,New,69677.5,25.0,242.93
-Non-residential,Other,Asia-Pacific,New,13935.5,3.5,242.18
-Non-residential,Other,North America,New,13935.5,3.5,234.87
-Non-residential,Education,North America,New,13935.5,3.5,233.81
-Non-residential,Other,North America,New,32516.0,10.5,225.27
-Non-residential,Office,Asia-Pacific,New,13935.5,3.5,217.14
-Non-residential,Office,North America,New,13935.5,10.5,215.95
-Non-residential,Office,North America,New,32516.0,3.5,212.57
-Non-residential,Office,Europe,New,32516.0,10.5,212.04
-Non-residential,Office,North America,New,13935.5,3.5,182.17
-Non-residential,Office,North America,New,32516.0,20.0,180.02
-Non-residential,Other,North America,New,13935.5,10.5,165.08
-Non-residential,Office,North America,New,69677.5,3.5,129.03
-Non-residential,Office,Asia-Pacific,New,32516.0,10.5,125.47
-Non-residential,Public Order and Safety,Europe,New,69677.5,3.5,793.88
-Non-residential,Education,Europe,New,1626.5,3.5,729.61
-Non-residential,Office,Europe,New,6968.0,3.5,700.0
-Non-residential,Office,Europe,Renovation,3484.5,10.5,672.05
-Residential,Other ,Europe,New,3484.5,10.5,668.33
-Residential,Other ,Europe,New,279.5,10.5,664.6
-Non-residential,Education,Europe,New,13935.5,10.5,660.88
-Non-residential,Office,Europe,New,6968.0,10.5,657.15
-Non-residential,Mercantile,Europe,New,13935.5,10.5,653.43
-Residential,Other ,Europe,New,32516.0,10.5,649.71
-Non-residential,Office,Europe,New,69677.5,10.5,645.98
-Non-residential,Office,Europe,New,69677.5,10.5,642.26
-Non-residential,Mixed,Europe,New,32516.0,3.5,640.75
-Non-residential,Mixed,Europe,New,32516.0,10.5,638.53
-Non-residential,Education,Europe,New,1626.5,10.5,634.81
-Non-residential,Education,Europe,New,3484.5,10.5,631.08
-Non-residential,Public Order and Safety,Europe,New,69677.5,10.5,627.36
-Residential,Other ,Europe,New,3484.5,10.5,623.64
-Residential,Other ,Europe,Renovation,3484.5,10.5,619.91
-Non-residential,Office,Europe,New,46498.0,10.5,616.19
-Non-residential,Office,Europe,New,46498.0,10.5,612.46
-Non-residential,Office,Europe,New,46498.0,10.5,608.74
-Non-residential,Office,Europe,New,46498.0,10.5,605.01
-Non-residential,Office,Europe,New,46498.0,10.5,601.29
-Non-residential,Office,Europe,New,46498.0,10.5,597.57
-Non-residential,Public Assembly,Europe,New,32516.0,10.5,597.0
-Non-residential,Office,Europe,New,46498.0,10.5,593.84
-Non-residential,Office,Europe,New,46498.0,10.5,590.12
-Non-residential,Public Assembly,Europe,New,32516.0,10.5,586.39
-Non-residential,Mixed,Europe,New,32516.0,10.5,582.67
-Non-residential,Mixed,Europe,New,32516.0,10.5,578.95
-Non-residential,Mixed,Europe,New,32516.0,10.5,575.22
-Non-residential,Mixed,Europe,New,32516.0,10.5,571.5
-Non-residential,Mixed,Europe,New,32516.0,10.5,567.77
-Non-residential,Office,Europe,Renovation,3484.5,10.5,564.05
-Residential,Other ,Europe,New,3484.5,10.5,560.32
-Residential,Other ,Europe,New,279.5,10.5,556.6
-Non-residential,Education,Europe,New,13935.5,10.5,552.88
-Non-residential,Office,Europe,New,6968.0,10.5,549.15
-Non-residential,Mercantile,Europe,New,13935.5,10.5,545.43
-Residential,Other ,Europe,New,32516.0,10.5,541.7
-Non-residential,Office,Europe,New,69677.5,10.5,537.98
-Residential,Other ,Europe,New,3484.5,10.5,536.48
-Non-residential,Office,Europe,New,69677.5,10.5,534.25
-Non-residential,Mixed,Europe,New,32516.0,10.5,530.53
-Non-residential,Education,Europe,New,1626.5,10.5,526.81
-Non-residential,Education,Europe,New,3484.5,10.5,523.08
-Non-residential,Public Order and Safety,Europe,New,69677.5,10.5,519.36
-Residential,Other ,Europe,New,3484.5,10.5,515.63
-Residential,Other ,Europe,Renovation,3484.5,10.5,511.91
-Non-residential,Office,Europe,New,46498.0,10.5,508.18
-Non-residential,Office,Europe,New,46498.0,10.5,504.46
-Non-residential,Office,Europe,New,46498.0,10.5,500.74
-Non-residential,Office,Europe,New,46498.0,10.5,497.01
-Non-residential,Office,Europe,Renovation,3484.5,10.5,496.21
-Non-residential,Office,Europe,New,46498.0,10.5,493.29
-Non-residential,Office,Europe,New,46498.0,10.5,489.56
-Non-residential,Office,Europe,New,46498.0,10.5,485.84
-Non-residential,Office,Europe,New,46498.0,10.5,482.12
-Non-residential,Public Assembly,Europe,New,32516.0,10.5,478.39
-Non-residential,Mixed,Europe,New,32516.0,10.5,474.67
-Non-residential,Mixed,Europe,New,32516.0,10.5,470.94
-Non-residential,Mixed,Europe,New,32516.0,10.5,467.22
-Non-residential,Mixed,Europe,New,32516.0,10.5,463.49
-Non-residential,Mixed,Europe,New,32516.0,10.5,459.77
-Non-residential,Office,Europe,Renovation,3484.5,10.5,456.05
-Residential,Other ,Europe,New,3484.5,10.5,452.32
-Residential,Other ,Europe,New,279.5,10.5,448.6
-Non-residential,Education,Europe,New,13935.5,10.5,444.87
-Non-residential,Office,Europe,New,6968.0,10.5,441.15
-Non-residential,Mercantile,Europe,New,13935.5,10.5,437.42
-Residential,Other ,Europe,New,32516.0,10.5,433.7
-Non-residential,Office,Europe,New,69677.5,10.5,429.98
-Non-residential,Office,Europe,New,69677.5,10.5,426.25
-Non-residential,Mixed,Europe,New,32516.0,10.5,422.53
-Non-residential,Education,Europe,New,1626.5,10.5,418.8
-Non-residential,Education,Europe,New,3484.5,10.5,415.08
-Non-residential,Public Order and Safety,Europe,New,69677.5,10.5,411.36
-Residential,Other ,Europe,New,3484.5,10.5,407.63
-Residential,Other ,Europe,Renovation,3484.5,10.5,403.91
-Non-residential,Office,Europe,New,46498.0,10.5,400.18
-Non-residential,Office,Europe,New,46498.0,10.5,396.46
-Non-residential,Office,Europe,New,46498.0,10.5,392.73
-Non-residential,Office,Europe,New,46498.0,10.5,389.01
-Non-residential,Office,Europe,New,46498.0,10.5,385.29
-Non-residential,Office,Europe,New,46498.0,10.5,381.56
-Non-residential,Office,Europe,New,46498.0,10.5,377.84
-Non-residential,Office,Europe,New,46498.0,10.5,374.11
-Non-residential,Public Assembly,Europe,New,32516.0,10.5,370.39
-Non-residential,Mixed,Europe,New,32516.0,10.5,366.66
-Non-residential,Mixed,Europe,New,32516.0,10.5,362.94
-Non-residential,Mixed,Europe,New,32516.0,10.5,359.22
-Non-residential,Mixed,Europe,New,32516.0,10.5,355.49
-Non-residential,Mixed,Europe,New,32516.0,10.5,351.77
-Non-residential,Office,Europe,Renovation,3484.5,10.5,348.04
-Residential,Other ,Europe,New,3484.5,10.5,344.32
-Non-residential,Education,Europe,New,3484.5,3.5,341.86
-Non-residential,Mixed,Europe,New,32516.0,10.5,303.39
-Non-residential,Mixed,Europe,New,32516.0,10.5,273.55
-Non-residential,Mixed,Europe,New,32516.0,10.5,257.8
-Non-residential,Mixed,Europe,New,32516.0,10.5,247.03
-Residential,Other ,Europe,New,3484.5,10.5,220.02
-Non-residential,Mixed,Europe,New,32516.0,10.5,209.65
-Residential,Other ,Europe,New,279.5,3.5,200.0
-Non-residential,Education,Europe,New,13935.5,3.5,100.0
-Non-residential,Office,Europe,New,46498.0,25.0,70.0
-Non-residential,Office,Europe,New,46498.0,25.0,70.0
-Non-residential,Office,Europe,New,46498.0,25.0,70.0
-Non-residential,Office,Europe,New,46498.0,10.5,50.0
-Non-residential,Office,Europe,New,46498.0,25.0,50.0
-Residential,Other ,Europe,Renovation,3484.5,10.5,42.66
-Non-residential,Office,Europe,New,46498.0,10.5,30.0
-Non-residential,Office,Europe,New,46498.0,10.5,30.0
-Non-residential,Office,Europe,New,46498.0,10.5,10.0
-Non-residential,Education,North America,New,6968.0,3.5,950.0
-Non-residential,Public Assembly,North America,New,32516.0,10.5,935.0
-Non-residential,Education,North America,New,3484.5,3.5,927.0
-Non-residential,Other,North America,New,13935.5,3.5,910.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,910.0
-Non-residential,Education,North America,New,1626.5,3.5,876.0
-Non-residential,Education,North America,New,1626.5,3.5,873.0
-Non-residential,Other,North America,New,3484.5,3.5,871.0
-Non-residential,Mixed,Middle East,New,32516.0,25.0,870.0
-Non-residential,Education,North America,New,13935.5,3.5,863.0
-Non-residential,Other,North America,New,3484.5,3.5,820.0
-Non-residential,Lodging,North America,New,1626.5,3.5,802.0
-Non-residential,Education,North America,New,1626.5,3.5,802.0
-Non-residential,Education,North America,New,1626.5,3.5,802.0
-Non-residential,Education,North America,New,697.5,3.5,795.0
-Non-residential,Health Care,North America,New,6968.0,3.5,791.0
-Non-residential,Public Assembly,North America,New,32516.0,3.5,790.0
-Non-residential,Other,North America,New,32516.0,3.5,782.0
-Residential,Other,North America,New,697.5,10.5,768.0
-Non-residential,Education,North America,New,13935.5,3.5,746.0
-Non-residential,Other,North America,New,32516.0,3.5,742.0
-Non-residential,Public Assembly,Europe,New,6968.0,25.0,701.0
-Non-residential,Education,North America,New,6968.0,3.5,665.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,662.0
-Non-residential,Other,North America,New,279.5,3.5,661.0
-Non-residential,Education,North America,New,32516.0,10.5,661.0
-Residential,Other,North America,New,32516.0,25.0,655.0
-Non-residential,Health Care,North America,New,6968.0,3.5,652.0
-Non-residential,Public Assembly,North America,New,6968.0,3.5,651.0
-Non-residential,Education,North America,New,3484.5,3.5,648.0
-Non-residential,Education,North America,New,3484.5,3.5,645.0
-Non-residential,Public Assembly,North America,New,1626.5,3.5,644.0
-Non-residential,Other,Europe,New,3484.5,3.5,643.0
-Residential,Other,Asia-Pacific,New,92903.0,25.0,639.0
-Non-residential,Public Assembly,Middle East,New,32516.0,25.0,626.0
-Non-residential,Health Care,North America,New,6968.0,3.5,621.0
-Non-residential,Education,North America,New,697.5,3.5,617.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,610.0
-Non-residential,Education,North America,New,13935.5,3.5,601.0
-Non-residential,Education,North America,New,32516.0,3.5,598.0
-Non-residential,Mixed,Middle East,New,69677.5,25.0,597.0
-Non-residential,Public Assembly,North America,New,3484.5,3.5,594.0
-Non-residential,Mixed,North America,New,32516.0,10.5,594.0
-Non-residential,Education,North America,New,1626.5,3.5,583.0
-Non-residential,Education,North America,New,6968.0,3.5,577.0
-Non-residential,Education,North America,New,6968.0,3.5,576.0
-Non-residential,Public Assembly,Middle East,New,13935.5,3.5,570.0
-Non-residential,Health Care,North America,New,92903.0,20.0,562.0
-Non-residential,Public Assembly,North America,New,69677.5,10.5,561.0
-Non-residential,Public Assembly,Middle East,New,3484.5,3.5,544.0
-Non-residential,Other,North America,New,697.5,3.5,542.0
-Non-residential,Other,Asia-Pacific,New,69677.5,10.5,535.0
-Non-residential,Lodging,North America,New,1626.5,3.5,533.0
-Non-residential,Health Care,North America,New,69677.5,20.0,533.0
-Non-residential,Mixed,North America,New,697.5,3.5,532.0
-Non-residential,Other,North America,New,6968.0,3.5,529.0
-Residential,Other,Europe,New,32516.0,10.5,528.0
-Non-residential,Other,North America,New,13935.5,3.5,516.0
-Non-residential,Education,North America,New,1626.5,3.5,515.0
-Non-residential,Education,North America,New,13935.5,3.5,510.0
-Non-residential,Education,North America,New,6968.0,3.5,509.0
-Non-residential,Health Care,Africa,New,69677.5,10.5,508.0
-Non-residential,Public Assembly,North America,New,32516.0,3.5,507.0
-Non-residential,Education,North America,New,6968.0,3.5,487.0
-Non-residential,Health Care,North America,New,1626.5,3.5,485.0
-Non-residential,Other,North America,New,6968.0,3.5,480.0
-Non-residential,Other,North America,New,32516.0,10.5,480.0
-Non-residential,Public Assembly,North America,New,1626.5,3.5,478.0
-Residential,Other,North America,New,32516.0,10.5,459.0
-Non-residential,Education,North America,New,6968.0,3.5,456.0
-Non-residential,Public Assembly,Middle East,New,32516.0,20.0,453.0
-Non-residential,Education,North America,New,32516.0,10.5,446.0
-Non-residential,Education,North America,New,3484.5,3.5,445.0
-Residential,Other,North America,New,1626.5,3.5,444.0
-Non-residential,Other,Asia-Pacific,New,92903.0,25.0,442.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,440.0
-Non-residential,Public Assembly,North America,New,69677.5,10.5,438.0
-Residential,Other,Europe,New,32516.0,10.5,437.0
-Non-residential,Office,North America,New,32516.0,20.0,436.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,435.0
-Non-residential,Public Assembly,Middle East,New,69677.5,25.0,433.0
-Non-residential,Health Care,North America,New,69677.5,25.0,428.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,425.0
-Residential,Other,Asia-Pacific,New,69677.5,25.0,424.0
-Non-residential,Education,North America,New,3484.5,3.5,424.0
-Non-residential,Other,Europe,New,3484.5,3.5,423.0
-Non-residential,Other,North America,New,6968.0,10.5,422.0
-Non-residential,Education,North America,New,32516.0,10.5,421.0
-Non-residential,Mixed,Middle East,New,32516.0,3.5,416.0
-Non-residential,Education,North America,New,6968.0,3.5,413.0
-Non-residential,Mixed,North America,New,1626.5,3.5,409.0
-Non-residential,Health Care,Africa,New,32516.0,10.5,408.0
-Non-residential,Health Care,North America,New,32516.0,10.5,406.0
-Non-residential,Other,North America,New,92903.0,25.0,405.0
-Non-residential,Health Care,North America,New,92903.0,25.0,402.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,402.0
-Non-residential,Other,Asia-Pacific,New,69677.5,25.0,401.0
-Non-residential,Education,North America,New,6968.0,3.5,401.0
-Non-residential,Other,North America,New,32516.0,3.5,399.0
-Non-residential,Other,North America,New,69677.5,10.5,392.0
-Non-residential,Education,North America,New,6968.0,3.5,391.0
-Non-residential,Education,North America,New,6968.0,3.5,389.0
-Non-residential,Health Care,North America,New,32516.0,10.5,389.0
-Non-residential,Education,North America,New,3484.5,3.5,386.0
-Non-residential,Education,Middle East,New,69677.5,3.5,383.0
-Non-residential,Other,North America,New,92903.0,3.5,381.0
-Non-residential,Public Assembly,North America,New,32516.0,10.5,381.0
-Non-residential,Other,North America,New,92903.0,25.0,380.0
-Non-residential,Other,Middle East,New,92903.0,25.0,379.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,377.0
-Non-residential,Education,North America,New,32516.0,10.5,374.0
-Non-residential,Education,North America,New,3484.5,3.5,371.0
-Non-residential,Other,North America,New,92903.0,25.0,364.0
-Non-residential,Other,Middle East,New,92903.0,10.5,361.0
-Non-residential,Education,North America,New,3484.5,3.5,359.0
-Non-residential,Other,Asia-Pacific,New,92903.0,25.0,356.0
-Non-residential,Office,North America,New,32516.0,3.5,356.0
-Residential,Other,North America,New,69677.5,25.0,355.0
-Non-residential,Other,North America,New,1626.5,3.5,352.0
-Non-residential,Education,North America,New,3484.5,3.5,344.0
-Non-residential,Health Care,North America,New,6968.0,3.5,343.0
-Residential,Other,Asia-Pacific,New,6968.0,20.0,342.0
-Non-residential,Public Assembly,North America,New,69677.5,10.5,341.0
-Non-residential,Other,North America,New,32516.0,10.5,341.0
-Non-residential,Other,Middle East,New,13935.5,3.5,340.0
-Non-residential,Lodging,North America,New,69677.5,20.0,336.0
-Non-residential,Other,Middle East,New,92903.0,10.5,335.0
-Non-residential,Other,Europe,New,6968.0,10.5,329.0
-Residential,Other,Asia-Pacific,New,92903.0,25.0,328.0
-Non-residential,Other,North America,New,32516.0,25.0,328.0
-Residential,Other,North America,New,3484.5,3.5,328.0
-Non-residential,Public Assembly,North America,New,6968.0,3.5,323.0
-Non-residential,Public Assembly,North America,New,1626.5,3.5,322.0
-Non-residential,Office,Asia-Pacific,New,69677.5,10.5,321.0
-Non-residential,Other,Asia-Pacific,New,6968.0,20.0,317.0
-Non-residential,Public Assembly,North America,New,697.5,3.5,317.0
-Residential,Other,Asia-Pacific,New,92903.0,25.0,316.0
-Non-residential,Mixed,Middle East,New,32516.0,3.5,313.0
-Non-residential,Mixed,North America,New,13935.5,10.5,310.0
-Non-residential,Health Care,North America,New,3484.5,3.5,310.0
-Residential,Other,North America,New,32516.0,25.0,309.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,309.0
-Non-residential,Education,North America,New,6968.0,3.5,304.0
-Non-residential,Health Care,North America,New,3484.5,10.5,300.0
-Non-residential,Public Assembly,North America,New,6968.0,10.5,294.0
-Non-residential,Mixed,North America,New,69677.5,25.0,294.0
-Non-residential,Other,Africa,New,92903.0,25.0,292.0
-Residential,Other,North America,New,6968.0,10.5,292.0
-Non-residential,Other,North America,New,6968.0,3.5,289.0
-Non-residential,Health Care,North America,New,69677.5,3.5,286.0
-Non-residential,Education,North America,New,1626.5,3.5,286.0
-Non-residential,Education,North America,New,3484.5,3.5,286.0
-Non-residential,Education,North America,New,13935.5,3.5,285.0
-Non-residential,Other,North America,New,13935.5,10.5,285.0
-Non-residential,Other,North America,New,92903.0,25.0,283.0
-Non-residential,Education,North America,New,1626.5,3.5,277.0
-Non-residential,Office,North America,New,13935.5,3.5,276.0
-Non-residential,Education,North America,New,3484.5,3.5,274.0
-Non-residential,Education,North America,New,6968.0,3.5,273.0
-Non-residential,Other,North America,New,13935.5,3.5,272.0
-Non-residential,Other,North America,New,92903.0,25.0,266.0
-Non-residential,Education,North America,New,6968.0,3.5,266.0
-Non-residential,Other,North America,New,13935.5,3.5,264.0
-Non-residential,Education,North America,New,6968.0,3.5,262.0
-Non-residential,Other,North America,New,32516.0,20.0,261.0
-Residential,Other,North America,New,6968.0,10.5,260.0
-Non-residential,Mixed,North America,New,69677.5,25.0,260.0
-Non-residential,Other,Asia-Pacific,New,69677.5,10.5,259.0
-Non-residential,Other,North America,New,32516.0,3.5,259.0
-Non-residential,Public Assembly,North America,New,32516.0,3.5,258.0
-Non-residential,Health Care,North America,New,3484.5,3.5,258.0
-Non-residential,Other,North America,New,69677.5,25.0,258.0
-Residential,Other,Asia-Pacific,New,69677.5,25.0,257.0
-Non-residential,Other,North America,New,32516.0,10.5,257.0
-Non-residential,Other,North America,New,69677.5,10.5,256.0
-Non-residential,Health Care,North America,New,92903.0,10.5,256.0
-Non-residential,Health Care,North America,New,1626.5,3.5,255.0
-Non-residential,Health Care,North America,New,1626.5,3.5,255.0
-Non-residential,Public Assembly,North America,New,69677.5,10.5,254.0
-Non-residential,Public Assembly,North America,New,13935.5,3.5,254.0
-Residential,Other,North America,New,32516.0,25.0,253.0
-Non-residential,Education,North America,New,3484.5,3.5,252.0
-Non-residential,Education,North America,New,6968.0,3.5,252.0
-Non-residential,Education,North America,New,13935.5,3.5,252.0
-Non-residential,Health Care,North America,New,13935.5,3.5,251.0
-Non-residential,Education,North America,New,13935.5,3.5,248.0
-Non-residential,Education,North America,New,6968.0,3.5,247.0
-Non-residential,Health Care,North America,New,92903.0,25.0,245.0
-Non-residential,Public Assembly,North America,New,92903.0,25.0,242.0
-Non-residential,Public Assembly,North America,New,69677.5,3.5,241.0
-Non-residential,Public Assembly,North America,New,32516.0,10.5,240.0
-Non-residential,Education,North America,New,32516.0,3.5,237.0
-Residential,Other,Asia-Pacific,New,13935.5,20.0,236.0
-Non-residential,Health Care,North America,New,69677.5,20.0,235.0
-Non-residential,Education,North America,New,6968.0,3.5,232.0
-Non-residential,Health Care,North America,New,32516.0,3.5,231.0
-Non-residential,Education,North America,New,6968.0,3.5,230.0
-Non-residential,Other,North America,New,69677.5,20.0,229.0
-Non-residential,Office,North America,New,32516.0,3.5,227.0
-Non-residential,Health Care,North America,New,32516.0,10.5,225.0
-Non-residential,Other,North America,New,92903.0,20.0,224.0
-Non-residential,Public Assembly,North America,New,1626.5,3.5,223.0
-Non-residential,Education,North America,New,13935.5,10.5,221.0
-Non-residential,Education,North America,New,3484.5,3.5,220.0
-Non-residential,Education,North America,New,32516.0,3.5,213.0
-Non-residential,Education,North America,New,6968.0,3.5,211.0
-Non-residential,Health Care,North America,New,697.5,3.5,211.0
-Non-residential,Public Assembly,North America,New,69677.5,10.5,208.0
-Non-residential,Lodging,North America,New,32516.0,20.0,207.0
-Residential,Other,North America,New,32516.0,20.0,206.0
-Non-residential,Other,Asia-Pacific,New,69677.5,3.5,203.0
-Non-residential,Other,North America,New,32516.0,3.5,203.0
-Residential,Other,North America,New,32516.0,25.0,201.0
-Non-residential,Education,North America,New,1626.5,3.5,200.0
-Non-residential,Education,North America,New,13935.5,3.5,199.0
-Non-residential,Public Assembly,North America,New,69677.5,3.5,194.0
-Non-residential,Health Care,North America,New,6968.0,3.5,192.0
-Non-residential,Health Care,North America,New,32516.0,10.5,191.0
-Non-residential,Education,North America,New,1626.5,3.5,189.0
-Residential,Other,North America,New,69677.5,10.5,184.0
-Non-residential,Education,North America,New,279.5,3.5,181.0
-Non-residential,Office,North America,New,32516.0,10.5,178.0
-Non-residential,Lodging,North America,New,32516.0,10.5,177.0
-Non-residential,Other,North America,New,32516.0,3.5,177.0
-Non-residential,Education,North America,New,1626.5,3.5,176.0
-Non-residential,Mixed,North America,New,69677.5,10.5,176.0
-Non-residential,Other,North America,New,32516.0,10.5,176.0
-Non-residential,Education,North America,New,32516.0,10.5,173.0
-Non-residential,Other,North America,New,32516.0,3.5,172.0
-Non-residential,Education,North America,New,13935.5,3.5,171.0
-Non-residential,Public Assembly,North America,New,32516.0,25.0,171.0
-Non-residential,Other,North America,New,69677.5,10.5,168.0
-Non-residential,Other,North America,New,13935.5,3.5,168.0
-Non-residential,Other,North America,New,32516.0,10.5,167.0
-Non-residential,Education,North America,New,6968.0,3.5,157.0
-Non-residential,Health Care,North America,New,13935.5,3.5,155.0
-Non-residential,Lodging,North America,New,69677.5,10.5,153.0
-Non-residential,Public Assembly,North America,New,6968.0,3.5,149.0
-Non-residential,Education,North America,New,1626.5,3.5,149.0
-Non-residential,Education,North America,New,697.5,3.5,143.0
-Non-residential,Public Assembly,Africa,New,6968.0,3.5,142.0
-Non-residential,Other,North America,New,13935.5,3.5,140.0
-Non-residential,Education,North America,New,1626.5,3.5,134.0
-Non-residential,Other,North America,New,32516.0,10.5,133.0
-Non-residential,Education,North America,New,1626.5,3.5,129.0
-Non-residential,Education,North America,New,6968.0,3.5,128.0
-Non-residential,Public Assembly,North America,New,697.5,3.5,127.0
-Residential,Other,North America,New,69677.5,20.0,126.0
-Non-residential,Public Assembly,North America,New,6968.0,3.5,123.0
-Non-residential,Other,North America,New,6968.0,10.5,119.0
-Non-residential,Health Care,North America,New,6968.0,3.5,118.0
-Non-residential,Health Care,North America,New,32516.0,3.5,117.0
-Non-residential,Other,North America,New,3484.5,3.5,112.0
-Residential,Other,Asia-Pacific,New,92903.0,20.0,111.0
-Non-residential,Office,North America,New,13935.5,3.5,109.0
-Non-residential,Education,North America,New,3484.5,25.0,109.0
-Non-residential,Office,North America,New,3484.5,3.5,106.0
-Non-residential,Public Assembly,North America,New,32516.0,3.5,102.0
-Non-residential,Education,North America,New,32516.0,3.5,100.0
-Non-residential,Public Assembly,North America,New,69677.5,3.5,100.0
-Non-residential,Office,North America,New,13935.5,3.5,93.0
-Non-residential,Education,North America,New,697.5,3.5,92.0
-Non-residential,Other,North America,New,32516.0,10.5,90.0
-Non-residential,Public Assembly,Europe,New,32516.0,10.5,801.0
-Non-residential,Office,Europe,New,69677.5,25.0,762.25
-Non-residential,Office,Middle East,New,92903.0,25.0,747.72
-Non-residential,Office,Europe,New,32516.0,10.5,638.54
-Non-residential,Industrial,Europe,New,3484.5,3.5,565.61
-Non-residential,Office,Europe,New,3484.5,3.5,556.13
-Non-residential,Office,Europe,New,13935.5,3.5,552.4
-Non-residential,Health Care,Europe,New,13935.5,10.5,546.67
-Non-residential,Office,Europe,New,69677.5,20.0,493.44
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,470.0
-Non-residential,Office,Europe,New,3484.5,3.5,453.53
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,430.0
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,420.0
-Non-residential,Education,North America,New,6968.0,3.5,411.0
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,410.0
-Non-residential,Office,Europe,New,6968.0,3.5,400.14
-Non-residential,Education,Europe,New,13935.5,10.5,399.0
-Non-residential,Office,Europe,New,6968.0,3.5,398.45
-Non-residential,Education,North America,New,6968.0,3.5,381.0
-Residential,Other,Europe,New,697.5,3.5,353.39
-Residential,Other,Europe,New,6968.0,10.5,321.79
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,320.0
-Non-residential,Office,Europe,New,13935.5,3.5,309.0
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,290.0
-Non-residential,Office,North America,New,6968.0,3.5,274.23
-Non-residential,Parking,North America,New,1626.5,3.5,273.82
-Residential,Other,Europe,New,6968.0,10.5,261.34
-Non-residential,Office,North America,New,6968.0,3.5,259.35
-Non-residential,Education,North America,New,69677.5,3.5,259.0
-Non-residential,Education,North America,New,69677.5,3.5,254.0
-Non-residential,Parking,North America,New,1626.5,3.5,244.88
-Non-residential,Office,North America,New,32516.0,10.5,237.0
-Non-residential,Office,North America,New,32516.0,10.5,237.0
-Non-residential,Office,North America,New,32516.0,10.5,237.0
-Non-residential,Office,North America,New,32516.0,10.5,237.0
-Non-residential,Office,North America,New,32516.0,10.5,232.0
-Non-residential,Office,North America,New,32516.0,10.5,232.0
-Non-residential,Office,North America,New,69677.5,10.5,229.89
-Non-residential,Office,North America,New,69677.5,10.5,229.89
-Non-residential,Office,North America,New,69677.5,10.5,225.0
-Non-residential,Office,North America,New,69677.5,10.5,222.0
-Non-residential,Public Assembly,North America,New,1626.5,3.5,209.14
-Non-residential,Office,North America,New,32516.0,10.5,192.0
-Non-residential,Office,North America,New,32516.0,10.5,191.0
-Non-residential,Office,North America,New,32516.0,10.5,191.0
-Non-residential,Office,North America,New,32516.0,10.5,191.0
-Non-residential,Office,North America,New,69677.5,10.5,186.24
-Non-residential,Office,North America,New,69677.5,10.5,185.27
-Non-residential,Office,North America,New,32516.0,10.5,183.0
-Non-residential,Office,North America,New,32516.0,10.5,183.0
-Non-residential,Office,North America,New,6968.0,10.5,181.06
-Non-residential,Office,North America,New,6968.0,10.5,178.54
-Non-residential,Office,North America,New,69677.5,10.5,177.0
-Non-residential,Office,North America,New,69677.5,10.5,177.0
-Non-residential,Education,North America,New,6968.0,3.5,175.05
-Residential,Other,North America,New,279.5,3.5,172.0
-Non-residential,Education,North America,New,6968.0,3.5,169.44
-Residential,Other,North America,New,279.5,3.5,156.0
-Non-residential,Office,North America,New,6968.0,10.5,150.23
-Residential,Other,North America,New,279.5,3.5,149.0
-Residential,Other,North America,New,279.5,3.5,149.0
-Non-residential,Education,North America,New,13935.5,3.5,144.0
-Non-residential,Education,North America,New,32516.0,3.5,142.05
-Non-residential,Office,North America,New,6968.0,10.5,141.59
-Non-residential,Education,North America,New,32516.0,3.5,140.94
-Residential,Other,North America,New,279.5,3.5,138.0
-Non-residential,Office,North America,New,6968.0,10.5,136.97
-Residential,Other,North America,New,279.5,3.5,133.0
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,130.0
-Non-residential,Public Assembly,North America,New,1626.5,3.5,129.98
-Residential,Other,North America,New,3484.5,3.5,124.0
-Residential,Other,North America,New,3484.5,3.5,122.0
-Residential,Other,North America,New,279.5,3.5,119.0
-Residential,Other,North America,New,279.5,3.5,119.0
-Residential,Other,North America,New,279.5,3.5,115.24
-Residential,Other,North America,New,279.5,3.5,114.0
-Residential,Other,North America,New,3484.5,3.5,110.0
-Residential,Other,North America,New,3484.5,3.5,109.0
-Residential,Other,North America,New,279.5,3.5,106.0
-Residential,Other,North America,New,279.5,3.5,89.11
-Residential,Other,North America,New,3484.5,3.5,87.4
-Residential,Other,North America,New,3484.5,3.5,84.0
-Residential,Other,North America,New,3484.5,3.5,82.0
-Residential,Other,North America,New,3484.5,3.5,80.0
-Non-residential,Office,Asia-Pacific,New,3484.5,10.5,70.0
-Non-residential,Office,North America,New,92903.0,25.0,570.78
-Non-residential,Office,North America,New,92903.0,25.0,570.78
-Non-residential,Office,North America,New,92903.0,25.0,530.19
-Non-residential,Office,Europe,New,92903.0,25.0,516.61
-Non-residential,Office,North America,New,92903.0,25.0,515.1
-Non-residential,Office,Europe,New,92903.0,25.0,501.51
-Non-residential,Office,North America,New,92903.0,25.0,495.58
-Non-residential,Office,North America,New,92903.0,25.0,494.23
-Non-residential,Office,Europe,New,92903.0,25.0,491.04
-Non-residential,Office,Europe,New,92903.0,25.0,491.04
-Non-residential,Office,North America,New,92903.0,25.0,481.45
-Non-residential,Office,North America,New,92903.0,25.0,472.66
-Non-residential,Office,North America,New,92903.0,25.0,472.66
-Non-residential,Office,North America,New,92903.0,25.0,459.71
-Non-residential,Office,North America,New,92903.0,25.0,459.24
-Non-residential,Office,Europe,New,92903.0,25.0,431.26
-Non-residential,Office,Europe,New,92903.0,25.0,426.01
-Non-residential,Office,Europe,New,92903.0,25.0,426.01
-Non-residential,Office,North America,New,92903.0,25.0,422.81
-Non-residential,Office,Europe,New,92903.0,25.0,417.13
-Non-residential,Office,North America,New,92903.0,25.0,405.79
-Non-residential,Office,North America,New,92903.0,25.0,400.34
-Non-residential,Office,North America,New,92903.0,25.0,398.5
-Non-residential,Office,Europe,New,92903.0,25.0,396.13
-Non-residential,Office,North America,New,92903.0,25.0,382.75
-Non-residential,Office,Europe,New,92903.0,25.0,382.61
-Non-residential,Office,North America,New,92903.0,25.0,377.99
-Non-residential,Office,Europe,New,92903.0,25.0,372.07
-Non-residential,Office,Europe,New,92903.0,25.0,355.95
-Non-residential,Office,North America,New,92903.0,25.0,354.42
-Non-residential,Office,Europe,New,92903.0,25.0,353.89
-Non-residential,Office,Europe,New,92903.0,25.0,339.07
-Non-residential,Office,Europe,New,92903.0,25.0,338.83
-Non-residential,Office,North America,New,92903.0,25.0,337.92
-Non-residential,Office,Europe,New,92903.0,25.0,336.76
-Non-residential,Office,Europe,New,92903.0,25.0,309.22
-Non-residential,Office,North America,New,92903.0,25.0,307.52
-Non-residential,Office,North America,New,92903.0,25.0,306.63
-Non-residential,Office,North America,New,92903.0,25.0,304.65
-Non-residential,Office,North America,New,92903.0,25.0,301.89
-Non-residential,Office,North America,New,92903.0,25.0,299.72
-Non-residential,Office,North America,New,92903.0,25.0,294.99
-Non-residential,Office,Europe,New,92903.0,25.0,292.96
-Non-residential,Office,Europe,New,92903.0,25.0,285.46
-Non-residential,Office,North America,New,92903.0,25.0,285.46
-Non-residential,Office,Europe,New,92903.0,25.0,281.66
-Non-residential,Office,North America,New,92903.0,25.0,280.2
-Non-residential,Office,North America,New,92903.0,25.0,276.56
-Non-residential,Office,Europe,New,92903.0,25.0,273.31
-Non-residential,Office,Europe,New,92903.0,25.0,271.33
-Non-residential,Office,Europe,New,92903.0,25.0,270.89
-Non-residential,Office,Europe,New,92903.0,25.0,266.54
-Non-residential,Office,Europe,New,92903.0,25.0,265.63
-Non-residential,Office,Europe,New,92903.0,25.0,264.85
-Non-residential,Office,North America,New,92903.0,25.0,263.09
-Non-residential,Office,Europe,New,92903.0,25.0,262.0
-Non-residential,Office,North America,New,92903.0,25.0,258.18
-Non-residential,Office,North America,New,92903.0,25.0,253.55
-Non-residential,Office,North America,New,92903.0,25.0,253.19
-Non-residential,Office,Europe,New,92903.0,25.0,239.49
-Non-residential,Office,Europe,New,92903.0,25.0,237.61
-Non-residential,Office,Europe,New,92903.0,25.0,233.13
-Non-residential,Office,Europe,New,92903.0,25.0,232.97
-Non-residential,Office,Europe,New,92903.0,25.0,231.73
-Non-residential,Education,Asia-Pacific,New,697.5,3.5,443.2
-Non-residential,Mixed,North America,New,1626.5,3.5,210.63
-Non-residential,Office,North America,New,32516.0,20.0,172.53
-Non-residential,Education,North America,New,6968.0,3.5,156.25
-Non-residential,Office,North America,Renovation,13935.5,3.5,118.51
-Non-residential,Education,North America,Renovation,6968.0,3.5,98.78
-Residential,Multi-family,North America,New,13935.5,10.5,88.54
-Residential,Multi-family,North America,Renovation,32516.0,10.5,83.78
-Residential,Single-family,North America,New,279.5,3.5,75.26
-Non-residential,Mixed,North America,Renovation,1626.5,3.5,51.45
-Non-residential,Office,North America,Renovation,13935.5,20.0,49.88
-Residential,Multi-family,North America,Renovation,6968.0,3.5,42.47
-Residential,Single-family,North America,Renovation,279.5,3.5,32.21
-Non-residential,Office,Middle East,New,92903.0,25.0,579.01
-Non-residential,Public Assembly,North America,New,3484.5,3.5,397.33
-Residential,Single-family,North America,New,279.5,3.5,244.31
-Residential,Single-family,North America,New,279.5,3.5,193.29
-Residential,Single-family,North America,New,279.5,3.5,139.93
-Residential,Single-family,North America,New,279.5,3.5,106.77
-Residential,Multi-family,North America,New,3484.5,3.5,154.01
-Residential,Multi-family,North America,New,3484.5,3.5,84.58
-Non-residential,Other,North America,New,279.5,3.5,266.67
-Non-residential,Other,North America,New,279.5,3.5,258.18
-Non-residential,Other,North America,New,279.5,3.5,258.0
-Non-residential,Other,North America,New,279.5,3.5,256.0
-Non-residential,Other,North America,New,279.5,3.5,253.53
-Non-residential,Other,North America,New,279.5,3.5,250.91
-Non-residential,Other,North America,New,279.5,3.5,248.13
-Non-residential,Other,North America,New,279.5,3.5,245.63
-Non-residential,Other,North America,New,279.5,3.5,240.0
-Non-residential,Other,North America,New,279.5,3.5,236.15
-Non-residential,Other,North America,New,279.5,3.5,233.0
-Non-residential,Other,North America,New,279.5,3.5,232.73
-Non-residential,Other,North America,New,279.5,3.5,229.33
-Non-residential,Other,North America,New,279.5,3.5,228.18
-Non-residential,Other,North America,New,279.5,3.5,225.45
-Non-residential,Other,North America,New,279.5,3.5,224.62
-Non-residential,Other,North America,New,279.5,3.5,222.5
-Non-residential,Other,North America,New,279.5,3.5,218.13
-Non-residential,Other,North America,New,279.5,3.5,212.31
-Non-residential,Other,North America,New,279.5,3.5,210.0
-Non-residential,Other,North America,New,279.5,3.5,204.55
-Non-residential,Other,North America,New,279.5,3.5,204.29
-Non-residential,Other,North America,New,279.5,3.5,202.31
-Non-residential,Other,North America,New,279.5,3.5,201.33
-Non-residential,Other,North America,New,279.5,3.5,198.67
-Non-residential,Other,North America,New,279.5,3.5,195.71
-Non-residential,Other,North America,New,279.5,3.5,195.0
-Non-residential,Other,North America,New,279.5,3.5,182.0
-Non-residential,Other,North America,New,279.5,3.5,178.0
-Non-residential,Other,North America,New,279.5,3.5,177.14
-Non-residential,Other,North America,New,1626.5,3.5,623.88
-Non-residential,Other,North America,New,6968.0,3.5,274.23
-Non-residential,Office,North America,New,1626.5,3.5,259.57
-Non-residential,Other,North America,New,6968.0,3.5,259.35
-Non-residential,Mixed,North America,New,6968.0,10.5,154.34
-Non-residential,Education,North America,New,3484.5,3.5,905.0
-Non-residential,Office,North America,New,3484.5,3.5,340.29
-Non-residential,Office,North America,New,3484.5,3.5,336.85
-Non-residential,Office,North America,New,3484.5,3.5,248.9
-Residential,Single-family,North America,New,279.5,25.0,746.64
-Non-residential,Lodging,North America,New,13935.5,25.0,710.91
-Non-residential,Education,North America,New,3484.5,25.0,608.58
-Non-residential,Lodging,North America,New,13935.5,25.0,551.2
-Non-residential,Public Assembly,North America,New,279.5,25.0,494.32
-Non-residential,Lodging,North America,Renovation,13935.5,25.0,437.51
-Non-residential,Public Assembly,North America,New,279.5,25.0,363.87
-Non-residential,Lodging,North America,New,13935.5,25.0,240.03
-Non-residential,Single-family,North America,New,697.5,25.0,150.9
-Non-residential,Single-family,North America,New,697.5,25.0,113.96
-Non-residential,Education,North America,New,32516.0,25.0,574.12
-Non-residential,Education,North America,New,3484.5,25.0,496.41
-Non-residential,Public Assembly,North America,New,32516.0,25.0,495.51
-Non-residential,Education,North America,New,6968.0,25.0,450.67
-Non-residential,Education,North America,New,6968.0,25.0,435.44
-Non-residential,Education,North America,New,1626.5,25.0,411.89
-Non-residential,Education,North America,New,6968.0,25.0,409.47
-Non-residential,Education,North America,New,6968.0,25.0,342.52
-Non-residential,Education,North America,New,13935.5,25.0,335.82
-Non-residential,Education,North America,New,6968.0,25.0,320.22
-Non-residential,Public Assembly,North America,New,13935.5,25.0,312.53
-Non-residential,Education,North America,New,6968.0,25.0,306.23
-Non-residential,Education,North America,New,13935.5,25.0,297.93
-Non-residential,Lodging,North America,New,13935.5,25.0,282.3
-Non-residential,Public Assembly,North America,New,32516.0,25.0,261.91
-Non-residential,Education,North America,New,13935.5,25.0,232.21
-Non-residential,Education,North America,New,6968.0,25.0,222.19
-Non-residential,Education,North America,New,13935.5,25.0,213.43
-Non-residential,Education,North America,New,32516.0,25.0,196.66
-Non-residential,Lodging,North America,New,13935.5,25.0,131.32
-Non-residential,Lodging,North America,New,6968.0,25.0,117.03
-Non-residential,Education,North America,New,32516.0,25.0,109.11
-Non-residential,Education,North America,New,32516.0,25.0,102.71
-Non-residential,Education,North America,New,3484.5,25.0,79.82
-Non-residential,Education,North America,New,3484.5,25.0,68.81
-Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,926.0
-Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,864.06
-Non-residential,Mixed,North America,New,13935.5,10.5,837.2
-Non-residential,Other,Asia-Pacific,New,32516.0,10.5,803.15
-Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,737.31
-Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,716.09
-Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,703.43
-Residential,Multi-family,Asia-Pacific,New,6968.0,25.0,687.54
-Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,667.98
-Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,657.93
-Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,641.22
-Residential,Multi-family,Asia-Pacific,New,3484.5,20.0,634.21
-Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,629.47
-Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,626.96
-Residential,Single-family,Europe,New,46498.0,3.5,612.0
-Non-residential,Education,North America,New,6968.0,10.5,591.78
-Residential,Multi-family,Asia-Pacific,New,3484.5,10.5,578.24
-Non-residential,Mercantile,North America,New,697.5,3.5,549.49
-Residential,Single-family,Europe,New,46498.0,3.5,535.0
-Non-residential,Mercantile,North America,New,697.5,3.5,522.18
-Non-residential,Mercantile,North America,New,697.5,3.5,517.06
-Residential,Multi-family,Asia-Pacific,New,3484.5,20.0,488.57
-Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,462.0
-Non-residential,Mercantile,North America,New,697.5,3.5,450.51
-Residential,Multi-family,Asia-Pacific,New,13935.5,25.0,443.0
-Residential,Single-family,Europe,New,46498.0,3.5,405.0
-Residential,Single-family,Europe,New,279.5,3.5,385.0
-Residential,Single-family,Europe,New,279.5,3.5,362.07
-Non-residential,Mercantile,North America,New,697.5,3.5,354.95
-Residential,Single-family,Asia-Pacific,New,46498.0,3.5,326.1
-Residential,Multi-family,Europe,New,3484.5,10.5,314.0
-Residential,Multi-family,Europe,New,3484.5,10.5,314.0
-Residential,Single-family,Europe,New,46498.0,3.5,273.15
-Residential,Single-family,Europe,New,279.5,3.5,200.0
-Non-residential,Education,North America,New,6968.0,3.5,199.29
-Residential,Single-family,Europe,New,46498.0,3.5,179.03
-Residential,Single-family,Europe,New,279.5,3.5,170.0
-Residential,Single-family,Asia-Pacific,New,46498.0,3.5,168.9
-Non-residential,Single-family,North America,New,279.5,3.5,185.89
-Non-residential,Single-family,North America,New,279.5,3.5,181.18
+Building Use Type,Building Use Subtype,Continent,Building Project Type,Floors Above Ground,Total Embodied Carbon PER m2
+Non-residential,Other,North America,New,3.5,938.69
+Non-residential,Office,Asia-Pacific,New,20.0,937.59
+Non-residential,Office,Asia-Pacific,New,3.5,923.3
+Non-residential,Other,North America,New,3.5,917.93
+Non-residential,Other,North America,New,3.5,882.65
+Non-residential,Other,North America,New,3.5,844.49
+Non-residential,Office,North America,New,25.0,772.05
+Non-residential,Office,Asia-Pacific,New,25.0,748.03
+Non-residential,Other,Asia-Pacific,New,3.5,740.7
+Non-residential,Other,North America,New,20.0,733.88
+Residential,Multi-family,Asia-Pacific,New,25.0,731.63
+Non-residential,Other,North America,New,3.5,730.52
+Non-residential,Office,Asia-Pacific,New,3.5,724.64
+Non-residential,Mixed use,Asia-Pacific,New,3.5,722.29
+Non-residential,Office,North America,New,10.5,717.52
+Non-residential,Other,Asia-Pacific,New,3.5,704.78
+Non-residential,Lodging,Middle East,New,25.0,687.05
+Non-residential,Other,Asia-Pacific,New,3.5,685.14
+Residential,Multi-family,Asia-Pacific,New,25.0,682.25
+Residential,Multi-family,Asia-Pacific,New,20.0,674.22
+Non-residential,Office,Asia-Pacific,New,10.5,673.25
+Non-residential,Mixed use,Europe,New,25.0,645.19
+Non-residential,Office,Asia-Pacific,New,20.0,643.89
+Non-residential,Mixed use,Asia-Pacific,New,25.0,636.62
+Non-residential,Office,Asia-Pacific,New,25.0,620.59
+Non-residential,Office,Asia-Pacific,New,10.5,619.74
+Non-residential,Office,Asia-Pacific,New,25.0,603.72
+Non-residential,Office,Middle East,New,25.0,595.91
+Non-residential,Office,Asia-Pacific,New,25.0,590.35
+Non-residential,Office,Asia-Pacific,New,25.0,583.2
+Non-residential,Other,Asia-Pacific,New,3.5,582.83
+Residential,Multi-family,North America,New,25.0,581.32
+Non-residential,Other,Asia-Pacific,New,3.5,579.16
+Non-residential,Office,North America,New,3.5,578.9
+Non-residential,Office,Europe,New,10.5,575.17
+Non-residential,Office,North America,New,20.0,574.36
+Non-residential,Other,Asia-Pacific,New,3.5,572.07
+Non-residential,Other,Asia-Pacific,New,10.5,563.73
+Non-residential,Office,North America,New,25.0,561.49
+Residential,Multi-family,North America,New,25.0,553.79
+Non-residential,Lodging,Asia-Pacific,New,25.0,542.2
+Non-residential,Office,Asia-Pacific,New,25.0,533.9
+Non-residential,Lodging,Asia-Pacific,New,25.0,533.58
+Non-residential,Office,Asia-Pacific,New,20.0,529.3
+Non-residential,Office,Asia-Pacific,New,25.0,525.5
+Non-residential,Other,Middle East,New,3.5,522.68
+Non-residential,Office,Asia-Pacific,New,25.0,521.6
+Non-residential,Office,North America,New,3.5,517.89
+Non-residential,Office,Europe,New,25.0,517.12
+Non-residential,Office,Asia-Pacific,New,25.0,514.75
+Residential,Multi-family,Asia-Pacific,New,20.0,511.46
+Non-residential,Other,North America,New,10.5,511.39
+Non-residential,Mixed use,Europe,New,25.0,505.26
+Non-residential,Office,Asia-Pacific,New,20.0,503.81
+Non-residential,Other,Asia-Pacific,New,3.5,501.89
+Non-residential,Other,Asia-Pacific,New,3.5,493.88
+Non-residential,Office,Asia-Pacific,New,10.5,492.23
+Non-residential,Office,Asia-Pacific,New,10.5,491.75
+Non-residential,Office,Asia-Pacific,New,25.0,491.74
+Non-residential,Office,Asia-Pacific,New,25.0,490.19
+Non-residential,Office,Asia-Pacific,New,20.0,490.11
+Non-residential,Office,Asia-Pacific,New,25.0,485.95
+Non-residential,Office,Asia-Pacific,New,25.0,485.79
+Residential,Multi-family,Asia-Pacific,New,25.0,478.97
+Non-residential,Other,North America,New,3.5,473.77
+Non-residential,Office,Asia-Pacific,New,25.0,473.32
+Residential,Multi-family,Asia-Pacific,New,10.5,473.26
+Non-residential,Other,Asia-Pacific,New,10.5,472.28
+Non-residential,Office,Asia-Pacific,New,10.5,471.3
+Residential,Multi-family,North America,New,25.0,470.11
+Non-residential,Mixed use,North America,New,25.0,469.77
+Non-residential,Mixed use,Asia-Pacific,New,3.5,467.69
+Non-residential,Office,Asia-Pacific,New,10.5,466.84
+Residential,Multi-family,North America,New,25.0,465.66
+Non-residential,Office,Asia-Pacific,New,25.0,465.02
+Non-residential,Office,Asia-Pacific,New,25.0,464.89
+Non-residential,Office,North America,New,20.0,464.32
+Non-residential,Office,Asia-Pacific,New,25.0,462.89
+Non-residential,Office,Asia-Pacific,New,20.0,457.53
+Non-residential,Mixed use,Middle East,New,25.0,455.78
+Non-residential,Other,North America,New,10.5,451.28
+Non-residential,Office,Europe,New,10.5,446.21
+Residential,Multi-family,Asia-Pacific,New,10.5,440.55
+Non-residential,Lodging,Asia-Pacific,New,25.0,439.96
+Non-residential,Office,Asia-Pacific,New,25.0,439.41
+Residential,Multi-family,Asia-Pacific,New,10.5,436.33
+Non-residential,Parking,North America,New,3.5,436.12
+Non-residential,Other,Asia-Pacific,New,10.5,435.64
+Non-residential,Other,North America,New,3.5,434.15
+Residential,Multi-family,North America,New,20.0,432.01
+Non-residential,Office,Asia-Pacific,New,25.0,430.91
+Non-residential,Office,Asia-Pacific,New,20.0,425.53
+Non-residential,Office,Asia-Pacific,New,25.0,423.37
+Non-residential,Office,Asia-Pacific,New,25.0,422.82
+Non-residential,Office,North America,New,20.0,418.31
+Residential,Multi-family,Asia-Pacific,New,3.5,416.98
+Non-residential,Office,North America,New,25.0,416.63
+Non-residential,Mixed use,Europe,New,10.5,415.61
+Non-residential,Office,North America,New,3.5,415.26
+Residential,Multi-family,Asia-Pacific,New,3.5,413.97
+Residential,Multi-family,Asia-Pacific,New,10.5,404.68
+Residential,Multi-family,Asia-Pacific,New,25.0,403.27
+Residential,Multi-family,Asia-Pacific,New,10.5,401.06
+Non-residential,Office,Asia-Pacific,New,25.0,398.34
+Residential,Multi-family,North America,New,25.0,395.21
+Non-residential,Office,Asia-Pacific,New,20.0,391.98
+Non-residential,Other,Asia-Pacific,New,25.0,387.9
+Non-residential,Lodging,Asia-Pacific,New,25.0,386.92
+Residential,Multi-family,North America,New,20.0,382.12
+Residential,Multi-family,Asia-Pacific,New,25.0,377.97
+Non-residential,Other,North America,New,3.5,376.77
+Non-residential,Office,Asia-Pacific,New,25.0,376.55
+Non-residential,Office,Europe,New,10.5,374.09
+Non-residential,Office,North America,New,10.5,373.32
+Non-residential,Other,Asia-Pacific,New,3.5,371.39
+Non-residential,Other,North America,New,3.5,371.22
+Non-residential,Office,Asia-Pacific,New,25.0,369.65
+Non-residential,Education,North America,New,3.5,369.16
+Non-residential,Lodging,Asia-Pacific,New,20.0,367.59
+Non-residential,Other,North America,New,3.5,367.47
+Residential,Multi-family,North America,New,10.5,365.74
+Non-residential,Education,North America,New,10.5,363.77
+Non-residential,Other,Asia-Pacific,New,10.5,363.71
+Non-residential,Other,North America,New,10.5,359.4
+Non-residential,Office,Europe,New,10.5,356.64
+Non-residential,Office,Asia-Pacific,New,20.0,354.58
+Non-residential,Mixed use,Asia-Pacific,New,25.0,351.45
+Non-residential,Office,Middle East,New,20.0,349.87
+Residential,Multi-family,North America,New,20.0,349.02
+Non-residential,Lodging,Europe,New,25.0,345.82
+Non-residential,Other,Asia-Pacific,New,3.5,344.79
+Non-residential,Office,North America,New,3.5,344.24
+Residential,Multi-family,North America,New,25.0,343.97
+Residential,Multi-family,North America,New,25.0,341.67
+Residential,Multi-family,Asia-Pacific,New,25.0,337.64
+Non-residential,Other,Asia-Pacific,New,3.5,336.78
+Non-residential,Office,North America,New,25.0,334.13
+Non-residential,Education,North America,New,25.0,333.84
+Non-residential,Other,Asia-Pacific,New,3.5,333.82
+Non-residential,Office,Asia-Pacific,New,10.5,330.38
+Residential,Multi-family,North America,New,20.0,329.21
+Non-residential,Other,Asia-Pacific,New,3.5,320.76
+Non-residential,Office,North America,New,25.0,317.23
+Non-residential,Parking,Asia-Pacific,New,3.5,314.93
+Non-residential,Office,North America,New,25.0,314.44
+Non-residential,Office,North America,New,25.0,313.63
+Residential,Multi-family,South America,New,20.0,310.47
+Non-residential,Office,North America,New,20.0,310.4
+Non-residential,Office,North America,New,10.5,309.79
+Residential,Multi-family,Europe,New,20.0,308.56
+Non-residential,Lodging,North America,New,10.5,308.43
+Non-residential,Office,North America,New,25.0,308.32
+Non-residential,Lodging,North America,New,10.5,300.12
+Residential,Multi-family,North America,New,10.5,299.21
+Residential,Multi-family,North America,New,25.0,296.6
+Non-residential,Office,North America,New,20.0,293.19
+Non-residential,Other,North America,New,3.5,290.0
+Non-residential,Other,Asia-Pacific,New,3.5,287.36
+Residential,Multi-family,Europe,New,10.5,284.02
+Non-residential,Office,Europe,New,10.5,283.83
+Non-residential,Office,Middle East,New,10.5,277.61
+Non-residential,Other,North America,New,3.5,277.15
+Non-residential,Other,North America,New,3.5,272.6
+Non-residential,Other,North America,New,3.5,270.4
+Non-residential,Office,North America,New,10.5,254.88
+Residential,Multi-family,North America,New,10.5,250.26
+Non-residential,Office,North America,New,10.5,248.17
+Non-residential,Office,North America,New,3.5,246.64
+Non-residential,Education,Asia-Pacific,New,3.5,245.4
+Non-residential,Parking,North America,New,3.5,244.25
+Non-residential,Office,North America,New,25.0,242.93
+Non-residential,Other,Asia-Pacific,New,3.5,242.18
+Non-residential,Other,North America,New,3.5,234.87
+Non-residential,Education,North America,New,3.5,233.81
+Non-residential,Other,North America,New,10.5,225.27
+Non-residential,Office,Asia-Pacific,New,3.5,217.14
+Non-residential,Office,North America,New,10.5,215.95
+Non-residential,Office,North America,New,3.5,212.57
+Non-residential,Office,Europe,New,10.5,212.04
+Non-residential,Office,North America,New,3.5,182.17
+Non-residential,Office,North America,New,20.0,180.02
+Non-residential,Other,North America,New,10.5,165.08
+Non-residential,Office,North America,New,3.5,129.03
+Non-residential,Office,Asia-Pacific,New,10.5,125.47
+Non-residential,Public Order and Safety,Europe,New,3.5,793.88
+Non-residential,Education,Europe,New,3.5,729.61
+Non-residential,Office,Europe,New,3.5,700.0
+Non-residential,Office,Europe,Renovation,10.5,672.05
+Residential,Other ,Europe,New,10.5,668.33
+Residential,Other ,Europe,New,10.5,664.6
+Non-residential,Education,Europe,New,10.5,660.88
+Non-residential,Office,Europe,New,10.5,657.15
+Non-residential,Mercantile,Europe,New,10.5,653.43
+Residential,Other ,Europe,New,10.5,649.71
+Non-residential,Office,Europe,New,10.5,645.98
+Non-residential,Office,Europe,New,10.5,642.26
+Non-residential,Mixed,Europe,New,3.5,640.75
+Non-residential,Mixed,Europe,New,10.5,638.53
+Non-residential,Education,Europe,New,10.5,634.81
+Non-residential,Education,Europe,New,10.5,631.08
+Non-residential,Public Order and Safety,Europe,New,10.5,627.36
+Residential,Other ,Europe,New,10.5,623.64
+Residential,Other ,Europe,Renovation,10.5,619.91
+Non-residential,Office,Europe,New,10.5,616.19
+Non-residential,Office,Europe,New,10.5,612.46
+Non-residential,Office,Europe,New,10.5,608.74
+Non-residential,Office,Europe,New,10.5,605.01
+Non-residential,Office,Europe,New,10.5,601.29
+Non-residential,Office,Europe,New,10.5,597.57
+Non-residential,Public Assembly,Europe,New,10.5,597.0
+Non-residential,Office,Europe,New,10.5,593.84
+Non-residential,Office,Europe,New,10.5,590.12
+Non-residential,Public Assembly,Europe,New,10.5,586.39
+Non-residential,Mixed,Europe,New,10.5,582.67
+Non-residential,Mixed,Europe,New,10.5,578.95
+Non-residential,Mixed,Europe,New,10.5,575.22
+Non-residential,Mixed,Europe,New,10.5,571.5
+Non-residential,Mixed,Europe,New,10.5,567.77
+Non-residential,Office,Europe,Renovation,10.5,564.05
+Residential,Other ,Europe,New,10.5,560.32
+Residential,Other ,Europe,New,10.5,556.6
+Non-residential,Education,Europe,New,10.5,552.88
+Non-residential,Office,Europe,New,10.5,549.15
+Non-residential,Mercantile,Europe,New,10.5,545.43
+Residential,Other ,Europe,New,10.5,541.7
+Non-residential,Office,Europe,New,10.5,537.98
+Residential,Other ,Europe,New,10.5,536.48
+Non-residential,Office,Europe,New,10.5,534.25
+Non-residential,Mixed,Europe,New,10.5,530.53
+Non-residential,Education,Europe,New,10.5,526.81
+Non-residential,Education,Europe,New,10.5,523.08
+Non-residential,Public Order and Safety,Europe,New,10.5,519.36
+Residential,Other ,Europe,New,10.5,515.63
+Residential,Other ,Europe,Renovation,10.5,511.91
+Non-residential,Office,Europe,New,10.5,508.18
+Non-residential,Office,Europe,New,10.5,504.46
+Non-residential,Office,Europe,New,10.5,500.74
+Non-residential,Office,Europe,New,10.5,497.01
+Non-residential,Office,Europe,Renovation,10.5,496.21
+Non-residential,Office,Europe,New,10.5,493.29
+Non-residential,Office,Europe,New,10.5,489.56
+Non-residential,Office,Europe,New,10.5,485.84
+Non-residential,Office,Europe,New,10.5,482.12
+Non-residential,Public Assembly,Europe,New,10.5,478.39
+Non-residential,Mixed,Europe,New,10.5,474.67
+Non-residential,Mixed,Europe,New,10.5,470.94
+Non-residential,Mixed,Europe,New,10.5,467.22
+Non-residential,Mixed,Europe,New,10.5,463.49
+Non-residential,Mixed,Europe,New,10.5,459.77
+Non-residential,Office,Europe,Renovation,10.5,456.05
+Residential,Other ,Europe,New,10.5,452.32
+Residential,Other ,Europe,New,10.5,448.6
+Non-residential,Education,Europe,New,10.5,444.87
+Non-residential,Office,Europe,New,10.5,441.15
+Non-residential,Mercantile,Europe,New,10.5,437.42
+Residential,Other ,Europe,New,10.5,433.7
+Non-residential,Office,Europe,New,10.5,429.98
+Non-residential,Office,Europe,New,10.5,426.25
+Non-residential,Mixed,Europe,New,10.5,422.53
+Non-residential,Education,Europe,New,10.5,418.8
+Non-residential,Education,Europe,New,10.5,415.08
+Non-residential,Public Order and Safety,Europe,New,10.5,411.36
+Residential,Other ,Europe,New,10.5,407.63
+Residential,Other ,Europe,Renovation,10.5,403.91
+Non-residential,Office,Europe,New,10.5,400.18
+Non-residential,Office,Europe,New,10.5,396.46
+Non-residential,Office,Europe,New,10.5,392.73
+Non-residential,Office,Europe,New,10.5,389.01
+Non-residential,Office,Europe,New,10.5,385.29
+Non-residential,Office,Europe,New,10.5,381.56
+Non-residential,Office,Europe,New,10.5,377.84
+Non-residential,Office,Europe,New,10.5,374.11
+Non-residential,Public Assembly,Europe,New,10.5,370.39
+Non-residential,Mixed,Europe,New,10.5,366.66
+Non-residential,Mixed,Europe,New,10.5,362.94
+Non-residential,Mixed,Europe,New,10.5,359.22
+Non-residential,Mixed,Europe,New,10.5,355.49
+Non-residential,Mixed,Europe,New,10.5,351.77
+Non-residential,Office,Europe,Renovation,10.5,348.04
+Residential,Other ,Europe,New,10.5,344.32
+Non-residential,Education,Europe,New,3.5,341.86
+Non-residential,Mixed,Europe,New,10.5,303.39
+Non-residential,Mixed,Europe,New,10.5,273.55
+Non-residential,Mixed,Europe,New,10.5,257.8
+Non-residential,Mixed,Europe,New,10.5,247.03
+Residential,Other ,Europe,New,10.5,220.02
+Non-residential,Mixed,Europe,New,10.5,209.65
+Residential,Other ,Europe,New,3.5,200.0
+Non-residential,Education,Europe,New,3.5,100.0
+Non-residential,Office,Europe,New,25.0,70.0
+Non-residential,Office,Europe,New,25.0,70.0
+Non-residential,Office,Europe,New,25.0,70.0
+Non-residential,Office,Europe,New,10.5,50.0
+Non-residential,Office,Europe,New,25.0,50.0
+Residential,Other ,Europe,Renovation,10.5,42.66
+Non-residential,Office,Europe,New,10.5,30.0
+Non-residential,Office,Europe,New,10.5,30.0
+Non-residential,Office,Europe,New,10.5,10.0
+Non-residential,Education,North America,New,3.5,950.0
+Non-residential,Public Assembly,North America,New,10.5,935.0
+Non-residential,Education,North America,New,3.5,927.0
+Non-residential,Other,North America,New,3.5,910.0
+Non-residential,Public Assembly,North America,New,3.5,910.0
+Non-residential,Education,North America,New,3.5,876.0
+Non-residential,Education,North America,New,3.5,873.0
+Non-residential,Other,North America,New,3.5,871.0
+Non-residential,Mixed,Middle East,New,25.0,870.0
+Non-residential,Education,North America,New,3.5,863.0
+Non-residential,Other,North America,New,3.5,820.0
+Non-residential,Lodging,North America,New,3.5,802.0
+Non-residential,Education,North America,New,3.5,802.0
+Non-residential,Education,North America,New,3.5,802.0
+Non-residential,Education,North America,New,3.5,795.0
+Non-residential,Health Care,North America,New,3.5,791.0
+Non-residential,Public Assembly,North America,New,3.5,790.0
+Non-residential,Other,North America,New,3.5,782.0
+Residential,Other,North America,New,10.5,768.0
+Non-residential,Education,North America,New,3.5,746.0
+Non-residential,Other,North America,New,3.5,742.0
+Non-residential,Public Assembly,Europe,New,25.0,701.0
+Non-residential,Education,North America,New,3.5,665.0
+Non-residential,Public Assembly,North America,New,3.5,662.0
+Non-residential,Other,North America,New,3.5,661.0
+Non-residential,Education,North America,New,10.5,661.0
+Residential,Other,North America,New,25.0,655.0
+Non-residential,Health Care,North America,New,3.5,652.0
+Non-residential,Public Assembly,North America,New,3.5,651.0
+Non-residential,Education,North America,New,3.5,648.0
+Non-residential,Education,North America,New,3.5,645.0
+Non-residential,Public Assembly,North America,New,3.5,644.0
+Non-residential,Other,Europe,New,3.5,643.0
+Residential,Other,Asia-Pacific,New,25.0,639.0
+Non-residential,Public Assembly,Middle East,New,25.0,626.0
+Non-residential,Health Care,North America,New,3.5,621.0
+Non-residential,Education,North America,New,3.5,617.0
+Non-residential,Public Assembly,North America,New,3.5,610.0
+Non-residential,Education,North America,New,3.5,601.0
+Non-residential,Education,North America,New,3.5,598.0
+Non-residential,Mixed,Middle East,New,25.0,597.0
+Non-residential,Public Assembly,North America,New,3.5,594.0
+Non-residential,Mixed,North America,New,10.5,594.0
+Non-residential,Education,North America,New,3.5,583.0
+Non-residential,Education,North America,New,3.5,577.0
+Non-residential,Education,North America,New,3.5,576.0
+Non-residential,Public Assembly,Middle East,New,3.5,570.0
+Non-residential,Health Care,North America,New,20.0,562.0
+Non-residential,Public Assembly,North America,New,10.5,561.0
+Non-residential,Public Assembly,Middle East,New,3.5,544.0
+Non-residential,Other,North America,New,3.5,542.0
+Non-residential,Other,Asia-Pacific,New,10.5,535.0
+Non-residential,Lodging,North America,New,3.5,533.0
+Non-residential,Health Care,North America,New,20.0,533.0
+Non-residential,Mixed,North America,New,3.5,532.0
+Non-residential,Other,North America,New,3.5,529.0
+Residential,Other,Europe,New,10.5,528.0
+Non-residential,Other,North America,New,3.5,516.0
+Non-residential,Education,North America,New,3.5,515.0
+Non-residential,Education,North America,New,3.5,510.0
+Non-residential,Education,North America,New,3.5,509.0
+Non-residential,Health Care,Africa,New,10.5,508.0
+Non-residential,Public Assembly,North America,New,3.5,507.0
+Non-residential,Education,North America,New,3.5,487.0
+Non-residential,Health Care,North America,New,3.5,485.0
+Non-residential,Other,North America,New,3.5,480.0
+Non-residential,Other,North America,New,10.5,480.0
+Non-residential,Public Assembly,North America,New,3.5,478.0
+Residential,Other,North America,New,10.5,459.0
+Non-residential,Education,North America,New,3.5,456.0
+Non-residential,Public Assembly,Middle East,New,20.0,453.0
+Non-residential,Education,North America,New,10.5,446.0
+Non-residential,Education,North America,New,3.5,445.0
+Residential,Other,North America,New,3.5,444.0
+Non-residential,Other,Asia-Pacific,New,25.0,442.0
+Non-residential,Public Assembly,North America,New,3.5,440.0
+Non-residential,Public Assembly,North America,New,10.5,438.0
+Residential,Other,Europe,New,10.5,437.0
+Non-residential,Office,North America,New,20.0,436.0
+Non-residential,Public Assembly,North America,New,3.5,435.0
+Non-residential,Public Assembly,Middle East,New,25.0,433.0
+Non-residential,Health Care,North America,New,25.0,428.0
+Non-residential,Public Assembly,North America,New,3.5,425.0
+Residential,Other,Asia-Pacific,New,25.0,424.0
+Non-residential,Education,North America,New,3.5,424.0
+Non-residential,Other,Europe,New,3.5,423.0
+Non-residential,Other,North America,New,10.5,422.0
+Non-residential,Education,North America,New,10.5,421.0
+Non-residential,Mixed,Middle East,New,3.5,416.0
+Non-residential,Education,North America,New,3.5,413.0
+Non-residential,Mixed,North America,New,3.5,409.0
+Non-residential,Health Care,Africa,New,10.5,408.0
+Non-residential,Health Care,North America,New,10.5,406.0
+Non-residential,Other,North America,New,25.0,405.0
+Non-residential,Health Care,North America,New,25.0,402.0
+Non-residential,Public Assembly,North America,New,3.5,402.0
+Non-residential,Other,Asia-Pacific,New,25.0,401.0
+Non-residential,Education,North America,New,3.5,401.0
+Non-residential,Other,North America,New,3.5,399.0
+Non-residential,Other,North America,New,10.5,392.0
+Non-residential,Education,North America,New,3.5,391.0
+Non-residential,Education,North America,New,3.5,389.0
+Non-residential,Health Care,North America,New,10.5,389.0
+Non-residential,Education,North America,New,3.5,386.0
+Non-residential,Education,Middle East,New,3.5,383.0
+Non-residential,Other,North America,New,3.5,381.0
+Non-residential,Public Assembly,North America,New,10.5,381.0
+Non-residential,Other,North America,New,25.0,380.0
+Non-residential,Other,Middle East,New,25.0,379.0
+Non-residential,Public Assembly,North America,New,3.5,377.0
+Non-residential,Education,North America,New,10.5,374.0
+Non-residential,Education,North America,New,3.5,371.0
+Non-residential,Other,North America,New,25.0,364.0
+Non-residential,Other,Middle East,New,10.5,361.0
+Non-residential,Education,North America,New,3.5,359.0
+Non-residential,Other,Asia-Pacific,New,25.0,356.0
+Non-residential,Office,North America,New,3.5,356.0
+Residential,Other,North America,New,25.0,355.0
+Non-residential,Other,North America,New,3.5,352.0
+Non-residential,Education,North America,New,3.5,344.0
+Non-residential,Health Care,North America,New,3.5,343.0
+Residential,Other,Asia-Pacific,New,20.0,342.0
+Non-residential,Public Assembly,North America,New,10.5,341.0
+Non-residential,Other,North America,New,10.5,341.0
+Non-residential,Other,Middle East,New,3.5,340.0
+Non-residential,Lodging,North America,New,20.0,336.0
+Non-residential,Other,Middle East,New,10.5,335.0
+Non-residential,Other,Europe,New,10.5,329.0
+Residential,Other,Asia-Pacific,New,25.0,328.0
+Non-residential,Other,North America,New,25.0,328.0
+Residential,Other,North America,New,3.5,328.0
+Non-residential,Public Assembly,North America,New,3.5,323.0
+Non-residential,Public Assembly,North America,New,3.5,322.0
+Non-residential,Office,Asia-Pacific,New,10.5,321.0
+Non-residential,Other,Asia-Pacific,New,20.0,317.0
+Non-residential,Public Assembly,North America,New,3.5,317.0
+Residential,Other,Asia-Pacific,New,25.0,316.0
+Non-residential,Mixed,Middle East,New,3.5,313.0
+Non-residential,Mixed,North America,New,10.5,310.0
+Non-residential,Health Care,North America,New,3.5,310.0
+Residential,Other,North America,New,25.0,309.0
+Non-residential,Public Assembly,North America,New,3.5,309.0
+Non-residential,Education,North America,New,3.5,304.0
+Non-residential,Health Care,North America,New,10.5,300.0
+Non-residential,Public Assembly,North America,New,10.5,294.0
+Non-residential,Mixed,North America,New,25.0,294.0
+Non-residential,Other,Africa,New,25.0,292.0
+Residential,Other,North America,New,10.5,292.0
+Non-residential,Other,North America,New,3.5,289.0
+Non-residential,Health Care,North America,New,3.5,286.0
+Non-residential,Education,North America,New,3.5,286.0
+Non-residential,Education,North America,New,3.5,286.0
+Non-residential,Education,North America,New,3.5,285.0
+Non-residential,Other,North America,New,10.5,285.0
+Non-residential,Other,North America,New,25.0,283.0
+Non-residential,Education,North America,New,3.5,277.0
+Non-residential,Office,North America,New,3.5,276.0
+Non-residential,Education,North America,New,3.5,274.0
+Non-residential,Education,North America,New,3.5,273.0
+Non-residential,Other,North America,New,3.5,272.0
+Non-residential,Other,North America,New,25.0,266.0
+Non-residential,Education,North America,New,3.5,266.0
+Non-residential,Other,North America,New,3.5,264.0
+Non-residential,Education,North America,New,3.5,262.0
+Non-residential,Other,North America,New,20.0,261.0
+Residential,Other,North America,New,10.5,260.0
+Non-residential,Mixed,North America,New,25.0,260.0
+Non-residential,Other,Asia-Pacific,New,10.5,259.0
+Non-residential,Other,North America,New,3.5,259.0
+Non-residential,Public Assembly,North America,New,3.5,258.0
+Non-residential,Health Care,North America,New,3.5,258.0
+Non-residential,Other,North America,New,25.0,258.0
+Residential,Other,Asia-Pacific,New,25.0,257.0
+Non-residential,Other,North America,New,10.5,257.0
+Non-residential,Other,North America,New,10.5,256.0
+Non-residential,Health Care,North America,New,10.5,256.0
+Non-residential,Health Care,North America,New,3.5,255.0
+Non-residential,Health Care,North America,New,3.5,255.0
+Non-residential,Public Assembly,North America,New,10.5,254.0
+Non-residential,Public Assembly,North America,New,3.5,254.0
+Residential,Other,North America,New,25.0,253.0
+Non-residential,Education,North America,New,3.5,252.0
+Non-residential,Education,North America,New,3.5,252.0
+Non-residential,Education,North America,New,3.5,252.0
+Non-residential,Health Care,North America,New,3.5,251.0
+Non-residential,Education,North America,New,3.5,248.0
+Non-residential,Education,North America,New,3.5,247.0
+Non-residential,Health Care,North America,New,25.0,245.0
+Non-residential,Public Assembly,North America,New,25.0,242.0
+Non-residential,Public Assembly,North America,New,3.5,241.0
+Non-residential,Public Assembly,North America,New,10.5,240.0
+Non-residential,Education,North America,New,3.5,237.0
+Residential,Other,Asia-Pacific,New,20.0,236.0
+Non-residential,Health Care,North America,New,20.0,235.0
+Non-residential,Education,North America,New,3.5,232.0
+Non-residential,Health Care,North America,New,3.5,231.0
+Non-residential,Education,North America,New,3.5,230.0
+Non-residential,Other,North America,New,20.0,229.0
+Non-residential,Office,North America,New,3.5,227.0
+Non-residential,Health Care,North America,New,10.5,225.0
+Non-residential,Other,North America,New,20.0,224.0
+Non-residential,Public Assembly,North America,New,3.5,223.0
+Non-residential,Education,North America,New,10.5,221.0
+Non-residential,Education,North America,New,3.5,220.0
+Non-residential,Education,North America,New,3.5,213.0
+Non-residential,Education,North America,New,3.5,211.0
+Non-residential,Health Care,North America,New,3.5,211.0
+Non-residential,Public Assembly,North America,New,10.5,208.0
+Non-residential,Lodging,North America,New,20.0,207.0
+Residential,Other,North America,New,20.0,206.0
+Non-residential,Other,Asia-Pacific,New,3.5,203.0
+Non-residential,Other,North America,New,3.5,203.0
+Residential,Other,North America,New,25.0,201.0
+Non-residential,Education,North America,New,3.5,200.0
+Non-residential,Education,North America,New,3.5,199.0
+Non-residential,Public Assembly,North America,New,3.5,194.0
+Non-residential,Health Care,North America,New,3.5,192.0
+Non-residential,Health Care,North America,New,10.5,191.0
+Non-residential,Education,North America,New,3.5,189.0
+Residential,Other,North America,New,10.5,184.0
+Non-residential,Education,North America,New,3.5,181.0
+Non-residential,Office,North America,New,10.5,178.0
+Non-residential,Lodging,North America,New,10.5,177.0
+Non-residential,Other,North America,New,3.5,177.0
+Non-residential,Education,North America,New,3.5,176.0
+Non-residential,Mixed,North America,New,10.5,176.0
+Non-residential,Other,North America,New,10.5,176.0
+Non-residential,Education,North America,New,10.5,173.0
+Non-residential,Other,North America,New,3.5,172.0
+Non-residential,Education,North America,New,3.5,171.0
+Non-residential,Public Assembly,North America,New,25.0,171.0
+Non-residential,Other,North America,New,10.5,168.0
+Non-residential,Other,North America,New,3.5,168.0
+Non-residential,Other,North America,New,10.5,167.0
+Non-residential,Education,North America,New,3.5,157.0
+Non-residential,Health Care,North America,New,3.5,155.0
+Non-residential,Lodging,North America,New,10.5,153.0
+Non-residential,Public Assembly,North America,New,3.5,149.0
+Non-residential,Education,North America,New,3.5,149.0
+Non-residential,Education,North America,New,3.5,143.0
+Non-residential,Public Assembly,Africa,New,3.5,142.0
+Non-residential,Other,North America,New,3.5,140.0
+Non-residential,Education,North America,New,3.5,134.0
+Non-residential,Other,North America,New,10.5,133.0
+Non-residential,Education,North America,New,3.5,129.0
+Non-residential,Education,North America,New,3.5,128.0
+Non-residential,Public Assembly,North America,New,3.5,127.0
+Residential,Other,North America,New,20.0,126.0
+Non-residential,Public Assembly,North America,New,3.5,123.0
+Non-residential,Other,North America,New,10.5,119.0
+Non-residential,Health Care,North America,New,3.5,118.0
+Non-residential,Health Care,North America,New,3.5,117.0
+Non-residential,Other,North America,New,3.5,112.0
+Residential,Other,Asia-Pacific,New,20.0,111.0
+Non-residential,Office,North America,New,3.5,109.0
+Non-residential,Education,North America,New,25.0,109.0
+Non-residential,Office,North America,New,3.5,106.0
+Non-residential,Public Assembly,North America,New,3.5,102.0
+Non-residential,Education,North America,New,3.5,100.0
+Non-residential,Public Assembly,North America,New,3.5,100.0
+Non-residential,Office,North America,New,3.5,93.0
+Non-residential,Education,North America,New,3.5,92.0
+Non-residential,Other,North America,New,10.5,90.0
+Non-residential,Public Assembly,Europe,New,10.5,801.0
+Non-residential,Office,Europe,New,25.0,762.25
+Non-residential,Office,Middle East,New,25.0,747.72
+Non-residential,Office,Europe,New,10.5,638.54
+Non-residential,Industrial,Europe,New,3.5,565.61
+Non-residential,Office,Europe,New,3.5,556.13
+Non-residential,Office,Europe,New,3.5,552.4
+Non-residential,Health Care,Europe,New,10.5,546.67
+Non-residential,Office,Europe,New,20.0,493.44
+Non-residential,Office,Asia-Pacific,New,10.5,470.0
+Non-residential,Office,Europe,New,3.5,453.53
+Non-residential,Office,Asia-Pacific,New,10.5,430.0
+Non-residential,Office,Asia-Pacific,New,10.5,420.0
+Non-residential,Education,North America,New,3.5,411.0
+Non-residential,Office,Asia-Pacific,New,10.5,410.0
+Non-residential,Office,Europe,New,3.5,400.14
+Non-residential,Education,Europe,New,10.5,399.0
+Non-residential,Office,Europe,New,3.5,398.45
+Non-residential,Education,North America,New,3.5,381.0
+Residential,Other,Europe,New,3.5,353.39
+Residential,Other,Europe,New,10.5,321.79
+Non-residential,Office,Asia-Pacific,New,10.5,320.0
+Non-residential,Office,Europe,New,3.5,309.0
+Non-residential,Office,Asia-Pacific,New,10.5,290.0
+Non-residential,Office,North America,New,3.5,274.23
+Non-residential,Parking,North America,New,3.5,273.82
+Residential,Other,Europe,New,10.5,261.34
+Non-residential,Office,North America,New,3.5,259.35
+Non-residential,Education,North America,New,3.5,259.0
+Non-residential,Education,North America,New,3.5,254.0
+Non-residential,Parking,North America,New,3.5,244.88
+Non-residential,Office,North America,New,10.5,237.0
+Non-residential,Office,North America,New,10.5,237.0
+Non-residential,Office,North America,New,10.5,237.0
+Non-residential,Office,North America,New,10.5,237.0
+Non-residential,Office,North America,New,10.5,232.0
+Non-residential,Office,North America,New,10.5,232.0
+Non-residential,Office,North America,New,10.5,229.89
+Non-residential,Office,North America,New,10.5,229.89
+Non-residential,Office,North America,New,10.5,225.0
+Non-residential,Office,North America,New,10.5,222.0
+Non-residential,Public Assembly,North America,New,3.5,209.14
+Non-residential,Office,North America,New,10.5,192.0
+Non-residential,Office,North America,New,10.5,191.0
+Non-residential,Office,North America,New,10.5,191.0
+Non-residential,Office,North America,New,10.5,191.0
+Non-residential,Office,North America,New,10.5,186.24
+Non-residential,Office,North America,New,10.5,185.27
+Non-residential,Office,North America,New,10.5,183.0
+Non-residential,Office,North America,New,10.5,183.0
+Non-residential,Office,North America,New,10.5,181.06
+Non-residential,Office,North America,New,10.5,178.54
+Non-residential,Office,North America,New,10.5,177.0
+Non-residential,Office,North America,New,10.5,177.0
+Non-residential,Education,North America,New,3.5,175.05
+Residential,Other,North America,New,3.5,172.0
+Non-residential,Education,North America,New,3.5,169.44
+Residential,Other,North America,New,3.5,156.0
+Non-residential,Office,North America,New,10.5,150.23
+Residential,Other,North America,New,3.5,149.0
+Residential,Other,North America,New,3.5,149.0
+Non-residential,Education,North America,New,3.5,144.0
+Non-residential,Education,North America,New,3.5,142.05
+Non-residential,Office,North America,New,10.5,141.59
+Non-residential,Education,North America,New,3.5,140.94
+Residential,Other,North America,New,3.5,138.0
+Non-residential,Office,North America,New,10.5,136.97
+Residential,Other,North America,New,3.5,133.0
+Non-residential,Office,Asia-Pacific,New,10.5,130.0
+Non-residential,Public Assembly,North America,New,3.5,129.98
+Residential,Other,North America,New,3.5,124.0
+Residential,Other,North America,New,3.5,122.0
+Residential,Other,North America,New,3.5,119.0
+Residential,Other,North America,New,3.5,119.0
+Residential,Other,North America,New,3.5,115.24
+Residential,Other,North America,New,3.5,114.0
+Residential,Other,North America,New,3.5,110.0
+Residential,Other,North America,New,3.5,109.0
+Residential,Other,North America,New,3.5,106.0
+Residential,Other,North America,New,3.5,89.11
+Residential,Other,North America,New,3.5,87.4
+Residential,Other,North America,New,3.5,84.0
+Residential,Other,North America,New,3.5,82.0
+Residential,Other,North America,New,3.5,80.0
+Non-residential,Office,Asia-Pacific,New,10.5,70.0
+Non-residential,Office,North America,New,25.0,570.78
+Non-residential,Office,North America,New,25.0,570.78
+Non-residential,Office,North America,New,25.0,530.19
+Non-residential,Office,Europe,New,25.0,516.61
+Non-residential,Office,North America,New,25.0,515.1
+Non-residential,Office,Europe,New,25.0,501.51
+Non-residential,Office,North America,New,25.0,495.58
+Non-residential,Office,North America,New,25.0,494.23
+Non-residential,Office,Europe,New,25.0,491.04
+Non-residential,Office,Europe,New,25.0,491.04
+Non-residential,Office,North America,New,25.0,481.45
+Non-residential,Office,North America,New,25.0,472.66
+Non-residential,Office,North America,New,25.0,472.66
+Non-residential,Office,North America,New,25.0,459.71
+Non-residential,Office,North America,New,25.0,459.24
+Non-residential,Office,Europe,New,25.0,431.26
+Non-residential,Office,Europe,New,25.0,426.01
+Non-residential,Office,Europe,New,25.0,426.01
+Non-residential,Office,North America,New,25.0,422.81
+Non-residential,Office,Europe,New,25.0,417.13
+Non-residential,Office,North America,New,25.0,405.79
+Non-residential,Office,North America,New,25.0,400.34
+Non-residential,Office,North America,New,25.0,398.5
+Non-residential,Office,Europe,New,25.0,396.13
+Non-residential,Office,North America,New,25.0,382.75
+Non-residential,Office,Europe,New,25.0,382.61
+Non-residential,Office,North America,New,25.0,377.99
+Non-residential,Office,Europe,New,25.0,372.07
+Non-residential,Office,Europe,New,25.0,355.95
+Non-residential,Office,North America,New,25.0,354.42
+Non-residential,Office,Europe,New,25.0,353.89
+Non-residential,Office,Europe,New,25.0,339.07
+Non-residential,Office,Europe,New,25.0,338.83
+Non-residential,Office,North America,New,25.0,337.92
+Non-residential,Office,Europe,New,25.0,336.76
+Non-residential,Office,Europe,New,25.0,309.22
+Non-residential,Office,North America,New,25.0,307.52
+Non-residential,Office,North America,New,25.0,306.63
+Non-residential,Office,North America,New,25.0,304.65
+Non-residential,Office,North America,New,25.0,301.89
+Non-residential,Office,North America,New,25.0,299.72
+Non-residential,Office,North America,New,25.0,294.99
+Non-residential,Office,Europe,New,25.0,292.96
+Non-residential,Office,Europe,New,25.0,285.46
+Non-residential,Office,North America,New,25.0,285.46
+Non-residential,Office,Europe,New,25.0,281.66
+Non-residential,Office,North America,New,25.0,280.2
+Non-residential,Office,North America,New,25.0,276.56
+Non-residential,Office,Europe,New,25.0,273.31
+Non-residential,Office,Europe,New,25.0,271.33
+Non-residential,Office,Europe,New,25.0,270.89
+Non-residential,Office,Europe,New,25.0,266.54
+Non-residential,Office,Europe,New,25.0,265.63
+Non-residential,Office,Europe,New,25.0,264.85
+Non-residential,Office,North America,New,25.0,263.09
+Non-residential,Office,Europe,New,25.0,262.0
+Non-residential,Office,North America,New,25.0,258.18
+Non-residential,Office,North America,New,25.0,253.55
+Non-residential,Office,North America,New,25.0,253.19
+Non-residential,Office,Europe,New,25.0,239.49
+Non-residential,Office,Europe,New,25.0,237.61
+Non-residential,Office,Europe,New,25.0,233.13
+Non-residential,Office,Europe,New,25.0,232.97
+Non-residential,Office,Europe,New,25.0,231.73
+Non-residential,Education,Asia-Pacific,New,3.5,443.2
+Non-residential,Mixed,North America,New,3.5,210.63
+Non-residential,Office,North America,New,20.0,172.53
+Non-residential,Education,North America,New,3.5,156.25
+Non-residential,Office,North America,Renovation,3.5,118.51
+Non-residential,Education,North America,Renovation,3.5,98.78
+Residential,Multi-family,North America,New,10.5,88.54
+Residential,Multi-family,North America,Renovation,10.5,83.78
+Residential,Single-family,North America,New,3.5,75.26
+Non-residential,Mixed,North America,Renovation,3.5,51.45
+Non-residential,Office,North America,Renovation,20.0,49.88
+Residential,Multi-family,North America,Renovation,3.5,42.47
+Residential,Single-family,North America,Renovation,3.5,32.21
+Non-residential,Office,Middle East,New,25.0,579.01
+Non-residential,Public Assembly,North America,New,3.5,397.33
+Residential,Single-family,North America,New,3.5,244.31
+Residential,Single-family,North America,New,3.5,193.29
+Residential,Single-family,North America,New,3.5,139.93
+Residential,Single-family,North America,New,3.5,106.77
+Residential,Multi-family,North America,New,3.5,154.01
+Residential,Multi-family,North America,New,3.5,84.58
+Non-residential,Other,North America,New,3.5,266.67
+Non-residential,Other,North America,New,3.5,258.18
+Non-residential,Other,North America,New,3.5,258.0
+Non-residential,Other,North America,New,3.5,256.0
+Non-residential,Other,North America,New,3.5,253.53
+Non-residential,Other,North America,New,3.5,250.91
+Non-residential,Other,North America,New,3.5,248.13
+Non-residential,Other,North America,New,3.5,245.63
+Non-residential,Other,North America,New,3.5,240.0
+Non-residential,Other,North America,New,3.5,236.15
+Non-residential,Other,North America,New,3.5,233.0
+Non-residential,Other,North America,New,3.5,232.73
+Non-residential,Other,North America,New,3.5,229.33
+Non-residential,Other,North America,New,3.5,228.18
+Non-residential,Other,North America,New,3.5,225.45
+Non-residential,Other,North America,New,3.5,224.62
+Non-residential,Other,North America,New,3.5,222.5
+Non-residential,Other,North America,New,3.5,218.13
+Non-residential,Other,North America,New,3.5,212.31
+Non-residential,Other,North America,New,3.5,210.0
+Non-residential,Other,North America,New,3.5,204.55
+Non-residential,Other,North America,New,3.5,204.29
+Non-residential,Other,North America,New,3.5,202.31
+Non-residential,Other,North America,New,3.5,201.33
+Non-residential,Other,North America,New,3.5,198.67
+Non-residential,Other,North America,New,3.5,195.71
+Non-residential,Other,North America,New,3.5,195.0
+Non-residential,Other,North America,New,3.5,182.0
+Non-residential,Other,North America,New,3.5,178.0
+Non-residential,Other,North America,New,3.5,177.14
+Non-residential,Other,North America,New,3.5,623.88
+Non-residential,Other,North America,New,3.5,274.23
+Non-residential,Office,North America,New,3.5,259.57
+Non-residential,Other,North America,New,3.5,259.35
+Non-residential,Mixed,North America,New,10.5,154.34
+Non-residential,Education,North America,New,3.5,905.0
+Non-residential,Office,North America,New,3.5,340.29
+Non-residential,Office,North America,New,3.5,336.85
+Non-residential,Office,North America,New,3.5,248.9
+Residential,Single-family,North America,New,25.0,746.64
+Non-residential,Lodging,North America,New,25.0,710.91
+Non-residential,Education,North America,New,25.0,608.58
+Non-residential,Lodging,North America,New,25.0,551.2
+Non-residential,Public Assembly,North America,New,25.0,494.32
+Non-residential,Lodging,North America,Renovation,25.0,437.51
+Non-residential,Public Assembly,North America,New,25.0,363.87
+Non-residential,Lodging,North America,New,25.0,240.03
+Non-residential,Single-family,North America,New,25.0,150.9
+Non-residential,Single-family,North America,New,25.0,113.96
+Non-residential,Education,North America,New,25.0,574.12
+Non-residential,Education,North America,New,25.0,496.41
+Non-residential,Public Assembly,North America,New,25.0,495.51
+Non-residential,Education,North America,New,25.0,450.67
+Non-residential,Education,North America,New,25.0,435.44
+Non-residential,Education,North America,New,25.0,411.89
+Non-residential,Education,North America,New,25.0,409.47
+Non-residential,Education,North America,New,25.0,342.52
+Non-residential,Education,North America,New,25.0,335.82
+Non-residential,Education,North America,New,25.0,320.22
+Non-residential,Public Assembly,North America,New,25.0,312.53
+Non-residential,Education,North America,New,25.0,306.23
+Non-residential,Education,North America,New,25.0,297.93
+Non-residential,Lodging,North America,New,25.0,282.3
+Non-residential,Public Assembly,North America,New,25.0,261.91
+Non-residential,Education,North America,New,25.0,232.21
+Non-residential,Education,North America,New,25.0,222.19
+Non-residential,Education,North America,New,25.0,213.43
+Non-residential,Education,North America,New,25.0,196.66
+Non-residential,Lodging,North America,New,25.0,131.32
+Non-residential,Lodging,North America,New,25.0,117.03
+Non-residential,Education,North America,New,25.0,109.11
+Non-residential,Education,North America,New,25.0,102.71
+Non-residential,Education,North America,New,25.0,79.82
+Non-residential,Education,North America,New,25.0,68.81
+Residential,Multi-family,Asia-Pacific,New,25.0,926.0
+Residential,Multi-family,Asia-Pacific,New,10.5,864.06
+Non-residential,Mixed,North America,New,10.5,837.2
+Non-residential,Other,Asia-Pacific,New,10.5,803.15
+Residential,Multi-family,Asia-Pacific,New,25.0,737.31
+Residential,Multi-family,Asia-Pacific,New,25.0,716.09
+Residential,Multi-family,Asia-Pacific,New,25.0,703.43
+Residential,Multi-family,Asia-Pacific,New,25.0,687.54
+Residential,Multi-family,Asia-Pacific,New,25.0,667.98
+Residential,Multi-family,Asia-Pacific,New,25.0,657.93
+Residential,Multi-family,Asia-Pacific,New,25.0,641.22
+Residential,Multi-family,Asia-Pacific,New,20.0,634.21
+Residential,Multi-family,Asia-Pacific,New,10.5,629.47
+Residential,Multi-family,Asia-Pacific,New,25.0,626.96
+Residential,Single-family,Europe,New,3.5,612.0
+Non-residential,Education,North America,New,10.5,591.78
+Residential,Multi-family,Asia-Pacific,New,10.5,578.24
+Non-residential,Mercantile,North America,New,3.5,549.49
+Residential,Single-family,Europe,New,3.5,535.0
+Non-residential,Mercantile,North America,New,3.5,522.18
+Non-residential,Mercantile,North America,New,3.5,517.06
+Residential,Multi-family,Asia-Pacific,New,20.0,488.57
+Residential,Multi-family,Asia-Pacific,New,25.0,462.0
+Non-residential,Mercantile,North America,New,3.5,450.51
+Residential,Multi-family,Asia-Pacific,New,25.0,443.0
+Residential,Single-family,Europe,New,3.5,405.0
+Residential,Single-family,Europe,New,3.5,385.0
+Residential,Single-family,Europe,New,3.5,362.07
+Non-residential,Mercantile,North America,New,3.5,354.95
+Residential,Single-family,Asia-Pacific,New,3.5,326.1
+Residential,Multi-family,Europe,New,10.5,314.0
+Residential,Multi-family,Europe,New,10.5,314.0
+Residential,Single-family,Europe,New,3.5,273.15
+Residential,Single-family,Europe,New,3.5,200.0
+Non-residential,Education,North America,New,3.5,199.29
+Residential,Single-family,Europe,New,3.5,179.03
+Residential,Single-family,Europe,New,3.5,170.0
+Residential,Single-family,Asia-Pacific,New,3.5,168.9
+Non-residential,Single-family,North America,New,3.5,185.89
+Non-residential,Single-family,North America,New,3.5,181.18
