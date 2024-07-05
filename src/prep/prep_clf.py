@@ -6,8 +6,8 @@ from sklearn.preprocessing import LabelEncoder
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(current_dir, '../data/raw')
-export_dir = os.path.join(current_dir, '../data/processed')
+data_dir = os.path.join(current_dir, '../../data/raw')
+export_dir = os.path.join(current_dir, '../../data/processed')
 
 os.makedirs(export_dir, exist_ok=True)
 
@@ -46,31 +46,30 @@ clf_df = clf_df.drop(columns=[
 
 # Select relevant columns
 clf_df = clf_df[[
-    "Building Type", "Building Use", "Building Location Region", "Building New or Renovation", 
-    "Average Building Area in Square Meters", "Average Building Storeys", "Embodied Carbon Life Cycle Assessment Area Per Square Meter" 
+    "Building Type", "Building Use", "Building Location Region", "Building New or Renovation",
+      "Average Building Storeys", "Embodied Carbon Life Cycle Assessment Area Per Square Meter" 
 ]]
 
 clf_df = clf_df.dropna()
 
 clf_df = clf_df.rename(columns={
-    'Building Type': 'Building_Use_Type',
-    'Building Use': 'Building_Use_Subtype',
+    'Building Type': 'Building Use Type',
+    'Building Use': 'Building Use Subtype',
     'Building Location Region': 'Continent',
-    'Building New or Renovation': 'Building_Project_Type',
-    'Average Building Area in Square Meters': 'Gross_Floor_Area_m2',
-    'Average Building Storeys': 'Floors_Above_Ground',
-    'Embodied Carbon Life Cycle Assessment Area Per Square Meter': 'Total_Embodied_Carbon_PER_m2'
+    'Building New or Renovation': 'Building Project Type',
+    'Average Building Storeys': 'Floors Above Ground',
+    'Embodied Carbon Life Cycle Assessment Area Per Square Meter': 'Total Embodied Carbon PER m2'
 })
 
 # Replace all values in "Building_Use_Type" that are not equal to "Residential" with "Non-residential"
-clf_df['Building_Use_Type'] = clf_df['Building_Use_Type'].apply(lambda x: 'Residential' if x == 'Residential' else 'Non-residential')
+clf_df['Building Use Type'] = clf_df['Building Use Type'].apply(lambda x: 'Residential' if x == 'Residential' else 'Non-residential')
 
 """
 3. Remove Outliers
 """
 # Calculate Q1, Q3, and IQR for Total_Embodied_Carbon
-Q1 = clf_df['Total_Embodied_Carbon_PER_m2'].quantile(0.25)
-Q3 = clf_df['Total_Embodied_Carbon_PER_m2'].quantile(0.75)
+Q1 = clf_df['Total Embodied Carbon PER m2'].quantile(0.25)
+Q3 = clf_df['Total Embodied Carbon PER m2'].quantile(0.75)
 IQR = Q3 - Q1
 
 # Define the lower and upper bounds for outliers
@@ -78,7 +77,7 @@ lower_bound = Q1 - 1.5 * IQR
 upper_bound = Q3 + 1.5 * IQR
 
 # Remove outliers
-clf_df = clf_df[(clf_df['Total_Embodied_Carbon_PER_m2'] >= lower_bound) & (clf_df['Total_Embodied_Carbon_PER_m2'] <= upper_bound)]
+clf_df = clf_df[(clf_df['Total Embodied Carbon PER m2'] >= lower_bound) & (clf_df['Total Embodied Carbon PER m2'] <= upper_bound)]
 
 """
 4. Save dataframe to CSV for inspection.
@@ -91,7 +90,7 @@ clf_df.info()
 5. Label encode categorical data for ML use.
 """
 # Define categorical columns
-categorical_cols = ['Building_Use_Type', 'Building_Use_Subtype', 'Continent', 'Building_Project_Type']
+categorical_cols = ['Building Use Type', 'Building Use Subtype', 'Continent', 'Building Project Type']
 
 # Label encode categorical columns
 label_encoders = {}
@@ -102,6 +101,6 @@ for col in categorical_cols:
 """
 6. Save dataframe to CSV for modeling.
 """
-clf_df_PATH = os.path.join(export_dir, 'model/encoded_clf.csv')
+clf_df_PATH = os.path.join(export_dir, 'encoded/encoded_clf.csv')
 clf_df.to_csv(clf_df_PATH, index=False)
 clf_df.info()

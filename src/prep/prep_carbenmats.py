@@ -8,8 +8,8 @@ from sklearn.preprocessing import LabelEncoder
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(current_dir, '../data/raw')
-export_dir = os.path.join(current_dir, '../data/processed')
+data_dir = os.path.join(current_dir, '../../data/raw')
+export_dir = os.path.join(current_dir, '../../data/processed')
 
 os.makedirs(export_dir, exist_ok=True)
 
@@ -74,45 +74,44 @@ ghg_columns = ['GHG_A123_m2a', 'GHG_A45_m2a', 'GHG_B1234_m2a', 'GHG_B5_m2a', 'GH
 carbenmats_df['Total_Embodied_Carbon'] = carbenmats_df[ghg_columns].sum(axis=1)
 
 # Calculate kg CO2e per square meter - need to multiply by reference study period, as values are stored as per m2 per year
-carbenmats_df['Total_Embodied_Carbon_PER_m2'] = carbenmats_df['Total_Embodied_Carbon'] * carbenmats_df['lca_RSP']
+carbenmats_df['Total Embodied Carbon PER m2'] = carbenmats_df['Total_Embodied_Carbon'] * carbenmats_df['lca_RSP']
 
-carbenmats_df = carbenmats_df[['bldg_project_type', 'bldg_use_type', 'bldg_use_subtype', 'site_region_world', 'site_country',
-     'site_region_local', 'bldg_area_gfa', 'bldg_users_total', 'bldg_floors_ag', 'bldg_floors_bg',
-     'bldg_struct_type', 'bldg_roof_type',
-
-     'Total_Embodied_Carbon_PER_m2'
-     ]]
+carbenmats_df = carbenmats_df[['bldg_project_type', 'bldg_use_type', 'bldg_use_subtype', 'site_region_world', 
+                               'site_country','site_region_local', 'bldg_users_total', 'bldg_floors_ag', 
+                               'bldg_floors_bg', 'bldg_struct_type', 'bldg_roof_type',
+                               
+                               'Total Embodied Carbon PER m2'
+                               ]]
 
 # Rename columns for better inspection
 carbenmats_df.rename(columns={
-'bldg_project_type': 'Building_Project_Type',
-'bldg_use_type': 'Building_Use_Type',
-'bldg_use_subtype': 'Building_Use_Subtype',
+'bldg_project_type': 'Building Project Type',
+'bldg_use_type': 'Building Use Type',
+'bldg_use_subtype': 'Building Use Subtype',
 'site_region_world': 'Continent',
 'site_country': 'Country',
 'site_region_local': 'City',
-'bldg_area_gfa': 'Gross_Floor_Area_m2',
-'bldg_users_total': 'Total_Users',
-'bldg_floors_ag': 'Floors_Above_Ground',
-'bldg_floors_bg': 'Floors_Below_Ground',
-'bldg_struct_type': 'Structure_Type',
-'bldg_roof_type': 'Roof_Type',
+'bldg_users_total': 'Total Users',
+'bldg_floors_ag': 'Floors Above Ground',
+'bldg_floors_bg': 'Floors Below Ground',
+'bldg_struct_type': 'Structure Type',
+'bldg_roof_type': 'Roof Type',
 }, inplace=True)
 
-updated_categorical_cols = ['Building_Project_Type', 'Building_Use_Type', 'Building_Use_Subtype', 'Continent', 'Country', 'City', 'Structure_Type', 'Roof_Type']
+updated_categorical_cols = ['Building Project Type', 'Building Use Type', 'Building Use Subtype', 'Continent', 'Country', 'City', 'Structure Type', 'Roof Type']
 
 """
-5. Drop rows with any remaining NaN values, anddrop rows with "0" embodied carbon.
+5. Drop rows with any remaining NaN values, and drop rows with "0" embodied carbon.
 """
 carbenmats_df = carbenmats_df.dropna()
-carbenmats_df = carbenmats_df[carbenmats_df['Total_Embodied_Carbon_PER_m2'] != 0]
+carbenmats_df = carbenmats_df[carbenmats_df['Total Embodied Carbon PER m2'] != 0]
 
 """
 6. Remove Outliers
 """
 # Calculate Q1, Q3, and IQR for Total_Embodied_Carbon
-Q1 = carbenmats_df['Total_Embodied_Carbon_PER_m2'].quantile(0.25)
-Q3 = carbenmats_df['Total_Embodied_Carbon_PER_m2'].quantile(0.75)
+Q1 = carbenmats_df['Total Embodied Carbon PER m2'].quantile(0.25)
+Q3 = carbenmats_df['Total Embodied Carbon PER m2'].quantile(0.75)
 IQR = Q3 - Q1
 
 # Define the lower and upper bounds for outliers
@@ -120,7 +119,7 @@ lower_bound = Q1 - 1.5 * IQR
 upper_bound = Q3 + 1.5 * IQR
 
 # Remove outliers
-carbenmats_df = carbenmats_df[(carbenmats_df['Total_Embodied_Carbon_PER_m2'] >= lower_bound) & (carbenmats_df['Total_Embodied_Carbon_PER_m2'] <= upper_bound)]
+carbenmats_df = carbenmats_df[(carbenmats_df['Total Embodied Carbon PER m2'] >= lower_bound) & (carbenmats_df['Total Embodied Carbon PER m2'] <= upper_bound)]
 
 """
 7. Drop categorical columns with more than 40% 'missing' values
@@ -152,6 +151,6 @@ for col in updated_categorical_cols:
 """
 10. Save dataframe to CSV for modeling.
 """
-carbenmats_df_PATH = os.path.join(export_dir, 'model/encoded_carbenmats.csv')
+carbenmats_df_PATH = os.path.join(export_dir, 'encoded/encoded_carbenmats.csv')
 carbenmats_df.to_csv(carbenmats_df_PATH, index=False)
 carbenmats_df.info()
