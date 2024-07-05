@@ -839,760 +839,878 @@ United Kingdom,Europe,,,New,,614.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,Steel,Steel,,Othe
 United Kingdom,Europe,,,New,,614.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,Steel,Steel,,Other,Reinforced pads/strips,Timber,Solar thermal,Other,Natural,7.301302931596091
 United Kingdom,Europe,,,New,,614.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,Steel,Steel,,Other,Reinforced pads/strips,Timber,Solar thermal,Other,Natural,7.301302931596091
 United Kingdom,Europe,,,New,,614.0,3.0,1.0,,,,,,,,,,,,,,,,,,,,,Steel,Steel,,Other,Reinforced pads/strips,Timber,Solar thermal,Other,Natural,7.301302931596091
-Denmark,Europe,Commercial,Other,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.42
-Denmark,Europe,Commercial,Other,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.29
-Denmark,Europe,Commercial,Other,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.62
-Denmark,Europe,Commercial,Other,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.459999999999999
-Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.119999999999999
-Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.530000000000001
-Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.09
-Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.16
-Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.04
-Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.6
-Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.109999999999999
-Denmark,Europe,Residential,Multi-family house,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.07
-Denmark,Europe,Residential,Multi-family house,,,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.83
-Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.58
-Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.18
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.07
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.629999999999999
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.29
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.059999999999999
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.859999999999999
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.709999999999999
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.84
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.43
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.68
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.49
-Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.24
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.74
-Denmark,Europe,Commercial,Office,,,42500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.99
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.57
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.34
-Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.03
-Denmark,Europe,Commercial,Office,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.52
-Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.33
-Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.07
-Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.66
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.729999999999999
-Denmark,Europe,Commercial,Office,,,27500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.3100000000000005
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.25
-Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.470000000000001
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.43
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.869999999999999
-Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.16
-Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.98
-Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.36
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.569999999999999
-Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.24
-Denmark,Europe,Commercial,Office,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.129999999999999
-Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.75
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.56
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.280000000000001
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.32
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.14
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.049999999999999
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.91
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.68
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.66
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.27
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.640000000000001
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.8
-Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.34
-Denmark,Europe,Residential,Multi-family house,,,12500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,909986.0,0.0,0.0,996534.0,0.0,0.0,20610178.0,264461.0,0.0,751627.0,0.0,,,,,,,,,,7.289999999999999
-Denmark,Europe,Commercial,Office,,,7500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,277011.0,0.0,394796.0,0.0,0.0,8168760.0,57380.0,0.0,152880.0,0.0,,,,,,,,,,7.25
-Denmark,Europe,Commercial,Office,,,27500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,405893.0,0.0,0.0,0.0,0.0,0.0,2826401.0,0.0,0.0,48428837.0,641135.0,0.0,1500095.0,0.0,,,,,,,,,,8.780000000000001
-Denmark,Europe,Residential,Multi-family house,,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,333202.0,0.0,0.0,308763.0,0.0,0.0,6219247.0,74596.0,0.0,189761.0,0.0,,,,,,,,,,7.48
-Denmark,Europe,Residential,Multi-family house,,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,383868.0,0.0,0.0,141238.0,0.0,0.0,4652174.0,64903.0,0.0,515966.0,0.0,,,,,,,,,,6.119999999999999
-Denmark,Europe,Residential,Multi-family house,,,2500.5,,,112858.58756,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,751478.76,270433.09143,0.0,0.0,0.0,,,,,,,,,,3.814633858485519
-Denmark,Europe,Commercial,Office,,,12500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,377410.0,0.0,0.0,21059338.0,137568.0,0.0,145000.0,0.0,,,,,,,,,,18.73
-Denmark,Europe,Commercial,Hospital and Health,,,7500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,421265.0,0.0,0.0,120436.0,0.0,0.0,7633067.0,210437.0,0.0,1207488.0,0.0,,,,,,,,,,6.01
-Denmark,Europe,Commercial,Office,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17.760528129246488
-Denmark,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1272950.4,217534.02,2321251.68,324976.5,0.0,,,,,,,,,,4.143451932909654
-Denmark,Europe,Commercial,School and Daycare,,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57763.0,0.0,0.0,0.0,9678.0,0.0,0.0,247181.0,19236.0,0.0,0.0,0.0,,,,,,,,,,19.243860517999998
-Denmark,Europe,Commercial,Office,,,2500.5,,,66125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48989.48,0.0,0.0,863835.8,36236.5,0.0,131928.0,0.0,,,,,,,,,,24.028993453103123
-Austria,Europe,Commercial,Hospital and Health,,114.0,12500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.39
-Austria,Europe,Commercial,Hospital and Health,,87.0,12500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,43.95
-Austria,Europe,Commercial,Hotel & Resort,,275.0,7500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,628154.4,0.0,493126.7,0.0,0.0,485072.0,0.0,0.0,8161650.0,0.0,0.0,371782.0,0.0,,,,,,,,,,25.98
-Austria,Europe,Commercial,Office,,550.0,12500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.07
-Austria,Europe,Commercial,Office,,1200.0,22500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.57
-Austria,Europe,Commercial,Office,,1800.0,37500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19.17
-Austria,Europe,Commercial,Office,,400.0,12500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17.89
-Austria,Europe,Commercial,Office,,75.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.1599999999999993
-Germany,Europe,Commercial,Office,,1700.0,37500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.76
-Germany,Europe,Commercial,Office,,1000.0,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44.980000000000004
-Germany,Europe,Commercial,Hotel & Resort,,372.0,7500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58.14
-Germany,Europe,Commercial,Hotel & Resort,,222.0,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,76.83999999999999
-Germany,Europe,Residential,Multi-family house,,526.0,27500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19.57
-Germany,Europe,Commercial,Hotel & Resort,,552.0,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44.589999999999996
-Germany,Europe,Commercial,Hotel & Resort,,630.0,7500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46.46
-Germany,Europe,Commercial,Hotel & Resort,,604.0,12500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51.730000000000004
-Germany,Europe,Commercial,Hotel & Resort,,432.0,7500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57.62
-United Kingdom,Europe,Commercial,Office,,,52500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.071779016468298
-United Kingdom,Europe,Commercial,Office,,,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.866432496542206
-United Kingdom,Europe,Commercial,Hotel & Resort,,,12500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.941930994348964
-United Kingdom,Europe,Commercial,Office,,,12500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2364562.0,0.0,1493057.0,0.0,0.0,0.0,0.0,37041927.0,0.0,0.0,,,,,,,,,,37.66666666666656
-United Kingdom,Europe,Commercial,Mixed use,,,42500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24.030657107758177
-United Kingdom,Europe,Commercial,Retail and Restaurant,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49.95216080402007
-United Kingdom,Europe,Commercial,Technology & Science,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.798176609105163
-United Kingdom,Europe,Commercial,Office,,,12500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.127342915381783
-United Kingdom,Europe,Commercial,Mixed use,,,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.514577242960026
-United Kingdom,Europe,Commercial,Mixed use,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16.495737915618847
-United Kingdom,Europe,Commercial,Mixed use,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.87750713213209
-United Kingdom,Europe,Commercial,Mixed use,,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-4984.906396778524
-United Kingdom,Europe,Commercial,Office,,,,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-9562.940033920891
-United Kingdom,Europe,Commercial,Other,,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-2911.9557164705884
-United Kingdom,Europe,Commercial,Retail and Restaurant,,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-1263.9054955818162
-United Kingdom,Europe,Commercial,School and Daycare,,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-1477.94315243333
-United Kingdom,Europe,Residential,,,,,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.004468375
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49.78736404264604
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,43.97498296254905
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46.49447022657064
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53.74785575112419
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45.68003504307139
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50.262688245764544
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64.06374155644383
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53.58763726617772
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60.18751152269347
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.49545003103482
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.50323081916544
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40.3651540697051
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.56866964451187
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.70704456731569
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.85682283988099
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.98914236911537
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.242226785988095
-Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.3763107133358
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.16193721662125
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.176936277428126
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.01409582893112
-Belgium,Europe,Residential,Multi-family house,,780.0,32500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51.71932038366617
-Belgium,Europe,Residential,Multi-family house,,780.0,32500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48.76735177503552
-Belgium,Europe,Residential,Multi-family house,,780.0,32500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46.80824531234698
-Belgium,Europe,Residential,Multi-family house,,591.0,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.60972697173766
-Belgium,Europe,Residential,Multi-family house,,591.0,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.67970970918878
-Belgium,Europe,Residential,Multi-family house,,591.0,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.044382746566896
-Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.770890947292536
-Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.748331199253826
-Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.688522639051385
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.8804383740863
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.04557218877405
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.99794987606899
-Belgium,Europe,Residential,Multi-family house,,48.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45.71259533100091
-Belgium,Europe,Residential,Multi-family house,,48.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39.541068915106905
-Belgium,Europe,Residential,Multi-family house,,48.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.10724803545489
-Belgium,Europe,Residential,Multi-family house,,26.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54.618815883188525
-Belgium,Europe,Residential,Multi-family house,,26.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51.57157336810968
-Belgium,Europe,Residential,Multi-family house,,26.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50.55149495289341
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44.63677160216933
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.9645995323297
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41.542349678501765
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.82290030228594
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.48149256381423
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.36911285081894
-Belgium,Europe,Residential,Multi-family house,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46.03542754576778
-Belgium,Europe,Residential,Multi-family house,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39.296402671161864
-Belgium,Europe,Residential,Multi-family house,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44.58087471571889
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39.081131451712636
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.83488886221241
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.53275780814998
-Belgium,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65.34397314348377
-Belgium,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62.06367983912344
-Belgium,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60.56730829423363
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40.44865324056428
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.27796247460911
-Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.90985107596677
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40.203522590628104
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.786271405734155
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.65582778339115
-Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.410476804539336
-Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.388510869271826
-Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.43990146038959
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.34924101571604
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.09143110489403
-Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.979632516997036
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39.751732719735706
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.33640799627226
-Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.29447114531395
-Belgium,Europe,Residential,Semi-detached,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.30481091823383
-Belgium,Europe,Residential,Semi-detached,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.581172329802264
-Belgium,Europe,Residential,Semi-detached,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.738707577286206
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40.57332212536383
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.10850340268991
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.805678604946
-Belgium,Europe,Residential,Semi-detached,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58.56551562356401
-Belgium,Europe,Residential,Semi-detached,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50.93951873324322
-Belgium,Europe,Residential,Semi-detached,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54.45827716095305
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.51631118876148
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.72547304937892
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.56229826972279
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.174132428193914
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.92933794449621
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.610352235477386
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.638272835679416
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.451006305088505
-Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.16417389897319
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.62069723057574
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.125643968363228
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.1829558464473
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.60448091947519
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.64742703019522
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.11996489122956
-Belgium,Europe,Residential,Row house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39.88809140508505
-Belgium,Europe,Residential,Row house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.788814899541585
-Belgium,Europe,Residential,Row house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.75531078363608
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.60359177321128
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.19609082810194
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.90439312805212
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.77117445454037
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.779734725517184
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.37890914197999
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.311324528433076
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.364974806525584
-Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.997463139150693
-Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,439213.56,0.0,0.0,0.0,0.0,232475.994,0.0,0.0,115863.89,0.0,0.0,2986702.36759999,0.0,1792168.07,0.0,0.0,,,,,,,,,,10.18143348589983
-Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,432012.0,0.0,0.0,0.0,0.0,122659.374,0.0,0.0,146419.82,0.0,0.0,3672485.6364,0.0,0.0,104122.18,0.0,,,,,,,,,,12.969639999999998
-Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,3177200.0,0.0,0.0,0.0,0.0,198920.0,0.0,0.0,0.0,0.0,0.0,2327472.0,0.0,1313781.0,309051.6,0.0,,,,,,,,,,14.24403557202428
-Finland,Europe,Residential,Multi-family house,,,7500.5,,,0.0,0.0,0.0,0.0,538721.156069364,0.0,0.0,0.0,0.0,0.0,0.0,0.0,140444.489402697,0.0,0.0,5664827.28323699,0.0,2900287.00385356,666134.699421965,0.0,,,,,,,,,,13.38338798052633
-Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,1891200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47467.0,0.0,0.0,2867712.0,0.0,123172.0,60886.4,0.0,,,,,,,,,,13.33867
-Finland,Europe,Residential,Multi-family house,,,7500.5,,,0.0,0.0,0.0,0.0,3877400.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3367084.0,0.0,3743727.28641509,0.0,0.0,,,,,,,,,,11.60450386602827
-Finland,Europe,Residential,Multi-family house,,,12500.5,,,0.0,0.0,0.0,0.0,2361790.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8721126.39999999,0.0,4861902.174975,0.0,0.0,,,,,,,,,,11.740000000000002
-Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,4451077.38352941,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1140808.6117647,0.0,2352279.26274509,0.0,0.0,,,,,,,,,,9.1049
-Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,495328.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4309728.0,161269.806123295,2497607.0,408149.4,0.0,,,,,,,,,,11.4
-Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,302400.0,0.0,0.0,0.0,0.0,74958.3159999999,0.0,0.0,106000.23,0.0,0.0,2714212.7688,0.0,0.0,95546.733,0.0,,,,,,,,,,12.38
-Finland,Europe,Commercial,Retail and Restaurant,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7082503.8,0.0,0.0,199627369.912,1693751.0,22777854.5945945,0.0,0.0,,,,,,,,,,9.57
-Finland,Europe,Commercial,Retail and Restaurant,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3603800.0,0.0,8907312.23076923,0.0,0.0,,,,,,,,,,11.530999999999999
-Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,110016.3857,0.0,0.0,3105278.61056,0.0,568066.2607,365825.3692,0.0,,,,,,,,,,18.81
-Finland,Europe,Commercial,Retail and Restaurant,,,42500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,888872.0,0.0,0.0,23604531.0,0.0,16917017.6,1236127.2,0.0,,,,,,,,,,14.825999999999999
-Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,7042167.048,0.0,0.0,283419.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2043209.252,0.0,189100.0,0.0,0.0,,,,,,,,,,29.172491
-Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,1531508.36363636,0.0,0.0,66824.0559440559,0.0,0.0,77958.3564568764,0.0,0.0,0.0,0.0,785313.83048951,0.0,0.0,0.0,0.0,,,,,,,,,,17.737298000000003
-Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,3339535.68403361,0.0,0.0,90308.8739495798,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1740399.6605042,0.0,83231.8235294117,0.0,0.0,,,,,,,,,,19.59896799999998
-Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,2115700.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,249043.2,0.0,16560.0,27388.78,0.0,,,,,,,,,,58.24655800000001
-Finland,Europe,Commercial,Retail and Restaurant,,,7500.5,,,0.0,0.0,0.0,0.0,2522549.33853658,0.0,0.0,0.0,0.0,0.0,201976.710243902,0.0,0.0,0.0,0.0,3394533.14341463,251107.827902439,4153782.82610415,0.0,0.0,,,,,,,,,,21.828
-Finland,Europe,Commercial,Retail and Restaurant,,,7500.5,,,0.0,0.0,0.0,0.0,2879849.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0006017944416,0.0,0.0,5428074.0,0.0,1026250.0,0.0,0.0,,,,,,,,,,19.569770000000002
-Finland,Europe,Commercial,School and Daycare,,,2500.5,,,187935.903999999,0.0,0.0,0.0,1485327.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,749070.0,0.0,243685.419999999,60086.418,0.0,,,,,,,,,,11.645
-Finland,Europe,Commercial,School and Daycare,,,12500.5,,,0.0,0.0,0.0,0.0,15125122.9999999,0.0,0.0,0.0,0.0,970856.4990168,0.0,0.0,0.0,0.0,0.0,10829038.0799999,0.0,9174480.0,0.0,0.0,,,,,,,,,,15.1498
-Finland,Europe,Commercial,School and Daycare,,,12500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,569504.0,0.0,0.0,203206.0,0.0,0.0,7267737.46048,0.0,8057126.55999999,421454.06,0.0,,,,,,,,,,15.27799999999999
-Finland,Europe,Commercial,School and Daycare,,,2500.5,,,0.0,0.0,0.0,0.0,896092.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1528236.0,71032.17,539774.31081081,0.0,0.0,,,,,,,,,,10.82
-Finland,Europe,Commercial,School and Daycare,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5992464.0,0.0,3884176.0,416995.2,0.0,,,,,,,,,,7.890000000000001
-Finland,Europe,Commercial,School and Daycare,,,2500.5,,,0.0,0.0,0.0,0.0,3185249.28,0.0,0.0,0.0,0.0,252720.0,0.0,0.0,0.0,0.0,0.0,1912522.08,0.0,1067220.0,0.0,0.0,,,,,,,,,,15.530000000000001
-Finland,Europe,Commercial,School and Daycare,,,7500.5,,,260625.594,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3411182.0,0.0,4165056.0,399201.6,0.0,,,,,,,,,,14.870000000000001
-Finland,Europe,Commercial,School and Daycare,,,7500.5,,,0.0,0.0,0.0,0.0,246088.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5647771.99999999,0.0,5299000.0,592560.6,0.0,,,,,,,,,,12.899999999999999
-Finland,Europe,Commercial,School and Daycare,,,2500.5,,,195482.484021016,0.0,0.0,0.0,77447.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1394767.296,65680.9291790068,681436.854,0.0,0.0,,,,,,,,,,10.08
-Finland,Europe,Commercial,School and Daycare,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,240272.641076233,0.0,0.0,0.0,0.0,0.0,3307462.35982062,99204.5355025426,3077699.16591928,338460.004591928,0.0,,,,,,,,,,20.81
-Finland,Europe,Commercial,Office,,,22500.5,,,0.0,0.0,0.0,0.0,20373494.88,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6597732.88,0.0,9411867.3,0.0,0.0,,,,,,,,,,15.8
-Finland,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,661122.0,0.0,0.0,0.0,0.0,0.0,5544043.2,0.0,4455004.0,0.0,0.0,,,,,,,,,,13.240000000000002
-Finland,Europe,Commercial,Office,,,12500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,251720.475663365,0.0,0.0,0.0,0.0,10929337.2869949,0.0,887599.34592977,0.0,0.0,,,,,,,,,,14.670000000000002
-Finland,Europe,Commercial,Office,,,37500.5,,,0.0,0.0,0.0,0.0,5497190.0,0.0,0.0,0.0,0.0,0.0,1822352.9286775,0.0,0.0,0.0,0.0,11036227.1159999,0.0,16606676.7625056,0.0,0.0,,,,,,,,,,12.84
-Finland,Europe,Commercial,Office,,,12500.5,,,0.0,0.0,0.0,0.0,12393005.44,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4627640.0,0.0,3932138.0,728734.999999999,0.0,,,,,,,,,,15.03
-Finland,Europe,Commercial,Office,,,57500.5,,,0.0,0.0,0.0,0.0,5241417.0,0.0,0.0,0.0,0.0,1169277.0,0.0,0.0,1219502.0,0.0,0.0,70200812.7999999,0.0,0.0,3910000.0,0.0,,,,,,,,,,15.53
-Finland,Europe,Commercial,Office,,,12500.5,,,0.0,0.0,0.0,0.0,800400.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16306128.0,0.0,1992371.0,518846.6,0.0,,,,,,,,,,17.64
-Finland,Europe,Commercial,Office,,,22500.5,,,0.0,0.0,0.0,0.0,5746827.18799999,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27556591.72448,0.0,7559130.0,0.0,0.0,,,,,,,,,,13.52
-Finland,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,6277000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1459048.4,0.0,3269859.25946153,0.0,0.0,,,,,,,,,,13.64
-Finland,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,2084361.28467345,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7914248.22105119,0.0,4231167.867723,0.0,0.0,,,,,,,,,,10.859999999999998
-Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,45396.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2328.0,0.0,0.0,0.0,0.0,130091.0,0.0,0.0,2600.0,0.0,,,,,,,,,,13.09999999999999
-Finland,Europe,Residential,Single family house,,3.0,2500.5,3.5,,26732.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26250.0,0.0,0.0,0.0,0.0,,,,,,,,,,14.999999999999993
-Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,21019.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2054.0,0.0,0.0,0.0,0.0,26350.0,0.0,0.0,0.0,0.0,,,,,,,,,,10.4
-Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,17806.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2808.0,0.0,1928.0,0.0,0.0,0.0,0.0,24450.0,0.0,0.0,0.0,0.0,,,,,,,,,,14.099999999999996
-Finland,Europe,Residential,Semi-detached,,3.0,2500.5,3.5,,16177.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6337.0,21160.0,0.0,0.0,0.0,0.0,0.0,37965.0,0.0,0.0,0.0,0.0,,,,,,,,,,13.099999999999996
-Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,13008.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,68600.0,0.0,161600.0,0.0,0.0,,,,,,,,,,17.799999999999997
-Finland,Europe,Residential,Single family house,,6.0,2500.5,3.5,,23461.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39080.0,0.0,0.0,0.0,0.0,,,,,,,,,,11.599999999999994
-Finland,Europe,Residential,Single family house,,6.0,2500.5,3.5,,14575.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3956.0,0.0,0.0,0.0,0.0,7120.0,0.0,0.0,4260.0,0.0,,,,,,,,,,17.39999999999999
-Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,12076.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27030.0,0.0,0.0,14772.0,0.0,,,,,,,,,,12.899999999999993
-Finland,Europe,Residential,Single family house,,6.0,2500.5,3.5,,27260.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2569.0,1421.0,0.0,0.0,0.0,0.0,0.0,22370.0,0.0,0.0,0.0,0.0,,,,,,,,,,10.399999999999999
-Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,16154.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22078.0,0.0,0.0,0.0,0.0,60910.0,0.0,76990.0,13540.0,0.0,,,,,,,,,,15.299999999999994
-Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,30394.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26010.0,0.0,0.0,0.0,0.0,,,,,,,,,,11.999999999999995
-Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,21397.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13916.0,0.0,0.0,0.0,0.0,22529.0,0.0,0.0,0.0,0.0,,,,,,,,,,11.299999999999999
-Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,10610.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5919.0,0.0,0.0,266098.0,0.0,38223.0,0.0,0.0,,,,,,,,,,13.799999999999992
-Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,92873.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79390.0,0.0,27170.0,0.0,0.0,,,,,,,,,,5.099999999999914
-Finland,Europe,Residential,Single family house,,3.0,2500.5,3.5,,30218.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28630.0,0.0,0.0,0.0,0.0,,,,,,,,,,11.69999999999996
-Finland,Europe,Commercial,Mixed use,,54.0,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,292990.0,88590.0,0.0,0.0,0.0,0.0,301790.0,0.0,3283793.0,142890.0,0.0,,,,,,,,,,25.999999999999993
-Finland,Europe,Residential,Multi-family house,,68.0,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,84096.0,0.0,0.0,93289.0,0.0,0.0,3379280.0,0.0,1228348.0,76891.0,0.0,,,,,,,,,,20.09999999999999
-Finland,Europe,Residential,Multi-family house,,68.0,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1883670.0,0.0,1612680.0,136710.0,0.0,,,,,,,,,,20.885013969017205
-Netherlands,Europe,Commercial,Hotel & Resort,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.182753746112525
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.418897637795268
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.812283464566929
-Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.826381406803139
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.766950131233594
-Netherlands,Europe,Commercial,Other,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.080754928786926
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.035515218188486
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.540742404392037
-Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.476999707002634
-Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.3175342465753355
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.7988012909174715
-Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.220317460317454
-Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.609703703703701
-Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.737878789000001
-Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.62173912999999
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.514265938999991
-Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.77818181799999
-Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.861931061
-Netherlands,Europe,Commercial,School and Daycare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.091901107999991
-Netherlands,Europe,Commercial,School and Daycare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.717732559000001
-Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.6963325189999985
-Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.230538022999999
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.290316574
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.056977305999999
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.3521457969999995
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.759267426
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.244408602
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.767775419
-Netherlands,Europe,Commercial,Retail and Restaurant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.730208941
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.199866666
-Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.066544305
-Netherlands,Europe,Commercial,Retail and Restaurant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.861880402000001
-Netherlands,Europe,Commercial,Retail and Restaurant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.886454183000001
-Netherlands,Europe,Commercial,Hotel & Resort,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.887530562999999
-Netherlands,Europe,Commercial,Hotel & Resort,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.181043128999991
-Netherlands,Europe,Commercial,Art & Culture,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.352767122999987
-Netherlands,Europe,Commercial,Sport & Entertainment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.453820909000001
-Netherlands,Europe,Commercial,Sport & Entertainment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.662941176999995
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.668789808999999
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.702760085
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.7712629389999996
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.9117647050000004
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.785987261
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.96641189
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.9579193210000003
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.022250529999998
-Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.70955414
-Italy,Europe,Residential,Single family house,New,5.0,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,515440.0,159180.0,0.0,,,,,,,,,,4.3999999999999915
-China,Asia,Residential,Multi-family house,New,,2500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28.5
-China,Asia,Residential,Multi-family house,New,,2500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26.300000000000004
-China,Asia,Residential,Multi-family house,New,,2500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.8
-Italy,Europe,Residential,,New,,,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,573000.0,0.0,0.0,321400.0,0.0,0.0,0.0,0.0,7334000.0,363000.0,0.0,,,,,,,,,,54.325
-Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.59
-Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47.809999999999995
-Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45.4
-Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.58
-Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47.98
-China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,7.0
-China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,5.825
-China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,5.599999999999996
-China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,5.435
-Switzerland,Europe,Commercial,Other,New,,,3.5,,1019121.0,93.22,0.0,0.0,0.0,0.0,0.0,129.38,0.0,0.0,0.0,0.0,0.0,0.0,0.0,137.03,0.0,0.0,143.51,0.0,,,,,,,,,,9.833333333333325
-China,Asia,Residential,Other,New,2991.0,,,,0.0,0.0,0.0,0.0,35628792.0,0.0,0.0,0.0,0.0,1465889.1,1902276.0,0.0,0.0,0.0,0.0,37895970.0,0.0,0.0,1850532.0,0.0,,,,,,,,,,76.99
-Thailand,Asia,Commercial,Office,New,,62500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.16
-Singapore,Asia,Commercial,Other,New,204.0,57500.5,3.5,,470.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1090.0,1825930.0,0.0,0.0,0.0,0.0,6168000.0,0.0,0.0,125700.0,0.0,,,,,,,,,,25.46666666666666
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.059999999999995
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.15
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.550000000000004
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.57
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.29
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.12
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,372.51
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.39
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40.910000000000004
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.34
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.019999999999996
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.4
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.36
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34.46
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.52
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.190000000000005
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37.16
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.44
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39.4
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.94
-China,Asia,Residential,Multi-family house,New,40.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19.05
-China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26.439999999999998
-China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.85
-China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.8
-China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24.290000000000003
-China,Asia,Commercial,Office,New,,57500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,112.0
-Turkey,Middle East,Residential,,New,5.0,2500.5,3.5,,2222.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2875.0,4304.0,0.0,0.0,0.0,0.0,0.0,0.0,34214.0,484.0,0.0,,,,,,,,,,243.0
-Turkey,Middle East,Residential,,New,4.0,2500.5,3.5,,600.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,1880.0,0.0,0.0,10873.0,0.0,0.0,0.0,0.0,,,,,,,,,,471.0
-Finland,Europe,Residential,Multi-family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27.5
-Finland,Europe,Residential,Multi-family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.220000000000002
-Finland,Europe,Residential,Multi-family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.83
-United States,North America,Commercial,Office,New,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6000000.0,0.0,84000.0,0.0,0.0,1904762.0,110000.0,0.0,32812280.0,0.0,0.0,0.0,0.0,,,,,,,,,,157.6
-Switzerland,Europe,Commercial,Office,New,,,3.5,,144200.0,0.0,0.0,0.0,0.0,0.0,0.0,50000.0,0.0,0.0,0.0,0.0,12600.0,55000.0,0.0,792650.0,0.0,0.0,0.0,0.0,,,,,,,,,,32.0
-Germany,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28.84
-Finland,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.64
-Italy,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28.02
-Brazil,South America,Commercial,Office,New,,2500.5,,,13604.33,0.0,0.0,0.0,0.0,0.0,38159.52,0.0,0.0,0.0,0.0,3731.03,782323.81,0.0,0.0,472490.24,0.0,0.0,0.0,0.0,,,,,,,,,,35.76
-Brazil,South America,Commercial,Office,New,,2500.5,,,13604.33,0.0,0.0,0.0,0.0,0.0,38159.52,0.0,0.0,0.0,0.0,3731.03,782323.81,0.0,0.0,472490.24,0.0,0.0,0.0,0.0,,,,,,,,,,36.0
-China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,70.77
-China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,75.1
-China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,60.08
-China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,52.239999999999995
-China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,42.91
-Malaysia,Asia,Residential,Semi-detached,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,74.39
-Italy,Europe,Residential,Single family house,New,,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17477.0,0.0,233654.0,32383.0,22893.0,0.0,0.0,0.0,833186.0,0.0,0.0,0.0,0.0,,,,,,,,,,58.05
-Italy,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.7
-Italy,Europe,Commercial,Office,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52.26
-Italy,Europe,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86018.0,0.0,0.0,8.49,0.0,0.0,261353.0,9.67,0.0,13330.0,0.0,,,,,,,,,,52.18000000000001
-Italy,Europe,Residential,Row house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,77190.0,0.0,0.0,6.08,0.0,0.0,222139.0,9.65,0.0,15423.0,0.0,,,,,,,,,,47.84
-Italy,Europe,Residential,Multi-family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,361402.0,0.0,0.0,42.18,0.0,0.0,2023390.0,55.42,0.0,125261.0,0.0,,,,,,,,,,34.69
-Italy,Europe,Residential,Multi-family house,New,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1153879.0,0.0,0.0,80.66,0.0,0.0,3781590.0,157.79,0.0,309882.0,0.0,,,,,,,,,,39.71
-Italy,Europe,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86018.0,0.0,0.0,8.49,0.0,0.0,261353.0,9.67,0.0,13330.0,0.0,,,,,,,,,,49.66
-Italy,Europe,Residential,Row house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,77190.0,0.0,0.0,6.08,0.0,0.0,222139.0,9.65,0.0,15423.0,0.0,,,,,,,,,,44.85000000000001
-Italy,Europe,Residential,Multi-family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,361402.0,0.0,0.0,42.18,0.0,0.0,2023390.0,55.42,0.0,125261.0,0.0,,,,,,,,,,34.69
-Italy,Europe,Residential,Multi-family house,New,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1153879.0,0.0,0.0,80.66,0.0,0.0,3781590.0,157.79,0.0,309882.0,0.0,,,,,,,,,,38.57
-Italy,Europe,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86018.0,0.0,0.0,8.49,0.0,0.0,261353.0,9.67,0.0,13330.0,0.0,,,,,,,,,,46.540000000000006
-Italy,Europe,Residential,Row house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,77190.0,0.0,0.0,6.08,0.0,0.0,222139.0,9.65,0.0,15423.0,0.0,,,,,,,,,,41.72
-Italy,Europe,Residential,Multi-family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,361402.0,0.0,0.0,42.18,0.0,0.0,2023390.0,55.42,0.0,125261.0,0.0,,,,,,,,,,32.09
-Italy,Europe,Residential,Multi-family house,New,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1153879.0,0.0,0.0,80.66,0.0,0.0,3781590.0,157.79,0.0,309882.0,0.0,,,,,,,,,,37.18
-Finland,Europe,Residential,Semi-detached,New,,17500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,122.5
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,6050.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14264.4,0.0,0.0,787.5,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,8.16
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,4785.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10468.8,0.0,0.0,1452.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,8.32
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,14264.4,0.0,0.0,5578.4,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,8.26
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,10468.8,0.0,0.0,4125.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,8.38
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,7535.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,0.0,0.0,0.0,497.4,0.0,0.0,29420.8,0.0,0.0,460.2,0.0,,,,,,,,,,8.26
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,6050.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14264.4,0.0,0.0,787.5,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,3.31
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,4785.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10468.8,0.0,0.0,1452.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,3.17
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,14264.4,0.0,0.0,5578.4,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,3.56
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,10468.8,0.0,0.0,4125.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,3.22
-Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,7535.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,0.0,0.0,0.0,497.4,0.0,0.0,29420.8,0.0,0.0,460.2,0.0,,,,,,,,,,3.14
-United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,78.10833333333323
-United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,55.44166666666657
-United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40.04166666666663
-United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,55.44166666666657
-Switzerland,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.90833333333332
-Switzerland,Europe,Commercial,Office,New,96.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.42499999999999
-Austria,Europe,Commercial,Office,New,,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1200873.92,0.0,0.0,0.0,0.0,0.0,2554170.1,272621.0,0.0,443349.62,0.0,,,,,,,,,,12.233333333333317
-United States,North America,Commercial,Office,New,,12500.5,10.5,,974050.0,0.0,0.0,0.0,0.0,0.0,317902.0,0.0,0.0,0.0,0.0,0.0,408133.0,0.0,0.0,7764400.0,625969.0,0.0,0.0,0.0,,,,,,,,,,6.67
-United States,North America,Commercial,Office,New,,12500.5,10.5,,1607650.0,0.0,0.0,0.0,0.0,0.0,317902.0,0.0,0.0,0.0,0.0,0.0,408133.0,0.0,89772.0,7764400.0,0.0,0.0,0.0,0.0,,,,,,,,,,6.55
-United States,North America,Commercial,Office,New,,12500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,317902.0,0.0,0.0,0.0,0.0,0.0,821723.0,0.0,89772.0,14562950.0,112249.0,0.0,0.0,0.0,,,,,,,,,,9.01
-Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4000000000000004
-Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.8599999999999994
-Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.8
-Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.6
-Canada,North America,Residential,Multi-family house,New,,,3.5,,226185.64,0.0,0.0,0.0,0.0,0.0,0.0,5867.72,0.0,78730.34,0.0,0.0,6018.95,0.0,0.0,533085.75,0.0,0.0,0.0,0.0,,,,,,,,,,4.4
-Canada,North America,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.88
-Canada,North America,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.71
-South Korea,Asia,Residential,Single family house,New,4.0,,3.5,,27210.0,0.0,0.0,0.0,0.0,0.0,0.0,151120.0,0.0,163810.0,0.0,0.0,30.0,0.0,0.0,90839.0,0.0,0.0,0.0,0.0,,,,,,,,,,79.64999999999993
-Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,1815000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1350000.0,0.0,0.0,0.0,0.0,150000.0,0.0,580000.0,139000.0,0.0,0.0,0.0,,,,,,,,,,1.94
-Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,1601000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,860000.0,0.0,0.0,0.0,0.0,150000.0,0.0,1340000.0,91000.0,0.0,0.0,0.0,,,,,,,,,,2.94
-Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,170000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,670000.0,0.0,70000.0,0.0,0.0,370000.0,0.0,0.0,0.0,1870000.0,0.0,0.0,,,,,,,,,,3.49
-Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,142000.0,0.0,0.0,0.0,0.0,0.0,0.0,100000.0,550000.0,0.0,0.0,0.0,0.0,300000.0,0.0,2100000.0,0.0,0.0,0.0,0.0,,,,,,,,,,4.04
-Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,140000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,460000.0,390000.0,0.0,0.0,0.0,370000.0,0.0,1470000.0,0.0,0.0,0.0,0.0,,,,,,,,,,4.16
-Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,164000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,900000.0,0.0,670000.0,0.0,0.0,370000.0,0.0,860000.0,0.0,0.0,0.0,0.0,,,,,,,,,,2.46
-China,Asia,Residential,Multi-family house,New,,7500.5,3.5,,304266.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99259.5,0.0,0.0,0.0,0.0,0.0,0.0,1968675.0,397235.95,0.0,0.0,0.0,,,,,,,,,,10.4
-China,Asia,Residential,Multi-family house,New,,7500.5,3.5,,38984.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,282210.0,0.0,0.0,0.0,0.0,0.0,1625804.6,6436175.0,1103740.5,0.0,,,,,,,,,,15.8
-China,Asia,Residential,Multi-family house,New,,7500.5,3.5,,370564.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,190392.0,0.0,459520.0,0.0,0.0,0.0,0.0,0.0,197945.78,586750.0,0.0,0.0,,,,,,,,,,11.0
-Finland,Europe,Residential,Semi-detached,,,37500.5,,,19000000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14000000.0,0.0,0.0,895862.0,0.0,0.0,34872393.0,0.0,0.0,0.0,0.0,,,,,,,,,,25.06
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.2
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.3
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.979999999999999
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.45
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.629999999999999
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.530000000000001
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,174.71538461538458
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,146.82307692307668
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,126.45384615384543
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,96.94615384615378
-Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58.59230769230767
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.39
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.290000000000001
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.950000000000001
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.15
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.4
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.02
-Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.58
-Brazil,South America,Commercial,School and Daycare,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63.290000000000006
-Brazil,South America,Residential,Multi-family house,New,460.0,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.0
-Brazil,South America,Residential,Single family house,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.0
-Colombia,South America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16.740000000000002
-China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.264285714285656
-China,Asia,Residential,Multi-family house,Renovation,40.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19.12
-China,Asia,Residential,Multi-family house,Renovation,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63.92
-China,Asia,Residential,Multi-family house,Renovation,40.0,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71.07000000000001
-China,Asia,Residential,Multi-family house,Renovation,2991.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,74.78999999999999
-China,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59.88
-China,Asia,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17.657142857142848
-China,Asia,Residential,Multi-family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.87
-China,Asia,Residential,Single family house,New,2.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.15
-China,Asia,Residential,Single family house,New,2.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.35
-Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95.17999999999999
-Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,93.93
-Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.519999999999996
-Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.259999999999998
-Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28.64
-Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57.675000000000004
-Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.82857142857141
-Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.94
-Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38.59999999999999
-Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25.22857142857138
-Japan,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.0
-Japan,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26.915
-Japan,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57.35
-Japan,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.489999999999998
-Japan,Asia,Residential,Single family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.457142857142847
-South Korea,Asia,Residential,Single family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.614285714285696
-South Korea,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45.18333333333333
-South Korea,Asia,Residential,Multi-family house,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54.0833333333333
-South Korea,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24.115000000000002
-South Korea,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58.120000000000005
-South Korea,Asia,Residential,Multi-family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,73.48333333333329
-South Korea,Asia,Residential,Multi-family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,69.96666666666657
-South Korea,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,151.0
-South Korea,Asia,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53.25
-South Korea,Asia,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51.2
-Malaysia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,75.08
-Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44.629999999999995
-Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32.78
-Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.56
-Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28.96
-Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.790000000000001
-Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.633333333333326
-Taiwan,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18.583333333333258
-United States,North America,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35.06
-United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42.04615384615377
-Switzerland,Europe,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.2153846153846
-United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17.6133333333333
-United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17.219999999999963
-United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.146666666666597
-United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.75333333333326
-China,Asia,Residential,Multi-family house,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.74
-China,Asia,Residential,Multi-family house,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0
-Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.25
-Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.22
-Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.39
-Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.23
-Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.82
-Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.11
-China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70.88999999999999
-China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72.5
-China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57.69
-China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51.99999999999999
-China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,43.45
-South Korea,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.16
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1381
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1851
-France,Europe,Residential,Multi-family house,,30.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3767
-France,Europe,Residential,Multi-family house,,40.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3004
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.6024
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0677
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.468
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.2404
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6721
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9963
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1443
-France,Europe,Residential,Single family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7725
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2381
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6991
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.064
-France,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5269
-France,Europe,Residential,Multi-family house,,6.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.6001
-France,Europe,Residential,Multi-family house,,34.34,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15.2681
-France,Europe,Residential,Single family house,,2.18,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.3846
-France,Europe,Residential,Single family house,,2.18,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.959
-France,Europe,Residential,Single family house,,2.2,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.2261
-France,Europe,Residential,Single family house,,1.97,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8668
-France,Europe,Residential,Single family house,,1.84,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2854
-France,Europe,Residential,Single family house,,2.07,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1419
-France,Europe,Residential,Single family house,,1.95,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1731
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.673
-France,Europe,Residential,Single family house,,1.81,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1893
-France,Europe,Residential,Single family house,,2.33,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8899
-France,Europe,Residential,Single family house,,2.01,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.9358
-France,Europe,Residential,Single family house,,2.03,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9989
-France,Europe,Residential,Single family house,,2.53,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9139
-France,Europe,Residential,Single family house,,2.29,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.8664
-France,Europe,Residential,Multi-family house,,25.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.142
-France,Europe,Residential,Single family house,,2.37,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.1379
-France,Europe,Residential,Single family house,,2.14,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.7257
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4469
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6334
-France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.097
-France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.135
-France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9142
-France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.135
-France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9142
-France,Europe,Residential,Multi-family house,,25.25,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9282
-France,Europe,Residential,Single family house,,1.94,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0771
-France,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.4552
-France,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.7751
-France,Europe,Residential,Single family house,,13.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.6497
-France,Europe,Residential,Single family house,,15.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.188
-France,Europe,Residential,Single family house,,10.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.917
-France,Europe,Residential,Single family house,,15.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.188
-France,Europe,Residential,Single family house,,10.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.917
-France,Europe,Residential,Single family house,,2.56,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.4303
-France,Europe,Residential,Single family house,,2.55,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0378
-France,Europe,Residential,Multi-family house,,52.2,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.1426
-France,Europe,Residential,Multi-family house,,55.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.2429
-France,Europe,Residential,Multi-family house,,62.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0697
-France,Europe,Residential,Multi-family house,,61.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.5493
-France,Europe,Residential,Single family house,,3.7,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5898
-France,Europe,Residential,Single family house,,1.99,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.8764
-France,Europe,Residential,Single family house,,12.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5146
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6829
-France,Europe,Residential,Multi-family house,,55.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.8732
-France,Europe,Residential,Single family house,,1.91,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.7058
-France,Europe,Residential,Single family house,,1.91,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.9083
-France,Europe,Residential,Single family house,,2.42,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.9833
-France,Europe,Residential,Single family house,,1.95,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.4519
-France,Europe,Residential,Single family house,,1.9,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.9321
-France,Europe,Residential,Single family house,,2.05,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.6869
-France,Europe,Residential,Single family house,,1.93,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.1149
-France,Europe,Residential,Single family house,,1.95,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0368
-France,Europe,Residential,Single family house,,1.98,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6475
-France,Europe,Residential,Single family house,,1.95,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.247
-France,Europe,Residential,Single family house,,2.06,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0418
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.9896
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.8227
-France,Europe,Residential,Multi-family house,,46.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.9303
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5915
-France,Europe,Residential,Single family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.2737
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15.0059
-France,Europe,Residential,Single family house,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.3993
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.6492
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.8844
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.4754
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.1988
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.9581
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.7717
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.8976
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2505
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2922
-France,Europe,Residential,Single family house,,2.02,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.559
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.7912
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.4333
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.54799999999999
-France,Europe,Residential,Single family house,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2303
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.244
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2282
-France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1147
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0496
-France,Europe,Commercial,Office,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.8413
-France,Europe,Residential,Multi-family house,,56.0,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8111
-France,Europe,Residential,Multi-family house,,63.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.8644
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.6508
-France,Europe,Residential,Multi-family house,,28.03,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.1231
-France,Europe,Residential,Multi-family house,,23.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7338
-France,Europe,Residential,Multi-family house,,346.83,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1798
-France,Europe,Residential,Multi-family house,,28.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2177
-France,Europe,Commercial,School and Daycare,,975.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8016
-France,Europe,Residential,Single family house,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1596
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.7318
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6465
-France,Europe,Residential,Multi-family house,,23.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.5781
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.6835
-France,Europe,Commercial,Office,,143.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.2995
-France,Europe,Residential,Multi-family house,,47.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.582
-France,Europe,Residential,Single family house,,20.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5847
-France,Europe,Residential,Multi-family house,,71.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.6623
-France,Europe,Residential,Multi-family house,,103.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1537
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.9222
-France,Europe,Residential,Multi-family house,,12.5,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17.2351
-France,Europe,Commercial,Office,,400.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2996
-France,Europe,Residential,Single family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3791
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3065
-France,Europe,Commercial,Office,,45.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.485
-France,Europe,Residential,Multi-family house,,18.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.4199
-France,Europe,Residential,Multi-family house,,56.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0386
-France,Europe,Residential,Multi-family house,,51.14,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15.9497
-France,Europe,Residential,Single family house,,2.38,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.889
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9802
-France,Europe,Residential,Single family house,,2.29,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0709
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.6952
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.315
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.3448
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3701
-France,Europe,Residential,Multi-family house,,118.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15.0704
-France,Europe,Commercial,Office,,143.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.2995
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.803
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.1387
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.193
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1218
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.8385
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.5567
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4023
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.4791
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.6967
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2463
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.9205
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.1796
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2655
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3484
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9666
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8097
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.9613
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2005
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3291
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.1466
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.161
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0763
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6758
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.5005
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5706
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.4031
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.3536
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.9268
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.4796
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4457
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.8596
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.3543
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.6543
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.4874
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.1392
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.1656
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.5413
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.2383
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0616
-France,Europe,Residential,Multi-family house,,17.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.3681
-France,Europe,Residential,Multi-family house,,17.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.9971
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4099
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4665
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.9172
-France,Europe,Residential,Multi-family house,,42.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1941
-France,Europe,Residential,Multi-family house,,23.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.4344
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.055
-France,Europe,Commercial,School and Daycare,,616.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.8448
-France,Europe,Commercial,Office,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.3409
-France,Europe,Commercial,Office,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.7077
-France,Europe,Residential,Multi-family house,,50.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.5029
-France,Europe,Residential,Multi-family house,,50.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.4564
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0258
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.4751
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.7005
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.7449
-France,Europe,Residential,Single family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.6298
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.8803
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.519
-France,Europe,Residential,Multi-family house,,11.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.7917
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5182
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0572
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.291
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.6569
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6345
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5742
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.1897
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5563
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0283
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.519
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.8692
-France,Europe,Residential,Multi-family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.6497
-France,Europe,Residential,Multi-family house,,11.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.1129
-France,Europe,Residential,Multi-family house,,47.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.5445
-France,Europe,Commercial,Office,,400.0,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.6331
-France,Europe,Residential,Single family house,,8.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.8871
-France,Europe,Residential,Multi-family house,,75.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.8233
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.2126
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5398
-France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.4347
-France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0445
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.7103
-France,Europe,Residential,Multi-family house,,18.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.2478
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5126
-France,Europe,Residential,Multi-family house,,25.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.2299
-France,Europe,Residential,Multi-family house,,60.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.3818
-France,Europe,Residential,Multi-family house,,21.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.5178
-France,Europe,Residential,Multi-family house,,23.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.6439
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.9566
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.5821
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.3163
-France,Europe,Commercial,School and Daycare,,60.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.2188
-France,Europe,Commercial,Office,,288.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.1175
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.7038
-France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.2507
-France,Europe,Residential,Multi-family house,,26.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.2281
-France,Europe,Residential,Multi-family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2965
-France,Europe,Residential,Multi-family house,,15.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.2901
-France,Europe,Residential,Multi-family house,,108.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.3673
-France,Europe,Residential,Multi-family house,,116.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.9148
+Denmark,Europe,Commercial,Other,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,182355.21
+Denmark,Europe,Commercial,Other,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,145079.145
+Denmark,Europe,Commercial,Other,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,84639.78
+Denmark,Europe,Commercial,Other,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,165122.27999999997
+Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,89003.55999999998
+Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,94128.76500000001
+Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,101129.045
+Denmark,Europe,Residential,Multi-family house,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,102004.08
+Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20104.019999999997
+Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24004.8
+Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12777.554999999998
+Denmark,Europe,Residential,Multi-family house,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,68029.535
+Denmark,Europe,Residential,Multi-family house,,,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,157962.42
+Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24831.36
+Denmark,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23794.559999999998
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1178.22
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1173.6799999999998
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1351.2699999999998
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1277.4599999999998
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14652.929999999998
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26780.354999999996
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1238.04
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1230.74
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21704.34
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26230.245
+Denmark,Europe,Residential,Single family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1219.52
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58053.87
+Denmark,Europe,Commercial,Office,,,42500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,297078.495
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64279.285
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62554.17
+Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22579.515
+Denmark,Europe,Commercial,Office,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,114103.26
+Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25830.165
+Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27680.535
+Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95753.83
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72979.86499999999
+Denmark,Europe,Commercial,Office,,,27500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,146027.65500000003
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54378.625
+Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,80878.23500000002
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63229.215
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59028.935
+Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,92679.04000000001
+Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22454.49
+Denmark,Europe,Commercial,Office,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23404.68
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64279.28499999999
+Denmark,Europe,Commercial,Office,,,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,103004.12000000001
+Denmark,Europe,Commercial,Office,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,142279.06499999997
+Denmark,Europe,Commercial,Office,,,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50628.375
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18903.78
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23204.640000000003
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20804.16
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30356.07
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30131.024999999998
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14777.955
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16703.34
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33410.28
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30461.3
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17815.120000000003
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21621.600000000002
+Denmark,Europe,Residential,Row house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23354.67
+Denmark,Europe,Residential,Multi-family house,,,12500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,909986.0,0.0,0.0,996534.0,0.0,0.0,20610178.0,264461.0,0.0,751627.0,0.0,,,,,,,,,,91270.79999999999
+Denmark,Europe,Commercial,Office,,,7500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,277011.0,0.0,394796.0,0.0,0.0,8168760.0,57380.0,0.0,152880.0,0.0,,,,,,,,,,36851.75
+Denmark,Europe,Commercial,Office,,,27500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,405893.0,0.0,0.0,0.0,0.0,0.0,2826401.0,0.0,0.0,48428837.0,641135.0,0.0,1500095.0,0.0,,,,,,,,,,220088.26000000004
+Denmark,Europe,Residential,Multi-family house,,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,333202.0,0.0,0.0,308763.0,0.0,0.0,6219247.0,74596.0,0.0,189761.0,0.0,,,,,,,,,,27676.0
+Denmark,Europe,Residential,Multi-family house,,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,383868.0,0.0,0.0,141238.0,0.0,0.0,4652174.0,64903.0,0.0,515966.0,0.0,,,,,,,,,,25985.519999999997
+Denmark,Europe,Residential,Multi-family house,,,2500.5,,,112858.58756,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,751478.76,270433.09143,0.0,0.0,0.0,,,,,,,,,,10875.521130542214
+Denmark,Europe,Commercial,Office,,,12500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,377410.0,0.0,0.0,21059338.0,137568.0,0.0,145000.0,0.0,,,,,,,,,,240792.88
+Denmark,Europe,Commercial,Hospital and Health,,,7500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,421265.0,0.0,0.0,120436.0,0.0,0.0,7633067.0,210437.0,0.0,1207488.0,0.0,,,,,,,,,,47280.67
+Denmark,Europe,Commercial,Office,,,17500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,268965.4379893088
+Denmark,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1272950.4,217534.02,2321251.68,324976.5,0.0,,,,,,,,,,27147.897064424054
+Denmark,Europe,Commercial,School and Daycare,,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57763.0,0.0,0.0,0.0,9678.0,0.0,0.0,247181.0,19236.0,0.0,0.0,0.0,,,,,,,,,,16357.2814403
+Denmark,Europe,Commercial,Office,,,2500.5,,,66125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48989.48,0.0,0.0,863835.8,36236.5,0.0,131928.0,0.0,,,,,,,,,,98134.40926247316
+Austria,Europe,Commercial,Hospital and Health,,114.0,12500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,614573.1873
+Austria,Europe,Commercial,Hospital and Health,,87.0,12500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,460683.9
+Austria,Europe,Commercial,Hotel & Resort,,275.0,7500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,628154.4,0.0,493126.7,0.0,0.0,485072.0,0.0,0.0,8161650.0,0.0,0.0,371782.0,0.0,,,,,,,,,,244705.62
+Austria,Europe,Commercial,Office,,550.0,12500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,421841.1069
+Austria,Europe,Commercial,Office,,1200.0,22500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,761162.43
+Austria,Europe,Commercial,Office,,1800.0,37500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,686765.2500000001
+Austria,Europe,Commercial,Office,,400.0,12500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,240495.27000000002
+Austria,Europe,Commercial,Office,,75.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4885.359999999999
+Germany,Europe,Commercial,Office,,1700.0,37500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1474818.0
+Germany,Europe,Commercial,Office,,1000.0,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,767988.52
+Germany,Europe,Commercial,Hotel & Resort,,372.0,7500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,408259.08
+Germany,Europe,Commercial,Hotel & Resort,,222.0,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1174601.5971999997
+Germany,Europe,Residential,Multi-family house,,526.0,27500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,493418.41000000003
+Germany,Europe,Commercial,Hotel & Resort,,552.0,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,639242.24
+Germany,Europe,Commercial,Hotel & Resort,,630.0,7500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,457631.0
+Germany,Europe,Commercial,Hotel & Resort,,604.0,12500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,753913.02
+Germany,Europe,Commercial,Hotel & Resort,,432.0,7500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,469603.0
+United Kingdom,Europe,Commercial,Office,,,52500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1659550.0999999938
+United Kingdom,Europe,Commercial,Office,,,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,203879.96110854816
+United Kingdom,Europe,Commercial,Hotel & Resort,,,12500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100928.7347268396
+United Kingdom,Europe,Commercial,Office,,,12500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2364562.0,0.0,1493057.0,0.0,0.0,0.0,0.0,37041927.0,0.0,0.0,,,,,,,,,,731287.4099999978
+United Kingdom,Europe,Commercial,Mixed use,,,42500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1556268.6094812136
+United Kingdom,Europe,Commercial,Retail and Restaurant,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19880.95999999999
+United Kingdom,Europe,Commercial,Technology & Science,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17578.87699999998
+United Kingdom,Europe,Commercial,Office,,,12500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,117234.45199999966
+United Kingdom,Europe,Commercial,Mixed use,,,17500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,522095.99083333265
+United Kingdom,Europe,Commercial,Mixed use,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19679.415333333283
+United Kingdom,Europe,Commercial,Mixed use,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6605.613166666648
+United Kingdom,Europe,Commercial,Retail and Restaurant,,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-11871864.32
+United Kingdom,Europe,Commercial,School and Daycare,,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-14242938.16
+United Kingdom,Europe,Residential,,,,,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,142.988
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13865.780885876922
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12247.03275506991
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12948.709958099924
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12674.281864672595
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10771.809063506666
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11852.444515233738
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15274.717899302903
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12776.900353374755
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14350.508372355804
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10979.974379018777
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9173.324779055965
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10429.548508530403
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10128.889022856845
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8548.536285793984
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9667.358005860315
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9972.642674137196
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8423.216763770251
+Belgium,Europe,Residential,Single family house,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9537.807131422465
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32962.63831114305
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30314.94247807875
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31057.503000261902
+Belgium,Europe,Residential,Multi-family house,,780.0,32500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1733114.4260566535
+Belgium,Europe,Residential,Multi-family house,,780.0,32500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1634193.9579814402
+Belgium,Europe,Residential,Multi-family house,,780.0,32500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1568544.3004167473
+Belgium,Europe,Residential,Multi-family house,,591.0,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,753280.7075398702
+Belgium,Europe,Residential,Multi-family house,,591.0,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,689508.8818204938
+Belgium,Europe,Residential,Multi-family house,,591.0,22500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,719210.9904790284
+Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,128775.20741025313
+Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,117893.99231731378
+Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,121278.681500585
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44207.058431336125
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38709.815578636095
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42066.669009090445
+Belgium,Europe,Residential,Multi-family house,,48.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,103081.90247140705
+Belgium,Europe,Residential,Multi-family house,,48.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,89165.11040356607
+Belgium,Europe,Residential,Multi-family house,,48.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,94951.84431995077
+Belgium,Europe,Residential,Multi-family house,,26.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56530.47443910012
+Belgium,Europe,Residential,Multi-family house,,26.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53376.57843599352
+Belgium,Europe,Residential,Multi-family house,,26.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52320.79727624467
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57179.70442237891
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49913.65200091434
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53215.74993816076
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,86575.06767409763
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,74663.72841730573
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,83333.12165732624
+Belgium,Europe,Residential,Multi-family house,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20946.11953332434
+Belgium,Europe,Residential,Multi-family house,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17879.86321537865
+Belgium,Europe,Residential,Multi-family house,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20284.297995652094
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7894.388553245953
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7238.6475501669065
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7581.6170772462965
+Belgium,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19047.76817132552
+Belgium,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18091.562673104483
+Belgium,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17655.3703677691
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38426.22057853607
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35414.06435087865
+Belgium,Europe,Residential,Multi-family house,,24.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36014.35852216843
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7638.66929221934
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6989.391567089489
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7344.607278844319
+Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,127477.71649634161
+Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,116598.63912937857
+Belgium,Europe,Residential,Multi-family house,,90.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,120383.64525740253
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,85518.80746504676
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,73793.89136391369
+Belgium,Europe,Residential,Multi-family house,,33.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,82464.58051290338
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7552.829216749784
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6903.917519291729
+Belgium,Europe,Residential,Multi-family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7275.949517609651
+Belgium,Europe,Residential,Semi-detached,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9078.623235730598
+Belgium,Europe,Residential,Semi-detached,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7959.073653886434
+Belgium,Europe,Residential,Semi-detached,,5.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8707.441082892603
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7844.851832939096
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6788.229132910094
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7503.07795826631
+Belgium,Europe,Residential,Semi-detached,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10852.775700202646
+Belgium,Europe,Residential,Semi-detached,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9439.6022164573
+Belgium,Europe,Residential,Semi-detached,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10091.66334069621
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8402.903380058795
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7329.85145359989
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7965.24356645251
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7986.8364897932
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6994.785571008209
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7621.36542095342
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7861.600744426637
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6882.994683562235
+Belgium,Europe,Residential,Semi-detached,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7517.089081929024
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7822.200332276283
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6806.587998211988
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7497.357043946303
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7275.872672364085
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6290.559070791905
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6980.7954214297
+Belgium,Europe,Residential,Row house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6713.165783475814
+Belgium,Europe,Residential,Row house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5854.95754759285
+Belgium,Europe,Residential,Row house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6354.2188048859525
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7012.5161119118175
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6168.127080847769
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6686.983635472226
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6751.195485207166
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5953.26676897814
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6472.867726573219
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6659.266886479056
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5870.35211357253
+Belgium,Europe,Residential,Row house,,4.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6396.612856147615
+Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,439213.56,0.0,0.0,0.0,0.0,232475.994,0.0,0.0,115863.89,0.0,0.0,2986702.36759999,0.0,1792168.07,0.0,0.0,,,,,,,,,,36011.7302396277
+Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,432012.0,0.0,0.0,0.0,0.0,122659.374,0.0,0.0,146419.82,0.0,0.0,3672485.6364,0.0,0.0,104122.18,0.0,,,,,,,,,,32424.099999999995
+Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,3177200.0,0.0,0.0,0.0,0.0,198920.0,0.0,0.0,0.0,0.0,0.0,2327472.0,0.0,1313781.0,309051.6,0.0,,,,,,,,,,39797.83538823584
+Finland,Europe,Residential,Multi-family house,,,7500.5,,,0.0,0.0,0.0,0.0,538721.156069364,0.0,0.0,0.0,0.0,0.0,0.0,0.0,140444.489402697,0.0,0.0,5664827.28323699,0.0,2900287.00385356,666134.699421965,0.0,,,,,,,,,,81103.33116198955
+Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,1891200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47467.0,0.0,0.0,2867712.0,0.0,123172.0,60886.4,0.0,,,,,,,,,,30412.1676
+Finland,Europe,Residential,Multi-family house,,,7500.5,,,0.0,0.0,0.0,0.0,3877400.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3367084.0,0.0,3743727.28641509,0.0,0.0,,,,,,,,,,70392.92045132749
+Finland,Europe,Residential,Multi-family house,,,12500.5,,,0.0,0.0,0.0,0.0,2361790.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8721126.39999999,0.0,4861902.174975,0.0,0.0,,,,,,,,,,129515.68000000002
+Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,4451077.38352941,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1140808.6117647,0.0,2352279.26274509,0.0,0.0,,,,,,,,,,24382.9222
+Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,495328.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4309728.0,161269.806123295,2497607.0,408149.4,0.0,,,,,,,,,,52964.4
+Finland,Europe,Residential,Multi-family house,,,2500.5,,,0.0,0.0,0.0,0.0,302400.0,0.0,0.0,0.0,0.0,74958.3159999999,0.0,0.0,106000.23,0.0,0.0,2714212.7688,0.0,0.0,95546.733,0.0,,,,,,,,,,23348.68
+Finland,Europe,Commercial,Retail and Restaurant,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7082503.8,0.0,0.0,199627369.912,1693751.0,22777854.5945945,0.0,0.0,,,,,,,,,,1296859.4100000001
+Finland,Europe,Commercial,Retail and Restaurant,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3603800.0,0.0,8907312.23076923,0.0,0.0,,,,,,,,,,105047.40999999999
+Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,110016.3857,0.0,0.0,3105278.61056,0.0,568066.2607,365825.3692,0.0,,,,,,,,,,48398.13
+Finland,Europe,Commercial,Retail and Restaurant,,,42500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,888872.0,0.0,0.0,23604531.0,0.0,16917017.6,1236127.2,0.0,,,,,,,,,,626339.196
+Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,7042167.048,0.0,0.0,283419.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2043209.252,0.0,189100.0,0.0,0.0,,,,,,,,,,72727.020063
+Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,1531508.36363636,0.0,0.0,66824.0559440559,0.0,0.0,77958.3564568764,0.0,0.0,0.0,0.0,785313.83048951,0.0,0.0,0.0,0.0,,,,,,,,,,15693.961270400001
+Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,3339535.68403361,0.0,0.0,90308.8739495798,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1740399.6605042,0.0,83231.8235294117,0.0,0.0,,,,,,,,,,38053.356268799966
+Finland,Europe,Commercial,Retail and Restaurant,,,2500.5,,,0.0,0.0,0.0,0.0,2115700.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,249043.2,0.0,16560.0,27388.78,0.0,,,,,,,,,,28430.144959800004
+Finland,Europe,Commercial,Retail and Restaurant,,,7500.5,,,0.0,0.0,0.0,0.0,2522549.33853658,0.0,0.0,0.0,0.0,0.0,201976.710243902,0.0,0.0,0.0,0.0,3394533.14341463,251107.827902439,4153782.82610415,0.0,0.0,,,,,,,,,,178291.104
+Finland,Europe,Commercial,Retail and Restaurant,,,7500.5,,,0.0,0.0,0.0,0.0,2879849.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0006017944416,0.0,0.0,5428074.0,0.0,1026250.0,0.0,0.0,,,,,,,,,,107312.79077200002
+Finland,Europe,Commercial,School and Daycare,,,2500.5,,,187935.903999999,0.0,0.0,0.0,1485327.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,749070.0,0.0,243685.419999999,60086.418,0.0,,,,,,,,,,17327.76
+Finland,Europe,Commercial,School and Daycare,,,12500.5,,,0.0,0.0,0.0,0.0,15125122.9999999,0.0,0.0,0.0,0.0,970856.4990168,0.0,0.0,0.0,0.0,0.0,10829038.0799999,0.0,9174480.0,0.0,0.0,,,,,,,,,,217142.0834
+Finland,Europe,Commercial,School and Daycare,,,12500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,569504.0,0.0,0.0,203206.0,0.0,0.0,7267737.46048,0.0,8057126.55999999,421454.06,0.0,,,,,,,,,,160464.8339999999
+Finland,Europe,Commercial,School and Daycare,,,2500.5,,,0.0,0.0,0.0,0.0,896092.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1528236.0,71032.17,539774.31081081,0.0,0.0,,,,,,,,,,24886.0
+Finland,Europe,Commercial,School and Daycare,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5992464.0,0.0,3884176.0,416995.2,0.0,,,,,,,,,,51292.89000000001
+Finland,Europe,Commercial,School and Daycare,,,2500.5,,,0.0,0.0,0.0,0.0,3185249.28,0.0,0.0,0.0,0.0,252720.0,0.0,0.0,0.0,0.0,0.0,1912522.08,0.0,1067220.0,0.0,0.0,,,,,,,,,,45332.07
+Finland,Europe,Commercial,School and Daycare,,,7500.5,,,260625.594,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3411182.0,0.0,4165056.0,399201.6,0.0,,,,,,,,,,85963.47
+Finland,Europe,Commercial,School and Daycare,,,7500.5,,,0.0,0.0,0.0,0.0,246088.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5647771.99999999,0.0,5299000.0,592560.6,0.0,,,,,,,,,,118331.69999999998
+Finland,Europe,Commercial,School and Daycare,,,2500.5,,,195482.484021016,0.0,0.0,0.0,77447.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1394767.296,65680.9291790068,681436.854,0.0,0.0,,,,,,,,,,20311.2
+Finland,Europe,Commercial,School and Daycare,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,240272.641076233,0.0,0.0,0.0,0.0,0.0,3307462.35982062,99204.5355025426,3077699.16591928,338460.004591928,0.0,,,,,,,,,,116015.75
+Finland,Europe,Commercial,Office,,,22500.5,,,0.0,0.0,0.0,0.0,20373494.88,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6597732.88,0.0,9411867.3,0.0,0.0,,,,,,,,,,373828.0
+Finland,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,661122.0,0.0,0.0,0.0,0.0,0.0,5544043.2,0.0,4455004.0,0.0,0.0,,,,,,,,,,125528.44000000002
+Finland,Europe,Commercial,Office,,,12500.5,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,251720.475663365,0.0,0.0,0.0,0.0,10929337.2869949,0.0,887599.34592977,0.0,0.0,,,,,,,,,,158406.66000000003
+Finland,Europe,Commercial,Office,,,37500.5,,,0.0,0.0,0.0,0.0,5497190.0,0.0,0.0,0.0,0.0,0.0,1822352.9286775,0.0,0.0,0.0,0.0,11036227.1159999,0.0,16606676.7625056,0.0,0.0,,,,,,,,,,462240.0
+Finland,Europe,Commercial,Office,,,12500.5,,,0.0,0.0,0.0,0.0,12393005.44,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4627640.0,0.0,3932138.0,728734.999999999,0.0,,,,,,,,,,150525.44999999998
+Finland,Europe,Commercial,Office,,,57500.5,,,0.0,0.0,0.0,0.0,5241417.0,0.0,0.0,0.0,0.0,1169277.0,0.0,0.0,1219502.0,0.0,0.0,70200812.7999999,0.0,0.0,3910000.0,0.0,,,,,,,,,,858032.5
+Finland,Europe,Commercial,Office,,,12500.5,,,0.0,0.0,0.0,0.0,800400.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16306128.0,0.0,1992371.0,518846.6,0.0,,,,,,,,,,201378.24000000002
+Finland,Europe,Commercial,Office,,,22500.5,,,0.0,0.0,0.0,0.0,5746827.18799999,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27556591.72448,0.0,7559130.0,0.0,0.0,,,,,,,,,,295019.92
+Finland,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,6277000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1459048.4,0.0,3269859.25946153,0.0,0.0,,,,,,,,,,97457.8
+Finland,Europe,Commercial,Office,,,7500.5,,,0.0,0.0,0.0,0.0,2084361.28467345,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7914248.22105119,0.0,4231167.867723,0.0,0.0,,,,,,,,,,68200.79999999999
+Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,45396.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2328.0,0.0,0.0,0.0,0.0,130091.0,0.0,0.0,2600.0,0.0,,,,,,,,,,2397.2999999999984
+Finland,Europe,Residential,Single family house,,3.0,2500.5,3.5,,26732.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26250.0,0.0,0.0,0.0,0.0,,,,,,,,,,2069.999999999999
+Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,21019.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2054.0,0.0,0.0,0.0,0.0,26350.0,0.0,0.0,0.0,0.0,,,,,,,,,,1612.0
+Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,17806.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2808.0,0.0,1928.0,0.0,0.0,0.0,0.0,24450.0,0.0,0.0,0.0,0.0,,,,,,,,,,2002.1999999999994
+Finland,Europe,Residential,Semi-detached,,3.0,2500.5,3.5,,16177.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6337.0,21160.0,0.0,0.0,0.0,0.0,0.0,37965.0,0.0,0.0,0.0,0.0,,,,,,,,,,2213.899999999999
+Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,13008.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,68600.0,0.0,161600.0,0.0,0.0,,,,,,,,,,4307.599999999999
+Finland,Europe,Residential,Single family house,,6.0,2500.5,3.5,,23461.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39080.0,0.0,0.0,0.0,0.0,,,,,,,,,,2667.9999999999986
+Finland,Europe,Residential,Single family house,,6.0,2500.5,3.5,,14575.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3956.0,0.0,0.0,0.0,0.0,7120.0,0.0,0.0,4260.0,0.0,,,,,,,,,,2923.1999999999985
+Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,12076.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27030.0,0.0,0.0,14772.0,0.0,,,,,,,,,,1922.099999999999
+Finland,Europe,Residential,Single family house,,6.0,2500.5,3.5,,27260.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2569.0,1421.0,0.0,0.0,0.0,0.0,0.0,22370.0,0.0,0.0,0.0,0.0,,,,,,,,,,2027.9999999999998
+Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,16154.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22078.0,0.0,0.0,0.0,0.0,60910.0,0.0,76990.0,13540.0,0.0,,,,,,,,,,2738.699999999999
+Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,30394.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26010.0,0.0,0.0,0.0,0.0,,,,,,,,,,2339.999999999999
+Finland,Europe,Residential,Single family house,,2.0,2500.5,3.5,,21397.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13916.0,0.0,0.0,0.0,0.0,22529.0,0.0,0.0,0.0,0.0,,,,,,,,,,2565.1
+Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,10610.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5919.0,0.0,0.0,266098.0,0.0,38223.0,0.0,0.0,,,,,,,,,,3808.799999999998
+Finland,Europe,Residential,Single family house,,4.0,2500.5,3.5,,92873.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79390.0,0.0,27170.0,0.0,0.0,,,,,,,,,,1346.3999999999774
+Finland,Europe,Residential,Single family house,,3.0,2500.5,3.5,,30218.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28630.0,0.0,0.0,0.0,0.0,,,,,,,,,,1719.8999999999942
+Finland,Europe,Commercial,Mixed use,,54.0,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,292990.0,88590.0,0.0,0.0,0.0,0.0,301790.0,0.0,3283793.0,142890.0,0.0,,,,,,,,,,81483.99999999997
+Finland,Europe,Residential,Multi-family house,,68.0,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,84096.0,0.0,0.0,93289.0,0.0,0.0,3379280.0,0.0,1228348.0,76891.0,0.0,,,,,,,,,,58892.99999999997
+Finland,Europe,Residential,Multi-family house,,68.0,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1883670.0,0.0,1612680.0,136710.0,0.0,,,,,,,,,,59856.45003520331
+Netherlands,Europe,Commercial,Hotel & Resort,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18331.399999999998
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,561.199999999999
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,865.16
+Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62713.99999999999
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,478.4026666666664
+Netherlands,Europe,Commercial,Other,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,289664.00000000023
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58692.53333333334
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29604.186666666654
+Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30559.99999999998
+Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,630.359999999999
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20962.66666666666
+Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,758.1333333333326
+Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,829.7466666666662
+Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1250.8000002960002
+Netherlands,Europe,Residential,Single family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,517.1999999599991
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,143404.00000963375
+Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38501.99999909995
+Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,180160.000006555
+Netherlands,Europe,Commercial,School and Daycare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7145.79999968399
+Netherlands,Europe,Commercial,School and Daycare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32458.000005920007
+Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2329.8000002709996
+Netherlands,Europe,Commercial,Office,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17402.000002521
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11363.600000952001
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12544.000000725999
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6069.333333797999
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53965.333343414
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,526.306666648
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19125.733334094002
+Netherlands,Europe,Commercial,Retail and Restaurant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,80850.000008233
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1679.9466664000001
+Netherlands,Europe,Residential,Multi-family house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16562.533333045
+Netherlands,Europe,Commercial,Retail and Restaurant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,77799.999997876
+Netherlands,Europe,Commercial,Retail and Restaurant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13827.999999464002
+Netherlands,Europe,Commercial,Hotel & Resort,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14448.000001601999
+Netherlands,Europe,Commercial,Hotel & Resort,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28637.999998451964
+Netherlands,Europe,Commercial,Art & Culture,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,115937.99999474977
+Netherlands,Europe,Commercial,Sport & Entertainment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18031.999998897
+Netherlands,Europe,Commercial,Sport & Entertainment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49854.000001799985
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,576.0000000129999
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,581.333333345
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,607.173333179
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,664.9999998500001
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,594.399999977
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,465.72666673
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,464.39333339700005
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,474.4933332099997
+Netherlands,Europe,Residential,Row house,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,582.39999998
+Italy,Europe,Residential,Single family house,New,5.0,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,515440.0,159180.0,0.0,,,,,,,,,,
+China,Asia,Residential,Multi-family house,New,,2500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,126634.05
+China,Asia,Residential,Multi-family house,New,,2500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,116858.79000000002
+China,Asia,Residential,Multi-family house,New,,2500.5,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,141296.94
+Italy,Europe,Residential,,New,,,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,573000.0,0.0,0.0,321400.0,0.0,0.0,0.0,0.0,7334000.0,363000.0,0.0,,,,,,,,,,
+Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Austria,Europe,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Residential,,New,2.3,,3.5,,4713.0,0.0,0.0,0.0,0.0,0.0,0.0,7280.0,0.0,82274.0,0.0,0.0,0.0,0.0,0.0,53542.0,0.0,0.0,24845.0,0.0,,,,,,,,,,
+United Kingdom,Europe,Residential,,New,2.3,,3.5,,3249.0,0.0,0.0,0.0,0.0,0.0,0.0,5051.0,0.0,64308.0,0.0,0.0,0.0,0.0,0.0,40142.0,0.0,0.0,19087.0,0.0,,,,,,,,,,
+United Kingdom,Europe,Residential,,New,2.3,,3.5,,2303.0,0.0,0.0,0.0,0.0,0.0,0.0,3360.0,0.0,40958.0,0.0,0.0,0.0,0.0,0.0,28742.0,0.0,0.0,11454.0,0.0,,,,,,,,,,
+United Kingdom,Europe,Commercial,Other,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+China,Asia,Residential,Other,New,3.0,,3.5,,3540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,800.0,0.0,470.0,0.0,0.0,0.0,3870.0,575.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Switzerland,Europe,Commercial,Other,New,,,3.5,,1019121.0,93.22,0.0,0.0,0.0,0.0,0.0,129.38,0.0,0.0,0.0,0.0,0.0,0.0,0.0,137.03,0.0,0.0,143.51,0.0,,,,,,,,,,
+China,Asia,Residential,Other,New,2991.0,,,,0.0,0.0,0.0,0.0,35628792.0,0.0,0.0,0.0,0.0,1465889.1,1902276.0,0.0,0.0,0.0,0.0,37895970.0,0.0,0.0,1850532.0,0.0,,,,,,,,,,
+United States,North America,Residential,,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thailand,Asia,Commercial,Office,New,,62500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1209600.0
+Singapore,Asia,Commercial,Other,New,204.0,57500.5,3.5,,470.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1090.0,1825930.0,0.0,0.0,0.0,0.0,6168000.0,0.0,0.0,125700.0,0.0,,,,,,,,,,1428527.1999999997
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8762.579999999998
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8541.449999999999
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8881.650000000001
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8643.51
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8332.47
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8291.16
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,90519.93
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8842.77
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9941.130000000001
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9073.62
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8509.859999999999
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8359.199999999999
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8592.48
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8373.78
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8145.360000000001
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8065.170000000001
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9029.88
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8611.92
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9574.199999999999
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8733.42
+China,Asia,Residential,Multi-family house,New,40.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35027.235
+China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,74013.492
+China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7978.005000000001
+China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,103014.24
+China,Asia,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67994.99700000002
+China,Asia,Commercial,Office,New,,57500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6384000.0
+Turkey,Middle East,Residential,,New,100.0,,10.5,,66915.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17620.0,304174.0,0.0,0.0,264193.0,0.0,0.0,5306640.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Turkey,Middle East,Residential,,New,30.0,,3.5,,12510.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45245.0,83053.0,0.0,0.0,0.0,0.0,0.0,0.0,1707500.0,56100.0,0.0,,,,,,,,,,
+Turkey,Middle East,Residential,,New,5.0,2500.5,3.5,,2222.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2875.0,4304.0,0.0,0.0,0.0,0.0,0.0,0.0,34214.0,484.0,0.0,,,,,,,,,,17010.0
+Turkey,Middle East,Residential,,New,4.0,2500.5,3.5,,600.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,1880.0,0.0,0.0,10873.0,0.0,0.0,0.0,0.0,,,,,,,,,,9891.0
+Belgium,Europe,Residential,,New,5.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Belgium,Europe,Residential,,New,5.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Belgium,Europe,Residential,,New,5.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Belgium,Europe,Residential,,New,5.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Finland,Europe,Residential,Multi-family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,84040.0
+Finland,Europe,Residential,Multi-family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61792.32000000001
+Finland,Europe,Residential,Multi-family house,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100328.48
+United Kingdom,Europe,Commercial,Other,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,Retail and Restaurant,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,School and Daycare,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,Office,New,,,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,Office,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United States,North America,Commercial,Office,New,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6000000.0,0.0,84000.0,0.0,0.0,1904762.0,110000.0,0.0,32812280.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Switzerland,Europe,Commercial,Office,New,,,3.5,,144200.0,0.0,0.0,0.0,0.0,0.0,0.0,50000.0,0.0,0.0,0.0,0.0,12600.0,55000.0,0.0,792650.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Germany,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20937.84
+Finland,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23827.2
+Italy,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51556.799999999996
+China,Asia,Residential,Other,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Other,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Other,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Other,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brazil,South America,Commercial,Office,New,,2500.5,,,13604.33,0.0,0.0,0.0,0.0,0.0,38159.52,0.0,0.0,0.0,0.0,3731.03,782323.81,0.0,0.0,472490.24,0.0,0.0,0.0,0.0,,,,,,,,,,35946.3096
+Brazil,South America,Commercial,Office,New,,2500.5,,,13604.33,0.0,0.0,0.0,0.0,0.0,38159.52,0.0,0.0,0.0,0.0,3731.03,782323.81,0.0,0.0,472490.24,0.0,0.0,0.0,0.0,,,,,,,,,,36187.56
+United Kingdom,Europe,Commercial,Office,New,,,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,1242579.66
+China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,1318605.7999999998
+China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,1054884.64
+China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,917229.9199999999
+China,Asia,Residential,Multi-family house,New,,17500.5,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,495399.94,0.0,0.0,0.0,1343550.0,897460.0,0.0,0.0,27888789.5,0.0,0.0,4545976.5,0.0,,,,,,,,,,753413.7799999999
+Malaysia,Asia,Residential,Semi-detached,New,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18299.94
+Italy,Europe,Residential,Single family house,New,,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17477.0,0.0,233654.0,32383.0,22893.0,0.0,0.0,0.0,833186.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Commercial,Office,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Colombia,South America,Residential,,New,4.0,,3.5,,3025.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24800.0,5500.0,0.0,0.0,0.0,0.0,106080.0,0.0,0.0,3500.0,0.0,,,,,,,,,,
+Spain,Europe,Residential,,New,4.0,,3.5,,2475.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25410.0,3500.0,0.0,0.0,0.0,0.0,79980.0,0.0,0.0,3200.0,0.0,,,,,,,,,,
+United States,North America,Commercial,Office,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,3.43,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,3.43,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,3.43,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,3.43,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.71,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.71,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.71,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.71,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.83,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.83,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.83,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,2.83,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.03,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.03,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.03,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.03,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.05,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.05,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.05,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,2.05,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,1.67,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,1.67,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,1.67,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Multi-family house,New,1.67,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,2170.0,0.0,0.0,0.0,0.0,0.0,0.0,35496.0,0.0,47406.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,102224.0,45580.0,0.0,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Portugal,Europe,Residential,,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Italy,Europe,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86018.0,0.0,0.0,8.49,0.0,0.0,261353.0,9.67,0.0,13330.0,0.0,,,,,,,,,,10018.560000000001
+Italy,Europe,Residential,Row house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,77190.0,0.0,0.0,6.08,0.0,0.0,222139.0,9.65,0.0,15423.0,0.0,,,,,,,,,,7893.6
+Italy,Europe,Residential,Multi-family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,361402.0,0.0,0.0,42.18,0.0,0.0,2023390.0,55.42,0.0,125261.0,0.0,,,,,,,,,,43570.64
+Italy,Europe,Residential,Multi-family house,New,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1153879.0,0.0,0.0,80.66,0.0,0.0,3781590.0,157.79,0.0,309882.0,0.0,,,,,,,,,,117859.28
+Italy,Europe,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86018.0,0.0,0.0,8.49,0.0,0.0,261353.0,9.67,0.0,13330.0,0.0,,,,,,,,,,9534.72
+Italy,Europe,Residential,Row house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,77190.0,0.0,0.0,6.08,0.0,0.0,222139.0,9.65,0.0,15423.0,0.0,,,,,,,,,,7400.250000000002
+Italy,Europe,Residential,Multi-family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,361402.0,0.0,0.0,42.18,0.0,0.0,2023390.0,55.42,0.0,125261.0,0.0,,,,,,,,,,43570.64
+Italy,Europe,Residential,Multi-family house,New,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1153879.0,0.0,0.0,80.66,0.0,0.0,3781590.0,157.79,0.0,309882.0,0.0,,,,,,,,,,114475.76
+Italy,Europe,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86018.0,0.0,0.0,8.49,0.0,0.0,261353.0,9.67,0.0,13330.0,0.0,,,,,,,,,,8935.68
+Italy,Europe,Residential,Row house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,77190.0,0.0,0.0,6.08,0.0,0.0,222139.0,9.65,0.0,15423.0,0.0,,,,,,,,,,6883.8
+Italy,Europe,Residential,Multi-family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,361402.0,0.0,0.0,42.18,0.0,0.0,2023390.0,55.42,0.0,125261.0,0.0,,,,,,,,,,40305.04
+Italy,Europe,Residential,Multi-family house,New,,2500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1153879.0,0.0,0.0,80.66,0.0,0.0,3781590.0,157.79,0.0,309882.0,0.0,,,,,,,,,,110350.24
+Chile,South America,Residential,Single family house,New,4.0,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,850.0,0.0,1929.0,2892.0,0.0,1136.0,0.0,0.0,7229.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Chile,South America,Residential,Single family house,New,4.0,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,850.0,0.0,1929.0,2892.0,0.0,1136.0,0.0,0.0,7229.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Chile,South America,Residential,Single family house,New,4.0,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,850.0,0.0,1929.0,2892.0,0.0,1136.0,0.0,0.0,7229.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Chile,South America,Residential,Single family house,New,4.0,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,850.0,0.0,1929.0,2892.0,0.0,1136.0,0.0,0.0,7229.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+China,Asia,Commercial,Office,New,,,20.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11424000.0,0.0,0.0,0.0,0.0,0.0,11961000.0,0.0,0.0,1896000.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,43348.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18808.65,16739.6,0.0,0.0,0.0,430176.65,0.0,7860629.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+France,Europe,Residential,,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+France,Europe,Residential,,New,,,,,82873.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86487.0,10295.7,0.0,0.0,0.0,1589018.5,0.0,10606168.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+France,Europe,Residential,,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+France,Europe,Residential,,New,,,,,40187.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11280.5,7438.2,0.0,0.0,0.0,0.0,0.0,271482.9,0.0,1962856.5,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,104622.0,0.0,0.0,0.0,0.0,0.0,0.0,322910.0,0.0,0.0,0.0,35442.3,0.0,0.0,0.0,536158.5,0.0,8842297.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,34330.1,0.0,0.0,0.0,0.0,0.0,0.0,104794.0,0.0,75498.0,0.0,0.0,0.0,0.0,0.0,284817.78,0.0,3064178.4,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,24595.11,0.0,0.0,0.0,0.0,0.0,0.0,267920.0,0.0,295025.0,0.0,0.0,0.0,0.0,0.0,77080.8,0.0,1397475.5,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,53540.72,0.0,0.0,0.0,0.0,0.0,0.0,53540.72,10888.3,0.0,0.0,0.0,0.0,0.0,0.0,185489.8,0.0,413075.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,16884.5,0.0,0.0,0.0,0.0,0.0,0.0,243300.0,18111.7,0.0,0.0,0.0,0.0,0.0,0.0,413387.5,0.0,3827175.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,17552.53,0.0,0.0,0.0,0.0,0.0,0.0,31822.0,26741.2,0.0,0.0,0.0,0.0,0.0,0.0,321071.25,0.0,5356654.5,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,4706.5,0.0,0.0,0.0,0.0,0.0,0.0,69729.0,0.0,48605.0,0.0,0.0,0.0,0.0,0.0,44097.75,0.0,108782.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,53925.0,0.0,0.0,0.0,0.0,0.0,0.0,29715.0,0.0,0.0,81616.0,0.0,0.0,0.0,0.0,0.0,0.0,249600.0,156516.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,56910.0,0.0,0.0,0.0,0.0,0.0,0.0,29715.0,0.0,0.0,7696.0,0.0,0.0,0.0,0.0,138611.56,0.0,337000.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,4590.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9167.0,2200.0,0.0,0.0,0.0,0.0,0.0,0.0,64585.0,0.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,3132.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51623.0,610.0,0.0,0.0,0.0,0.0,0.0,0.0,104808.0,44645.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,2416.0,0.0,0.0,0.0,0.0,0.0,0.0,11310.0,0.0,0.0,18887.0,0.0,0.0,0.0,0.0,0.0,0.0,111795.0,98155.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,2637.0,0.0,0.0,0.0,0.0,0.0,0.0,43200.0,0.0,27780.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59898.0,25300.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,1260.0,0.0,0.0,0.0,0.0,0.0,0.0,29000.0,0.0,0.0,43815.0,0.0,0.0,0.0,0.0,0.0,0.0,112045.0,94040.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,5198.0,0.0,0.0,0.0,0.0,0.0,0.0,1632.0,0.0,6408.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,117516.0,56410.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11600.0,0.0,62697.0,2312.0,0.0,0.0,0.0,0.0,0.0,0.0,124492.0,43009.0,0.0,,,,,,,,,,
+France,Europe,Residential,,New,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13422.0,0.0,56592.0,368.0,0.0,0.0,0.0,0.0,0.0,0.0,59027.0,30855.0,0.0,,,,,,,,,,
+United States,North America,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United States,North America,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United States,North America,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United States,North America,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United States,North America,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Denmark,Europe,Residential,Single family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Denmark,Europe,Residential,Single family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Finland,Europe,Residential,Semi-detached,New,,17500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1911000.0
+South Korea,Asia,Residential,,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sweden,Europe,Residential,Multi-family house,New,,,3.5,,90000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120000.0,0.0,0.0,0.0,0.0,150000.0,0.0,12528540.0,115000.0,0.0,,,,,,,,,,
+Sweden,Europe,Residential,Multi-family house,New,,,3.5,,85000.0,0.0,0.0,0.0,0.0,0.0,50000.0,0.0,0.0,0.0,105000.0,0.0,0.0,0.0,0.0,0.0,0.0,11470490.0,0.0,0.0,,,,,,,,,,
+Sweden,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sweden,Europe,Residential,Single family house,New,4.0,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2320.0,0.0,0.0,0.0,0.0,0.0,0.0,119165.0,4862.0,0.0,4749.0,0.0,,,,,,,,,,
+Sweden,Europe,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sweden,Europe,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United States,North America,Residential,Single family house,Renovation,4.0,,3.5,,15000.0,0.0,0.0,0.0,60000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172000.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+United States,North America,Residential,Single family house,New,4.0,,3.5,,22000.0,0.0,0.0,0.0,148000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,98000.0,0.0,0.0,0.0,0.0,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,6050.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14264.4,0.0,0.0,787.5,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,1233.792
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,4785.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10468.8,0.0,0.0,1452.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,1257.984
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,14264.4,0.0,0.0,5578.4,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,1248.9119999999998
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,10468.8,0.0,0.0,4125.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,1267.056
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,7535.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,0.0,0.0,0.0,497.4,0.0,0.0,29420.8,0.0,0.0,460.2,0.0,,,,,,,,,,1248.9119999999998
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,6050.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14264.4,0.0,0.0,787.5,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,500.472
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,4785.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10468.8,0.0,0.0,1452.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,479.304
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,14264.4,0.0,0.0,5578.4,0.0,0.0,38585.8,0.0,0.0,4068.0,0.0,,,,,,,,,,538.2719999999999
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,10468.8,0.0,0.0,4125.4,0.0,0.0,87465.8,0.0,0.0,2682.6,0.0,,,,,,,,,,486.864
+Australia,Oceania,Residential,Single family house,New,,2500.5,3.5,,7535.0,0.0,0.0,0.0,0.0,0.0,550.28,0.0,0.0,0.0,0.0,0.0,497.4,0.0,0.0,29420.8,0.0,0.0,460.2,0.0,,,,,,,,,,474.768
+United Kingdom,Europe,Commercial,Office,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United Kingdom,Europe,Commercial,Office,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Commercial,School and Daycare,New,,,,,28843.76,0.0,0.0,0.0,0.0,0.0,503849.58,0.0,0.0,0.0,1035375.12,0.0,1035375.0,0.0,0.0,12450942.91,0.0,0.0,0.0,0.0,,,,,,,,,,
+Switzerland,Europe,,Other,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Residential,Multi-family house,New,,,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,112938.0,0.0,0.0,0.0,0.0,0.0,29013.33,0.0,0.0,2650857.28,0.0,0.0,0.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,Other,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Residential,Multi-family house,New,20.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Residential,Other,New,,,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,26080.0,0.0,0.0,0.0,70110.0,0.0,0.0,0.0,28650.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,430560.0,172430.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,57270.0,0.0,0.0,0.0,0.0,0.0,24710.0,74610.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,183930.0,70280.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,71670.0,0.0,124360.0,0.0,0.0,0.0,0.0,0.0,49450.0,0.0,495000.0,216200.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,101400.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99550.0,0.0,1044180.0,141880.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,51380.0,0.0,0.0,0.0,90500.0,0.0,0.0,98060.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,886110.0,221720.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,50270.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9910.0,0.0,0.0,0.0,0.0,5000.0,0.0,0.0,29790.0,331990.0,0.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,4010.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21700.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,462180.0,964530.0,0.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,42460.0,0.0,0.0,153790.0,0.0,0.0,0.0,14180.0,0.0,0.0,0.0,2798830.0,29050.0,0.0,,,,,,,,,,
+Switzerland,Europe,Residential,,New,,,3.5,,111350.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11260.0,0.0,0.0,13590.0,0.0,0.0,0.0,1727570.0,0.0,0.0,,,,,,,,,,
+Switzerland,Europe,Commercial,Office,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Commercial,Office,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Switzerland,Europe,Commercial,Office,New,96.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Austria,Europe,Commercial,Office,New,,,3.5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1200873.92,0.0,0.0,0.0,0.0,0.0,2554170.1,272621.0,0.0,443349.62,0.0,,,,,,,,,,
+United States,North America,Commercial,Office,New,,12500.5,10.5,,974050.0,0.0,0.0,0.0,0.0,0.0,317902.0,0.0,0.0,0.0,0.0,0.0,408133.0,0.0,0.0,7764400.0,625969.0,0.0,0.0,0.0,,,,,,,,,,98149.05
+United States,North America,Commercial,Office,New,,12500.5,10.5,,1607650.0,0.0,0.0,0.0,0.0,0.0,317902.0,0.0,0.0,0.0,0.0,0.0,408133.0,0.0,89772.0,7764400.0,0.0,0.0,0.0,0.0,,,,,,,,,,96383.25
+United States,North America,Commercial,Office,New,,12500.5,10.5,,0.0,0.0,0.0,0.0,0.0,0.0,317902.0,0.0,0.0,0.0,0.0,0.0,821723.0,0.0,89772.0,14562950.0,112249.0,0.0,0.0,0.0,,,,,,,,,,132582.15
+Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2846.2000000000007
+Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7847.379999999999
+Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7725.4
+Germany,Europe,Residential,Multi-family house,New,,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7318.8
+Canada,North America,Residential,Multi-family house,New,,,3.5,,226185.64,0.0,0.0,0.0,0.0,0.0,0.0,5867.72,0.0,78730.34,0.0,0.0,6018.95,0.0,0.0,533085.75,0.0,0.0,0.0,0.0,,,,,,,,,,9504.0
+Canada,North America,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6220.8
+Canada,North America,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3693.6
+South Korea,Asia,Residential,Single family house,New,4.0,,3.5,,27210.0,0.0,0.0,0.0,0.0,0.0,0.0,151120.0,0.0,163810.0,0.0,0.0,30.0,0.0,0.0,90839.0,0.0,0.0,0.0,0.0,,,,,,,,,,8761.499999999993
+Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,1815000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1350000.0,0.0,0.0,0.0,0.0,150000.0,0.0,580000.0,139000.0,0.0,0.0,0.0,,,,,,,,,,2411.42
+Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,1601000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,860000.0,0.0,0.0,0.0,0.0,150000.0,0.0,1340000.0,91000.0,0.0,0.0,0.0,,,,,,,,,,3654.42
+Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,170000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,670000.0,0.0,70000.0,0.0,0.0,370000.0,0.0,0.0,0.0,1870000.0,0.0,0.0,,,,,,,,,,4338.070000000001
+Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,142000.0,0.0,0.0,0.0,0.0,0.0,0.0,100000.0,550000.0,0.0,0.0,0.0,0.0,300000.0,0.0,2100000.0,0.0,0.0,0.0,0.0,,,,,,,,,,5021.72
+Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,140000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,460000.0,390000.0,0.0,0.0,0.0,370000.0,0.0,1470000.0,0.0,0.0,0.0,0.0,,,,,,,,,,5170.88
+Finland,Europe,Residential,Multi-family house,,,2500.5,3.5,,164000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,900000.0,0.0,670000.0,0.0,0.0,370000.0,0.0,860000.0,0.0,0.0,0.0,0.0,,,,,,,,,,3057.7799999999997
+China,Asia,Residential,Multi-family house,New,,7500.5,3.5,,304266.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99259.5,0.0,0.0,0.0,0.0,0.0,0.0,1968675.0,397235.95,0.0,0.0,0.0,,,,,,,,,,58136.0
+China,Asia,Residential,Multi-family house,New,,7500.5,3.5,,38984.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,282210.0,0.0,0.0,0.0,0.0,0.0,1625804.6,6436175.0,1103740.5,0.0,,,,,,,,,,88322.0
+China,Asia,Residential,Multi-family house,New,,7500.5,3.5,,370564.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,190392.0,0.0,459520.0,0.0,0.0,0.0,0.0,0.0,197945.78,586750.0,0.0,0.0,,,,,,,,,,61490.0
+Finland,Europe,Residential,Semi-detached,,,37500.5,,,19000000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14000000.0,0.0,0.0,895862.0,0.0,0.0,34872393.0,0.0,0.0,0.0,0.0,,,,,,,,,,883866.2
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1252.4
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1474.6
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30400.476923076916
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Australia,Oceania,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brazil,South America,Commercial,School and Daycare,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63606.450000000004
+Brazil,South America,Residential,Multi-family house,New,460.0,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,150892.0
+Brazil,South America,Residential,Single family house,New,4.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6171.0
+Colombia,South America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2343.6000000000004
+China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,178989.24999999974
+China,Asia,Residential,Multi-family house,Renovation,40.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35066.08
+China,Asia,Residential,Multi-family house,Renovation,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8824028.16
+China,Asia,Residential,Multi-family house,Renovation,40.0,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4766167.41
+China,Asia,Residential,Multi-family house,Renovation,2991.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25329.24
+China,Asia,Residential,Multi-family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25761.771428571414
+China,Asia,Residential,Multi-family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,90223.97
+China,Asia,Residential,Single family house,New,2.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Single family house,New,2.0,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3148364.0399999996
+Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3107016.54
+Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1285827.2
+Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1160773.5999999999
+Hong Kong,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1098630.4
+Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2595.375
+Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3498.714285714284
+Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6197.58
+Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2200.1999999999994
+Indonesia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3204.0285714285656
+Japan,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6000.0
+Japan,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3391.29
+Japan,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8430.45
+Japan,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2130.0299999999997
+Japan,Asia,Residential,Single family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Korea,Asia,Residential,Single family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Korea,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Korea,Asia,Residential,Multi-family house,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Korea,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,347834.76
+South Korea,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,838322.8800000001
+South Korea,Asia,Residential,Multi-family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,79215.03333333328
+South Korea,Asia,Residential,Multi-family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,75424.06666666656
+South Korea,Asia,Residential,Multi-family house,Renovation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1667191.0
+South Korea,Asia,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1027884.75
+South Korea,Asia,Residential,Multi-family house,New,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10697216.0
+Malaysia,Asia,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18469.68
+Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6649.869999999999
+Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4884.22
+Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2020.44
+Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4315.04
+Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1458.71
+Thailand,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Taiwan,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+United States,North America,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6521.160000000001
+United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13328.630769230745
+Switzerland,Europe,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8613.446153846147
+United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3557.893333333327
+United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3478.439999999993
+United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5788.159999999987
+United States,North America,Residential,Single family house,Renovation,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5904.639999999986
+China,Asia,Residential,Multi-family house,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1455840.0
+China,Asia,Residential,Multi-family house,New,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1502688.0
+Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Malaysia,Asia,Residential,Single family house,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1244757.5099999998
+China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1273027.5
+China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1012978.71
+China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,913067.9999999999
+China,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,762938.55
+South Korea,Asia,Residential,Multi-family house,Renovation,,,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,213850.0
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,109.2576
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,110.21430000000001
+France,Europe,Residential,Multi-family house,,30.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1522.6302
+France,Europe,Residential,Multi-family house,,40.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1974.0072
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,676.6136
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,814.8377
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,120.376
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,487.35720000000003
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,160.52159999999998
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,119.556
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,164.7792
+France,Europe,Residential,Single family house,,3.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,146.775
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,102.7623
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,134.9263
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,269.192
+France,Europe,Residential,Multi-family house,,8.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,159.6507
+France,Europe,Residential,Multi-family house,,6.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,132.022
+France,Europe,Residential,Multi-family house,,34.34,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19451.559400000002
+France,Europe,Residential,Single family house,,2.18,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,721.5364
+France,Europe,Residential,Single family house,,2.18,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,918.588
+France,Europe,Residential,Single family house,,2.2,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1662.7496
+France,Europe,Residential,Single family house,,1.97,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,88.4136
+France,Europe,Residential,Single family house,,1.84,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,106.68820000000001
+France,Europe,Residential,Single family house,,2.07,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,132.4604
+France,Europe,Residential,Single family house,,1.95,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,116.1369
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,167.3
+France,Europe,Residential,Single family house,,1.81,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95.144
+France,Europe,Residential,Single family house,,2.33,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,133.485
+France,Europe,Residential,Single family house,,2.01,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,209.0664
+France,Europe,Residential,Single family house,,2.03,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,109.879
+France,Europe,Residential,Single family house,,2.53,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,162.6742
+France,Europe,Residential,Single family house,,2.29,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3022.8752
+France,Europe,Residential,Multi-family house,,25.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8955.386
+France,Europe,Residential,Single family house,,2.37,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3113.6823
+France,Europe,Residential,Single family house,,2.14,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,219.1639
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,170.73420000000002
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,181.3074
+France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,161.259
+France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,166.845
+France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,157.2424
+France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,166.845
+France,Europe,Residential,Single family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,157.2424
+France,Europe,Residential,Multi-family house,,25.25,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,743.4882
+France,Europe,Residential,Single family house,,1.94,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,106.63289999999999
+France,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1838.9448
+France,Europe,Residential,Multi-family house,,,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2136.827
+France,Europe,Residential,Single family house,,13.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4735.899912
+France,Europe,Residential,Single family house,,15.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4924.26732
+France,Europe,Residential,Single family house,,10.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3686.19579
+France,Europe,Residential,Single family house,,15.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4924.26732
+France,Europe,Residential,Single family house,,10.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3686.19579
+France,Europe,Residential,Single family house,,2.56,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1359.7449
+France,Europe,Residential,Single family house,,2.55,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1454.8418000000001
+France,Europe,Residential,Multi-family house,,52.2,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4119.9486
+France,Europe,Residential,Multi-family house,,55.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18116.968800000002
+France,Europe,Residential,Multi-family house,,62.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14546.688619999997
+France,Europe,Residential,Multi-family house,,61.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14762.373941
+France,Europe,Residential,Single family house,,3.7,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,286.16400000000004
+France,Europe,Residential,Single family house,,1.99,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,693.4152
+France,Europe,Residential,Single family house,,12.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,400.94491200000004
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,161.5584
+France,Europe,Residential,Multi-family house,,55.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20267.644800000002
+France,Europe,Residential,Single family house,,1.91,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1100.3452
+France,Europe,Residential,Single family house,,1.91,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1131.2885
+France,Europe,Residential,Single family house,,2.42,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1636.5117
+France,Europe,Residential,Single family house,,1.95,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,247.64190000000002
+France,Europe,Residential,Single family house,,1.9,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1215.6174
+France,Europe,Residential,Single family house,,2.05,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1549.6005
+France,Europe,Residential,Single family house,,1.93,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,203.0304
+France,Europe,Residential,Single family house,,1.95,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1203.6799999999998
+France,Europe,Residential,Single family house,,1.98,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,169.6925
+France,Europe,Residential,Single family house,,1.95,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1024.7
+France,Europe,Residential,Single family house,,2.06,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,236.84879999999998
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,929.6168
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1367.5185
+France,Europe,Residential,Multi-family house,,46.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12834.9156
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,205.30349999999999
+France,Europe,Residential,Single family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1766.72947
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1044.41064
+France,Europe,Residential,Single family house,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,981.4797299999999
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1069.39656
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1931.981
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1096.5876600000001
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,204.48839999999998
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1051.9776
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1592.7870999999998
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,206.8384
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,117.547
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,183.4924
+France,Europe,Residential,Single family house,,2.02,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,168.37199999999999
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,159.4168
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,245.76330000000002
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,928.4039999999989
+France,Europe,Residential,Single family house,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,139.0239
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,115.3188
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,113.85414
+France,Europe,Residential,Single family house,,4.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,118.04673000000001
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1036.2912
+France,Europe,Commercial,Office,,12.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,994.4549999999999
+France,Europe,Residential,Multi-family house,,56.0,2500.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1250.95953
+France,Europe,Residential,Multi-family house,,63.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30888.2232
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,931.1120000000001
+France,Europe,Residential,Multi-family house,,28.03,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2536.637418
+France,Europe,Residential,Multi-family house,,23.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,420.17388
+France,Europe,Residential,Multi-family house,,346.83,12500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2583.0067999999997
+France,Europe,Residential,Multi-family house,,28.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,251.6612
+France,Europe,Commercial,School and Daycare,,975.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3156.548496
+France,Europe,Residential,Single family house,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,142.6308
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,122.2106
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,205.8125
+France,Europe,Residential,Multi-family house,,23.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10930.3689
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1810.8145000000002
+France,Europe,Commercial,Office,,143.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6985.0415
+France,Europe,Residential,Multi-family house,,47.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21716.532000000003
+France,Europe,Residential,Single family house,,20.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1013.09871
+France,Europe,Residential,Multi-family house,,71.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4350.1982
+France,Europe,Residential,Multi-family house,,103.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,328.85652
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,768.4534
+France,Europe,Residential,Multi-family house,,12.5,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9051.874520000001
+France,Europe,Commercial,Office,,400.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2521.224
+France,Europe,Residential,Single family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,249.6171
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,310.947
+France,Europe,Commercial,Office,,45.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2216.62
+France,Europe,Residential,Multi-family house,,18.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3033.4513
+France,Europe,Residential,Multi-family house,,56.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18095.2772
+France,Europe,Residential,Multi-family house,,51.14,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35679.4789
+France,Europe,Residential,Single family house,,2.38,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1072.45761
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100.9606
+France,Europe,Residential,Single family house,,2.29,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,196.776918
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1184.6016
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1338.715
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,822.6176
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,173.86569000000003
+France,Europe,Residential,Multi-family house,,118.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42393.0352
+France,Europe,Commercial,Office,,143.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6985.0415
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,897.345
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,799.5344
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,888.0029999999999
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,117.78899999999999
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,738.558
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1034.5566
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,106.57480000000001
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1082.0097
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1116.0215
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,157.03379999999999
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,900.9705
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,178.7272
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,120.22250000000001
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,124.0528
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,124.6914
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,112.5483
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,123.0464
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,108.04499999999999
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,112.9735
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,107.7804
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,105.651
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,177.58950000000002
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,170.9316
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1600.064
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,158.6306
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,578.1317
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1722.432
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,236.9964
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1307.5212
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,146.0157
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,723.0832
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,519.3671
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1442.5901999999999
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,233.81560000000002
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1576.7040000000002
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1579.8719999999998
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1448.9191
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,203.6853
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,228.83759999999998
+France,Europe,Residential,Multi-family house,,17.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8261.4858
+France,Europe,Residential,Multi-family house,,17.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8032.2078
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,150.8593
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,134.918
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,197.4716
+France,Europe,Residential,Multi-family house,,42.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,187.463721
+France,Europe,Residential,Multi-family house,,23.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12028.988800000001
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,81.9735
+France,Europe,Commercial,School and Daycare,,616.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1959.936
+France,Europe,Commercial,Office,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,546.9534000000001
+France,Europe,Commercial,Office,,5.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,830.5248
+France,Europe,Residential,Multi-family house,,50.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16486.198911
+France,Europe,Residential,Multi-family house,,50.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13548.682332000002
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1042.4634
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1178.4682
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,360.506
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1180.5615
+France,Europe,Residential,Single family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2312.7864
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1224.6934
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1062.597
+France,Europe,Residential,Multi-family house,,11.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5372.514
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1073.2932
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,980.9508
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,222.052
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1056.6522
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,240.2715
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,907.2396
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1268.8885
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,206.9879
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1196.2167
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,338.73699999999997
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,922.3968
+France,Europe,Residential,Multi-family house,,,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18673.993128
+France,Europe,Residential,Multi-family house,,11.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,424.69289999999995
+France,Europe,Residential,Multi-family house,,47.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24047.8065
+France,Europe,Commercial,Office,,400.0,7500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8394.134
+France,Europe,Residential,Single family house,,8.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,396.291
+France,Europe,Residential,Multi-family house,,75.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18860.736
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1593.7798
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,258.6864
+France,Europe,Residential,Single family house,,2.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,134.86180000000002
+France,Europe,Residential,Single family house,,3.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2035.8605
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,827.4785
+France,Europe,Residential,Multi-family house,,18.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8281.24718
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,124.0332
+France,Europe,Residential,Multi-family house,,25.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10799.0017
+France,Europe,Residential,Multi-family house,,60.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3714.3694640000003
+France,Europe,Residential,Multi-family house,,21.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9663.4342
+France,Europe,Residential,Multi-family house,,23.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11088.7003
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1233.273
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,234.1508
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,340.9217
+France,Europe,Commercial,School and Daycare,,60.0,2500.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,494.8328
+France,Europe,Commercial,Office,,288.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7694.995000000001
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,396.98539999999997
+France,Europe,Residential,Single family house,,2.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,402.042541
+France,Europe,Residential,Multi-family house,,26.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13634.3315
+France,Europe,Residential,Multi-family house,,6.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,102.4704
+France,Europe,Residential,Multi-family house,,15.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,227.11929
+France,Europe,Residential,Multi-family house,,108.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6546.128979000001
+France,Europe,Residential,Multi-family house,,116.0,2500.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5372.73732
+,Europe,Commercial,Mixed use,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Middle East,Commercial,Mixed use,New,,69677.5,62.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2567.39
 ,North America,Commercial,Other,New,,69677.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1699.34
 ,Europe,Commercial,Office,New,,69677.5,62.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1303.39
@@ -2260,9 +2378,11 @@ France,Europe,Residential,Multi-family house,,116.0,2500.5,3.5,,,,,,,,,,,,,,,,,,
 ,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11286.0
 ,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11088.0
 ,,Residential,Other,New,,697.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,285.22
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7071000.0
 ,,Residential,Other,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.96
 ,Europe,Commercial,Industrial,New,,3484.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1442.3
 ,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5532.47
+,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5147000.0
 ,Europe,Commercial,Office,New,,3484.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1199.16
 ,Europe,Commercial,Office,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8285.94
 ,Europe,Commercial,Health Care,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8090.74
@@ -2275,20 +2395,33 @@ France,Europe,Residential,Multi-family house,,116.0,2500.5,3.5,,,,,,,,,,,,,,,,,,
 ,,Commercial,Office,New,,6968.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2952.25
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4284000.0
 ,Asia,Commercial,Office,New,,3484.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1674.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5382000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5289000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6810000.0
 ,Europe,Commercial,Office,New,,3484.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1039.86
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5202000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5188000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3942000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5187000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3888000.0
 ,,Commercial,Warehouse,New,,69677.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21060.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3881000.0
 ,Asia,Commercial,Office,New,,3484.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1528.0
 ,Asia,Commercial,Office,New,,3484.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1491.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6112000.0
 ,North America,Commercial,Education,New,,6968.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1088.62
 ,Asia,Commercial,Office,New,,3484.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1451.0
 ,Europe,Commercial,Office,New,,6968.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2190.82
 ,Europe,Commercial,Education,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5785.47
 ,Europe,Commercial,Office,New,,6968.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2425.74
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5699000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5682000.0
 ,North America,Commercial,Education,New,,6968.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1035.55
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5442000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5317000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5184000.0
 ,Europe,Residential,Other,New,,697.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,194.51
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5069000.0
 ,,Commercial,Warehouse,New,,69677.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19211.0
 ,Europe,Residential,Other,New,,6968.0,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2836.21
 ,,Residential,Other,New,,3484.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,929.62
@@ -2296,7 +2429,9 @@ France,Europe,Residential,Multi-family house,,116.0,2500.5,3.5,,,,,,,,,,,,,,,,,,
 ,,Residential,Other,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.44
 ,,Residential,Other,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.21
 ,,,,New,,32516.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6360.39
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5184000.0
 ,Europe,Commercial,Office,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4818.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5069000.0
 ,Asia,Commercial,Office,New,,3484.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1021.0
 ,,Residential,Other,New,,,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.48
 ,North America,Commercial,Office,New,,6968.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1743.0
@@ -2395,6 +2530,20 @@ France,Europe,Residential,Multi-family house,,116.0,2500.5,3.5,,,,,,,,,,,,,,,,,,
 ,Asia,Commercial,Office,New,,1626.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1226.45
 ,Middle East,Commercial,Parking,New,,546451.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35300.0
 ,Middle East,Commercial,Parking,New,,546451.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32500.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5317000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5317000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5184000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5069000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5682000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5682000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6112000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6112000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5442000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5442000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6810000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6810000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5699000.0
+,,Commercial,Office,New,,13935.5,10.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5699000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4284000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4284000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3942000.0
@@ -2403,8 +2552,22 @@ France,Europe,Residential,Multi-family house,,116.0,2500.5,3.5,,,,,,,,,,,,,,,,,,
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3888000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3881000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3881000.0
+,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5147000.0
+,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5147000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4504000.0
 ,,Commercial,Health Care,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4504000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5382000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5382000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5289000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5289000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5188000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5188000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5187000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5187000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7071000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7071000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5202000.0
+,,Commercial,Education,New,,13935.5,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5202000.0
 ,,Commercial,Warehouse,New,,32516.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8257.0
 ,,Commercial,Warehouse,New,,32516.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9388.0
 ,,Commercial,Warehouse,New,,32516.0,3.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8846.0
