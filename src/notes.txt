@@ -1,0 +1,21 @@
+R-squared for model_becd on training set: 0.8350167467522144
+R-squared for model_becd on testing set: 0.8985363983240804    
+
+- indicates a good fit
+- slightly higher r squared on test indicates model generalizes well
+
+
+
+R-squared for model_carbenmats on training set: 0.9691248528245664
+R-squared for model_carbenmats on testing set: 0.7390731459127026
+
+- model fits training data very well
+- drop in r squared indicates potential overfitting
+
+
+
+R-squared for model_clf on training set: 0.3195462661831393
+R-squared for model_clf on testing set: 0.1870839834804222 
+
+- indicates poor fit
+- similarly, test set underperforms and has poor predictive power.
