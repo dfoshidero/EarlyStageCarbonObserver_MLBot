@@ -1,0 +1,72 @@
+becd_GradientBoosting: Training R-squared: 0.8444590721364176
+becd_GradientBoosting: Validation R-squared: 0.8674296020746206
+becd_GradientBoosting: Testing R-squared: 0.8376857699252045
+becd_GradientBoosting: Cross-validation scores: [0.85251661 0.77832993 0.75029753 0.7701595  0.8601873 ]
+becd_GradientBoosting: Mean cross-validation score: 0.8022981737912696
+
+becd_RandomForest: Training R-squared: 0.4819625520639166
+becd_RandomForest: Validation R-squared: 0.5848567284525741
+becd_RandomForest: Testing R-squared: 0.4326780645118462
+becd_RandomForest: Cross-validation scores: [0.58951318 0.0453214  0.58884292 0.35424873 0.39017902]
+becd_RandomForest: Mean cross-validation score: 0.39362105021948973
+
+becd_LinearRegression: Training R-squared: 0.8444932388358869
+becd_LinearRegression: Validation R-squared: 0.8674664598364026
+becd_LinearRegression: Testing R-squared: 0.8380822064728215
+becd_LinearRegression: Cross-validation scores: [0.85340493 0.77523136 0.75184751 0.7746099  0.86139731]
+becd_LinearRegression: Mean cross-validation score: 0.8032982028038453
+
+becd_Stacking: Training R-squared: 0.835805734512126
+becd_Stacking: Validation R-squared: 0.8618678860442164
+becd_Stacking: Testing R-squared: 0.833555514826515
+becd_Stacking: Cross-validation scores: [0.85160058 0.77547767 0.71313365 0.78031791 0.86109133]
+becd_Stacking: Mean cross-validation score: 0.7963242285727625
+
+carbenmats_GradientBoosting: Training R-squared: 0.963717649587562
+carbenmats_GradientBoosting: Validation R-squared: 0.640616618101568
+carbenmats_GradientBoosting: Testing R-squared: 0.535387444905133
+carbenmats_GradientBoosting: Cross-validation scores: [0.51500402 0.75226781 0.81202931 0.66636582 0.50859855]
+carbenmats_GradientBoosting: Mean cross-validation score: 0.6508531005965634
+
+carbenmats_RandomForest: Training R-squared: 0.7070697479976267
+carbenmats_RandomForest: Validation R-squared: 0.6120125464694948
+carbenmats_RandomForest: Testing R-squared: 0.4470839836351629
+carbenmats_RandomForest: Cross-validation scores: [0.6248877  0.61284767 0.69682529 0.64670235 0.53872233]
+carbenmats_RandomForest: Mean cross-validation score: 0.6239970663778129
+
+carbenmats_LinearRegression: Training R-squared: -0.8018163128032683
+carbenmats_LinearRegression: Validation R-squared: -0.8456083859673114
+carbenmats_LinearRegression: Testing R-squared: -0.818639363213371
+carbenmats_LinearRegression: Cross-validation scores: [-0.73651024 -0.90047052 -0.43364367 -1.07062402 -1.30739767]
+carbenmats_LinearRegression: Mean cross-validation score: -0.8897292232303944
+
+carbenmats_Stacking: Training R-squared: 0.9117730571722755
+carbenmats_Stacking: Validation R-squared: 0.6816026203790007
+carbenmats_Stacking: Testing R-squared: 0.5500623561903549
+carbenmats_Stacking: Cross-validation scores: [0.61558418 0.73859332 0.81938714 0.7382529  0.55981083]
+carbenmats_Stacking: Mean cross-validation score: 0.694325674097145
+
+clf_GradientBoosting: Training R-squared: 0.31819610664958475
+clf_GradientBoosting: Validation R-squared: 0.011902395625933648
+clf_GradientBoosting: Testing R-squared: 0.04261049224804547
+clf_GradientBoosting: Cross-validation scores: [ 0.09362558 -0.04797162  0.27222215 -0.04169965 -0.02534526]
+clf_GradientBoosting: Mean cross-validation score: 0.050166240354140544
+
+clf_RandomForest: Training R-squared: 0.19524620412772653
+clf_RandomForest: Validation R-squared: 0.06902369031177358
+clf_RandomForest: Testing R-squared: 0.08961525156927885
+clf_RandomForest: Cross-validation scores: [0.08256981 0.08021014 0.18532026 0.03875435 0.14227243]
+clf_RandomForest: Mean cross-validation score: 0.10582539760096613
+
+clf_LinearRegression: Training R-squared: 0.11741574275679378
+clf_LinearRegression: Validation R-squared: 0.11298285498170091
+clf_LinearRegression: Testing R-squared: 0.044180366330273224
+clf_LinearRegression: Cross-validation scores: [0.02783245 0.03956678 0.15106813 0.03025379 0.10756052]
+clf_LinearRegression: Mean cross-validation score: 0.07125633267915202
+
+clf_Stacking: Training R-squared: 0.2570022565989605
+clf_Stacking: Validation R-squared: 0.10816694264839888
+clf_Stacking: Testing R-squared: 0.10779430584968985
+clf_Stacking: Cross-validation scores: [0.11319055 0.07343911 0.21598487 0.0599927  0.10487402]
+clf_Stacking: Mean cross-validation score: 0.11349624925997974
+
