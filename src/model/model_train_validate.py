@@ -17,6 +17,13 @@ os.makedirs(model_dir, exist_ok=True)
 # Load the datasets
 becd_df, carbenmats_df, clf_df = load_datasets()
 
+# Extract and save unique values before any preprocessing
+unique_values_becd = {col: becd_df[col].dropna().unique().tolist() for col in becd_df.columns}
+unique_values_carbenmats = {col: carbenmats_df[col].dropna().unique().tolist() for col in carbenmats_df.columns}
+
+joblib.dump(unique_values_becd, os.path.join(model_dir, 'becd_unique_values.pkl'))
+joblib.dump(unique_values_carbenmats, os.path.join(model_dir, 'carbenmats_unique_values.pkl'))
+
 # Prepare datasets for model training
 (X_becd, y_becd, becd_label_encoders), (X_carbenmats, y_carbenmats, carbenmats_label_encoders), (X_clf, y_clf, clf_label_encoders) = prepare_datasets(becd_df, carbenmats_df, clf_df)
 
