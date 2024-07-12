@@ -1,0 +1,37 @@
+
+FCBS CARBON v0.8.4
+01/02/2021
+Release Notes:
+- Fixed trailing decimal places on graphs
+- Added in additional notes on build ups of materials
+- Domestic joisted floors changed from 50x250mm to 50x200mm
+- Office joisted floors changed from 50x350mm at 400mm centres to 50x300 at 300mm centres
+- Added 50% GGBS mix to all concrete elements
+- Beam and Block lowest floor slab build up added
+- Added the "Ground Insulation" category, with EPS, XPS, and Mineral Wool
+- EPS, Cellulose, Sheeps Wool, and Vacuum Panels added to the wall and roof insulation list
+- XPS embodied carbon value updated. 
+- Foamglass added under capping beams for small buildings, which will work without adding piles to the building
+- Greenroof added for roof finish
+- Bitumen membrance added for roof finish
+- Ceramic roof tiles added for roof finish
+- Timber cassette added as roof construction
+- Reordered facade materials to highlight structure
+- Expansion of facade build ups, including more combinations of structure and rain screens.
+- Addition of render materials (note lime and cementiuous renders have been added for Timber Cassette panels, but not elsewhere as the difference for embodied carbon is minimal).
+- Addition of description for services. Note, these are pretty indicative at best as no robust figures really exist yet and they could be much higher!
+- Added a "Notes" column to capture any assumptions on Input 2 - Embodied Carbon
+- Added party walls as subset of facades. Note, we may split this out in future but would like to hear your thoughts
+- Carbon sequestration: currently we assume the timber won't be burnt at end of life, which is not inline with BS EN 15978, but does seem more sensible. We're working on a significant change to how the calculations include this change.
+
+
+
+
+FCBS CARBON v0.8.3 
+19/11/2020
+
+Release Notes:
+- Material quantities shown on tab '2. INPUT Embodied Carbon' now reflect the adjustment factor
+- Fixed graphical error with operational energy graphics on '3. OUTPUT Graphics'
+- Added units to GIA on '0. INPUT'
+- Fixed error in calculation of future emission scenario carbon emissions
