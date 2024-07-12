@@ -114,8 +114,8 @@ for col in syntheticData.columns:
 # Replace all "+" cell with //
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: '//' 
-        if "+" in str(x)
+        lambda x: str(x).replace('+', '//').strip()
+        if " +" in str(x)
         else x )
 
     
@@ -137,7 +137,23 @@ sector_mapping = {
 syntheticData['Sector'] = syntheticData['Sector'].replace(subsector_mapping)
 
 """
-5. Save dataframe(s) to CSV for inspection.
+5. Clean up column names
+"""
+
+syntheticData.columns = [
+    'Sector', 'Sub-Sector', 'Gross Internal Area (m2)', 'Building Perimeter (m)', 'Building Footprint (m2)', 
+    'Building Width (m)', 'Floor-to-Floor Height (m)', 'Storeys Above Ground', 'Storeys Below Ground', 
+    'Glazing Ratio (%)', 'Piles Material', 'Pile Caps Material', 'Capping Beams Material', 
+    'Raft Foundation Material', 'Basement Walls Material', 'Lowest Floor Slab Material', 
+    'Ground Insulation Material', 'Core Structure Material', 'Columns Material', 'Beams Material', 
+    'Secondary Beams Material', 'Floor Slab Material', 'Joisted Floors Material', 'Roof Material', 
+    'Roof Insulation Material', 'Roof Finishes Material', 'Facade Material', 'Wall Insulation Material', 
+    'Glazing Material', 'Window Frames Material', 'Partitions Material', 'Ceilings Material', 
+    'Floors Material', 'Services', 'Embodied Carbon (kgCO2e/m2)'
+]
+
+"""
+6. Save dataframe(s) to CSV for inspection.
 """
 
 def printUniqueCols():
