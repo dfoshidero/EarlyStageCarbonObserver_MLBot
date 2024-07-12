@@ -1,4 +1,4 @@
-from model.model_predictor import combined_prediction
+from model.model_predictor import combined_prediction, parse_input
 
 def get_user_input():
     """
@@ -33,11 +33,15 @@ def get_user_input():
     
     return user_input_becd, user_input_carbenmats
 
+def get_natural_language_input():
+    text = "I am designing a concrete building in Europe for 20 users with 5 floors above ground."
+    features = parse_input(text)
+    return features
+
 def main():
-    """
-    Main function to execute the prediction process.
-    """
     user_input_becd, user_input_carbenmats = get_user_input()
+    # Uncomment the line below to use natural language input
+    # user_input_becd = get_natural_language_input()
     prediction = combined_prediction(user_input_becd, user_input_carbenmats)
     print("Final Prediction:", prediction)
 
