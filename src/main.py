@@ -1,4 +1,4 @@
-from model.model_predictor import combined_prediction, parse_input
+from model_predictor import combined_prediction, parse_input
 
 def get_user_input():
     """
