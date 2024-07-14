@@ -7,7 +7,7 @@ from word2number import w2n
 
 # Define the base directory and model paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-model_dir = os.path.join(current_dir, '../data/processed/model')
+model_dir = os.path.join(current_dir, '../src/model')
 
 # Load model and tokenizer from the specified directory
 def load_model(model_dir):
@@ -92,26 +92,24 @@ def pick_most_likely_num(feature, probs, numerical_values, used_numbers, thresho
 
 def main():
     model, tokenizer = load_model(model_dir)
-    
-    unique_values_becd_path = os.path.join(model_dir, 'becd_unique_values.pkl')
-    unique_values_becd = joblib.load(unique_values_becd_path)
-    
-    unique_values_carbenmats_path = os.path.join(model_dir, 'carbenmats_unique_values.pkl')
-    unique_values_carbenmats = joblib.load(unique_values_carbenmats_path)
+
+    PATH_UNQ_VALS = os.path.join(model_dir, 'unique_values.pkl')
+    unique_values = joblib.load(PATH_UNQ_VALS)
     
     # Define numerical features
-    numerical_features = ['Total Users', 'Floors Above Ground', 'Floors Below Ground']
+    numerical_features = [
+        'Gross Internal Area (m2)', 'Building Perimeter (m)', 'Building Footprint (m2)', 
+        'Building Width (m)', 'Floor-to-Floor Height (m)', 'Storeys Above Ground', 
+        'Storeys Below Ground', 'Glazing Ratio (%)', 'Total Users', 'Floors Above Ground', 
+        'Floors Below Ground'
+    ]
     
     text = "I am designing a concrete building in Europe for 20 users with five floors above ground"
-    features_becd = parse_input(text, unique_values_becd, tokenizer, model, numerical_features)
-    features_carbenmats = parse_input(text, unique_values_carbenmats, tokenizer, model, numerical_features)
-    
+    features = parse_input(text, unique_values, tokenizer, model, numerical_features)    
     print("")
     print("From this text:", text)
     print("")
-    print("Extracted Features for BECD:", features_becd)
-    print("")
-    print("Extracted Features for Carbenmats:", features_carbenmats)
+    print("Extracted Features:", features)
 
 if __name__ == "__main__":
     main()
