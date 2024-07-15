@@ -1,48 +1,59 @@
-from model_predictor import combined_prediction, parse_input
+from model_predictor import combined_prediction, validate_user_input, unique_values
 
 def get_user_input():
     """
-    Get user input for both becd and carbenmats models.
+    Get user input for the new columns.
     
-    :return: tuple of dictionaries (user_input_becd, user_input_carbenmats)
+    :return: dictionary with user input values for the new columns
     """
-    user_input_becd = {
-        'Building Project Type': ['New built'],
-        'Primary Foundation Type': ['Piles (pile caps)'],
-        'Primary Ground Floor Type': ['Suspended'],
-        'Primary Vertical Element Type': ['Steel'],
-        'Primary Horizontal Element Type': ['Concrete'],
-        'Primary Slab Type': ['Concrete'],
-        'Primary Cladding Type': ['Masonry Only'],
-        'Primary Heating Type': ['Air Source Heat Pump (ASHP) - Water distribution'],
-        'Primary Cooling Type': ['Chiller - Water distribution'],
-        'Primary Finishes Type': ['Fully finished - Cat A'],
-        'Primary Ventilation Type': ['Natural'],
-    }
+    user_input = {
+            'Sector': ['Housing'],
+            'Sub-Sector': ['High-Rise Apartments/Hotels'],
+            'Gross Internal Area (m2)': [1800],
+            'Building Perimeter (m)': [1000],
+            'Building Footprint (m2)': [648],
+            'Building Width (m)': [23],
+            'Floor-to-Floor Height (m)': [3.8],
+            'Storeys Above Ground': [38],
+            'Storeys Below Ground': [4],
+            'Glazing Ratio (%)': [48],
+            'Piles Material': ['Reinforced Concrete'],
+            'Pile Caps Material': ['Reinforced Concrete'],
+            'Capping Beams Material': ['Other'],
+            'Raft Foundation Material': ['Other'],
+            'Basement Walls Material': ['Reinforced Concrete'],
+            'Lowest Floor Slab Material': ['Beam and Block'],
+            'Ground Insulation Material': ['Glass mineral wool'],
+            'Core Structure Material': ['Other'],
+            'Columns Material': ['Glulam'],
+            'Beams Material': ['Precast Concrete'],
+            'Secondary Beams Material': ['Reinforced Concrete'],
+            'Floor Slab Material': ['Other'],
+            'Joisted Floors Material': ['JJI Engineered Joists'],
+            'Roof Material': ['Precast Concrete'],
+            'Roof Insulation Material': ['Vacuum Insulation'],
+            'Roof Finishes Material': ['Bitumous Sheet'],
+            'Facade Material': ['SFS with Granite'],
+            'Wall Insulation Material': ['Other'],
+            'Glazing Material': ['Triple Glazing'],
+            'Window Frames Material': ['uPVC'],
+            'Partitions Material': ['Plywood // Timber Studs'],
+            'Ceilings Material': ['Other'],
+            'Floors Material': ['Solid timber floorboards'],
+            'Services': ['High']
+        }
     
-    user_input_carbenmats = {
-        'Building Use Type': ['Non-residential'],
-        'Building Use Subtype': ['Multi-family house'],
-        'Continent': ['Europe'],
-        'Country': ['Denmark'],
-        'Total Users': [20],
-        'Floors Above Ground': [5],
-        'Floors Below Ground': [1],
-        'Structure Type': ['frame wood']
-    }
-    
-    return user_input_becd, user_input_carbenmats
-
-def get_natural_language_input():
-    text = "I am designing a concrete building in Europe for 20 users with 5 floors above ground."
-    features = parse_input(text)
-    return features
+    return user_input
 
 def main():
-    user_input_becd, user_input_carbenmats = get_user_input()
+    user_input = get_user_input()
+    
+    # Validate user input
+    validate_user_input(user_input, unique_values)
+    
     # Uncomment the line below to use natural language input
-    # user_input_becd = get_natural_language_input()
-    prediction = combined_prediction(user_input_becd, user_input_carbenmats)
+    # user_input = get_natural_language_input()
+    prediction = combined_prediction(user_input)
     print("Final Prediction:", prediction)
 
 if __name__ == "__main__":

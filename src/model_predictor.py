@@ -1,41 +1,22 @@
 import joblib
 import os
 import pandas as pd
-from sklearn.pipeline import Pipeline
 
 # Define the base directory and model paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-model_dir = os.path.join(current_dir, '../../data/processed/model')
+model_dir = os.path.join(current_dir, 'model')
 
-becd_model_filepath = os.path.join(model_dir, 'becd_GradientBoosting.pkl')
-carbenmats_model_filepath = os.path.join(model_dir, 'carbenmats_Stacking.pkl')
+# Updated model file paths based on new files
+features_filepath = os.path.join(model_dir, 'features.pkl')
+label_encoders_filepath = os.path.join(model_dir, 'label_encoders.pkl')
+synthetic_model_filepath = os.path.join(model_dir, 'synthetic_GradientBoosting.pkl')
+unique_values_filepath = os.path.join(model_dir, 'unique_values.pkl')
 
-becd_features_filepath = os.path.join(model_dir, 'becd_features.pkl')
-carbenmats_features_filepath = os.path.join(model_dir, 'carbenmats_features.pkl')
-
-becd_pipeline_filepath = os.path.join(model_dir, 'becd_pipeline.pkl')
-carbenmats_pipeline_filepath = os.path.join(model_dir, 'carbenmats_pipeline.pkl')
-
-becd_label_encoders_filepath = os.path.join(model_dir, 'becd_label_encoders.pkl')
-carbenmats_label_encoders_filepath = os.path.join(model_dir, 'carbenmats_label_encoders.pkl')
-
-
-# Load pre-trained models, pipelines, and label encoders
-becd_model = joblib.load(becd_model_filepath)
-carbenmats_model = joblib.load(carbenmats_model_filepath)
-
-becd_features = joblib.load(becd_features_filepath)
-carbenmats_features = joblib.load(carbenmats_features_filepath)
-
-becd_pipeline = joblib.load(becd_pipeline_filepath)
-carbenmats_pipeline = joblib.load(carbenmats_pipeline_filepath)
-
-becd_label_encoders = joblib.load(becd_label_encoders_filepath)
-carbenmats_label_encoders = joblib.load(carbenmats_label_encoders_filepath)
-
-# Weights for the models based on mean cross-validation scores
-weight_becd = 0.8032982028038453 / (0.8032982028038453 + 0.69744985346875)
-weight_carbenmats = 0.69744985346875 / (0.8032982028038453 + 0.69744985346875)
+# Load pre-trained models, label encoders, and unique values
+model = joblib.load(synthetic_model_filepath)
+features = joblib.load(features_filepath)
+label_encoders = joblib.load(label_encoders_filepath)
+unique_values = joblib.load(unique_values_filepath)
 
 def apply_label_encoding(user_input, label_encoders):
     """
@@ -64,11 +45,10 @@ def apply_label_encoding(user_input, label_encoders):
             encoded_input[feature] = values
     return pd.DataFrame(encoded_input)
 
-def preprocess_input(pipeline, user_input, features, label_encoders):
+def preprocess_input(user_input, features, label_encoders):
     """
-    Preprocess user input using the provided pipeline and label encoders.
+    Preprocess user input using the provided label encoders.
     
-    :param pipeline: preprocessing pipeline
     :param user_input: dictionary with user inputs
     :param features: list of feature names used during training
     :param label_encoders: dictionary with label encoders
@@ -80,40 +60,27 @@ def preprocess_input(pipeline, user_input, features, label_encoders):
     if aligned_df.empty:
         raise ValueError("Aligned DataFrame is empty. Check if input features match training features.")
 
-    return pipeline.named_steps['scaler'].transform(aligned_df)
+    return aligned_df
 
-def predict_becd(user_input):
+def predict(user_input):
     """
-    Predict using the becd model pipeline.
+    Predict using the model.
     
     :param user_input: dictionary with user inputs
     :return: prediction result
     """
-    preprocessed_input = preprocess_input(becd_pipeline, user_input, becd_features, becd_label_encoders)
-    return becd_model.predict(preprocessed_input)
+    preprocessed_input = preprocess_input(user_input, features, label_encoders)
+    return model.predict(preprocessed_input)
 
-def predict_carbenmats(user_input):
+def combined_prediction(user_input):
     """
-    Predict using the carbenmats model pipeline.
+    Generate a combined prediction using the model.
     
     :param user_input: dictionary with user inputs
-    :return: prediction result
-    """
-    preprocessed_input = preprocess_input(carbenmats_pipeline, user_input, carbenmats_features, carbenmats_label_encoders)
-    return carbenmats_model.predict(preprocessed_input)
-
-def combined_prediction(user_input_becd, user_input_carbenmats):
-    """
-    Generate a combined prediction using both becd and carbenmats models.
-    
-    :param user_input_becd: dictionary with user inputs for becd model
-    :param user_input_carbenmats: dictionary with user inputs for carbenmats model
     :return: combined prediction result
     """
-    pred_becd = predict_becd(user_input_becd)
-    pred_carbenmats = predict_carbenmats(user_input_carbenmats)
-    
-    final_prediction = (weight_becd * pred_becd) + (weight_carbenmats * pred_carbenmats)
+    pred = predict(user_input)
+    final_prediction = pred  # Adjust as necessary if you have multiple models
     return final_prediction
 
 def align_features(input_df, training_columns):
@@ -131,3 +98,17 @@ def align_features(input_df, training_columns):
         else:
             aligned_df[col] = 0
     return aligned_df
+
+def validate_user_input(user_input, unique_values):
+    """
+    Validate user input against unique values.
+    
+    :param user_input: dictionary with user inputs
+    :param unique_values: dictionary with unique values for each feature
+    :return: None, raises ValueError if validation fails
+    """
+    for feature, values in user_input.items():
+        if feature in unique_values:
+            for value in values:
+                if value not in unique_values[feature]:
+                    raise ValueError(f"Value for {feature} can only be {unique_values[feature]}.")
