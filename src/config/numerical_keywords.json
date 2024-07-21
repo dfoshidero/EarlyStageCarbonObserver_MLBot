@@ -1,0 +1,57 @@
+{
+    "Gross Internal Area (m2)": [
+        "internal",
+        "area",
+        "gia",
+        "internal area",
+        "gross area",
+        "total internal area"
+    ],
+    "Building Perimeter (m)": [
+        "perimeter", 
+        "building perimeter", 
+        "total perimeter"
+    ],
+    "Building Footprint (m2)": [
+        "footprint", 
+        "building footprint", 
+        "footprint area"
+    ],
+    "Building Width (m)": [
+        "width", 
+        "building width", 
+        "width of building"
+    ],
+    "Floor-to-Floor Height (m)": [
+        "height",
+        "floor-to-floor",
+        "floor height",
+        "floor to floor height",
+        "vertical spacing"
+    ],
+    "Storeys Above Ground": [
+        "storeys",
+        "above",
+        "floors",
+        "levels",
+        "above ground",
+        "above ground floors"
+    ],
+    "Storeys Below Ground": [
+        "storeys",
+        "below",
+        "floors below",
+        "basement",
+        "underground",
+        "below ground",
+        "subterranean levels"
+    ],
+    "Glazing Ratio (%)": [
+        "glazing",
+        "ratio",
+        "window ratio",
+        "glazing percentage",
+        "facade ratio",
+        "window"
+    ]
+}
