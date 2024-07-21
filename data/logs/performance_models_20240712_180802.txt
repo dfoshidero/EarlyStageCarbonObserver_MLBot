@@ -1,0 +1,54 @@
+synthetic_GradientBoosting: Training R-squared: 0.9999999999899518
+synthetic_GradientBoosting: Validation R-squared: 0.6699499824950369
+synthetic_GradientBoosting: Testing R-squared: 0.7556163463260792
+synthetic_GradientBoosting: Cross-validation scores: [0.71962879 0.77007133 0.70265244 0.75025694 0.72592164]
+synthetic_GradientBoosting: Mean cross-validation score: 0.7337062284049262
+
+synthetic_RandomForest: Training R-squared: 0.6377329133589276
+synthetic_RandomForest: Validation R-squared: 0.48223432830934276
+synthetic_RandomForest: Testing R-squared: 0.552738746006612
+synthetic_RandomForest: Cross-validation scores: [0.51815043 0.52607862 0.46974345 0.48564789 0.47604793]
+synthetic_RandomForest: Mean cross-validation score: 0.4951336639933907
+
+synthetic_LinearRegression: Training R-squared: 0.4562102460455342
+synthetic_LinearRegression: Validation R-squared: 0.4524246612772427
+synthetic_LinearRegression: Testing R-squared: 0.4806885160163741
+synthetic_LinearRegression: Cross-validation scores: [0.4119628  0.34956535 0.26857018 0.43407691 0.35128551]
+synthetic_LinearRegression: Mean cross-validation score: 0.3630921502266333
+
+synthetic_Ridge: Training R-squared: 0.45618788090494033
+synthetic_Ridge: Validation R-squared: 0.45247225879413666
+synthetic_Ridge: Testing R-squared: 0.4801587346022046
+synthetic_Ridge: Cross-validation scores: [0.41145507 0.35159597 0.27184473 0.4333765  0.35305818]
+synthetic_Ridge: Mean cross-validation score: 0.36426608913500297
+
+synthetic_Lasso: Training R-squared: 0.45413383125919715
+synthetic_Lasso: Validation R-squared: 0.45455858276051253
+synthetic_Lasso: Testing R-squared: 0.47881593099324515
+synthetic_Lasso: Cross-validation scores: [0.41640319 0.36734934 0.29022933 0.43517356 0.36365833]
+synthetic_Lasso: Mean cross-validation score: 0.37456275003831474
+
+synthetic_ElasticNet: Training R-squared: 0.20630526419588469
+synthetic_ElasticNet: Validation R-squared: 0.20208568151398132
+synthetic_ElasticNet: Testing R-squared: 0.20203411760148882
+synthetic_ElasticNet: Cross-validation scores: [0.16221422 0.18797551 0.18438722 0.17830882 0.18605427]
+synthetic_ElasticNet: Mean cross-validation score: 0.1797880097808045
+
+synthetic_SVR: Training R-squared: 0.039626863252277045
+synthetic_SVR: Validation R-squared: 0.028182352963683766
+synthetic_SVR: Testing R-squared: 0.033986572735832166
+synthetic_SVR: Cross-validation scores: [0.01360933 0.0129564  0.02405205 0.01910449 0.01989594]
+synthetic_SVR: Mean cross-validation score: 0.01792364256740877
+
+synthetic_KNeighbors: Training R-squared: 1.0
+synthetic_KNeighbors: Validation R-squared: 0.29878766700135484
+synthetic_KNeighbors: Testing R-squared: 0.3725487897832688
+synthetic_KNeighbors: Cross-validation scores: [0.23622178 0.36484446 0.26513465 0.2948411  0.3116012 ]
+synthetic_KNeighbors: Mean cross-validation score: 0.29452863582742267
+
+synthetic_DecisionTree: Training R-squared: 0.6305810764409696
+synthetic_DecisionTree: Validation R-squared: 0.3441655427728134
+synthetic_DecisionTree: Testing R-squared: 0.519647938605037
+synthetic_DecisionTree: Cross-validation scores: [0.46661656 0.39783446 0.37301294 0.48706257 0.27342413]
+synthetic_DecisionTree: Mean cross-validation score: 0.39959013336522764
+

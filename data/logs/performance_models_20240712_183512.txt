@@ -1,0 +1,54 @@
+synthetic_5000DP_GradientBoosting: Training R-squared: 0.9999999999999999
+synthetic_5000DP_GradientBoosting: Validation R-squared: 0.8681257268478423
+synthetic_5000DP_GradientBoosting: Testing R-squared: 0.8703390826904147
+synthetic_5000DP_GradientBoosting: Cross-validation scores: [0.84020999 0.85850517 0.86174315 0.84570599 0.84898379]
+synthetic_5000DP_GradientBoosting: Mean cross-validation score: 0.8510296190121066
+
+synthetic_5000DP_RandomForest: Training R-squared: 0.7158161461869238
+synthetic_5000DP_RandomForest: Validation R-squared: 0.5924608906082849
+synthetic_5000DP_RandomForest: Testing R-squared: 0.6198631284030298
+synthetic_5000DP_RandomForest: Cross-validation scores: [0.57161507 0.59967727 0.62470648 0.57728098 0.5605312 ]
+synthetic_5000DP_RandomForest: Mean cross-validation score: 0.5867622015753964
+
+synthetic_5000DP_LinearRegression: Training R-squared: 0.44803789413785855
+synthetic_5000DP_LinearRegression: Validation R-squared: 0.41364592556622237
+synthetic_5000DP_LinearRegression: Testing R-squared: 0.45796957305037167
+synthetic_5000DP_LinearRegression: Cross-validation scores: [0.40779218 0.47475457 0.4620068  0.42352917 0.39885882]
+synthetic_5000DP_LinearRegression: Mean cross-validation score: 0.4333883086667525
+
+synthetic_5000DP_Ridge: Training R-squared: 0.44803690132996354
+synthetic_5000DP_Ridge: Validation R-squared: 0.41368470308190086
+synthetic_5000DP_Ridge: Testing R-squared: 0.45789763924128046
+synthetic_5000DP_Ridge: Cross-validation scores: [0.40779712 0.47476382 0.46199194 0.42360093 0.39890872]
+synthetic_5000DP_Ridge: Mean cross-validation score: 0.4334125041245199
+
+synthetic_5000DP_Lasso: Training R-squared: 0.44650454622433067
+synthetic_5000DP_Lasso: Validation R-squared: 0.417643266381046
+synthetic_5000DP_Lasso: Testing R-squared: 0.4561239295285726
+synthetic_5000DP_Lasso: Cross-validation scores: [0.40927406 0.47931303 0.46787374 0.42932514 0.39598378]
+synthetic_5000DP_Lasso: Mean cross-validation score: 0.4363539498330148
+
+synthetic_5000DP_ElasticNet: Training R-squared: 0.1950346952930211
+synthetic_5000DP_ElasticNet: Validation R-squared: 0.1823626086092931
+synthetic_5000DP_ElasticNet: Testing R-squared: 0.18933021930389926
+synthetic_5000DP_ElasticNet: Cross-validation scores: [0.17724039 0.20633354 0.19324772 0.18943885 0.18001536]
+synthetic_5000DP_ElasticNet: Mean cross-validation score: 0.1892551686425689
+
+synthetic_5000DP_SVR: Training R-squared: 0.12779763126574084
+synthetic_5000DP_SVR: Validation R-squared: 0.11604843197836412
+synthetic_5000DP_SVR: Testing R-squared: 0.11440539799206295
+synthetic_5000DP_SVR: Cross-validation scores: [0.09282699 0.10807037 0.0962466  0.10207636 0.08967217]
+synthetic_5000DP_SVR: Mean cross-validation score: 0.09777849685638292
+
+synthetic_5000DP_KNeighbors: Training R-squared: 1.0
+synthetic_5000DP_KNeighbors: Validation R-squared: 0.37353000413058557
+synthetic_5000DP_KNeighbors: Testing R-squared: 0.3737716610587707
+synthetic_5000DP_KNeighbors: Cross-validation scores: [0.36442597 0.40316073 0.39666702 0.3567723  0.31049404]
+synthetic_5000DP_KNeighbors: Mean cross-validation score: 0.3663040107614421
+
+synthetic_5000DP_DecisionTree: Training R-squared: 0.6955738387827559
+synthetic_5000DP_DecisionTree: Validation R-squared: 0.493499649904075
+synthetic_5000DP_DecisionTree: Testing R-squared: 0.5287883135672318
+synthetic_5000DP_DecisionTree: Cross-validation scores: [0.411039   0.4484006  0.4940144  0.46748781 0.49369479]
+synthetic_5000DP_DecisionTree: Mean cross-validation score: 0.462927320420393
+

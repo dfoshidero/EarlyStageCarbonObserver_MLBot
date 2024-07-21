@@ -1,0 +1,18 @@
+GradientBoosting: Training R-squared: 0.9999999999899518
+GradientBoosting: Validation R-squared: 0.6699499824950369
+GradientBoosting: Testing R-squared: 0.7556163463260792
+GradientBoosting: Cross-validation scores: [0.71962879 0.77007133 0.70265244 0.75025694 0.72592164]
+GradientBoosting: Mean cross-validation score: 0.7337062284049262
+
+RandomForest: Training R-squared: 0.6377329133589276
+RandomForest: Validation R-squared: 0.48223432830934276
+RandomForest: Testing R-squared: 0.552738746006612
+RandomForest: Cross-validation scores: [0.51815043 0.52607862 0.46974345 0.48564789 0.47604793]
+RandomForest: Mean cross-validation score: 0.4951336639933907
+
+LinearRegression: Training R-squared: 0.4562102460455342
+LinearRegression: Validation R-squared: 0.4524246612772427
+LinearRegression: Testing R-squared: 0.4806885160163741
+LinearRegression: Cross-validation scores: [0.4119628  0.34956535 0.26857018 0.43407691 0.35128551]
+LinearRegression: Mean cross-validation score: 0.3630921502266333
+
