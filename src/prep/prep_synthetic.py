@@ -16,14 +16,18 @@ export_dir = os.path.join(current_dir, '../../data/processed')
 os.makedirs(export_dir, exist_ok=True)
 
 fcbsData_30000A_path = os.path.join(data_dir, 'model/synthetic/220712FCBS_30000.csv')
+fcbsData_60000A_path = os.path.join(data_dir, 'model/synthetic/220713FCBS_60000A.csv')
+fcbsData_60000B_path = os.path.join(data_dir, 'model/synthetic/220713FCBS_60000B.csv')
 
 fcbsData_30000A = pd.read_csv(fcbsData_30000A_path)
+fcbsData_60000A = pd.read_csv(fcbsData_60000A_path)
+fcbsData_60000B = pd.read_csv(fcbsData_60000B_path)
 
 """
 2. Combine synthetic datasets.
 """
 
-syntheticData = pd.concat([fcbsData_30000A])
+syntheticData = pd.concat([fcbsData_30000A, fcbsData_60000A, fcbsData_60000B], ignore_index=True)
 
 """
 3. Define and save assumptions to separate dataframe.
@@ -126,15 +130,16 @@ subsector_mapping = {
     'Multi-family (< 6 storeys)': 'Low-Rise Apartments',
     'Multi-family (6 - 15 storeys)': 'Mid-Rise Apartments',
     'Multi-family (> 15 storeys)': 'High-Rise Apartments/Hotels',
-    'Office': 'Commercial'
+    'Office': 'Non-residential'
 }
 syntheticData['Sub-Sector'] = syntheticData['Sub-Sector'].replace(subsector_mapping)
 
 # Update values in the "Sector" column with clearer names
 sector_mapping = {
-    'Office': 'Commercial'
+    'Office': 'Non-residential',
+    'Housing': 'Residential'
 }
-syntheticData['Sector'] = syntheticData['Sector'].replace(subsector_mapping)
+syntheticData['Sector'] = syntheticData['Sector'].replace(sector_mapping)
 
 """
 5. Clean up column names
