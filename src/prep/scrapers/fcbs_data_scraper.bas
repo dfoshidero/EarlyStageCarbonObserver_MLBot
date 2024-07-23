@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+
 Sub AutomateBuildingVariants()
 
     Application.Calculation = xlCalculationAutomatic
@@ -14,6 +14,10 @@ Sub AutomateBuildingVariants()
     Dim rowCounter As Long, sheetCounter As Integer
     Dim buildingElements As Variant, materialOptions As Object
     Dim currentMaterials As Variant
+    
+    Dim iterationCount As Long
+    Dim userLimit As Long
+    userLimit = InputBox("Enter how many data points you want.", "Set Limit", 1000) ' Default 1000 values
 
     ' Setup workbook and sheets
     Set wb = ThisWorkbook
@@ -43,54 +47,31 @@ Sub AutomateBuildingVariants()
     Set materialOptions = CreateObject("Scripting.Dictionary")
     
     ' Add material options for each building element
-    materialOptions.Add "Piles", Array("RC 32/40 (50kg/m3 reinforcement)", "RC 32/40 25% GGBS (50kg/m3 reinforcement)", _
-                                       "RC 32/40 50% GGBS (50kg/m3 reinforcement)", "RC 32/40 70% GGBS (50kg/m3 reinforcement)", "Steel", "")
-    materialOptions.Add "Pile caps", Array("RC 32/40 (200kg/m3 reinforcement)", "RC 32/40 25% GGBS (200kg/m3 reinforcement)", _
-                                           "RC 32/40 50% GGBS (200kg/m3 reinforcement)", "RC 32/40 70% GGBS (200kg/m3 reinforcement)", "")
-    materialOptions.Add "Capping beams", Array("RC 32/40 (200kg/m3 reinforcement)", "RC 32/40 25% GGBS (200kg/m3 reinforcement)", _
-                                               "RC 32/40 50% GGBS (200kg/m3 reinforcement)", "RC 32/40 70% GGBS (200kg/m3 reinforcement)", "Foamglass (domestic only)", "")
-    materialOptions.Add "Raft", Array("RC 32/40 (150kg/m3 reinforcement)", "RC 32/40 25% GGBS (150kg/m3 reinforcement)", _
-                                      "RC 32/40 50% GGBS (150kg/m3 reinforcement)", "RC 32/40 70% GGBS (150kg/m3 reinforcement)", "")
-    materialOptions.Add "Basement walls", Array("RC 32/40 (125kg/m3 reinforcement)", "RC 32/40 25% GGBS (125kg/m3 reinforcement)", _
-                                                "RC 32/40 50% GGBS (125kg/m3 reinforcement)", "RC 32/40 70% GGBS (125kg/m3 reinforcement)", "")
-    materialOptions.Add "Lowest floor slab", Array("RC 32/40 (150kg/m3 reinforcement)", "RC 32/40 25% GGBS (150kg/m3 reinforcement)", _
-                                                   "RC 32/40 50% GGBS (150kg/m3 reinforcement)", "RC 32/40 70% GGBS (150kg/m3 reinforcement)", "Beam and Block", "")
+    materialOptions.Add "Piles", Array("RC 32/40 (50kg/m3 reinforcement)", "Steel", "")
+    materialOptions.Add "Pile caps", Array("RC 32/40 (200kg/m3 reinforcement)", "")
+    materialOptions.Add "Capping beams", Array("RC 32/40 (200kg/m3 reinforcement)", "Foamglass (domestic only)", "")
+    materialOptions.Add "Raft", Array("RC 32/40 (150kg/m3 reinforcement)", "")
+    materialOptions.Add "Basement walls", Array("RC 32/40 (125kg/m3 reinforcement)", "")
+    materialOptions.Add "Lowest floor slab", Array("RC 32/40 (150kg/m3 reinforcement)", "Beam and Block", "")
     materialOptions.Add "Ground insulation", Array("EPS", "XPS", "Glass mineral wool", "")
-    materialOptions.Add "Core structure", Array("CLT", "Precast RC 32/40 (100kg/m3 reinforcement)", "RC 32/40 (100kg/m3 reinforcement)", _
-                                                "RC 32/40 25% GGBS (100kg/m3 reinforcement)", "RC 32/40 50% GGBS (100kg/m3 reinforcement)", "RC 32/40 70% GGBS (100kg/m3 reinforcement)", "")
-    materialOptions.Add "Columns", Array("Glulam", "Iron (existing buildings)", "Precast RC 32/40 (300kg/m3 reinforcement)", _
-                                         "RC 32/40 (300kg/m3 reinforcement)", "RC 32/40 25% GGBS (300kg/m3 reinforcement)", "RC 32/40 50% GGBS (300kg/m3 reinforcement)", _
-                                         "RC 32/40 70% GGBS (300kg/m3 reinforcement)", "Steel", "")
-    materialOptions.Add "Beams", Array("Glulam", "Iron (existing buildings)", "Precast RC 32/40 (250kg/m3 reinforcement)", _
-                                       "RC 32/40 (250kg/m3 reinforcement)", "RC 32/40 25% GGBS (250kg/m3 reinforcement)", "RC 32/40 50% GGBS (250kg/m3 reinforcement)", _
-                                       "RC 32/40 70% GGBS (250kg/m3 reinforcement)", "Steel", "")
-    materialOptions.Add "Secondary beams", Array("Glulam", "Iron (existing buildings)", "Precast RC 32/40 (250kg/m3 reinforcement)", _
-                                                 "RC 32/40 (250kg/m3 reinforcement)", "RC 32/40 25% GGBS (250kg/m3 reinforcement)", "RC 32/40 50% GGBS (250kg/m3 reinforcement)", _
-                                                 "RC 32/40 70% GGBS (250kg/m3 reinforcement)", "Steel", "")
-    materialOptions.Add "Floor slab", Array("CLT", "Precast RC 32/40 (100kg/m3 reinforcement)", "RC 32/40 (100kg/m3 reinforcement)", _
-                                            "RC 32/40 25% GGBS (100kg/m3 reinforcement)", "RC 32/40 50% GGBS (100kg/m3 reinforcement)", "RC 32/40 70% GGBS (100kg/m3 reinforcement)", "Steel Concrete Composite", "")
+    materialOptions.Add "Core structure", Array("CLT", "Precast RC 32/40 (100kg/m3 reinforcement)", "RC 32/40 (100kg/m3 reinforcement)", "")
+    materialOptions.Add "Columns", Array("Glulam", "Iron (existing buildings)", "Precast RC 32/40 (300kg/m3 reinforcement)", "RC 32/40 (300kg/m3 reinforcement)", "Steel", "")
+    materialOptions.Add "Beams", Array("Glulam", "Iron (existing buildings)", "Precast RC 32/40 (250kg/m3 reinforcement)", "RC 32/40 (250kg/m3 reinforcement)", "Steel", "")
+    materialOptions.Add "Secondary beams", Array("Glulam", "Iron (existing buildings)", "Precast RC 32/40 (250kg/m3 reinforcement)", "RC 32/40 (250kg/m3 reinforcement)", "Steel", "")
+    materialOptions.Add "Floor slab", Array("CLT", "Precast RC 32/40 (100kg/m3 reinforcement)", "RC 32/40 (100kg/m3 reinforcement)", "Steel Concrete Composite", "")
     materialOptions.Add "Joisted floors", Array("JJI Engineered Joists + OSB topper", "Timber Joists + OSB topper (Domestic)", "Timber Joists + OSB topper (Office)", "")
-    materialOptions.Add "Roof", Array("CLT", "Metal Deck", "Precast RC 32/40 (100kg/m3 reinforcement)", "RC 32/40 (100kg/m3 reinforcement)", _
-                                      "RC 32/40 25% GGBS (100kg/m3 reinforcement)", "RC 32/40 50% GGBS (100kg/m3 reinforcement)", "RC 32/40 70% GGBS (100kg/m3 reinforcement)", _
-                                      "Steel Concrete Composite", "Timber Cassette", "Timber Pitch Roof", "")
-    materialOptions.Add "Roof insulation", Array("Cellulose, loose fill", "EPS", "Expanded Perlite", "Expanded Vermiculite", "Glass mineral wool", _
-                                                 "PIR", "Rockwool", "Sheeps wool", "Vacuum Insulation", "Woodfibre", "XPS", "")
-    materialOptions.Add "Roof finishes", Array("Aluminium", "Asphalt (Mastic)", "Asphalt (Polymer modified)", "Bitumous Sheet", "Ceramic tile", _
-                                               "Fibre cement tile", "Green Roof", "Roofing membrane (PVC)", "Slate tile", "Zinc Standing Seam", "")
-    materialOptions.Add "Facade", Array("Blockwork with Brick", "Blockwork with render", "Blockwork with Timber", "Curtain Walling", _
-                                        "Load Bearing Precast Concrete Panel", "Load Bearing Precast Concrete with Brick Slips", "Party Wall Blockwork", _
-                                        "Party Wall Brick", "Party Wall Timber Cassette", "SFS with Aluminium Cladding", "SFS with Brick", _
-                                        "SFS with Ceramic Tiles", "SFS with Granite", "SFS with Limestone", "SFS with Zinc Cladding", _
-                                        "Solid Brick, single leaf", "Timber Cassette Panel with brick", "Timber Cassette Panel with Cement Render", _
-                                        "Timber Cassette Panel with Larch Cladding ", "Timber Cassette Panel with Lime Render", "Timber SIPs with Brick", "")
-    materialOptions.Add "Wall insulation", Array("Cellulose, loose fill", "EPS", "Expanded Perlite", "Expanded Vermiculite", "Glass mineral wool", _
-                                                 "PIR", "Rockwool", "Sheeps wool", "Vacuum Insulation", "Woodfibre", "XPS", "")
+    materialOptions.Add "Roof", Array("CLT", "Metal Deck", "Precast RC 32/40 (100kg/m3 reinforcement)", "RC 32/40 (100kg/m3 reinforcement)", "Steel Concrete Composite", "Timber Cassette", "Timber Pitch Roof", "")
+    materialOptions.Add "Roof insulation", Array("Cellulose, loose fill", "EPS", "Expanded Perlite", "Expanded Vermiculite", "Glass mineral wool", "PIR", "Rockwool", "Sheeps wool", "Vacuum Insulation", "Woodfibre", "XPS", "")
+    materialOptions.Add "Roof finishes", Array("Aluminium", "Asphalt (Mastic)", "Asphalt (Polymer modified)", "Bitumous Sheet", "Ceramic tile", "Fibre cement tile", "Green Roof", "Roofing membrane (PVC)", "Slate tile", "Zinc Standing Seam", "")
+    materialOptions.Add "Facade", Array("Blockwork with Brick", "Blockwork with render", "Blockwork with Timber", "Curtain Walling", "Load Bearing Precast Concrete Panel", "Load Bearing Precast Concrete with Brick Slips", "Party Wall Blockwork", "Party Wall Brick", "Party Wall Timber Cassette", "SFS with Aluminium Cladding", "SFS with Brick", "SFS with Ceramic Tiles", "SFS with Granite", "SFS with Limestone", "SFS with Zinc Cladding", "Solid Brick, single leaf", "Timber Cassette Panel with brick", "Timber Cassette Panel with Cement Render", "Timber Cassette Panel with Larch Cladding", "Timber Cassette Panel with Lime Render", "Timber SIPs with Brick", "")
+    materialOptions.Add "Wall insulation", Array("Cellulose, loose fill", "EPS", "Expanded Perlite", "Expanded Vermiculite", "Glass mineral wool", "PIR", "Rockwool", "Sheeps wool", "Vacuum Insulation", "Woodfibre", "XPS", "")
     materialOptions.Add "Glazing", Array("Triple Glazing", "Double Glazing", "Single Glazing", "")
     materialOptions.Add "Window frames", Array("Al/Timber Composite", "Aluminium", "Steel (single glazed)", "Solid softwood timber frame", "uPVC", "")
     materialOptions.Add "Partitions", Array("CLT", "Plasterboard + Steel Studs", "Plasterboard + Timber Studs", "Plywood + Timber Studs", "Blockwork", "")
     materialOptions.Add "Ceilings", Array("Exposed Soffit", "Plasterboard", "Steel grid system", "Steel tile", "Steel tile with 18mm acoustic pad", "Suspended plasterboard", "")
     materialOptions.Add "Floors", Array("70mm screed", "Carpet", "Earthenware tile", "Raised floor", "Solid timber floorboards", "Stoneware tile", "Terrazzo", "Vinyl", "")
     materialOptions.Add "Services", Array("Low", "Medium", "High", "")
+
 
     
     ' Initialize sector options and sub-sectors
@@ -110,47 +91,58 @@ Sub AutomateBuildingVariants()
     sheetCounter = 1
     startRow = 29
     
-    ' Process combinations
-    For Each sector In sectorOptions
-        For Each subSector In allSubSectors(sector)
-            For gia = 500 To 15000 Step 500
-                For perimeter = 100 To 1000 Step 150
-                    For footprint = 100 To 10000 Step 400
-                        For width = 40 To 200 Step 40
-                            For height = 2.5 To 6 Step 1
-                                For storeysAbove = 1 To 60 Step 4
-                                    For storeysBelow = 0 To 4
-                                        For glazingRatio = 10 To 90 Step 20
-                                            ' Set values in input sheets
-                                            inputSheetProject.Cells(9, 2).Value = sector
-                                            inputSheetProject.Cells(10, 2).Value = subSector
-                                            inputSheetProject.Cells(11, 2).Value = gia
-                                            inputSheetEmbodied.Cells(19, 2).Value = perimeter
-                                            inputSheetEmbodied.Cells(20, 2).Value = footprint
-                                            inputSheetEmbodied.Cells(21, 2).Value = width
-                                            inputSheetEmbodied.Cells(22, 2).Value = height
-                                            inputSheetEmbodied.Cells(23, 2).Value = storeysAbove
-                                            inputSheetEmbodied.Cells(24, 2).Value = storeysBelow
-                                            inputSheetEmbodied.Cells(25, 2).Value = glazingRatio
+    ' Random selection process
+    Do While iterationCount < userLimit
+        ' Constraint dims
+        Dim hasPiles As Boolean
+        Dim hasCappingbeams As Boolean
+        Dim hasPilecaps As Boolean
+        Dim hasFloorSlab As Boolean
+        
+        hasPiles = False
+        hasCappingbeams = False
+        hasPilecaps = False
+        hasFloorSlab = False
+        
+        For Each sector In sectorOptions
+            For Each subSector In allSubSectors(sector)
+                gia = Int((20000 + 1) * Rnd)
+                perimeter = Int((5000 - 100 + 1) * Rnd + 100)
+                footprint = Int((10000 - 100 + 1) * Rnd + 100)
+                width = Int((200 - 10 + 1) * Rnd + 10)
+                height = Int((6 - 2.3 + 1) * Rnd * 10) / 10 + 2.3 ' Maintain decimal accuracy
+                storeysAbove = Int((60 - 1 + 1) * Rnd + 1)
+                storeysBelow = Int((5 - 0 + 1) * Rnd)
+                glazingRatio = Int((80 - 10 + 1) * Rnd + 10)
+    
+                    ' Initialize current materials array
+                    ReDim currentMaterials(UBound(buildingElements))
+    
+                    ' Recursive call to process all material combinations
+                    ProcessMaterials 0, buildingElements, materialOptions, currentMaterials, _
+                                        outputSheet, rowCounter, sector, subSector, gia, _
+                                        perimeter, footprint, width, height, storeysAbove, _
+                                        storeysBelow, glazingRatio, startRow, hasPiles, hasCappingbeams, hasPilecaps, _
+                                        hasFloorSlab
+                
+                    ' Increment the iteration counter
+                    iterationCount = iterationCount + 1
+                    
+                    If iterationCount >= userLimit Then
+                        Exit Do
+                    End If
+                    
+                    ' Scroll to the current row after 60
+                    If rowCounter Mod 60 = 1 Then
+                        Application.Goto outputSheet.Cells(rowCounter - 1, 1), True
+                    End If
 
-                                            ' Initialize current materials array
-                                            ReDim currentMaterials(UBound(buildingElements))
-
-                                            ' Recursive call to process all material combinations
-                                            ProcessMaterials 0, buildingElements, materialOptions, currentMaterials, _
-                                                             outputSheet, rowCounter, sector, subSector, gia, _
-                                                             perimeter, footprint, width, height, storeysAbove, _
-                                                             storeysBelow, glazingRatio, startRow
-                                        Next glazingRatio
-                                    Next storeysBelow
-                                Next storeysAbove
-                            Next height
-                        Next width
-                    Next footprint
-                Next perimeter
-            Next gia
-        Next subSector
-    Next sector
+                Next subSector
+                If iterationCount >= userLimit Then
+                    Exit Do
+                End If
+            Next sector
+        Loop
     MsgBox "Automation complete!"
 End Sub
 ' Recursive function to handle all material combinations
@@ -159,8 +151,9 @@ Sub ProcessMaterials(ByVal elementIndex As Integer, ByRef buildingElements As Va
                      ByVal sector As Variant, ByVal subSector As Variant, ByVal gia As Double, _
                      ByVal perimeter As Double, ByVal footprint As Double, ByVal width As Double, _
                      ByVal height As Double, ByVal storeysAbove As Integer, ByVal storeysBelow As Integer, _
-                     ByVal glazingRatio As Double, ByVal startRow As Integer)
-
+                     ByVal glazingRatio As Double, ByVal startRow As Integer, ByVal hasPiles As Boolean, _
+                     ByVal hasCappingbeams As Boolean, ByVal hasPilecaps As Boolean, ByVal hasFloorSlab As Boolean)
+    
     If elementIndex > UBound(buildingElements) Then
         ' All elements have materials assigned, output the results
         RecordResults currentMaterials, outputSheet, rowCounter, sector, subSector, gia, _
@@ -178,15 +171,74 @@ Sub ProcessMaterials(ByVal elementIndex As Integer, ByRef buildingElements As Va
     Dim i As Integer
     i = Int((UBound(materials) - LBound(materials) + 1) * Rnd + LBound(materials))
     
-    ' Assign a random material for the current building element
+    ' Skip logic if realistic building conditions aren't met
+    Select Case element
+        Case "Raft"
+            If hasCappingbeams Or hasPilecaps Then
+                ProcessMaterials elementIndex + 1, buildingElements, materialOptions, currentMaterials, _
+                                 outputSheet, rowCounter, sector, subSector, gia, perimeter, footprint, width, _
+                                 height, storeysAbove, storeysBelow, glazingRatio, startRow, hasPiles, hasCappingbeams, _
+                                 hasPilecaps, hasFloorSlab
+                Exit Sub
+            End If
+        
+        Case "Pile caps", "Capping beams"
+            If Not hasPiles Then
+                ProcessMaterials elementIndex + 1, buildingElements, materialOptions, currentMaterials, _
+                                 outputSheet, rowCounter, sector, subSector, gia, perimeter, footprint, width, _
+                                 height, storeysAbove, storeysBelow, glazingRatio, startRow, hasPiles, hasCappingbeams, _
+                                 hasPilecaps, hasFloorSlab
+                Exit Sub
+            End If
+        
+        Case "Basement walls"
+            If storeysBelow = 0 Then
+                ProcessMaterials elementIndex + 1, buildingElements, materialOptions, currentMaterials, _
+                                 outputSheet, rowCounter, sector, subSector, gia, perimeter, footprint, width, _
+                                 height, storeysAbove, storeysBelow, glazingRatio, startRow, hasPiles, hasCappingbeams, _
+                                 hasPilecaps, hasFloorSlab
+                Exit Sub
+            End If
+        
+        Case "Joisted floors"
+            If hasFloorSlab Then
+                ProcessMaterials elementIndex + 1, buildingElements, materialOptions, currentMaterials, _
+                                 outputSheet, rowCounter, sector, subSector, gia, perimeter, footprint, width, _
+                                 height, storeysAbove, storeysBelow, glazingRatio, startRow, hasPiles, hasCappingbeams, _
+                                 hasPilecaps, hasFloorSlab
+                Exit Sub
+            End If
+    End Select
+
+    ' Assign and log the selected material
     currentMaterials(elementIndex) = materials(i)
+
+    ' Update material use flags
+    If materials(i) <> "" Then
+        Select Case element
+            Case "Piles"
+                hasPiles = True
+            
+            Case "Pile caps"
+                hasPilecaps = True
+            
+            Case "Capping beams"
+                hasCappingbeams = True
+            
+            Case "Floor slab"
+                hasFloorSlab = True
+        End Select
+    End If
+
+    
     ' Set the material for the current building element in the input sheet
     ThisWorkbook.Sheets("2. INPUT Embodied Carbon").Cells(startRow + elementIndex, 3).Value = materials(i)
     
     ' Recursively process the next element with the next index
     ProcessMaterials elementIndex + 1, buildingElements, materialOptions, currentMaterials, _
                      outputSheet, rowCounter, sector, subSector, gia, perimeter, footprint, width, _
-                     height, storeysAbove, storeysBelow, glazingRatio, startRow
+                     height, storeysAbove, storeysBelow, glazingRatio, startRow, hasPiles, hasCappingbeams, _
+                     hasPilecaps, hasFloorSlab
 End Sub
 ' Function to record results
 Sub RecordResults(ByRef currentMaterials As Variant, ByRef outputSheet As Worksheet, ByVal rowCounter As Long, _

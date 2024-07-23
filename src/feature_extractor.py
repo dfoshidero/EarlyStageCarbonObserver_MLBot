@@ -4,6 +4,7 @@ import json
 import joblib
 import spacy
 import nltk
+import random
 import multiprocessing
 import numpy as np
 
@@ -97,6 +98,68 @@ def find_nearest_word(text, target_word, window_size=5):
     return []
 
 
+def apply_building_logic(features):
+    # Extract features for easier reference
+    sector = features.get("Sector")
+    sub_sector = features.get("Sub-Sector")
+    storeys_below = features.get("Storeys Below Ground", 0)
+    timber_joists = features.get("Joisted Floors Material")
+
+    if storeys_below == 0:
+        features["Basement Walls Material"] = None
+
+    if sector == "Residential" and timber_joists:
+        features["Joisted Floors"] = "Timber Joists (Domestic)"
+    elif sector == "Non-residential" and timber_joists:
+        features["Joisted Floors"] = "Timber Joists (Office)"
+
+    if sector == "Residential" and sub_sector == "Non-residential":
+        features["Sub-Sector"] = None
+    elif sector == "Non-residential":
+        features["Sub-Sector"] = "Non-residential"
+
+    return features
+
+
+def random_choice_conflicting_features(features, input_text):
+    input_text_lower = input_text.lower()
+
+    has_piles = features.get("Piles") is not None
+    if not has_piles:
+        features["Pile Caps Material"] = None
+        features["Capping Beams Material"] = None
+
+    # Choose "Raft" or "Pile Caps"/"Capping Beams" based on input text
+    if "raft" in input_text_lower:
+        features["Pile Caps Material"] = None
+        features["Capping Beams Material"] = None
+    elif "pile caps" in input_text_lower or "capping beams" in input_text_lower:
+        features["Raft Material"] = None
+    elif features.get("Raft Material") and (
+        features.get("Pile Caps Material") or features.get("Capping Beams Material")
+    ):
+        if random.choice([True, False]):
+            features["Pile Caps Material"] = None
+            features["Capping Beams Material"] = None
+        else:
+            features["Raft Material"] = None
+
+    # Choose "Joisted Floors" or "Floor Slab" based on input text
+    if "joists" in input_text_lower:
+        features["Floor Slab Material"] = None
+    elif "slab" in input_text_lower:
+        features["Joisted Floors Material"] = None
+    elif features.get("Joisted Floors Material") and features.get(
+        "Floor Slab Material"
+    ):
+        if random.choice([True, False]):
+            features["Floor Slab Material"] = None
+        else:
+            features["Joisted Floors Material"] = None
+
+    return features
+
+
 def extract_feature_values(
     input_text,
     unique_values,
@@ -146,6 +209,12 @@ def extract_feature_values(
         else:
             feature_matches[feature] = None
 
+    # Apply the building logic rules
+    feature_matches = apply_building_logic(feature_matches)
+
+    # Randomly choose between conflicting features
+    feature_matches = random_choice_conflicting_features(feature_matches, input_text)
+
     return feature_matches
 
 
@@ -187,6 +256,11 @@ def extract_numerical_feature(text, label, feature_keywords):
             )
         else:
             feature_numbers[feature] = "None"
+
+    # Special rule: Set "Storeys Below Ground" to 1 if "a basement" is mentioned
+    if "a basement" in text.lower():
+        if feature_numbers["Storeys Below Ground"] == "None":
+            feature_numbers["Storeys Below Ground"] = 1
 
     return feature_numbers
 
@@ -255,7 +329,7 @@ def extract_explicit_features(
 def extract(input_text):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     model_dir = os.path.join(current_dir, "model")
-    synonyms_path = os.path.join(current_dir, "config/synonyms.json")  #
+    synonyms_path = os.path.join(current_dir, "config/synonyms.json")
     numerical_keywords_path = os.path.join(
         current_dir, "config/numerical_keywords.json"
     )

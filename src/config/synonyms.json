@@ -18,7 +18,7 @@
     "EPS": ["expanded", "polystyrene", "foam"],
     "precast concrete": ["prefabricated", "precast", "prefab"],
     "columns": ["supports"],
-    "joists": ["girder"],
+    "joists": ["girder", "joist", "joisted"],
     "roof": ["roofing", "covering"],
     "timber cassette": ["cassette", "panel"],
     "timber pitch roof": ["sloped", "pitched"],

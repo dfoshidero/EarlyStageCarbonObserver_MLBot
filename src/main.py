@@ -1,5 +1,6 @@
 from model_predictor import predictor
 from feature_extractor import extract
+import time
 
 
 def predict(
@@ -177,15 +178,29 @@ def get_natural_language_input(text):
 
 
 def main():
-    text = "A triple glazed curtain wall facade construction with concrete pile foundations and steel supports. The building area is approx 4000 square metres, for 80 users."
+    def time_it(description, func, *args, **kwargs):
+        print(description)
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        return result, elapsed_time
+
+    text = (
+        "A residential concrete building with raft, a basement and timber joists floors"
+    )
 
     print(f"From text: {text}.")
-    print("\n")
-    print("Extracted the following features:")
-    inputs = get_natural_language_input(text)
-    prediction = predict(*inputs)
+    inputs, time_elapsed_extraction = time_it(
+        "Extracting features \n", get_natural_language_input, text
+    )
+    prediction, time_elapsed_prediction = time_it("Making prediction", predict, *inputs)
     print("\n")
     print("Final Prediction:", prediction)
+
+    time_elapsed = time_elapsed_extraction + time_elapsed_prediction
+    print("\n")
+    print(f"Time elapsed: {time_elapsed:.2f} seconds")
 
 
 if __name__ == "__main__":
