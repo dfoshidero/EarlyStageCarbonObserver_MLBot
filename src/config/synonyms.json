@@ -61,5 +61,7 @@
     "solid timber floorboards": ["solidwood", "hardwood"],
     "stoneware tile": ["stone", "ceramic", "tile", "stoneware"],
     "earthenware tile": ["clay", "earthen", "tile"],
-    "services": ["utilities"]
+    "services": ["utilities"],
+    "non-residential": ["office", "hospital", "school", "library", "mall", "restaurant", "warehouse", "factory", "gym", "museum", "theater", "airport", "station", "parking"]
+
 }
