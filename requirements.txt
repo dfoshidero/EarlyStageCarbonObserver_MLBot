@@ -8,5 +8,7 @@ nltk
 word2number
 sentence-transformers
 transformers
-torchw
+torch
 openpyxl
+flask
+gunicorn
