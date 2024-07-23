@@ -1,8 +1,6 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import os
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
 
 """
 1. Import synthetic datasets.
@@ -10,14 +8,14 @@ from sklearn.preprocessing import LabelEncoder
 
 # Define the base directory and data paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(current_dir, '../../data/raw')
-export_dir = os.path.join(current_dir, '../../data/processed')
+data_dir = os.path.join(current_dir, "../../data/raw")
+export_dir = os.path.join(current_dir, "../../data/processed")
 
 os.makedirs(export_dir, exist_ok=True)
 
-fcbsData_30000A_path = os.path.join(data_dir, 'model/synthetic/220712FCBS_30000.csv')
-fcbsData_60000A_path = os.path.join(data_dir, 'model/synthetic/220713FCBS_60000A.csv')
-fcbsData_60000B_path = os.path.join(data_dir, 'model/synthetic/220713FCBS_60000B.csv')
+fcbsData_30000A_path = os.path.join(data_dir, "model/synthetic/220712FCBS_30000.csv")
+fcbsData_60000A_path = os.path.join(data_dir, "model/synthetic/220713FCBS_60000A.csv")
+fcbsData_60000B_path = os.path.join(data_dir, "model/synthetic/220713FCBS_60000B.csv")
 
 fcbsData_30000A = pd.read_csv(fcbsData_30000A_path)
 fcbsData_60000A = pd.read_csv(fcbsData_60000A_path)
@@ -27,19 +25,31 @@ fcbsData_60000B = pd.read_csv(fcbsData_60000B_path)
 2. Combine synthetic datasets.
 """
 
-syntheticData = pd.concat([fcbsData_30000A, fcbsData_60000A, fcbsData_60000B], ignore_index=True)
+syntheticData = pd.concat(
+    [fcbsData_30000A, fcbsData_60000A, fcbsData_60000B], ignore_index=True
+)
 
 """
 3. Define and save assumptions to separate dataframe.
 """
+
+
 def Assume(materials, data):
     # Create an empty DataFrame for assumptions
-    assumptionsData = pd.DataFrame(columns=['Material', 'Building Element', 'Assumption'])
+    assumptionsData = pd.DataFrame(
+        columns=["Material", "Building Element", "Assumption"]
+    )
 
     # Function to clean and add rows to the DataFrame
     def add_to_assumptions(material_type, assumption, column):
-        clean_assumption = assumption.replace(material_type, '').replace('+', '').strip()
-        new_row = {'Material': material_type, 'Building Element': column, 'Assumption': clean_assumption}
+        clean_assumption = (
+            assumption.replace(material_type, "").replace("+", "").strip()
+        )
+        new_row = {
+            "Material": material_type,
+            "Building Element": column,
+            "Assumption": clean_assumption,
+        }
         return pd.DataFrame([new_row])
 
     # Iterate through each column to find and extract columns with the specified materials
@@ -49,18 +59,32 @@ def Assume(materials, data):
             if not values.empty:
                 unique_assumptions = values.unique()
                 for assumption in unique_assumptions:
-                    assumptionsData = pd.concat([assumptionsData, add_to_assumptions(material_type, assumption, col)], ignore_index=True)
+                    assumptionsData = pd.concat(
+                        [
+                            assumptionsData,
+                            add_to_assumptions(material_type, assumption, col),
+                        ],
+                        ignore_index=True,
+                    )
 
     # Sort the DataFrame by 'Material' and 'Building Element'
-    assumptionsData = assumptionsData.sort_values(by=['Material', 'Building Element'])
-    
+    assumptionsData = assumptionsData.sort_values(by=["Material", "Building Element"])
+
     # Reset the index for better readability
     assumptionsData.reset_index(drop=True, inplace=True)
 
     return assumptionsData
 
+
 # Define the materials to search for
-materials = ['Precast RC', 'RC', 'screed', 'Timber Joists', 'JJI Engineered Joists', "Steel tile with"]
+materials = [
+    "Precast RC",
+    "RC",
+    "screed",
+    "Timber Joists",
+    "JJI Engineered Joists",
+    "Steel tile with",
+]
 
 # Generate the assumptions data
 assumptionsData = Assume(materials, syntheticData)
@@ -75,103 +99,129 @@ syntheticData.replace(np.nan, "Other", inplace=True)
 # Replace all "Foamglass (domestic only)" cell with Foamglass
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: 'Foamglass' 
-        if "Foamglass (domestic only)" == str(x)
-        else x )
-    
-# Replace all "Precast RC" cell with Precast Concrete 
+        lambda x: "Foamglass" if "Foamglass (domestic only)" == str(x) else x
+    )
+
+# Replace all "Precast RC" cell with Precast Concrete
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: 'Precast Concrete' 
-        if "Precast RC" in str(x)
-        else x )
-    
-# Replace all "RC" cell with Reinforced Concrete 
+        lambda x: "Precast Concrete" if "Precast RC" in str(x) else x
+    )
+
+# Replace all "RC" cell with Reinforced Concrete
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: 'Reinforced Concrete' 
-        if "RC" in str(x)
-        else x )
-    
+        lambda x: "Reinforced Concrete" if "RC" in str(x) else x
+    )
+
 # Remove all "+ OSB Topper" in joists
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: str(x).replace(' + OSB topper', '').strip()
-        if " + OSB topper" in str(x)
-        else x )
+        lambda x: (
+            str(x).replace(" + OSB topper", "").strip()
+            if " + OSB topper" in str(x)
+            else x
+        )
+    )
 
 # Replace all "70mm screed" cell with Screed
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: 'Screed' 
-        if "70mm screed" in str(x)
-        else x )
+        lambda x: "Screed" if "70mm screed" in str(x) else x
+    )
 
 
 # Replace all "Steel tile with 18mm acoustic pad" cell with Steel tile with acoustic pad
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: 'Steel tile with acoustic pad' 
-        if "Steel tile with 18mm acoustic pad" == str(x)
-        else x )
-    
+        lambda x: (
+            "Steel tile with acoustic pad"
+            if "Steel tile with 18mm acoustic pad" == str(x)
+            else x
+        )
+    )
+
 # Replace all "+" cell with //
 for col in syntheticData.columns:
     syntheticData[col] = syntheticData[col].apply(
-        lambda x: str(x).replace('+', '//').strip()
-        if " +" in str(x)
-        else x )
+        lambda x: str(x).replace("+", "//").strip() if " +" in str(x) else x
+    )
 
-    
+
 # Update values in the "Sector" column with clearer names
 subsector_mapping = {
-    'Single family house': 'Single Family House',
-    'Flat/maisonette': 'Small Flat/Maisonette',
-    'Multi-family (< 6 storeys)': 'Low-Rise Apartments',
-    'Multi-family (6 - 15 storeys)': 'Mid-Rise Apartments',
-    'Multi-family (> 15 storeys)': 'High-Rise Apartments/Hotels',
-    'Office': 'Non-residential'
+    "Single family house": "Single Family House",
+    "Flat/maisonette": "Small Flat/Maisonette",
+    "Multi-family (< 6 storeys)": "Low-Rise Apartments",
+    "Multi-family (6 - 15 storeys)": "Mid-Rise Apartments",
+    "Multi-family (> 15 storeys)": "High-Rise Apartments/Hotels",
+    "Office": "Non-residential",
 }
-syntheticData['Sub-Sector'] = syntheticData['Sub-Sector'].replace(subsector_mapping)
+syntheticData["Sub-Sector"] = syntheticData["Sub-Sector"].replace(subsector_mapping)
 
 # Update values in the "Sector" column with clearer names
-sector_mapping = {
-    'Office': 'Non-residential',
-    'Housing': 'Residential'
-}
-syntheticData['Sector'] = syntheticData['Sector'].replace(sector_mapping)
+sector_mapping = {"Office": "Non-residential", "Housing": "Residential"}
+syntheticData["Sector"] = syntheticData["Sector"].replace(sector_mapping)
 
 """
 5. Clean up column names
 """
 
 syntheticData.columns = [
-    'Sector', 'Sub-Sector', 'Gross Internal Area (m2)', 'Building Perimeter (m)', 'Building Footprint (m2)', 
-    'Building Width (m)', 'Floor-to-Floor Height (m)', 'Storeys Above Ground', 'Storeys Below Ground', 
-    'Glazing Ratio (%)', 'Piles Material', 'Pile Caps Material', 'Capping Beams Material', 
-    'Raft Foundation Material', 'Basement Walls Material', 'Lowest Floor Slab Material', 
-    'Ground Insulation Material', 'Core Structure Material', 'Columns Material', 'Beams Material', 
-    'Secondary Beams Material', 'Floor Slab Material', 'Joisted Floors Material', 'Roof Material', 
-    'Roof Insulation Material', 'Roof Finishes Material', 'Facade Material', 'Wall Insulation Material', 
-    'Glazing Material', 'Window Frames Material', 'Partitions Material', 'Ceilings Material', 
-    'Floors Material', 'Services', 'Embodied Carbon (kgCO2e/m2)'
+    "Sector",
+    "Sub-Sector",
+    "Gross Internal Area (m2)",
+    "Building Perimeter (m)",
+    "Building Footprint (m2)",
+    "Building Width (m)",
+    "Floor-to-Floor Height (m)",
+    "Storeys Above Ground",
+    "Storeys Below Ground",
+    "Glazing Ratio (%)",
+    "Piles Material",
+    "Pile Caps Material",
+    "Capping Beams Material",
+    "Raft Foundation Material",
+    "Basement Walls Material",
+    "Lowest Floor Slab Material",
+    "Ground Insulation Material",
+    "Core Structure Material",
+    "Columns Material",
+    "Beams Material",
+    "Secondary Beams Material",
+    "Floor Slab Material",
+    "Joisted Floors Material",
+    "Roof Material",
+    "Roof Insulation Material",
+    "Roof Finishes Material",
+    "Facade Material",
+    "Wall Insulation Material",
+    "Glazing Material",
+    "Window Frames Material",
+    "Partitions Material",
+    "Ceilings Material",
+    "Floors Material",
+    "Services",
+    "Embodied Carbon (kgCO2e/m2)",
 ]
 
 """
 6. Save dataframe(s) to CSV for inspection.
 """
 
+
 def printUniqueCols():
-    unique_vals ={}
+    unique_vals = {}
     for column in syntheticData:
         unique_vals[column] = syntheticData[column].unique()
 
         print(unique_vals)
 
-syntheticData_PATH = os.path.join(export_dir, 'inspect/cleaned_synthetic.csv')
+
+syntheticData_PATH = os.path.join(export_dir, "inspect/cleaned_synthetic.csv")
 syntheticData.to_csv(syntheticData_PATH, index=False)
 syntheticData.info()
 
-assumptionsData_PATH = os.path.join(export_dir, 'inspect/assumptions.csv')
+assumptionsData_PATH = os.path.join(export_dir, "inspect/assumptions.csv")
 assumptionsData.to_csv(assumptionsData_PATH, index=False)
 assumptionsData.info()

@@ -177,7 +177,7 @@ def get_natural_language_input(text):
 
 
 def main():
-    text = "Timber building with steel piles and brick walls. It will have five floors and a gia of 15000sqm."
+    text = "A triple glazed curtain wall facade construction with concrete pile foundations and steel supports. The building area is approx 4000 square metres, for 80 users."
 
     print(f"From text: {text}.")
     print("\n")
