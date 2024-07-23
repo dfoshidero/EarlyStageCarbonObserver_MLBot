@@ -1,5 +1,2 @@
 # Ignore everything in the data directory
 data/*
-
-# Except the logs directory
-!data/logs/
