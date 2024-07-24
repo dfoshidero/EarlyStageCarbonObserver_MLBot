@@ -1,0 +1,8 @@
+pandas
+joblib
+numpy
+spacy
+nltk
+word2number
+sentence-transformers
+Flask
