@@ -1,14 +1,8 @@
 pandas
 joblib
-scikit-learn
-scipy
 numpy
 spacy
 nltk
 word2number
 sentence-transformers
-transformers
-torch
-openpyxl
-flask
-gunicorn
+Flask
