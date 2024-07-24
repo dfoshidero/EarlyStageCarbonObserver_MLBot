@@ -20,6 +20,11 @@ nlp = spacy.load("en_core_web_trf")
 # Load pre-trained sentence transformer model for semantic similarity
 model = SentenceTransformer("all-mpnet-base-v2")
 
+nltk.data.path.append("/tmp")
+nltk.download("stopwords", download_dir="/tmp")
+nltk.download("wordnet", download_dir="/tmp")
+nltk.download("averaged_perceptron_tagger", download_dir="/tmp")
+
 stop_words = set(stopwords.words("english"))
 lemmatizer = WordNetLemmatizer()
 
