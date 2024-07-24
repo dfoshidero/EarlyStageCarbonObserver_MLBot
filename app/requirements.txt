@@ -1,8 +1,9 @@
-pandas
-joblib
-numpy
-spacy
-nltk
-word2number
-sentence-transformers
-Flask
+pandas==2.2.2
+joblib==1.2.0
+numpy==1.23.5
+spacy==3.7.5
+nltk==3.8.1
+word2number==1.1
+sentence-transformers==3.0.1
+scikit-learn==1.1.3
+Flask==3.0.3
