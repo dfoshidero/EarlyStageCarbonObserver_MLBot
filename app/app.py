@@ -1,3 +1,4 @@
+import numpy as np
 from flask import Flask, request, jsonify
 from model_predictor import predictor
 from feature_extractor import extract
@@ -44,13 +45,19 @@ def predict_route():
         data.get("FLOORS"),
         data.get("SERVICES"),
     )
-    return jsonify(prediction)
+    return jsonify(
+        prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+    )
 
 
 @app.route("/extract", methods=["POST"])
 def extract_route():
     text = request.get_json().get("text")
     extracted_values = extract(text)
+    # Convert any numpy arrays in the extracted_values to lists
+    for key, value in extracted_values.items():
+        if isinstance(value, np.ndarray):
+            extracted_values[key] = value.tolist()
     return jsonify(extracted_values)
 
 
