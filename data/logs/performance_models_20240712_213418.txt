@@ -1,5 +1,0 @@
-synthetic_GradientBoosting: Training R-squared: 0.9999994722873139
-synthetic_GradientBoosting: Testing R-squared: 0.9455151579788936
-synthetic_GradientBoosting: Cross-validation scores: [0.9391255  0.94329855 0.94318822 0.94006196 0.93760404]
-synthetic_GradientBoosting: Mean cross-validation score: 0.9406556542325131
-

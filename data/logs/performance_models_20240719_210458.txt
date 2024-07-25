@@ -1,5 +1,0 @@
-synthetic_HistGradientBoosting: Training R-squared: 0.98823454273637
-synthetic_HistGradientBoosting: Testing R-squared: 0.9359224516862625
-synthetic_HistGradientBoosting: Cross-validation scores: [0.93041213 0.93354609 0.93082413 0.92889897 0.92773751]
-synthetic_HistGradientBoosting: Mean cross-validation score: 0.9302837644013209
-

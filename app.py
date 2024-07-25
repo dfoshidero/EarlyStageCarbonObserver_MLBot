@@ -1,14 +1,14 @@
+import json
 import numpy as np
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, current_app
 from model_predictor import predictor
 from feature_extractor import extract
 
 app = Flask(__name__)
 
 
-@app.route("/predict", methods=["POST"])
-def predict_route():
-    data = request.get_json()
+# Core logic functions
+def process_predict(data):
     prediction = predict(
         data.get("SECTOR"),
         data.get("SUBSECTOR"),
@@ -45,20 +45,82 @@ def predict_route():
         data.get("FLOORS"),
         data.get("SERVICES"),
     )
-    return jsonify(
-        prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
-    )
+    return prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+
+
+def process_extract(text):
+    extracted_values = extract(text)
+    for key, value in extracted_values.items():
+        if isinstance(value, np.ndarray):
+            extracted_values[key] = value.tolist()
+    return extracted_values
+
+
+def process_extract_predict(text):
+    extracted_values = process_extract(text)
+
+    # Map extracted values to the required parameters
+    formatted_values = {
+        "SECTOR": extracted_values.get("Sector"),
+        "SUBSECTOR": extracted_values.get("Sub-Sector"),
+        "GIA": extracted_values.get("Gross Internal Area (m2)"),
+        "PERIMETER": extracted_values.get("Building Perimeter (m)"),
+        "FOOTPRINT": extracted_values.get("Building Footprint (m2)"),
+        "WIDTH": extracted_values.get("Building Width (m)"),
+        "HEIGHT": extracted_values.get("Floor-to-Floor Height (m)"),
+        "ABOVE_GROUND": extracted_values.get("Storeys Above Ground"),
+        "BELOW_GROUND": extracted_values.get("Storeys Below Ground"),
+        "GLAZING_RATIO": extracted_values.get("Glazing Ratio (%)"),
+        "PILES": extracted_values.get("Piles Material"),
+        "PILE_CAPS": extracted_values.get("Pile Caps Material"),
+        "CAPPING_BEAMS": extracted_values.get("Capping Beams Material"),
+        "RAFT": extracted_values.get("Raft Foundation Material"),
+        "BASEMENT_WALLS": extracted_values.get("Basement Walls Material"),
+        "LOWEST_FLOOR_SLAB": extracted_values.get("Lowest Floor Slab Material"),
+        "GROUND_INSULATION": extracted_values.get("Ground Insulation Material"),
+        "CORE_STRUCTURE": extracted_values.get("Core Structure Material"),
+        "COLUMNS": extracted_values.get("Columns Material"),
+        "BEAMS": extracted_values.get("Beams Material"),
+        "SECONDARY_BEAMS": extracted_values.get("Secondary Beams Material"),
+        "FLOOR_SLAB": extracted_values.get("Floor Slab Material"),
+        "JOISTED_FLOORS": extracted_values.get("Joisted Floors Material"),
+        "ROOF": extracted_values.get("Roof Material"),
+        "ROOF_INSULATION": extracted_values.get("Roof Insulation Material"),
+        "ROOF_FINISHES": extracted_values.get("Roof Finishes Material"),
+        "FACADE": extracted_values.get("Facade Material"),
+        "WALL_INSULATION": extracted_values.get("Wall Insulation Material"),
+        "GLAZING": extracted_values.get("Glazing Material"),
+        "WINDOW_FRAMES": extracted_values.get("Window Frames Material"),
+        "PARTITIONS": extracted_values.get("Partitions Material"),
+        "CEILINGS": extracted_values.get("Ceilings Material"),
+        "FLOORS": extracted_values.get("Floors Material"),
+        "SERVICES": extracted_values.get("Services"),
+    }
+
+    prediction = predict(**formatted_values)
+    return prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+
+
+# Flask routes
+@app.route("/predict", methods=["POST"])
+def predict_route():
+    data = request.get_json()
+    prediction = process_predict(data)
+    return jsonify(prediction)
 
 
 @app.route("/extract", methods=["POST"])
 def extract_route():
     text = request.get_json().get("text")
-    extracted_values = extract(text)
-    # Convert any numpy arrays in the extracted_values to lists
-    for key, value in extracted_values.items():
-        if isinstance(value, np.ndarray):
-            extracted_values[key] = value.tolist()
+    extracted_values = process_extract(text)
     return jsonify(extracted_values)
+
+
+@app.route("/extract_predict", methods=["POST"])
+def extract_predict_route():
+    text = request.get_json().get("text")
+    result = process_extract_predict(text)
+    return jsonify(result)
 
 
 def predict(
@@ -155,5 +217,35 @@ def predict(
     return prediction
 
 
+# Lambda handler
+def lambda_handler(event, context):
+    with app.app_context():
+        with app.test_request_context(
+            method="POST", data=json.dumps(event), content_type="application/json"
+        ):
+            if "function" in event:
+                function_name = event["function"]
+                if function_name == "predict_route":
+                    response = predict_route()
+                elif function_name == "extract_route":
+                    response = extract_route()
+                elif function_name == "extract_predict_route":
+                    response = extract_predict_route()
+                else:
+                    response = jsonify({"error": "Unknown function name"})
+                    response.status_code = 400
+
+                return {
+                    "statusCode": response.status_code,
+                    "body": response.get_data(as_text=True),
+                }
+            else:
+                return {
+                    "statusCode": 400,
+                    "body": json.dumps({"error": "No function name provided"}),
+                }
+
+
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=80)
+    with app.app_context():
+        app.run(debug=True, host="0.0.0.0", port=80)
