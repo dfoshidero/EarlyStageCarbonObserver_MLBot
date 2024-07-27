@@ -1,10 +1,12 @@
 import json
 import numpy as np
-from flask import Flask, request, jsonify, current_app
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 from model_predictor import predictor
 from feature_extractor import extract
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 
 # Core logic functions
