@@ -6,7 +6,7 @@ from model_predictor import predictor
 from feature_extractor import extract
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)
 
 
 # Core logic functions
@@ -61,7 +61,6 @@ def process_extract(text):
 def process_extract_predict(text):
     extracted_values = process_extract(text)
 
-    # Map extracted values to the required parameters
     formatted_values = {
         "SECTOR": extracted_values.get("Sector"),
         "SUBSECTOR": extracted_values.get("Sub-Sector"),
@@ -219,35 +218,5 @@ def predict(
     return prediction
 
 
-# Lambda handler
-def lambda_handler(event, context):
-    with app.app_context():
-        with app.test_request_context(
-            method="POST", data=json.dumps(event), content_type="application/json"
-        ):
-            if "function" in event:
-                function_name = event["function"]
-                if function_name == "predict_route":
-                    response = predict_route()
-                elif function_name == "extract_route":
-                    response = extract_route()
-                elif function_name == "extract_predict_route":
-                    response = extract_predict_route()
-                else:
-                    response = jsonify({"error": "Unknown function name"})
-                    response.status_code = 400
-
-                return {
-                    "statusCode": response.status_code,
-                    "body": response.get_data(as_text=True),
-                }
-            else:
-                return {
-                    "statusCode": 400,
-                    "body": json.dumps({"error": "No function name provided"}),
-                }
-
-
 if __name__ == "__main__":
-    with app.app_context():
-        app.run(debug=True, host="0.0.0.0", port=80)
+    app.run(debug=True, host="0.0.0.0", port=80)
