@@ -227,3 +227,8 @@ if __name__ == "__main__":
 
 # TO RUN WITHOUT STOPPING:
 # nohup gunicorn -w 4 -b 0.0.0.0:80 app:app
+
+
+# TO RUN HTTPS SETUP WITH NGINX:
+# gunicorn -w 4 -b 127.0.0.1:8000 app:app
+# nohup gunicorn -w 4 -b 127.0.0.1:8000 app:app &

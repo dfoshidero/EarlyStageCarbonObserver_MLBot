@@ -7,7 +7,7 @@
     "brick": ["bricks", "masonry", "clay", "block", "ceramic"],
     "clt": ["timber", "cross-laminated", "engineered", "panel", "wood", "laminated"],
     "piles": ["supports", "foundation", "substructure"],
-    "reinforced concrete": ["rc", "reinforced", "rcc"],
+    "reinforced concrete": ["rc", "reinforced", "rcc", "brutalist"],
     "pile caps": ["piles", "foundation", "caps"],
     "capping beams": ["foundation"],
     "foamglass": ["foam", "cellular"],
@@ -16,7 +16,7 @@
     "XPS": ["extruded", "polystyrene", "rigid", "foam"],
     "glass mineral wool": ["fiberglass", "glasswool", "mineral"],
     "EPS": ["expanded", "polystyrene", "foam"],
-    "precast concrete": ["prefabricated", "precast", "prefab"],
+    "precast concrete": ["prefabricated", "precast", "prefab", "brutalist"],
     "columns": ["supports"],
     "joists": ["girder", "joist", "joisted"],
     "roof": ["roofing", "covering"],
@@ -42,7 +42,7 @@
     "green roof": ["living", "vegetative", "grass", "eco-roof"],
     "roofing membrane (PVC)": ["PVC", "vinyl", "membrane"],
     "facade": ["exterior", "cladding", "façade"],
-    "timber": ["wood", "panel", "larch", "lime", "cement"],
+    "timber": ["wood", "wooden", "panel", "larch", "lime", "cement"],
     "curtain walling": ["curtain", "glass"],
     "blockwork": ["block", "blockwork", "brick", "render", "masonry", "cinder"],
     "SIPs": ["panel", "SIPs"],
@@ -63,5 +63,4 @@
     "earthenware tile": ["clay", "earthen", "tile"],
     "services": ["utilities"],
     "non-residential": ["office", "hospital", "school", "library", "mall", "restaurant", "warehouse", "factory", "gym", "museum", "theater", "airport", "station", "parking"]
-
 }
