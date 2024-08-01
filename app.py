@@ -2,6 +2,7 @@ import json
 import numpy as np
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import os
 from model_predictor import predictor
 from feature_extractor import extract
 
@@ -219,16 +220,5 @@ def predict(
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=80)
-
-
-# RUN API WITH (in AWS EC2):
-# gunicorn -w 4 -b 0.0.0.0:80 app:app
-
-# TO RUN WITHOUT STOPPING:
-# nohup gunicorn -w 4 -b 0.0.0.0:80 app:app
-
-
-# TO RUN HTTPS SETUP WITH NGINX:
-# gunicorn -w 4 -b 127.0.0.1:8000 app:app
-# nohup gunicorn -w 4 -b 127.0.0.1:8000 app:app &
+    port = int(os.environ.get("PORT", 10000))
+    app.run(debug=True, host="0.0.0.0", port=port)
