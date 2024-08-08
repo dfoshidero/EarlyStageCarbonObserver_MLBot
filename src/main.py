@@ -1,6 +1,13 @@
-from model_predictor import predictor
+from model_predictor import load_resources, predict as model_predict
 from feature_extractor import extract
 import time
+import numpy as np
+import os
+import psutil
+import gc
+
+# Load resources
+model, features, label_encoders, unique_values = load_resources()
 
 
 def predict(
@@ -40,9 +47,9 @@ def predict(
     SERVICES,
 ):
     """
-    Get user input for the new columns.
+    Get user input for the new columns and make a prediction.
 
-    :return: dictionary with user input values for the new columns
+    :return: list with prediction values
     """
     user_input = {
         "Sector": [None if SECTOR == "None" else SECTOR],
@@ -97,12 +104,32 @@ def predict(
         "Services": [None if SERVICES == "None" else SERVICES],
     }
 
-    prediction = predictor(user_input)
+    prediction = model_predict(user_input, model, features, label_encoders)
+    prediction_list = (
+        prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+    )
 
-    return prediction
+    log_memory_usage("During Prediction")
+
+    return prediction_list
+
+
+def log_memory_usage(phase):
+    process = psutil.Process(os.getpid())
+    memory_info = process.memory_info()
+    gc.collect()
+    print(
+        f"[{phase}] Memory Usage: RSS={memory_info.rss / (1024 * 1024):.2f} MB, VMS={memory_info.vms / (1024 * 1024):.2f} MB"
+    )
 
 
 def get_natural_language_input(text):
+    """
+    Extracts structured data from a given natural language input.
+
+    :param text: The natural language input text.
+    :return: tuple of extracted values
+    """
     value_list = extract(text)
     SECTOR = value_list.get("Sector")
     SUBSECTOR = value_list.get("Sub-Sector")

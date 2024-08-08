@@ -5,7 +5,6 @@ import joblib
 import spacy
 import nltk
 import random
-import multiprocessing
 import numpy as np
 
 from word2number import w2n
@@ -14,14 +13,44 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from sentence_transformers import SentenceTransformer, util
 
+# Initialize variables for models and other resources
+_nlp_model = None
+_sentence_transformer_model = None
+_stop_words = None
+_lemmatizer = None
+
+
 # Load pre-trained NER model (spaCy example)
-nlp = spacy.load("en_core_web_trf")
+def get_nlp_model():
+    global _nlp_model
+    if _nlp_model is None:
+        _nlp_model = spacy.load("en_core_web_trf")
+    return _nlp_model
+
 
 # Load pre-trained sentence transformer model for semantic similarity
-model = SentenceTransformer("all-mpnet-base-v2")
+def get_sentence_transformer_model():
+    global _sentence_transformer_model
+    if _sentence_transformer_model is None:
+        _sentence_transformer_model = SentenceTransformer("all-mpnet-base-v2")
+    return _sentence_transformer_model
 
-stop_words = set(stopwords.words("english"))
-lemmatizer = WordNetLemmatizer()
+
+# Lazy loading for stop words
+def get_stop_words():
+    global _stop_words
+    if _stop_words is None:
+        _stop_words = set(stopwords.words("english"))
+    return _stop_words
+
+
+# Lazy loading for lemmatizer
+def get_lemmatizer():
+    global _lemmatizer
+    if _lemmatizer is None:
+        _lemmatizer = WordNetLemmatizer()
+    return _lemmatizer
+
 
 numerical_features = [
     "Gross Internal Area (m2)",
@@ -59,6 +88,9 @@ def get_related_terms(word, synonym_dict):
 
 
 def preprocess_text(text, synonym_dict):
+    stop_words = get_stop_words()
+    lemmatizer = get_lemmatizer()
+
     tokens = [
         lemmatizer.lemmatize(word)
         for word in text.split()
@@ -167,6 +199,8 @@ def extract_feature_values(
     synonym_dict,
     threshold=SIMILARITY_THRESHOLD,
 ):
+    nlp = get_nlp_model()
+    model = get_sentence_transformer_model()
     doc = nlp(input_text)
     explicit_features, filtered_text = extract_explicit_features(
         input_text, unique_values, synonym_dict, model, numerical_features
@@ -352,7 +386,4 @@ def extract(input_text):
         )
         feature_values[feature] = numerical_values[feature]
 
-    # DEBUG
-    for feature, value in feature_values.items():
-        print(f"{feature}: {value}")
     return feature_values
