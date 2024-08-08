@@ -352,6 +352,6 @@ def extract(input_text):
         feature_values[feature] = numerical_values[feature]
 
     # DEBUG
-    for feature, value in feature_values.items():
-        print(f"{feature}: {value}")
+    # for feature, value in feature_values.items():
+    #    print(f"{feature}: {value}")
     return feature_values

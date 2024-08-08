@@ -1,13 +1,24 @@
-import json
+import time
 import numpy as np
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
+import psutil
+import multiprocessing
 from model_predictor import predictor
 from feature_extractor import extract
 
 app = Flask(__name__)
 CORS(app)
+
+
+# Function to log memory usage
+def log_memory_usage(phase):
+    process = psutil.Process(os.getpid())
+    memory_info = process.memory_info()
+    print(
+        f"[{phase}] Memory Usage: RSS={memory_info.rss / (1024 * 1024):.2f} MB, VMS={memory_info.vms / (1024 * 1024):.2f} MB"
+    )
 
 
 # Core logic functions
@@ -48,7 +59,10 @@ def process_predict(data):
         data.get("FLOORS"),
         data.get("SERVICES"),
     )
-    return prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+    prediction_list = (
+        prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+    )
+    return prediction_list
 
 
 def process_extract(text):
@@ -56,6 +70,7 @@ def process_extract(text):
     for key, value in extracted_values.items():
         if isinstance(value, np.ndarray):
             extracted_values[key] = value.tolist()
+    log_memory_usage("During Extraction")
     return extracted_values
 
 
@@ -100,28 +115,65 @@ def process_extract_predict(text):
     }
 
     prediction = predict(**formatted_values)
-    return prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+    prediction_list = (
+        prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+    )
+    return prediction_list
+
+
+# Function to run target function in a subprocess
+def target_func(queue, func, args):
+    result = func(*args)
+    queue.put(result)
+
+
+# Wrapper functions for subprocess execution
+def subprocess_wrapper(func, *args):
+    log_memory_usage("Before Process")
+    result_queue = multiprocessing.Queue()
+    p = multiprocessing.Process(target=target_func, args=(result_queue, func, args))
+    p.start()
+    p.join()
+    result = result_queue.get()
+    p.terminate()
+    log_memory_usage("After Process")
+    return result
 
 
 # Flask routes
 @app.route("/predict", methods=["POST"])
 def predict_route():
+    print("####################################")
+    print("PREDICTION CALLED...")
+    start_time = time.time()
     data = request.get_json()
-    prediction = process_predict(data)
+    prediction = subprocess_wrapper(process_predict, data)
+    elapsed_time = time.time() - start_time
+    print(f"Total time for /predict route: {elapsed_time:.2f} seconds...")
     return jsonify(prediction)
 
 
 @app.route("/extract", methods=["POST"])
 def extract_route():
+    print("####################################")
+    print("EXTRACTION CALLED...")
+    start_time = time.time()
     text = request.get_json().get("text")
-    extracted_values = process_extract(text)
+    extracted_values = subprocess_wrapper(process_extract, text)
+    elapsed_time = time.time() - start_time
+    print(f"Total time for /extract route: {elapsed_time:.2f} seconds...")
     return jsonify(extracted_values)
 
 
 @app.route("/extract_predict", methods=["POST"])
 def extract_predict_route():
+    print("####################################")
+    print("FULL PIPELINE CALLED...")
+    start_time = time.time()
     text = request.get_json().get("text")
-    result = process_extract_predict(text)
+    result = subprocess_wrapper(process_extract_predict, text)
+    elapsed_time = time.time() - start_time
+    print(f"Total time for /extract_predict route: {elapsed_time:.2f} seconds...")
     return jsonify(result)
 
 
@@ -216,7 +268,12 @@ def predict(
 
     prediction = predictor(user_input)
 
-    return prediction
+    # Convert prediction to list if it's an ndarray
+    prediction_list = (
+        prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
+    )
+    log_memory_usage("During Prediction")
+    return prediction_list
 
 
 if __name__ == "__main__":
