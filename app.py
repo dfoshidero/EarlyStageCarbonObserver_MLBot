@@ -7,6 +7,7 @@ import psutil
 import gc
 from model_predictor import load_resources, predict as model_predict
 from feature_extractor import extract
+from datetime import datetime
 
 
 def create_app():
@@ -224,10 +225,20 @@ def create_app():
         )
         return prediction_list
 
+    def log_request_info():
+        user_ip = request.remote_addr
+        user_agent = request.headers.get("User-Agent")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"Request from IP: {user_ip}")
+        print(f"User-Agent: {user_agent}")
+        print(f"Timestamp: {timestamp}")
+        print(f"Request Headers: {dict(request.headers)}")
+
     @app.route("/predict", methods=["POST"])
     def predict_route():
         print("####################################")
         print("PREDICTION CALLED...")
+        log_request_info()
         log_memory_usage("Before Process")
         start_time = time.time()
         data = request.get_json()
@@ -241,6 +252,7 @@ def create_app():
     def extract_route():
         print("####################################")
         print("EXTRACTION CALLED...")
+        log_request_info()
         log_memory_usage("Before Process")
         start_time = time.time()
         text = request.get_json().get("text")
@@ -254,6 +266,7 @@ def create_app():
     def extract_predict_route():
         print("####################################")
         print("FULL PIPELINE CALLED...")
+        log_request_info()
         log_memory_usage("Before Process")
         start_time = time.time()
         text = request.get_json().get("text")
