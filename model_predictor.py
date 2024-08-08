@@ -3,21 +3,32 @@ import os
 import pandas as pd
 import numpy as np
 
-# Define the base directory and model paths
-current_dir = os.path.dirname(os.path.abspath(__file__))
-model_dir = os.path.join(current_dir, "model")
 
-# Updated model file paths based on new files
-features_filepath = os.path.join(model_dir, "features.pkl")
-label_encoders_filepath = os.path.join(model_dir, "label_encoders.pkl")
-synthetic_model_filepath = os.path.join(model_dir, "synthetic_HistGradientBoosting.pkl")
-unique_values_filepath = os.path.join(model_dir, "unique_values.pkl")
+def load_resources():
+    """
+    Load the necessary resources.
+    :return: tuple of loaded resources
+    """
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    model_dir = os.path.join(current_dir, "model")
 
-# Load pre-trained models, label encoders, and unique values
-model = joblib.load(synthetic_model_filepath)
-features = joblib.load(features_filepath)
-label_encoders = joblib.load(label_encoders_filepath)
-unique_values = joblib.load(unique_values_filepath)
+    features_filepath = os.path.join(model_dir, "features.pkl")
+    label_encoders_filepath = os.path.join(model_dir, "label_encoders.pkl")
+    synthetic_model_filepath = os.path.join(
+        model_dir, "synthetic_HistGradientBoosting.pkl"
+    )
+    unique_values_filepath = os.path.join(model_dir, "unique_values.pkl")
+
+    with open(synthetic_model_filepath, "rb") as f:
+        model = joblib.load(f)
+    with open(features_filepath, "rb") as f:
+        features = joblib.load(f)
+    with open(label_encoders_filepath, "rb") as f:
+        label_encoders = joblib.load(f)
+    with open(unique_values_filepath, "rb") as f:
+        unique_values = joblib.load(f)
+
+    return model, features, label_encoders, unique_values
 
 
 def apply_label_encoding(user_input, label_encoders):
@@ -39,7 +50,6 @@ def apply_label_encoding(user_input, label_encoders):
                 elif "Other" in encoder.classes_:
                     encoded_values.append(encoder.transform(["Other"])[0])
                 else:
-                    # Create a new category "Unknown" if it doesn't exist
                     new_classes = np.append(encoder.classes_, "Unknown")
                     encoder.classes_ = new_classes
                     encoded_values.append(encoder.transform(["Unknown"])[0])
@@ -66,18 +76,29 @@ def preprocess_input(user_input, features, label_encoders):
             "Aligned DataFrame is empty. Check if input features match training features."
         )
 
+    # Clear input DataFrame to free memory
+    del input_df
+
     return aligned_df
 
 
-def predict(user_input):
+def predict(user_input, model, features, label_encoders):
     """
     Predict using the model.
 
     :param user_input: dictionary with user inputs
+    :param model: trained model
+    :param features: list of feature names used during training
+    :param label_encoders: dictionary with label encoders
     :return: prediction result
     """
     preprocessed_input = preprocess_input(user_input, features, label_encoders)
-    return model.predict(preprocessed_input)
+    prediction = model.predict(preprocessed_input)
+
+    # Clear intermediate data
+    del preprocessed_input
+
+    return prediction
 
 
 def predictor(user_input):
@@ -87,9 +108,13 @@ def predictor(user_input):
     :param user_input: dictionary with user inputs
     :return: combined prediction result
     """
-    pred = predict(user_input)
-    final_prediction = pred  # Adjust as necessary if you have multiple models
-    return final_prediction
+    model, features, label_encoders, unique_values = load_resources()
+    pred = predict(user_input, model, features, label_encoders)
+
+    # Clear loaded resources to free memory
+    del model, features, label_encoders, unique_values
+
+    return pred
 
 
 def align_features(input_df, training_columns):
@@ -106,6 +131,10 @@ def align_features(input_df, training_columns):
             aligned_df[col] = input_df[col]
         else:
             aligned_df[col] = np.nan  # Keep missing values as NaN
+
+    # Clear input DataFrame to free memory
+    del input_df
+
     return aligned_df
 
 
@@ -124,3 +153,6 @@ def validate_user_input(user_input, unique_values):
                     raise ValueError(
                         f"Value for {feature} can only be {unique_values[feature]}."
                     )
+
+    # Clear user_input and unique_values to free memory
+    del user_input, unique_values
