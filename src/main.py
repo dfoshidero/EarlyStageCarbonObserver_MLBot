@@ -1,5 +1,5 @@
 from model_predictor import load_resources, predict as model_predict
-from feature_extractor import extract
+from feature_extractor import extract, initialize_resources
 import time
 import numpy as np
 import os
@@ -8,6 +8,7 @@ import gc
 
 # Load resources
 model, features, label_encoders, unique_values = load_resources()
+initialize_resources()
 
 
 def predict(
