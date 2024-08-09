@@ -5,9 +5,19 @@ from flask_cors import CORS
 import os
 import psutil
 import gc
-from model_predictor import load_resources, predict as model_predict
-from feature_extractor import extract
+import logging
 from datetime import datetime
+from model_predictor import load_resources, predict as model_predict
+from feature_extractor import extract, initialize_resources
+
+# Configure logging to only handle INFO level logs
+logger = logging.getLogger("my_app_logger")
+logger.setLevel(logging.INFO)
+
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+console_handler.setFormatter(logging.Formatter("%(message)s"))
+logger.addHandler(console_handler)
 
 
 def create_app():
@@ -15,6 +25,7 @@ def create_app():
     CORS(app)
 
     model, features, label_encoders, unique_values = load_resources()
+    initialize_resources()
 
     def predict(
         SECTOR,
@@ -125,7 +136,7 @@ def create_app():
         process = psutil.Process(os.getpid())
         memory_info = process.memory_info()
         gc.collect()
-        print(
+        logger.info(
             f"[{phase}] Memory Usage: RSS={memory_info.rss / (1024 * 1024):.2f} MB, VMS={memory_info.vms / (1024 * 1024):.2f} MB"
         )
 
@@ -225,55 +236,45 @@ def create_app():
         )
         return prediction_list
 
-    def log_request_info():
-        user_ip = request.remote_addr
-        user_agent = request.headers.get("User-Agent")
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print(f"Request from IP: {user_ip}")
-        print(f"User-Agent: {user_agent}")
-        print(f"Timestamp: {timestamp}")
-        print(f"Request Headers: {dict(request.headers)}")
-
     @app.route("/predict", methods=["POST"])
     def predict_route():
-        print("####################################")
-        print("PREDICTION CALLED...")
-        log_request_info()
+        logger.info("#################### PREDICTION CALLED ####################")
         log_memory_usage("Before Process")
         start_time = time.time()
         data = request.get_json()
         prediction = process_predict(data)
         elapsed_time = time.time() - start_time
         log_memory_usage("After Process")
-        print(f"Total time for /predict route: {elapsed_time:.2f} seconds...")
+        logger.info(f"Total time for /predict route: {elapsed_time:.2f} seconds...")
+        logger.handlers.clear()
         return jsonify(prediction)
 
     @app.route("/extract", methods=["POST"])
     def extract_route():
-        print("####################################")
-        print("EXTRACTION CALLED...")
-        log_request_info()
+        logger.info("#################### EXTRACTION CALLED ####################")
         log_memory_usage("Before Process")
         start_time = time.time()
         text = request.get_json().get("text")
         extracted_values = process_extract(text)
         elapsed_time = time.time() - start_time
         log_memory_usage("After Process")
-        print(f"Total time for /extract route: {elapsed_time:.2f} seconds...")
+        logger.info(f"Total time for /extract route: {elapsed_time:.2f} seconds...")
+        logger.handlers.clear()
         return jsonify(extracted_values)
 
     @app.route("/extract_predict", methods=["POST"])
     def extract_predict_route():
-        print("####################################")
-        print("FULL PIPELINE CALLED...")
-        log_request_info()
+        logger.info("################### FULL PIPELINE CALLED ###################")
         log_memory_usage("Before Process")
         start_time = time.time()
         text = request.get_json().get("text")
         result = process_extract_predict(text)
         elapsed_time = time.time() - start_time
         log_memory_usage("After Process")
-        print(f"Total time for /extract_predict route: {elapsed_time:.2f} seconds...")
+        logger.info(
+            f"Total time for /extract_predict route: {elapsed_time:.2f} seconds..."
+        )
+        logger.handlers.clear()
         return jsonify(result)
 
     return app

@@ -3,53 +3,30 @@ import re
 import json
 import joblib
 import spacy
-import nltk
 import random
 import numpy as np
 
 from word2number import w2n
 from collections import Counter
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
 from sentence_transformers import SentenceTransformer, util
 
 # Initialize variables for models and other resources
 _nlp_model = None
 _sentence_transformer_model = None
 _stop_words = None
-_lemmatizer = None
 
 
-# Load pre-trained NER model (spaCy example)
-def get_nlp_model():
-    global _nlp_model
+def initialize_resources():
+    global _nlp_model, _sentence_transformer_model, _stop_words
+
     if _nlp_model is None:
-        _nlp_model = spacy.load("en_core_web_trf")
-    return _nlp_model
+        _nlp_model = spacy.load("en_core_web_md", disable=["parser"])
 
-
-# Load pre-trained sentence transformer model for semantic similarity
-def get_sentence_transformer_model():
-    global _sentence_transformer_model
     if _sentence_transformer_model is None:
-        _sentence_transformer_model = SentenceTransformer("all-mpnet-base-v2")
-    return _sentence_transformer_model
+        _sentence_transformer_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-
-# Lazy loading for stop words
-def get_stop_words():
-    global _stop_words
     if _stop_words is None:
-        _stop_words = set(stopwords.words("english"))
-    return _stop_words
-
-
-# Lazy loading for lemmatizer
-def get_lemmatizer():
-    global _lemmatizer
-    if _lemmatizer is None:
-        _lemmatizer = WordNetLemmatizer()
-    return _lemmatizer
+        _stop_words = spacy.lang.en.stop_words.STOP_WORDS
 
 
 numerical_features = [
@@ -88,35 +65,25 @@ def get_related_terms(word, synonym_dict):
 
 
 def preprocess_text(text, synonym_dict):
-    stop_words = get_stop_words()
-    lemmatizer = get_lemmatizer()
-
-    tokens = [
-        lemmatizer.lemmatize(word)
-        for word in text.split()
-        if word.lower() not in stop_words
-    ]
+    doc = _nlp_model(text)
 
     processed_tokens = []
 
-    for token in tokens:
-        related_terms = get_related_terms(token, synonym_dict)
-        if related_terms:
-            # Add the original token and its related terms as separate tokens
-            processed_tokens.extend(related_terms)
-        else:
-            processed_tokens.append(token)
+    for token in doc:
+        if token.text.lower() not in _stop_words:
+            lemma = token.lemma_
+            related_terms = get_related_terms(lemma, synonym_dict)
+            if related_terms:
+                processed_tokens.extend(related_terms)
+            else:
+                processed_tokens.append(lemma)
 
     return processed_tokens
 
 
 def filter_pos_tags(tokens):
-    tagged_tokens = nltk.pos_tag(tokens)
-    filtered_tokens = [
-        word
-        for word, pos in tagged_tokens
-        if pos.startswith("NN") or pos.startswith("JJ")
-    ]
+    doc = _nlp_model(" ".join(tokens))
+    filtered_tokens = [token.text for token in doc if token.pos_ in {"NOUN", "ADJ"}]
     return filtered_tokens
 
 
@@ -199,8 +166,8 @@ def extract_feature_values(
     synonym_dict,
     threshold=SIMILARITY_THRESHOLD,
 ):
-    nlp = get_nlp_model()
-    model = get_sentence_transformer_model()
+    nlp = _nlp_model
+    model = _sentence_transformer_model
     doc = nlp(input_text)
     explicit_features, filtered_text = extract_explicit_features(
         input_text, unique_values, synonym_dict, model, numerical_features
