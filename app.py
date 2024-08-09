@@ -6,18 +6,13 @@ import os
 import psutil
 import gc
 import logging
-from datetime import datetime
 from model_predictor import load_resources, predict as model_predict
 from feature_extractor import extract, initialize_resources
 
 # Configure logging to only handle INFO level logs
+logging.basicConfig(level=logging.WARNING, format="%(message)s")
 logger = logging.getLogger("my_app_logger")
 logger.setLevel(logging.INFO)
-
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.INFO)
-console_handler.setFormatter(logging.Formatter("%(message)s"))
-logger.addHandler(console_handler)
 
 
 def create_app():
@@ -238,7 +233,8 @@ def create_app():
 
     @app.route("/predict", methods=["POST"])
     def predict_route():
-        logger.info("#################### PREDICTION CALLED ####################")
+        logger.info("####################################")
+        logger.info("PREDICTION CALLED...")
         log_memory_usage("Before Process")
         start_time = time.time()
         data = request.get_json()
@@ -246,12 +242,12 @@ def create_app():
         elapsed_time = time.time() - start_time
         log_memory_usage("After Process")
         logger.info(f"Total time for /predict route: {elapsed_time:.2f} seconds...")
-        logger.handlers.clear()
         return jsonify(prediction)
 
     @app.route("/extract", methods=["POST"])
     def extract_route():
-        logger.info("#################### EXTRACTION CALLED ####################")
+        logger.info("####################################")
+        logger.info("EXTRACTION CALLED...")
         log_memory_usage("Before Process")
         start_time = time.time()
         text = request.get_json().get("text")
@@ -259,12 +255,12 @@ def create_app():
         elapsed_time = time.time() - start_time
         log_memory_usage("After Process")
         logger.info(f"Total time for /extract route: {elapsed_time:.2f} seconds...")
-        logger.handlers.clear()
         return jsonify(extracted_values)
 
     @app.route("/extract_predict", methods=["POST"])
     def extract_predict_route():
-        logger.info("################### FULL PIPELINE CALLED ###################")
+        logger.info("####################################")
+        logger.info("FULL PIPELINE CALLED...")
         log_memory_usage("Before Process")
         start_time = time.time()
         text = request.get_json().get("text")
@@ -274,7 +270,6 @@ def create_app():
         logger.info(
             f"Total time for /extract_predict route: {elapsed_time:.2f} seconds..."
         )
-        logger.handlers.clear()
         return jsonify(result)
 
     return app
