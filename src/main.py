@@ -214,9 +214,7 @@ def main():
         elapsed_time = end_time - start_time
         return result, elapsed_time
 
-    text = (
-        "A residential concrete building with raft, a basement and timber joists floors"
-    )
+    text = "A combination of concrete and steel supports the structure, with the exterior finished in glass and aluminum paneling."
 
     print(f"From text: {text}.")
     inputs, time_elapsed_extraction = time_it(

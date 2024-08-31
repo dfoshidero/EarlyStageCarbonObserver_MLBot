@@ -6,12 +6,8 @@ from sklearn.ensemble import (
     GradientBoostingRegressor,
     RandomForestRegressor,
     StackingRegressor,
-    ExtraTreesRegressor,
 )
-from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.svm import SVR
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -51,9 +47,14 @@ models = {
     "HistGradientBoosting": (
         HistGradientBoostingRegressor(random_state=42, verbose=1),
         param_dist_hgb,
-        # "GradientBoosting": (
-        #    GradientBoostingRegressor(random_state=42, verbose=1),
-        #    param_dist_gb,
+    ),
+    "GradientBoosting": (
+        GradientBoostingRegressor(random_state=42, verbose=1),
+        param_dist_gb,
+    ),
+    "RandomForest": (
+        RandomForestRegressor(random_state=42, verbose=1),
+        param_dist_rf,
     ),
 }
 

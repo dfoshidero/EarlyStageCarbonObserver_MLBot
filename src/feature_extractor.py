@@ -252,6 +252,7 @@ def extract_numerical_feature(text, label, feature_keywords):
 
     for feature in feature_numbers:
         if feature_numbers[feature]:
+            # TODO this doesnt make sense. need to update it to use closest feature if more than one, instead of max frequency
             feature_numbers[feature] = max(
                 set(feature_numbers[feature]), key=feature_numbers[feature].count
             )
@@ -353,4 +354,6 @@ def extract(input_text):
         )
         feature_values[feature] = numerical_values[feature]
 
+    for feature, value in feature_values.items():
+        print(f"{feature}: {value}")
     return feature_values
