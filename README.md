@@ -49,6 +49,10 @@ This tool might be adapted to generate predictions from textual data in any fiel
 # Contributions
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
 
+# Contributors
+
+![Contributors](https://contrib.rocks/image?repo=dfoshidero/ECO)
+
 # Acknowledgements
 This tool is inspired by the University of Bath's ZEBRA toolkit and Feilden Clegg Bradley Studio's CARBON tool, and incorporates insights from recent research on sustainable design and machine learning applications in architecture.
 Thank you to Professors David Coley and Michael Tipping for their guidance, to the University of Bath for their support.
