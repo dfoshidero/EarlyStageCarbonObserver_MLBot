@@ -46,11 +46,8 @@ Data is not included in this repository. Though, theoretically , the regression 
 
 This tool might be adapted to generate predictions from textual data in any field.
 
-# Contributions
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
-
 # Contributors
-
+Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
 ![Contributors](https://contrib.rocks/image?repo=dfoshidero/ECO)
 
 # Acknowledgements
